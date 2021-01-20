@@ -76,6 +76,7 @@
 #define TRAIT_TECHNOPHREAK		"technophreak" //Is this even really used?
 #define TRAIT_PA_WEAR           "pa_wear"
 #define TRAIT_MEDICALEXPERT		"Medicinal Expert" //Can do revival surgery
+#define TRAIT_PILOT				"vb_pilot"//Can fly the VB.
 
 // fallout crafting traits
 #define TRAIT_GUNSMITH_ONE      "gunsmith_one"

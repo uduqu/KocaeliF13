@@ -249,7 +249,7 @@ Decanus
 */
 
 /datum/job/CaesarsLegion/Legionnaire/f13decan
-	title = "Legion Decanus"
+	title = "Veteran Decanus"
 	flag = F13DECAN
 	faction = "Legion"
 	total_positions = 1
@@ -259,11 +259,6 @@ Decanus
 	exp_requirements = 360
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13decan
-
-	loadout_options = list(
-	/datum/outfit/loadout/decanspec, //negative slowdown
-	/datum/outfit/loadout/decanprotec //slight slowdown
-	)
 
 /datum/job/CaesarsLegion/Legionnaire/f13decan/after_spawn(mob/living/carbon/human/H, mob/M)
 	H.add_quirk("Hard Yards")
@@ -276,6 +271,9 @@ Decanus
 	id = 			/obj/item/card/id/dogtag/legveteran
 	mask =			/obj/item/clothing/mask/bandana/legdecan
 	glasses = 		/obj/item/clothing/glasses/sunglasses/big
+	suit = 			/obj/item/clothing/suit/armor/f13/legion/heavy
+	head = 			/obj/item/clothing/head/helmet/f13/legion/heavy
+	suit_store = 	/obj/item/gun/ballistic/revolver/ballisticfist
 	ears = 			/obj/item/radio/headset
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola=1, \
@@ -286,27 +284,53 @@ Decanus
 		/obj/item/key/scollar=1, \
 		/obj/item/assembly/signaler/electropack/shockcollar=1, \
 		/obj/item/storage/bag/money/small/legofficers=1, \
-		/obj/item/restraints/legcuffs/bola/tactical=1)
-
-/datum/outfit/loadout/decanspec
-	name = "Prime Decanus"
-	suit = 			/obj/item/clothing/suit/armor/f13/legion/vet
-	head = 			/obj/item/clothing/head/helmet/f13/legion/prime/decan
-	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/assault_rifle/infiltrator=1,
-		/obj/item/ammo_box/magazine/m556/rifle=1,
-		/obj/item/claymore/machete/gladius=1
-		)
-
-/datum/outfit/loadout/decanprotec
-	name = "Veteran Decanus"
-	suit = 			/obj/item/clothing/suit/armor/f13/legion/heavy
-	head = 			/obj/item/clothing/head/helmet/f13/legion/heavy
-	suit_store = 	/obj/item/gun/ballistic/revolver/ballisticfist
-	backpack_contents = list(
+		/obj/item/restraints/legcuffs/bola/tactical=1,
 		/obj/item/storage/box/lethalshot=1,
 		/obj/item/storage/box/slugshot=1,
 		/obj/item/shield/riot/roman=1)
+
+/*
+Prime Decanus
+*/
+
+/datum/job/CaesarsLegion/Legionnaire/f13primedecan
+	title = "Prime Decanus"
+	flag = F13PRIMEDECAN
+	faction = "Legion"
+	total_positions = 1
+	spawn_positions = 1
+	description = "You answer directly to the Veteran Decanus, who answers to the Centurion, working with them to organize the Legionaries."
+	supervisors = "the Veteran Decanus and up"
+	exp_requirements = 310
+
+	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13primedecan
+
+/datum/job/CaesarsLegion/Legionnaire/f13primedecan/after_spawn(mob/living/carbon/human/H, mob/M)
+	H.add_quirk("Hard Yards")
+	H.add_quirk("Big Leagues")
+	H.add_quirk("Iron Fist")
+
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13primedecan
+	name = "Legion Decanus"
+	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13decan
+	id = 			/obj/item/card/id/dogtag/legveteran
+	mask =			/obj/item/clothing/mask/bandana/legdecan
+	glasses = 		/obj/item/clothing/glasses/sunglasses/big
+	suit = 			/obj/item/clothing/suit/armor/f13/legion/vet
+	head = 			/obj/item/clothing/head/helmet/f13/legion/prime/decan
+	ears = 			/obj/item/radio/headset
+	backpack_contents = list(
+		/obj/item/restraints/legcuffs/bola=1, \
+		/obj/item/throwing_star/spear, \
+		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
+		/obj/item/storage/box/handcuffs=1, \
+		/obj/item/flashlight/lantern=1, \
+		/obj/item/key/scollar=1, \
+		/obj/item/assembly/signaler/electropack/shockcollar=1, \
+		/obj/item/storage/bag/money/small/legofficers=1, \
+		/obj/item/gun/ballistic/automatic/assault_rifle/infiltrator=1,
+		/obj/item/ammo_box/magazine/m556/rifle=1,
+		/obj/item/claymore/machete/gladius=1)
 
 /*
 Vexillarius
@@ -415,11 +439,11 @@ Veteran Legionary
 	title = "Veteran Legionary"
 	flag = F13VETLEGIONARY
 	faction = "Legion"
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 4
+	spawn_positions = 4
 	description = "You answer to the Decani and the Centurion, as well as the Auxilia when in your camp. Acting as a loyal soldier of the Centuria, you have the great honour of serving under Caesar in his quest to unite the scattered tribes of The Mojave. You are a hardened warrior, and have been waging war with the Legion for many years."
 	supervisors = "the Decani and Centurion"
-	exp_requirements = 360
+	exp_requirements = 310
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13vetlegionary
 
@@ -480,8 +504,8 @@ Prime Legionairy
 	title = "Legionnaire"
 	flag = F13LEGIONARY
 	faction = "Legion"
-	total_positions = 12
-	spawn_positions = 12
+	total_positions = 6
+	spawn_positions = 6
 	description = "You answer to the Decani and the Centurion. Acting as a loyal soldier of the Legion, you're not expected to do anything but follow orders."
 	supervisors = "the Decani and Centurion"
 
@@ -490,8 +514,6 @@ Prime Legionairy
 	loadout_options = list(
 	/datum/outfit/loadout/legassault, //.357 revolver
 	/datum/outfit/loadout/legbreach, //hunting shotgun
-	/datum/outfit/loadout/legscout,
-	/datum/outfit/loadout/legvet
 	)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary
@@ -523,23 +545,6 @@ Prime Legionairy
 	backpack_contents = list(
 		/obj/item/storage/box/lethalshot=2)
 
-/datum/outfit/loadout/legscout
-	name = "Scout Legionary"
-	suit = /obj/item/clothing/suit/armor/f13/legion/recruit/scout
-	head = /obj/item/clothing/head/helmet/f13/legion/recruit/scout
-	suit_store = /obj/item/gun/ballistic/shotgun/remington
-	backpack_contents = list(
-		/obj/item/ammo_box/a762/doublestacked=1, \
-		/obj/item/twohanded/binocs=1)
-
-/datum/outfit/loadout/legvet
-	name = "Veteran Legionary"
-	mask =			/obj/item/clothing/mask/bandana/legvet
-	head = 			/obj/item/clothing/head/helmet/f13/legion/vet
-	suit = 			/obj/item/clothing/suit/armor/f13/legion/vet
-	glasses = 		/obj/item/clothing/glasses/sunglasses
-	r_hand = /obj/item/storage/backpack/spearquiver
-
 /datum/job/CaesarsLegion/Legionnaire/f13legionary/after_spawn(mob/living/carbon/human/H, mob/M)
 	H.add_quirk("Big Leagues")
 	H.add_quirk("Poor Aim")
@@ -550,8 +555,8 @@ Recruit Legionary
 	title = "Recruit Legionary"
 	flag = F13RECRUITLEG
 	faction = "Legion"
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 12
+	spawn_positions = 12
 	description = "You have recently come of age or been inducted into Caesar's Legion. You have absolutely no training, and are expected to follow every whim of the Decanii and your Centurion."
 	supervisors = "the Decani and Centurion"
 

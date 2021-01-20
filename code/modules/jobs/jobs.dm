@@ -136,7 +136,8 @@ GLOBAL_LIST_INIT(legion_positions, list(
     "Legion Centurion",
     "Priestess of Mars",
     "Legion Libritor",
-    "Legion Decanus",
+    "Veteran Decanus",
+    "Prime Decanus",
     "Veteran Legionary",
 	"Prime Legionary",
     "Recruit Legionary",
@@ -145,7 +146,7 @@ GLOBAL_LIST_INIT(legion_positions, list(
     "Legion Explorer",
     "Legion Slavemaster",
     "Auxilia",
-    "Camp Follower",
+    "Camp Follower"
 ))
 
 GLOBAL_LIST_INIT(ncr_command_positions, list(
@@ -276,7 +277,7 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
     EXP_TYPE_RANGER        = list("titles" = list("NCR Veteran Ranger","NCR Ranger")),
     EXP_TYPE_KNIGHT        = list("titles" = list("Knight")),
     EXP_TYPE_SCRIBE        = list("titles" = list("Scribe")),
-    EXP_TYPE_DECANUS       = list("titles" = list("Legion Decanus")),
+    EXP_TYPE_DECANUS       = list("titles" = list("Veteran Decanus", "Prime Decanus")),
     EXP_TYPE_TRIBAL        = list("titles" = tribal_positions)
     //EXP_TYPE_ENCLAVE = list("titles" = enclave_positions),
     // EXP_TYPE_CREW = list("titles" = command_positions | engineering_positions | medical_positions | science_positions | supply_positions | security_positions | civilian_positions | list("AI","Cyborg")), // crew positions
@@ -346,4 +347,4 @@ GLOBAL_PROTECT(exp_jobsmap)
     job = chef_expand.Replace(job, "cook")
     job = borg_expand.Replace(job, "cyborg")
     return job
-    
+
