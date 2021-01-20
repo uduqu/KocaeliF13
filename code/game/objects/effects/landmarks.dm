@@ -511,7 +511,11 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	name = "Priestess of Mars"
 
 /obj/effect/landmark/start/f13/decanus
-	name = "Legion Decanus"
+	name = "Veteran Decanus"
+	icon_state = "Decanus"
+
+/obj/effect/landmark/start/f13/primedecanus
+	name = "Prime Decanus"
 	icon_state = "Decanus"
 
 /obj/effect/landmark/start/f13/vexillarius

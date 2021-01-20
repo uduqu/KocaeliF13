@@ -249,6 +249,7 @@ Knight-Captain
 	supervisors = "the Elder"
 	selection_color = "#7f8c8d"
 	exp_requirements = 600
+	exp_type = EXP_TYPE_KNIGHT
 
 	loadout_options = list(
 	/datum/outfit/loadout/capstand, //AER9 and 10mm pistol
@@ -268,6 +269,7 @@ Knight-Captain
 	gunsmith_two = TRUE
 	gunsmith_three = TRUE
 	gunsmith_four = TRUE
+	pa_wear = TRUE
 	suit = 			/obj/item/clothing/suit/armor/f13/combat/knightcap
 	uniform =		/obj/item/clothing/under/syndicate/brotherhood
 	accessory = 	/obj/item/clothing/accessory/bos/knightcaptain
@@ -327,6 +329,7 @@ Senior Paladin
 	supervisors = "the Elder"
 	selection_color = "#95a5a6"
 	exp_requirements = 1200
+	exp_type = EXP_TYPE_BROTHERHOODCMD
 
 	loadout_options = list(
 		/datum/outfit/loadout/spaladina, //Super Sledge
@@ -389,8 +392,8 @@ Paladin
 	title = "Paladin"
 	flag = F13PALADIN
 	faction = "BOS"
-	total_positions = 0//disabled for now
-	spawn_positions = 0
+	total_positions = 2
+	spawn_positions = 2
 	description = "You answer directly to the Senior Paladin and Elder. You are this Chapter's main line of defense and offense; highly trained in combat and weaponry though with little practical field experience, you are eager to prove your worth to the Brotherhood. Your primary duties are defense and surface operations. You may also be assigned a trainee Initiate."
 	forbids = "The Brotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
@@ -464,6 +467,7 @@ Scribe
 	supervisors = "the Head Scribe"
 	selection_color = "#95a5a6"
 	exp_requirements = 240
+	exp_type = EXP_TYPE_BROTHERHOOD
 
 	loadout_options = list(
 	/datum/outfit/loadout/scribea, //Scribe
@@ -526,6 +530,7 @@ Knight
 	supervisors = "the Knight-Captain"
 	selection_color = "#95a5a6"
 	exp_requirements = 240
+	exp_type = EXP_TYPE_BROTHERHOOD
 
 	loadout_options = list(
 	/datum/outfit/loadout/knighta, //AER9
@@ -644,7 +649,7 @@ Initiate
 	supervisors = "the Elder and Paladins"
 	selection_color = "#95a5a6"
 	exp_requirements = 1900
-	exp_type = EXP_TYPE_CREW
+	exp_type = EXP_TYPE_BROTHERHOOD
 
 	outfit = /datum/outfit/job/bos/vertipilot
 
@@ -654,6 +659,7 @@ Initiate
 /datum/outfit/job/bos/vertipilot
 	name = "Pilot"
 	jobtype = /datum/job/bos/vertipilot
+	vb_pilot = TRUE
 	backpack = /obj/item/storage/backpack/explorer
 	ears = 			/obj/item/radio/headset/headset_bos
 	uniform =		/obj/item/clothing/under/syndicate/brotherhood

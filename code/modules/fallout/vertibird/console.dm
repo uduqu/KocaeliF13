@@ -5,5 +5,10 @@
 	icon_state = "enclave"
 	icon_screen = "enclave_on"
 
-/obj/machinery/computer/vertibird_console/attack_hand(mob/user)
-	vertibird:beginFly()
+/obj/machinery/computer/vertibird_console/attack_hand(mob/living/user)
+	if(!user.has_trait(TRAIT_PILOT))
+		to_chat(user, "<span class='warning'>The Vertibird rejects your authorization codes!</span>")
+		playsound(src, 'sound/effects/alert.ogg', 50, 1)
+		return
+	else
+		vertibird:beginFly()

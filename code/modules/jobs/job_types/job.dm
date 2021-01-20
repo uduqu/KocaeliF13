@@ -214,6 +214,7 @@
 	var/gunsmith_two = FALSE //F13 gunsmith perk, ability to craft Tier 3 guns and ammo
 	var/gunsmith_three = FALSE //F13 gunsmith perk, ability to craft Tier 4 guns and ammo
 	var/gunsmith_four = FALSE //F13 gunsmith perk, ability to craft Tier 5 guns and ammo
+	var/vb_pilot = FALSE //F13 vb_pilot. Allows someone to fly the Vertibird.
 
 /datum/outfit/job/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	switch(H.backbag)
@@ -256,6 +257,9 @@
 	if(gunsmith_four == TRUE)
 		H.add_trait(TRAIT_GUNSMITH_FOUR)
 
+	if(vb_pilot == TRUE)
+		H.add_trait(TRAIT_PILOT)
+
 /datum/outfit/job/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(visualsOnly)
 		return
@@ -296,6 +300,9 @@
 
 	if(pa_wear == TRUE)
 		H.add_trait(TRAIT_PA_WEAR)
+
+	if(vb_pilot == TRUE)
+		H.add_trait(TRAIT_PILOT)
 
 /datum/outfit/job/get_chameleon_disguise_info()
 	var/list/types = ..()
