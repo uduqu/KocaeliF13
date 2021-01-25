@@ -1001,6 +1001,8 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		if(H.metabolism_efficiency == 1.25)
 			to_chat(H, "<span class='notice'>You no longer feel vigorous.</span>")
 		H.metabolism_efficiency = 1
+		if(prob(10))
+			H.adjustStaminaLoss(1)
 
 	//THIRST//
 	if(H.water > THIRST_LEVEL_LIGHT)
@@ -1018,16 +1020,16 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	else if(H.water > THIRST_LEVEL_DEADLY) //HARD THIRST
 		if(H.transpiration_efficiency != 0.6)
 			H << "<span class='warning'>You are very dehydrated, find water immediately or you will perish.</span>"
-//		if(prob(4))
-//			H.AdjustWeakened(5)
+		if(prob(4))
+			H.adjustStaminaLoss(5)
 		H.transpiration_efficiency = 0.6
 	else
 		if(H.transpiration_efficiency != 0.1)
-			H << "<span class='warning'>You are extremely dehydrated, death is apon you, you must find water.</span>"
-//		H.adjustOxyLoss(5)//temp disable until this is fixed up.
+			H << "<span class='warning'>You are extremely dehydrated, death is upon you. You must find water.</span>"
+		H.adjustOxyLoss(0.5)
 		H.transpiration_efficiency = 0.1
-//		if(prob(10))
-//			H.AdjustWeakened(5)
+		if(prob(10))
+			H.adjustStaminaLoss(5)
 
 	switch(H.nutrition)
 		if(NUTRITION_LEVEL_FULL to INFINITY)
@@ -1038,27 +1040,33 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 			H.clear_alert("nutrition")
 		if( NUTRITION_LEVEL_FED to NUTRITION_LEVEL_WELL_FED)
 			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "nutrition", /datum/mood_event/nutrition/fed)
-			H.clear_alert("nutrition")
+			H.throw_alert("nutrition", /obj/screen/alert/hunger1)
 		if(NUTRITION_LEVEL_HUNGRY to NUTRITION_LEVEL_FED)
 			SEND_SIGNAL(H, COMSIG_CLEAR_MOOD_EVENT, "nutrition")
-			H.clear_alert("nutrition")
+			H.throw_alert("nutrition", /obj/screen/alert/hunger2)
 		if(NUTRITION_LEVEL_STARVING to NUTRITION_LEVEL_HUNGRY)
 			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "nutrition", /datum/mood_event/nutrition/hungry)
-			H.throw_alert("nutrition", /obj/screen/alert/hungry)
+			H.throw_alert("nutrition", /obj/screen/alert/hunger3)
 		if(0 to NUTRITION_LEVEL_STARVING)
 			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "nutrition", /datum/mood_event/nutrition/starving)
-			H.throw_alert("nutrition", /obj/screen/alert/starving)
+			H.throw_alert("nutrition", /obj/screen/alert/hunger4)
+
 	switch(H.water)
 		if(THIRST_LEVEL_LIGHT to INFINITY)
+			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "thirst", /datum/mood_event/nutrition/slaked)
 			H.clear_alert("thirst")
 		if(THIRST_LEVEL_MIDDLE to THIRST_LEVEL_LIGHT)
-			H.throw_alert("thirst", /obj/screen/alert/thirst, 2)
+			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "thirst", /datum/mood_event/nutrition/thirsty)
+			H.throw_alert("thirst", /obj/screen/alert/thirst1, 2)
 		if (THIRST_LEVEL_HARD to THIRST_LEVEL_MIDDLE)
-			H.throw_alert("thirst", /obj/screen/alert/thirst, 3)
+			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "thirst", /datum/mood_event/nutrition/thirsty2)
+			H.throw_alert("thirst", /obj/screen/alert/thirst2, 3)
 		if (THIRST_LEVEL_DEADLY to THIRST_LEVEL_HARD)
-			H.throw_alert("thirst", /obj/screen/alert/thirst, 4)
+			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "thirst", /datum/mood_event/nutrition/thirsty3)
+			H.throw_alert("thirst", /obj/screen/alert/thirst3, 4)
 		else
-			H.throw_alert("thirst", /obj/screen/alert/thirst, 5)
+			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "thirst", /datum/mood_event/nutrition/thirsty4)
+			H.throw_alert("thirst", /obj/screen/alert/thirst4, 5)
 	return 1
 
 /datum/species/proc/update_health_hud(mob/living/carbon/human/H)
