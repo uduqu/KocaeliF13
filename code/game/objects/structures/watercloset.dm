@@ -451,10 +451,10 @@
 	name = "sink"
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "sink"
-	desc = "A sink used for washing one's hands and face."
+	desc = "A sink used for washing one's hands and face. Although it has running water, you don't think it'd be wise to drink from this."
 	anchored = TRUE
 	var/busy = FALSE 	//Something's being washed at the moment
-	var/dispensedreagent = "water" // for whenever plumbing happens
+	var/dispensedreagent = "dwater" // for whenever plumbing happens
 
 
 /obj/structure/sink/attack_hand(mob/living/user)
@@ -573,18 +573,31 @@
 	name = "kitchen sink"
 	icon_state = "sink_alt"
 
+/obj/structure/bsink
+	name = "broken sink"
+	icon = 'icons/obj/watercloset.dmi'
+	icon_state = "sink"
+	desc = "A sink used for washing one's hands and face. Given that it's the post-apocalypse, this one doesn't have running water."
+	anchored = TRUE
 
 /obj/structure/sink/puddle	//splishy splashy ^_^
 	name = "puddle"
 	desc = "A puddle used for washing one's hands and face."
 	icon_state = "puddle"
 	resistance_flags = UNACIDABLE
+
 /obj/structure/sink/well
 	name = "well"
 	desc = "A well used for washing one's hands and face."
 	icon = 'icons/fallout/well.dmi'
 	icon_state = "well"
 	resistance_flags = INDESTRUCTIBLE
+	dispensedreagent = "water"//Ground water wouldn't be safe to drink, but for the sake of gameplay we have this here.
+
+/obj/structure/sink/well/dwell
+	name = "tainted well"
+	desc = "This well appears to have a body at the bottom of it. Gross."
+	dispensedreagent = "dwater"
 
 /obj/structure/sink/well/ex_act() //no.
 	return

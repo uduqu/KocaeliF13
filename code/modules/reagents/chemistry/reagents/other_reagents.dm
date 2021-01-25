@@ -181,6 +181,27 @@
 		M.ExtinguishMob()
 	..()
 
+//dirty water
+/datum/reagent/water/dwater
+	name = "Dirty Water"
+	id = "dwater"
+	description = "This has visible debris floating around in it."
+	color = "#ACBCBD"
+	taste_description = "chalky water"
+	glass_icon_state = "glass_clear"
+	glass_name = "glass of dirty water"
+	glass_desc = "A rather foul smelling glass of water."
+	shot_glass_icon_state = "shotglassclear"
+
+/datum/reagent/water/dwater/on_mob_life(mob/living/carbon/M)
+	M.apply_effect(0.5*REM/M.metabolism_efficiency,EFFECT_IRRADIATE,0)
+	if(!TRAIT_RADIMMUNE && prob(8))//Only if your system can't handle rads.
+		M.vomit
+		to_chat(M, "<span class='userdanger'>You don't feel like you can stomach the water.</span>")
+	..()
+
+
+//holy
 /datum/reagent/water/holywater
 	name = "Holy Water"
 	id = "holywater"

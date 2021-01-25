@@ -746,6 +746,18 @@
 				if(0 to NUTRITION_LEVEL_STARVING)
 					to_chat(src, "<span class='danger'>You're starving!</span>")
 
+			switch(water)
+				if(THIRST_LEVEL_FULL to INFINITY)
+					to_chat(src, "<span class='info'>You're completely hydrated!</span>")
+				if(THIRST_LEVEL_LIGHT to THIRST_LEVEL_FULL)
+					to_chat(src, "<span class='info'>You're hydrated!</span>")
+				if(THIRST_LEVEL_MIDDLE to THIRST_LEVEL_LIGHT)
+					to_chat(src, "<span class='info'>You're slightly thirsty.</span>")
+				if(THIRST_LEVEL_HARD to THIRST_LEVEL_MIDDLE)
+					to_chat(src, "<span class='info'>You could use some water.</span>")
+				if(0 to THIRST_LEVEL_DEADLY)
+					to_chat(src, "<span class='danger'>You're about to drop dead from dehydration!</span>")
+
 			if(roundstart_quirks.len)
 				to_chat(src, "<span class='notice'>You have these quirks: [get_trait_string()].</span>")
 		else

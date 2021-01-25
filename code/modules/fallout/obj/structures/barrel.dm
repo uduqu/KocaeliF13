@@ -128,3 +128,12 @@ obj/structure/reagent_dispensers/barrel/explosive/bullet_act(obj/item/projectile
 	reagent_id = "FEV_solution"
 	anchored = 1
 //	self_weight = 60
+
+
+/obj/structure/reagent_dispensers/barrel/half
+	name = "water barrel"
+	desc = "Tapping on this reveals that it's nearly empty, not to mention holes preventing it from being fully filled. Bummer."
+	icon_state = "one_b"
+	tank_volume = 125
+	reagent_id = "water"
+//	self_weight = 20

@@ -33899,9 +33899,7 @@
 	},
 /area/f13/tcoms)
 "bRp" = (
-/obj/effect/landmark/start/f13/decanus{
-	name = "Legion Decanus"
-	},
+/obj/effect/landmark/start/f13/primedecanus,
 /turf/open/floor/wood/f13/old,
 /area/f13/legioncamp)
 "bRq" = (
@@ -145747,7 +145745,7 @@ abq
 aag
 acm
 afy
-agV
+xTx
 afU
 xTx
 afy

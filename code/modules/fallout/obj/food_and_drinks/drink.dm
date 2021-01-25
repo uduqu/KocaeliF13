@@ -34,7 +34,7 @@
 /obj/item/reagent_containers/food/drinks/flask/survival
 	name = "metal flask"
 	desc = "A metallic liquid container. Essential for survival out in the wastes."
-	list_reagents = list("water" = 40, "silver_sulfadiazine" = 10)
+	list_reagents = list("water" = 55, "radx" = 5)
 
 /obj/item/reagent_containers/food/drinks/flask/vault13
 	name = "Vault 13 flask"

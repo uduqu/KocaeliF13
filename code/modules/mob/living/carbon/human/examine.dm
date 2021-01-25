@@ -229,6 +229,10 @@
 
 	if(nutrition < NUTRITION_LEVEL_STARVING - 50)
 		msg += "[t_He] [t_is] severely malnourished.\n"
+
+	if(water < THIRST_LEVEL_HARD - 50)
+		msg += "[t_He] [t_is] severely dehydrated.\n"
+
 	switch(disgust)
 		if(DISGUST_LEVEL_GROSS to DISGUST_LEVEL_VERYGROSS)
 			msg += "[t_He] look[p_s()] a bit grossed out.\n"

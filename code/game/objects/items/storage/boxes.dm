@@ -96,7 +96,7 @@
 
 // Ordinary survival box
 /obj/item/storage/box/survival/PopulateContents()
-	new /obj/item/clothing/mask/bandana/black(src)
+	new /obj/item/reagent_containers/food/drinks/flask/survival(src)
 	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 	new /obj/item/reagent_containers/blood/radaway(src)
 	new /obj/item/stack/medical/gauze(src)
