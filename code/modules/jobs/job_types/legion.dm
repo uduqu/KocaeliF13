@@ -281,7 +281,6 @@ Decanus
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/storage/box/handcuffs=1, \
 		/obj/item/flashlight/lantern=1, \
-		/obj/item/key/scollar=1, \
 		/obj/item/assembly/signaler/electropack/shockcollar=1, \
 		/obj/item/storage/bag/money/small/legofficers=1, \
 		/obj/item/restraints/legcuffs/bola/tactical=1,
@@ -319,16 +318,15 @@ Prime Decanus
 	suit = 			/obj/item/clothing/suit/armor/f13/legion/vet
 	head = 			/obj/item/clothing/head/helmet/f13/legion/prime/decan
 	ears = 			/obj/item/radio/headset
+	suit_store =	/obj/item/gun/ballistic/automatic/assault_rifle/infiltrator
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola=1, \
 		/obj/item/throwing_star/spear, \
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/storage/box/handcuffs=1, \
 		/obj/item/flashlight/lantern=1, \
-		/obj/item/key/scollar=1, \
 		/obj/item/assembly/signaler/electropack/shockcollar=1, \
 		/obj/item/storage/bag/money/small/legofficers=1, \
-		/obj/item/gun/ballistic/automatic/assault_rifle/infiltrator=1,
 		/obj/item/ammo_box/magazine/m556/rifle=1,
 		/obj/item/claymore/machete/gladius=1)
 
@@ -422,7 +420,8 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/flashlight/lantern=1, \
 		/obj/item/storage/bag/money/small/legenlisted, \
-		/obj/item/key/bcollar,\
+		/obj/item/key/scollar=1, \
+		/obj/item/key/bcollar=1, \
 		/obj/item/assembly/signaler/electropack/boomcollar=2, \
 		/obj/item/radio)
 	r_pocket = /obj/item/restraints/handcuffs

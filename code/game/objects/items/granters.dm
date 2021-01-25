@@ -213,6 +213,17 @@
 	active = FALSE
 	UpdateButtonIcon()
 
+/////////
+// ADMIN FOR DEBUG
+/////////
+/obj/item/book/granter/trait/pilot
+	name = "Piloting and You"
+	desc = "An indepth look into how aircraft function, alongside your very own authorisation codes!"
+	oneuse = TRUE
+	granted_trait = TRAIT_PILOT
+	traitname = "vb_pilot"
+	remarks = list("...")
+
 ///SPELLS///
 
 /obj/item/book/granter/spell

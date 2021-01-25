@@ -525,6 +525,7 @@
 /area/f13/bunker)
 "bB" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/random_high,
+/obj/effect/decal/waste,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2";
@@ -1365,12 +1366,8 @@
 	},
 /area/f13/bunker)
 "dz" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/plating/tunnel{
-	icon_state = "tunnelrusty"
-	},
+/obj/effect/decal/waste,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "dA" = (
 /obj/structure/bed/mattress/pregame,
@@ -4492,6 +4489,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/reagent_dispensers/barrel/three,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
@@ -7778,6 +7776,21 @@
 /obj/item/gun/ballistic/automatic/surplus,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"sH" = (
+/obj/effect/decal/waste,
+/turf/open/floor/plating/tunnel{
+	icon_state = "tunnelchess"
+	},
+/area/f13/bunker)
+"sI" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/decal/waste,
+/turf/open/floor/plating/tunnel{
+	icon_state = "tunnelrusty"
+	},
+/area/f13/bunker)
 "sJ" = (
 /obj/structure/table/wood,
 /obj/item/pen,
@@ -7785,6 +7798,27 @@
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
 	},
+/area/f13/bunker)
+"sK" = (
+/obj/machinery/light/small,
+/obj/effect/decal/waste,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2";
+	tag = "icon-bluerustychess2"
+	},
+/area/f13/bunker)
+"sL" = (
+/obj/machinery/door/poddoor/preopen{
+	id = 93
+	},
+/obj/effect/decal/waste,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"sM" = (
+/obj/effect/decal/remains/human,
+/obj/effect/decal/waste,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "sN" = (
 /obj/structure/window/reinforced{
@@ -7795,6 +7829,17 @@
 	tag = "icon-grass2"
 	},
 /area/f13/bunker)
+"sO" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/waste,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
+"sP" = (
+/obj/effect/decal/waste,
+/turf/open/floor/plating/tunnel{
+	icon_state = "tunnelrusty"
+	},
+/area/f13/radiation)
 "sQ" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -7802,6 +7847,14 @@
 /turf/open/floor/f13{
 	icon_state = "grass2";
 	tag = "icon-grass2"
+	},
+/area/f13/bunker)
+"sR" = (
+/obj/effect/decal/waste,
+/obj/structure/reagent_dispensers/barrel/three,
+/turf/open/floor/plasteel/barber{
+	icon_state = "plating";
+	tag = "icon-plating"
 	},
 /area/f13/bunker)
 "sT" = (
@@ -28644,7 +28697,7 @@ RW
 ZJ
 HD
 Ar
-ib
+sR
 aa
 aa
 aa
@@ -65896,7 +65949,7 @@ aa
 aX
 bk
 bD
-aG
+sP
 aX
 aa
 aa
@@ -67443,7 +67496,7 @@ aI
 aa
 aa
 aa
-ct
+dz
 cA
 cI
 cv
@@ -67962,20 +68015,20 @@ cB
 ct
 ct
 ct
-ct
+dz
 ct
 cv
 do
 do
 cC
 dv
-dz
+sI
 aI
 aI
 bI
 bj
 aV
-dF
+sK
 aX
 aa
 aa
@@ -68208,7 +68261,7 @@ aY
 ar
 bg
 bg
-ct
+dz
 aI
 aI
 aI
@@ -68730,7 +68783,7 @@ aa
 aa
 ct
 aN
-ct
+dz
 cS
 ct
 ct
@@ -68745,7 +68798,7 @@ aI
 aI
 aI
 aX
-aV
+qe
 pb
 aX
 aa
@@ -69750,7 +69803,7 @@ aa
 aa
 aX
 cv
-bg
+sO
 bm
 aX
 aa
@@ -69766,7 +69819,7 @@ aI
 aX
 aI
 db
-dk
+sH
 dx
 oX
 aI
@@ -70274,7 +70327,7 @@ aa
 aa
 aX
 cv
-cm
+sM
 aX
 aI
 aI
@@ -70545,7 +70598,7 @@ aI
 aI
 aX
 aV
-aN
+aT
 aX
 aa
 aa
@@ -71039,7 +71092,7 @@ bJ
 bM
 bu
 bj
-ca
+sL
 cm
 cv
 cC
@@ -71300,7 +71353,7 @@ ca
 ct
 cw
 aN
-cm
+sM
 cX
 dd
 bj
@@ -72327,7 +72380,7 @@ bj
 aV
 aV
 aV
-aV
+qe
 hr
 ac
 SM
@@ -72582,7 +72635,7 @@ sA
 bU
 bY
 cc
-aV
+qe
 aV
 aV
 cL
@@ -72834,7 +72887,7 @@ aN
 aS
 bj
 aV
-aV
+qe
 bu
 bV
 ac
@@ -72857,7 +72910,7 @@ aa
 aa
 aa
 aX
-aN
+aT
 aV
 aX
 aa
@@ -73353,7 +73406,7 @@ bR
 bX
 ac
 ce
-aV
+qe
 aV
 cE
 cM
@@ -73607,7 +73660,7 @@ ac
 by
 aV
 bI
-aV
+qe
 bj
 cf
 aV
@@ -73881,7 +73934,7 @@ pE
 py
 aV
 aV
-aN
+aT
 Nf
 aI
 aI
@@ -74126,7 +74179,7 @@ bZ
 cg
 hr
 aV
-aV
+qe
 aV
 ac
 pH
@@ -74373,12 +74426,12 @@ aa
 bB
 aV
 aV
-aV
+qe
 ac
 bA
 bM
 aV
-aV
+qe
 bj
 aV
 aV
@@ -74632,7 +74685,7 @@ aV
 aV
 aV
 bj
-aV
+qe
 bI
 aV
 bS
@@ -74885,7 +74938,7 @@ aa
 aa
 aa
 aa
-aV
+qe
 ba
 pf
 ac
@@ -74895,7 +74948,7 @@ aV
 aV
 bj
 aV
-aV
+qe
 bI
 sA
 aV
@@ -75926,7 +75979,7 @@ cj
 bM
 aV
 aV
-aV
+qe
 ac
 aa
 aa

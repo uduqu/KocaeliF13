@@ -551,7 +551,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/start/f13/headscribe
 	name = "Head Scribe"
-	icon_state = "Head Scribe"
+	icon_state = "Knight"
 
 /obj/effect/landmark/start/f13/sentinel
 	name = "Sentinel"
@@ -559,7 +559,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/start/f13/knightcap
 	name = "Knight-Captain"
-	icon_state = "Initiate Knight"
+	icon_state = "Knight"
 
 /obj/effect/landmark/start/f13/seniorpaladin
 	name = "Senior Paladin"
