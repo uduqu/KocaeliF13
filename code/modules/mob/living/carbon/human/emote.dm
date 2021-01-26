@@ -7,6 +7,16 @@
 	message = "cries."
 	emote_type = EMOTE_AUDIBLE
 
+/datum/emote/living/carbon/human/cry/run_emote(mob/user, params)
+	. = ..()
+	if(. && ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if(H.dna.species.id == "human" && (!H.mind || !H.mind.miming))
+			if(user.gender == FEMALE)
+				playsound(H, pick('sound/voice/emotes/female_cry1.ogg', 'sound/voice/emotes/female_cry2.ogg'), 50, 1)
+			else
+				playsound(H, pick('sound/voice/emotes/male_cry1.ogg', 'sound/voice/emotes/male_cry2.ogg'), 50, 1)
+
 /datum/emote/living/carbon/human/dap
 	key = "dap"
 	key_third_person = "daps"
@@ -44,6 +54,16 @@
 	key_third_person = "mumbles"
 	message = "mumbles!"
 	emote_type = EMOTE_AUDIBLE
+
+/datum/emote/living/carbon/human/mumble/run_emote(mob/user, params)
+	. = ..()
+	if(. && ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if(H.dna.species.id == "human" && (!H.mind || !H.mind.miming))
+			if(user.gender == FEMALE)
+				playsound(H, pick('sound/voice/emotes/mumble_female.ogg'), 50, 1)
+			else
+				playsound(H, pick('sound/voice/emotes/mumble_male.ogg'), 50, 1)
 
 /datum/emote/living/carbon/human/pale
 	key = "pale"
