@@ -22,7 +22,7 @@
 //water
 /datum/mood_event/nutrition/slaked
 	description = "<span class='boldwarning'>I'm topped up!</span>\n"
-	mood_change = 12
+	mood_change = 4
 
 /datum/mood_event/nutrition/thirsty
 	description = "<span class='boldwarning'>I'm slightly thirsty.</span>\n"
@@ -30,15 +30,15 @@
 
 /datum/mood_event/nutrition/thirsty2
 	description = "<span class='boldwarning'>I'm very thirsty!</span>\n"
-	mood_change = -6
+	mood_change = -4
 
 /datum/mood_event/nutrition/thirsty3
 	description = "<span class='boldwarning'>I'm going to die of thirst!</span>\n"
-	mood_change = -12
+	mood_change = -6
 
 /datum/mood_event/nutrition/thirsty4
 	description = "<span class='boldwarning'>This is how I die...</span>\n"
-	mood_change = -24
+	mood_change = -12
 
 //Disgust
 /datum/mood_event/disgust/gross

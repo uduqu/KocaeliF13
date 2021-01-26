@@ -120,6 +120,12 @@
 	glass_name = "glass of water"
 	glass_desc = "The father of all refreshments."
 	shot_glass_icon_state = "shotglassclear"
+	var/water_level = 0.1
+
+/datum/reagent/water/on_mob_life(mob/living/carbon/M)
+	current_cycle++
+	M.water += water_level
+	holder.remove_reagent(src.id, metabolization_rate)
 
 /*
  *	Water reaction to turf
@@ -193,13 +199,13 @@
 	glass_desc = "A rather foul smelling glass of water."
 	shot_glass_icon_state = "shotglassclear"
 
-/datum/reagent/water/dwater/on_mob_life(mob/living/carbon/M)
-	M.apply_effect(0.5*REM/M.metabolism_efficiency,EFFECT_IRRADIATE,0)
-	if(!TRAIT_RADIMMUNE && prob(8))//Only if your system can't handle rads.
-		M.vomit
-		to_chat(M, "<span class='userdanger'>You don't feel like you can stomach the water.</span>")
+/datum/reagent/water/dwater/on_mob_life(mob/living/M, mob/user)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(prob(5))
+			H.vomit(5)
+			M.reagents.remove_all()
 	..()
-
 
 //holy
 /datum/reagent/water/holywater

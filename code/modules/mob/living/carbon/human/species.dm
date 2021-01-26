@@ -1001,8 +1001,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		if(H.metabolism_efficiency == 1.25)
 			to_chat(H, "<span class='notice'>You no longer feel vigorous.</span>")
 		H.metabolism_efficiency = 1
-		if(prob(10))
-			H.adjustStaminaLoss(1)
+
 
 	//THIRST//
 	if(H.water > THIRST_LEVEL_LIGHT)
@@ -1020,16 +1019,11 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	else if(H.water > THIRST_LEVEL_DEADLY) //HARD THIRST
 		if(H.transpiration_efficiency != 0.6)
 			H << "<span class='warning'>You are very dehydrated, find water immediately or you will perish.</span>"
-		if(prob(4))
-			H.adjustStaminaLoss(5)
 		H.transpiration_efficiency = 0.6
 	else
 		if(H.transpiration_efficiency != 0.1)
 			H << "<span class='warning'>You are extremely dehydrated, death is upon you. You must find water.</span>"
-		H.adjustOxyLoss(0.5)
 		H.transpiration_efficiency = 0.1
-		if(prob(10))
-			H.adjustStaminaLoss(5)
 
 	switch(H.nutrition)
 		if(NUTRITION_LEVEL_FULL to INFINITY)
@@ -1057,16 +1051,17 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 			H.clear_alert("thirst")
 		if(THIRST_LEVEL_MIDDLE to THIRST_LEVEL_LIGHT)
 			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "thirst", /datum/mood_event/nutrition/thirsty)
-			H.throw_alert("thirst", /obj/screen/alert/thirst1, 2)
+			H.throw_alert("thirst", /obj/screen/alert/thirst1)
 		if (THIRST_LEVEL_HARD to THIRST_LEVEL_MIDDLE)
 			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "thirst", /datum/mood_event/nutrition/thirsty2)
-			H.throw_alert("thirst", /obj/screen/alert/thirst2, 3)
+			H.throw_alert("thirst", /obj/screen/alert/thirst2)
 		if (THIRST_LEVEL_DEADLY to THIRST_LEVEL_HARD)
 			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "thirst", /datum/mood_event/nutrition/thirsty3)
-			H.throw_alert("thirst", /obj/screen/alert/thirst3, 4)
-		else
+			H.throw_alert("thirst", /obj/screen/alert/thirst3)
+		if(0 to THIRST_LEVEL_DEADLY)
 			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "thirst", /datum/mood_event/nutrition/thirsty4)
-			H.throw_alert("thirst", /obj/screen/alert/thirst4, 5)
+			H.throw_alert("thirst", /obj/screen/alert/thirst4)
+
 	return 1
 
 /datum/species/proc/update_health_hud(mob/living/carbon/human/H)
@@ -1200,6 +1195,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 
 /*		if(H.has_trait(TRAIT_FAT))
 			. += (1.5 - flight)*/
+
 		if(H.bodytemperature < BODYTEMP_COLD_DAMAGE_LIMIT && !H.has_trait(TRAIT_RESISTCOLD))
 			. += (BODYTEMP_COLD_DAMAGE_LIMIT - H.bodytemperature) / COLD_SLOWDOWN_FACTOR
 	return .
