@@ -155,6 +155,9 @@
 #define NUTRITION_LEVEL_START_MIN 250
 #define NUTRITION_LEVEL_START_MAX 400
 
+#define THIRST_LEVEL_START_MIN 240
+#define THIRST_LEVEL_START_MAX 480
+
 //Disgust levels for humans
 #define DISGUST_LEVEL_MAXEDOUT 150
 #define DISGUST_LEVEL_DISGUSTED 75
@@ -264,4 +267,4 @@
 #define AI_VOX // Comment out if you don't want VOX to be enabled and have players download the voice sounds.
 
 //Respawn timer
-#define RESPAWN_TIMER 3000 // in deciseconds, the time to wait before allowing respawn. 15 minutes = 15 * 60 (seconds in minute) * 15 (seconds to deciseconds)
+#define RESPAWN_TIMER 600 // in deciseconds, the time to wait before allowing respawn. 15 minutes = 15 * 60 (seconds in minute) * 15 (seconds to deciseconds)

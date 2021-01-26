@@ -34,6 +34,8 @@
 		AA.onNewMob(src)
 	nutrition = rand(NUTRITION_LEVEL_START_MIN, NUTRITION_LEVEL_START_MAX)
 	. = ..()
+	water = rand(THIRST_LEVEL_START_MIN, THIRST_LEVEL_START_MAX)
+	. = ..()
 
 /mob/GenerateTag()
 	tag = "mob_[next_mob_id++]"

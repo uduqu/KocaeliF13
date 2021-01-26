@@ -4,6 +4,7 @@
 	icon = 'icons/fallout/machines/terminals.dmi'
 	icon_state = "enclave"
 	icon_screen = "enclave_on"
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 
 /obj/machinery/computer/vertibird_console/attack_hand(mob/living/user)
 	if(!user.has_trait(TRAIT_PILOT))

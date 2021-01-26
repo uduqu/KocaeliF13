@@ -18,6 +18,7 @@
 /datum/reagent/consumable/on_mob_life(mob/living/carbon/M)
 	current_cycle++
 	M.nutrition += nutriment_factor
+	M.water += water_level
 	holder.remove_reagent(src.id, metabolization_rate)
 
 /datum/reagent/consumable/nutriment
