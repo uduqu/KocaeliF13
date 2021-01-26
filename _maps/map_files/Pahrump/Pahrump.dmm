@@ -9274,6 +9274,7 @@
 /obj/item/ammo_box/magazine/mm762,
 /obj/item/ammo_box/magazine/mm762,
 /obj/item/ammo_box/magazine/mm762,
+/obj/item/gun/ballistic/automatic/l6_saw/m38,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
@@ -24558,6 +24559,10 @@
 /obj/item/storage/pill_bottle/stimulant,
 /turf/open/floor/f13/wood,
 /area/f13/city)
+"bmT" = (
+/obj/effect/landmark/start/f13/primedecanus,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "bmU" = (
 /obj/structure/window/fulltile/wood,
 /turf/open/floor/f13/wood,
@@ -24638,6 +24643,18 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"bne" = (
+/obj/structure/rack,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/turf/open/floor/plasteel/f13{
+	icon_state = "plating"
+	},
+/area/f13/legion)
 "bnf" = (
 /obj/structure/chair{
 	tag = "icon-chair (NORTH)";
@@ -100028,7 +100045,7 @@ acv
 acv
 brq
 acv
-acv
+bmT
 acv
 bhV
 aoR
@@ -100285,7 +100302,7 @@ acv
 acv
 brq
 acv
-acv
+bmT
 acv
 bhV
 aoR
@@ -100542,7 +100559,7 @@ acv
 acv
 brq
 acv
-acv
+bmT
 acv
 bhV
 aoR
@@ -101306,7 +101323,7 @@ bpG
 bsA
 aqj
 bkz
-aqj
+bne
 axS
 bnC
 brj

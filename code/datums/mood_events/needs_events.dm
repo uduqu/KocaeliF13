@@ -21,15 +21,15 @@
 
 //water
 /datum/mood_event/nutrition/slaked
-	description = "<span class='boldwarning'>I'm topped up!</span>\n"
+	description = "<span class='nicegreen'>I'm topped up!</span>\n"
 	mood_change = 4
 
 /datum/mood_event/nutrition/thirsty
-	description = "<span class='boldwarning'>I'm slightly thirsty.</span>\n"
+	description = "<span class='warning'>I'm slightly thirsty.</span>\n"
 	mood_change = 6
 
 /datum/mood_event/nutrition/thirsty2
-	description = "<span class='boldwarning'>I'm very thirsty!</span>\n"
+	description = "<span class='warning'>I'm very thirsty!</span>\n"
 	mood_change = -4
 
 /datum/mood_event/nutrition/thirsty3

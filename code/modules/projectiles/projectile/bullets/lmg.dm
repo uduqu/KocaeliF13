@@ -22,6 +22,11 @@
 	damage = 45
 	armour_penetration = 20
 
+/obj/item/projectile/bullet/syndicate_turret/wasteland
+	range = 16
+	damage = 15
+	armour_penetration = 45
+
 // 1.95x129mm (SAW)
 
 /obj/item/projectile/bullet/mm195x129

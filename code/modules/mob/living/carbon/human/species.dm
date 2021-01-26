@@ -1020,13 +1020,16 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		if(H.transpiration_efficiency != 0.6)
 			H << "<span class='warning'>You are very dehydrated, find water immediately or you will perish.</span>"
 		H.transpiration_efficiency = 0.6
+		if(prob(10))//Minor annoyance, depending on luck.
+			H.adjustOxyLoss(15)
+			H.adjustStaminaLoss(25)
 	else
 		if(H.transpiration_efficiency != 0.1)
 			H << "<span class='warning'>You are extremely dehydrated, death is upon you. You must find water.</span>"
-			if(prob(50))
-				H.adjustOxyLoss(15)
-			H.adjustStaminaLoss(35)
+		H.adjustOxyLoss(15)//No longer minor.
 		H.transpiration_efficiency = 0.1
+		if(prob(10))
+			H.adjustStaminaLoss(50)
 
 
 	switch(H.nutrition)

@@ -312,14 +312,14 @@ Prime Decanus
 	glasses = 		/obj/item/clothing/glasses/sunglasses/big
 	suit = 			/obj/item/clothing/suit/armor/f13/legion/vet
 	head = 			/obj/item/clothing/head/helmet/f13/legion/prime/decan
-	suit_store =	/obj/item/gun/ballistic/automatic/assault_rifle/infiltrator
+	suit_store =	/obj/item/gun/ballistic/automatic/greasegun
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola=1, \
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/flashlight/lantern=1, \
 		/obj/item/storage/bag/money/small/legofficers=1, \
-		/obj/item/ammo_box/magazine/m556/rifle=1,
-		/obj/item/claymore/machete/gladius=1)
+		/obj/item/claymore/machete/gladius=1,
+		/obj/item/ammo_box/magazine/greasegun=2)
 
 /*
 Vexillarius
@@ -360,7 +360,7 @@ Vexillarius
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/flashlight/lantern=1, \
 		/obj/item/megaphone/cornu=1, \
-		/obj/item/restraints/legcuffs/bola/tactical=1, \
+		/obj/item/restraints/legcuffs/bola=1, \
 		/obj/item/storage/bag/money/small/legenlisted)
 	r_pocket = /obj/item/restraints/handcuffs
 
@@ -407,13 +407,11 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 	glasses = 		/obj/item/clothing/glasses/sunglasses
 	r_hand = 		/obj/item/melee/classic_baton/telescopic
 	backpack_contents = list(
-		/obj/item/claymore/machete/reinforced=1, \
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/flashlight/lantern=1, \
 		/obj/item/storage/bag/money/small/legenlisted, \
 		/obj/item/key/scollar=1, \
-		/obj/item/key/bcollar=1, \
-		/obj/item/assembly/signaler/electropack/boomcollar=2)
+		/obj/item/key/bcollar=1)
 	r_pocket = /obj/item/restraints/handcuffs
 
 /datum/job/CaesarsLegion/Legionnaire/f13slavemaster/after_spawn(mob/living/carbon/human/H, mob/M)
@@ -461,7 +459,6 @@ Veteran Legionary
 
 /datum/outfit/loadout/vetlegassault
 	name = "Assault Legionary"
-	suit_store = /obj/item/gun/ballistic/revolver/thatgun
 	backpack_contents = list(
 		/obj/item/twohanded/fireaxe=1,
 		)
@@ -478,7 +475,6 @@ Veteran Legionary
 	suit_store = /obj/item/gun/ballistic/shotgun/trench
 	backpack_contents = list(
 		/obj/item/storage/box/slugshot=1,
-		/obj/item/shield/riot/roman=1
 		)
 
 /datum/job/CaesarsLegion/Legionnaire/f13vetlegionary/after_spawn(mob/living/carbon/human/H, mob/M)
@@ -523,13 +519,13 @@ Prime Legionairy
 
 /datum/outfit/loadout/legassault
 	name = "Foot Legionary"
-	suit_store = /obj/item/gun/ballistic/automatic/marksman/servicerifle/varmint
+	suit_store = /obj/item/gun/ballistic/revolver/colt357
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle/small=2)
+		/obj/item/ammo_box/magazine/internal/cylinder/rev357=2)
 
 /datum/outfit/loadout/legbreach
 	name = "Assault Legionary"
-	suit_store = /obj/item/gun/ballistic/shotgun/trench
+	suit_store = /obj/item/gun/ballistic/revolver/caravan_shotgun
 	backpack_contents = list(
 		/obj/item/storage/box/lethalshot=2)
 
@@ -559,11 +555,8 @@ Recruit Legionary
 	head = 			/obj/item/clothing/head/helmet/f13/legion/recruit
 	mask =			/obj/item/clothing/mask/bandana/legrecruit
 	glasses = 		/obj/item/clothing/glasses/legiongoggles
-	r_pocket =      /obj/item/restraints/handcuffs
-	suit_store =	/obj/item/gun/ballistic/automatic/marksman/servicerifle/varmint
-	backpack_contents = list(
-		/obj/item/claymore/machete, \
-		/obj/item/flashlight/flare/torch=1)
+	r_pocket =      /obj/item/reagent_containers/pill/patch/healingpowder
+	backpack =		/obj/item/storage/backpack/spearquiver
 
 /datum/job/CaesarsLegion/Legionnaire/f13recruitleg/after_spawn(mob/living/carbon/human/H, mob/M)
 	H.add_quirk("Poor Aim")

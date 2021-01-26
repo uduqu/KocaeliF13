@@ -204,7 +204,6 @@ Head Scribe
 	belt = 			/obj/item/storage/belt/utility/full/engi
 	id = 			/obj/item/card/id/dogtag
 	backpack_contents = list(
-		/obj/item/shield/energy=1, \
 		/obj/item/kitchen/knife/combat=1, \
 		/obj/item/reagent_containers/hypospray/medipen/stimpak/super=2 \
 		)
@@ -214,8 +213,7 @@ Head Scribe
 	name = "Administrative Leader"
 	l_hand = /obj/item/gun/ballistic/revolver/needler
 	backpack_contents = list(
-		/obj/item/ammo_box/needleap=2,
-		/obj/item/gun/medbeam=1
+		/obj/item/ammo_box/needleap=2
 		)
 
 /datum/outfit/loadout/hspract

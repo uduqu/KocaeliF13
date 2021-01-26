@@ -1084,8 +1084,10 @@
 	has_cover = 0
 	scan_range = 16
 	req_access = list(ACCESS_SYNDICATE)
+	stun_projectile = /obj/item/projectile/bullet/syndicate_turret/wasteland
+	lethal_projectile = /obj/item/projectile/bullet/syndicate_turret/wasteland
 	faction = list("wastebot")
-	desc = "A ballistic machine gun auto-turret. It appears to have incredibly advanced sensors."
+	desc = "A ballistic machine gun auto-turret. It appears to have incredibly advanced sensors, allowing it to acquire targets through thin cover."
 
 /obj/machinery/porta_turret/syndicate/wasteland/bos
 	scan_range = 12
