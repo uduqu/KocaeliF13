@@ -49,6 +49,16 @@
 	message_mime = "appears to moan!"
 	emote_type = EMOTE_AUDIBLE
 
+/datum/emote/living/carbon/moan/run_emote(mob/user, params)
+	. = ..()
+	if(. && ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if(H.dna.species.id == "human" && (!H.mind || !H.mind.miming))
+			if(user.gender == FEMALE)
+				playsound(H, pick('sound/voice/emotes/female_moan1.ogg', 'sound/voice/emotes/female_moan2.ogg', 'sound/voice/emotes/female_moan3.ogg'), 50, 1)
+			else
+				playsound(H, pick('sound/voice/emotes/male_moan1.ogg', 'sound/voice/emotes/male_moan2.ogg', 'sound/voice/emotes/male_moan3.ogg'), 50, 1)
+
 /datum/emote/living/carbon/roll
 	key = "roll"
 	key_third_person = "rolls"
