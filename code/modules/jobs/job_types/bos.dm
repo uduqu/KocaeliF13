@@ -52,7 +52,7 @@ Elder
 	enforces = "The Brotherhood of Steel Expects: Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "no one but your morals and the codex."
 	outfit = /datum/outfit/job/bos/f13elder
-	exp_requirements = 360
+	exp_requirements = 1200
 	exp_type = EXP_TYPE_BROTHERHOODCMD
 
 	access = list(ACCESS_ROBOTICS, ACCESS_BOS, ACCESS_ENGINE_EQUIP, ACCESS_ENGINE, ACCESS_HYDROPONICS, ACCESS_MINERAL_STOREROOM, ACCESS_KITCHEN, ACCESS_BAR, ACCESS_SEC_DOORS)
@@ -180,8 +180,8 @@ Head Scribe
 	forbids = "The Brotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the Elder"
-	selection_color = "#95a5a6"
-	exp_requirements = 360
+	selection_color = "#7f8c8d"
+	exp_requirements = 600
 	exp_type = EXP_TYPE_SCRIBE
 
 	loadout_options = list(
@@ -328,7 +328,7 @@ Senior Paladin
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the Elder"
 	selection_color = "#95a5a6"
-	exp_requirements = 1200
+	exp_requirements = 360
 	exp_type = EXP_TYPE_BROTHERHOODCMD
 
 	loadout_options = list(
@@ -648,7 +648,7 @@ Initiate
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the Elder and Paladins"
 	selection_color = "#95a5a6"
-	exp_requirements = 1900
+	exp_requirements = 1200
 	exp_type = EXP_TYPE_BROTHERHOOD
 
 	outfit = /datum/outfit/job/bos/vertipilot

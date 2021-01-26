@@ -1023,7 +1023,11 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	else
 		if(H.transpiration_efficiency != 0.1)
 			H << "<span class='warning'>You are extremely dehydrated, death is upon you. You must find water.</span>"
+			if(prob(50))
+				H.adjustOxyLoss(15)
+			H.adjustStaminaLoss(35)
 		H.transpiration_efficiency = 0.1
+
 
 	switch(H.nutrition)
 		if(NUTRITION_LEVEL_FULL to INFINITY)

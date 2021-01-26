@@ -43,6 +43,7 @@
 	damage = 60
 	dismemberment = 0
 	armour_penetration = 65
+	dismemberment = 5
 
 /obj/item/projectile/bullet/a50MG/incendiary
 	damage = -20
@@ -60,7 +61,7 @@
 
 /obj/item/projectile/bullet/a50MG/AP
 	damage = -15
-	armour_penetration = 40
+	armour_penetration = 90
 	dismemberment = 0
 
 /obj/item/projectile/bullet/a50MG/explosive

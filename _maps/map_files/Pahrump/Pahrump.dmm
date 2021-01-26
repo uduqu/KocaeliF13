@@ -1098,7 +1098,7 @@
 "adi" = (
 /obj/structure/rack,
 /obj/item/shovel,
-/obj/item/radio,
+/obj/item/radio/off,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2";
@@ -2805,15 +2805,13 @@
 	},
 /area/f13/building)
 "ahw" = (
-/obj/structure/table,
-/obj/machinery/chem_dispenser/drinks,
-/obj/machinery/light/small{
-	dir = 8
+/obj/structure/table/wood/settler,
+/obj/machinery/light{
+	dir = 1;
+	light_color = "#706891"
 	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
+/turf/open/floor/wood/f13/carpet,
+/area/f13/village)
 "ahx" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -5884,6 +5882,7 @@
 /area/f13/ncr)
 "apG" = (
 /obj/structure/rack,
+/obj/item/radio/off,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
@@ -6319,7 +6318,6 @@
 	},
 /area/f13/building)
 "aqJ" = (
-/obj/structure/reagent_dispensers/water_cooler,
 /obj/item/storage/box/drinkingglasses,
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -8053,7 +8051,6 @@
 	},
 /area/f13/building)
 "auQ" = (
-/obj/structure/reagent_dispensers/water_cooler,
 /obj/item/storage/box/drinkingglasses,
 /turf/open/floor/f13{
 	tag = "icon-floorrusty";
@@ -13568,7 +13565,6 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "aJh" = (
-/obj/structure/reagent_dispensers/water_cooler,
 /obj/item/storage/box/drinkingglasses,
 /turf/open/floor/f13/wood,
 /area/f13/village)
@@ -13663,13 +13659,18 @@
 /turf/open/floor/f13/wood,
 /area/f13/city)
 "aJv" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/obj/item/storage/box/drinkingglasses,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2";
-	tag = "icon-housewood2"
+/obj/structure/rack,
+/obj/item/radio/off,
+/obj/item/radio/off,
+/obj/item/radio/off,
+/obj/item/radio/off,
+/obj/item/radio/off,
+/obj/item/radio/off,
+/turf/open/floor/f13{
+	tag = "icon-yellowdirtyfull";
+	icon_state = "yellowdirtyfull"
 	},
-/area/f13/village)
+/area/f13/ncr)
 "aJw" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/armor/random,
@@ -15046,13 +15047,11 @@
 	},
 /area/f13/village)
 "aNn" = (
-/obj/structure/table/wood,
-/obj/machinery/chem_dispenser/drinks,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2";
-	tag = "icon-housewood2"
+/obj/structure/table,
+/turf/open/floor/f13{
+	icon_state = "whitegreenrustychess"
 	},
-/area/f13/village)
+/area/f13/building)
 "aNo" = (
 /obj/structure/table/wood,
 /obj/item/clothing/glasses/material/mining,
@@ -18159,6 +18158,7 @@
 	name = "counter shutters"
 	},
 /obj/item/gun/ballistic/shotgun/hunting,
+/obj/item/radio/off,
 /turf/open/floor/f13/wood,
 /area/f13/city)
 "aVX" = (
@@ -18696,18 +18696,13 @@
 /area/f13/village)
 "aXy" = (
 /obj/structure/table/wood/settler,
-/obj/machinery/chem_dispenser/drinks/beer,
-/turf/open/floor/wood/f13/carpet,
-/area/f13/village)
+/turf/open/floor/f13/wood,
+/area/f13/sewer)
 "aXz" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/chem_dispenser/drinks,
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
-/turf/open/floor/wood/f13/carpet,
-/area/f13/village)
+/turf/open/floor/f13/wood,
+/area/f13/city)
 "aXA" = (
 /obj/structure/table/wood/fancy,
 /obj/machinery/reagentgrinder,
@@ -20219,7 +20214,6 @@
 	},
 /area/f13/building)
 "bbq" = (
-/obj/structure/reagent_dispensers/water_cooler,
 /obj/item/storage/box/drinkingglasses,
 /obj/machinery/light/small{
 	dir = 1
@@ -21421,12 +21415,7 @@
 /area/f13/building)
 "bez" = (
 /obj/structure/rack,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/mining_scanner,
-/obj/item/mining_scanner,
-/obj/item/mining_scanner,
+/obj/item/radio/off,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -21586,19 +21575,14 @@
 	},
 /area/f13/building)
 "beV" = (
-/obj/structure/table,
+/obj/structure/table/wood/settler,
 /obj/machinery/chem_dispenser/drinks/beer,
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/f13/building)
+/turf/open/floor/f13/wood,
+/area/f13/city)
 "beW" = (
-/obj/structure/table,
-/obj/machinery/chem_dispenser/drinks,
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/f13/building)
+/obj/item/storage/box/drinkingglasses,
+/turf/open/floor/f13/wood,
+/area/f13/clinic)
 "beX" = (
 /obj/structure/table,
 /obj/item/kitchen/rollingpin,
@@ -23235,11 +23219,13 @@
 	},
 /area/f13/building)
 "bjp" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
+/obj/structure/simple_door/house,
+/obj/machinery/door/poddoor/shutters{
+	id = "Store_Shutters";
+	name = "storm shutters"
 	},
-/area/f13/building)
+/turf/open/floor/f13/wood,
+/area/f13/city)
 "bjq" = (
 /obj/effect/decal/cleanable/blood/gibs/down{
 	icon_state = "gibmid3";
@@ -23673,14 +23659,10 @@
 	},
 /area/f13/ncr)
 "bkw" = (
-/obj/structure/rack,
-/obj/item/gun/ballistic/automatic/pistol/n99,
-/obj/item/gun/ballistic/automatic/pistol/n99,
-/turf/open/floor/f13{
-	tag = "icon-yellowdirtyfull";
-	icon_state = "yellowdirtyfull"
-	},
-/area/f13/ncr)
+/obj/structure/table/wood,
+/obj/item/radio/off,
+/turf/open/floor/f13/wood,
+/area/f13/city)
 "bkx" = (
 /obj/structure/rack,
 /obj/item/gun/ballistic/shotgun/hunting,
@@ -24088,9 +24070,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
 "blC" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/f13/wood,
-/area/f13/ncr)
+/obj/structure/table,
+/obj/item/mining_scanner,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "blD" = (
 /obj/machinery/light{
 	dir = 1
@@ -24527,9 +24512,13 @@
 	},
 /area/f13/wasteland)
 "bmL" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/f13/wood,
-/area/f13/city)
+/obj/structure/table,
+/obj/item/radio/off,
+/turf/open/floor/f13{
+	tag = "icon-floorrusty";
+	icon_state = "floorrusty"
+	},
+/area/f13/ncr)
 "bmM" = (
 /obj/structure/chair,
 /obj/machinery/light/small{
@@ -24548,14 +24537,14 @@
 /area/f13/city)
 "bmP" = (
 /obj/structure/table/wood/settler,
-/obj/machinery/chem_dispenser/drinks,
+/obj/item/radio/off,
 /turf/open/floor/f13/wood,
-/area/f13/city)
+/area/f13/village)
 "bmQ" = (
 /obj/structure/table/wood/settler,
-/obj/machinery/chem_dispenser/drinks/beer,
-/turf/open/floor/f13/wood,
-/area/f13/city)
+/obj/item/radio/off,
+/turf/open/floor/wood/f13/carpet,
+/area/f13/village)
 "bmR" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/electrical{
@@ -24649,11 +24638,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"bne" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/obj/item/storage/box/drinkingglasses,
-/turf/open/floor/f13/wood,
-/area/f13/clinic)
 "bnf" = (
 /obj/structure/chair{
 	tag = "icon-chair (NORTH)";
@@ -25393,30 +25377,6 @@
 /mob/living/simple_animal/chicken,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
-"bpA" = (
-/obj/structure/rack,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/obj/item/radio,
-/turf/open/floor/plasteel/f13{
-	icon_state = "plating"
-	},
-/area/f13/legion)
 "bpB" = (
 /obj/structure/rack,
 /obj/item/restraints/legcuffs/bola,
@@ -25629,13 +25589,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-"bqi" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/f13/wood,
-/area/f13/city)
 "bqj" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -26770,13 +26723,6 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/clinic)
-"btQ" = (
-/obj/structure/table,
-/obj/machinery/chem_dispenser/drinks,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
 "btR" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 25
@@ -29592,13 +29538,6 @@
 	icon_state = "whitebluechess"
 	},
 /area/f13/brotherhood)
-"bFV" = (
-/obj/structure/table,
-/obj/machinery/chem_dispenser/drinks,
-/turf/open/floor/plasteel/f13{
-	icon_state = "whitebluechess"
-	},
-/area/f13/brotherhood)
 "bFW" = (
 /obj/machinery/light{
 	dir = 8
@@ -29664,13 +29603,6 @@
 /area/f13/tunnel)
 "bGg" = (
 /obj/machinery/deepfryer,
-/turf/open/floor/plasteel/f13{
-	icon_state = "whitebluechess"
-	},
-/area/f13/brotherhood)
-"bGh" = (
-/obj/structure/table,
-/obj/machinery/chem_dispenser/drinks/beer,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
@@ -32529,16 +32461,6 @@
 	tag = "icon-housewood3-broken";
 	icon_state = "housewood3-broken"
 	},
-/area/f13/sewer)
-"bQU" = (
-/obj/machinery/chem_dispenser/drinks,
-/obj/structure/table/wood/settler,
-/turf/open/floor/f13/wood,
-/area/f13/sewer)
-"bQV" = (
-/obj/structure/table/wood/settler,
-/obj/machinery/chem_dispenser/drinks/beer,
-/turf/open/floor/f13/wood,
 /area/f13/sewer)
 "bQW" = (
 /obj/structure/table/wood/settler,
@@ -35926,13 +35848,6 @@
 	dir = 1
 	},
 /area/f13/vault)
-"bZN" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/vault)
 "bZO" = (
 /obj/structure/table,
 /obj/structure/cable{
@@ -36919,10 +36834,6 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
-/area/f13/vault/medical)
-"cdc" = (
-/obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/vault/medical)
 "cdd" = (
@@ -40742,14 +40653,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/ncr)
-"crL" = (
-/obj/structure/table,
-/obj/item/radio,
-/turf/open/floor/f13{
-	tag = "icon-floorrusty";
-	icon_state = "floorrusty"
-	},
-/area/f13/ncr)
 "crN" = (
 /obj/structure/fence{
 	dir = 8;
@@ -43580,7 +43483,7 @@ aQi
 aQL
 aEl
 aXY
-bfp
+bkw
 aEl
 aVW
 bkk
@@ -44106,7 +44009,7 @@ blK
 bjx
 bjx
 bmF
-bmL
+bjx
 bjx
 bnm
 bjx
@@ -44612,7 +44515,7 @@ aVm
 aEl
 joT
 joT
-bjd
+bjp
 joT
 joT
 aEl
@@ -45701,7 +45604,7 @@ anN
 aoh
 aon
 aom
-bkw
+aJv
 aqi
 bkv
 bDY
@@ -46946,7 +46849,7 @@ aib
 aat
 aat
 aLK
-bqi
+bjt
 bjx
 bsc
 bjx
@@ -47024,7 +46927,7 @@ afF
 bDY
 crC
 cqi
-crL
+bmL
 crR
 adH
 adY
@@ -49224,7 +49127,7 @@ bji
 bji
 bgx
 bjs
-bmP
+aXz
 bjx
 bji
 bji
@@ -49481,7 +49384,7 @@ blq
 bji
 bjt
 bjs
-bmQ
+beV
 bjx
 bnQ
 bji
@@ -49534,7 +49437,7 @@ blt
 aqy
 apU
 aoq
-blC
+aoq
 cpt
 bmf
 aqY
@@ -56362,7 +56265,7 @@ aWu
 aWW
 aXe
 aaQ
-aXy
+bmQ
 aXC
 aXC
 aYX
@@ -56619,7 +56522,7 @@ aWu
 aWu
 aWu
 aaQ
-aXz
+ahw
 aXC
 aYl
 aYY
@@ -71499,7 +71402,7 @@ ayn
 aeV
 acm
 aaQ
-aHt
+bmP
 aRy
 aRV
 aSm
@@ -74688,7 +74591,7 @@ bnb
 bet
 afS
 agk
-btQ
+agh
 agh
 bil
 agk
@@ -82127,7 +82030,7 @@ blG
 blQ
 bkN
 bkN
-bne
+beW
 bkh
 aat
 aat
@@ -87409,7 +87312,7 @@ aCN
 aIm
 aID
 aJa
-aJv
+azE
 aaQ
 adI
 adZ
@@ -87419,7 +87322,7 @@ aeV
 aaQ
 aMo
 azE
-aNn
+azD
 aaQ
 aat
 aat
@@ -92365,7 +92268,7 @@ aeV
 agk
 bev
 ahj
-beV
+aNn
 agk
 acB
 acB
@@ -92622,7 +92525,7 @@ aeV
 agk
 bew
 ahj
-beW
+aNn
 agk
 acB
 acB
@@ -94193,7 +94096,7 @@ agk
 aiZ
 ajB
 biK
-bjp
+afS
 bjC
 agk
 aae
@@ -97504,7 +97407,7 @@ acB
 afF
 agk
 beF
-agh
+blC
 agk
 afC
 agk
@@ -98385,7 +98288,7 @@ afS
 agD
 afS
 ahl
-ahw
+agD
 ahN
 afS
 afz
@@ -101403,7 +101306,7 @@ bpG
 bsA
 aqj
 bkz
-bpA
+aqj
 axS
 bnC
 brj
@@ -111426,7 +111329,7 @@ bXU
 bYv
 bYS
 bRa
-bZN
+bSB
 bSN
 cay
 bRa
@@ -115024,7 +114927,7 @@ bYd
 bYC
 bZd
 bRa
-bZN
+bSB
 bSN
 bSN
 bRa
@@ -116058,7 +115961,7 @@ adn
 bRa
 cbK
 ccs
-cdc
+ccq
 cdF
 cea
 ceE
@@ -158174,7 +158077,7 @@ bQB
 bQB
 bQB
 bQC
-bQU
+aXy
 bRe
 bRq
 bQD
@@ -158431,7 +158334,7 @@ bQB
 bQB
 bQB
 bQC
-bQV
+aXy
 bRe
 bRd
 bRD
@@ -160328,8 +160231,8 @@ bIo
 bIo
 bFA
 bDC
-bFV
-bGh
+bDr
+bDr
 bGq
 bDC
 bAD

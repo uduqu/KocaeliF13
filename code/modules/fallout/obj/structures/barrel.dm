@@ -112,12 +112,12 @@ obj/structure/reagent_dispensers/barrel/explosive/bullet_act(obj/item/projectile
 //	self_weight = 400
 
 /obj/structure/reagent_dispensers/barrel/three
-	name = "three old barrels"
+	name = "water barrels"
 	desc = "Ancient containers with something inside of them. Or are they empty? Actually, how would you know that..."
 	icon_state = "three_b"
 	tank_volume = 1500
 	reagent_id = "water"
-	anchored = 1
+//	anchored = 1
 //	self_weight = 600
 
 /obj/structure/reagent_dispensers/barrel/four

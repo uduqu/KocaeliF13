@@ -201,9 +201,29 @@
 
 /datum/reagent/water/dwater/on_mob_life(mob/living/M, mob/user)
 	if(ishuman(M))
+		M.apply_effect(1.5,EFFECT_IRRADIATE,0)
 		var/mob/living/carbon/human/H = M
 		if(prob(5))
-			H.vomit(5)
+			H.vomit(1)
+			M.reagents.remove_all()
+	..()
+
+/datum/reagent/water/boiled
+	name = "Boiled Water"
+	id = "bwater"
+	description = "Someone has boiled this, removing some of the impurities."
+	color = "#ACBCBD"
+	taste_description = "chalky water"
+	glass_icon_state = "glass_clear"
+	glass_name = "glass of dirty water"
+	glass_desc = "A rather foul smelling glass of water."
+	shot_glass_icon_state = "shotglassclear"
+
+/datum/reagent/water/boiled/on_mob_life(mob/living/M, mob/user)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(prob(1))//Practically never. Safe to drink.
+			H.vomit(1)
 			M.reagents.remove_all()
 	..()
 
