@@ -1633,7 +1633,7 @@
 	tools = list(TOOL_WELDER)
 	time = 10
 	category = CAT_MISC
-
+/*
 /datum/crafting_recipe/headset
 	name = "radio headset"
 	result = /obj/item/radio/headset
@@ -1650,7 +1650,7 @@
 				/obj/item/stack/crafting/electronicparts = 1)
 	time = 10
 	category = CAT_MISC
-
+*/
 /datum/crafting_recipe/strawdummy
 	name = "Weave Target Dummy"
 	result = /obj/structure/punching_bag/dummy
