@@ -48,6 +48,13 @@
 	faction = list("plants")
 	butcher_results = list(/obj/item/stack/sheet/bone = 1)
 
+/mob/living/simple_animal/hostile/trog/sporecarrier/AttackingTarget()
+	. = ..()
+	if(. && ishuman(target))
+		var/mob/living/carbon/human/H = target
+		H.reagents.add_reagent("zombifying_pods", 5)
+		H.reagents.add_reagent("tirizene", 5)
+
 /mob/living/simple_animal/hostile/trog/tunneler
 	name = "tunneler"
 	desc = "A mutated creature that is sensitive to light, but can swarm and kill even Deathclaws."

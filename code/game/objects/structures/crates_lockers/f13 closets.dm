@@ -27,6 +27,10 @@
 	new /obj/item/assembly/signaler/electropack/shockcollar(src)
 	new /obj/item/assembly/signaler/electropack/shockcollar(src)
 	new /obj/item/assembly/signaler/electropack/shockcollar(src)
+	new /obj/item/assembly/signaler/electropack/boomcollar(src)
+	new /obj/item/assembly/signaler/electropack/boomcollar(src)
+	new /obj/item/assembly/signaler/electropack/boomcollar(src)
+	new /obj/item/assembly/signaler/electropack/boomcollar(src)
 
 /obj/structure/closet/f13/leigon/spants
 	name = "closet"

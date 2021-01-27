@@ -1780,6 +1780,15 @@
 	time = 80
 	category = CAT_MEDICAL
 
+
+/datum/crafting_recipe/legionmedx
+	name = "Natural Painkiller"
+	result = /obj/item/reagent_containers/pill/patch/legionmedx
+	reqs = list(/obj/item/reagent_containers/food/snacks/grown/agave = 1,
+				/obj/item/reagent_containers/food/snacks/grown/feracactus = 1)
+	time = 120
+	category = CAT_MEDICAL
+
 /datum/crafting_recipe/antivenom
 	name = "Antivenom"
 	result = /obj/item/reagent_containers/glass/bottle/antivenom

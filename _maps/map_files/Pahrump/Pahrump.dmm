@@ -11978,12 +11978,8 @@
 	},
 /area/f13/city)
 "aEZ" = (
-/obj/effect/turf_decal{
-	icon_state = "warningline";
-	dir = 4
-	},
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/closed/mineral/random/low_chance,
+/obj/machinery/door/poddoor/ert,
+/turf/closed/indestructible/vaultdoor,
 /area/f13/caves)
 "aFa" = (
 /obj/item/stack/sheet/mineral/wood,
@@ -12040,9 +12036,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "aFi" = (
-/obj/effect/turf_decal/bot,
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
+/obj/structure/simple_door/metal/ventilation,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/vault/vents)
 "aFj" = (
 /turf/open/indestructible/ground/outside/ruins{
 	dir = 5;
@@ -15882,8 +15879,11 @@
 	},
 /area/f13/farm)
 "aPC" = (
-/obj/structure/reagent_dispensers/barrel/three,
-/turf/open/floor/f13/wood,
+/obj/machinery/power/port_gen/pacman/super,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
 /area/f13/city)
 "aPD" = (
 /obj/item/ammo_casing/c9mm,
@@ -15902,18 +15902,11 @@
 	},
 /area/f13/wasteland)
 "aPF" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/machinery/light/small{
-	dir = 8
+/obj/machinery/power/smes,
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
-/obj/item/stack/sheet/plastic,
-/obj/item/pickaxe,
-/turf/open/floor/f13{
-	tag = "icon-floorrusty";
-	icon_state = "floorrusty"
-	},
+/turf/open/floor/plating,
 /area/f13/city)
 "aPG" = (
 /obj/structure/simple_door/metal/fence{
@@ -22299,12 +22292,8 @@
 	},
 /area/f13/wasteland)
 "bgM" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/mineral/wood/fifty,
-/obj/item/stack/sheet/mineral/wood/fifty,
 /turf/open/floor/f13{
-	tag = "icon-floorrusty";
-	icon_state = "floorrusty"
+	icon_state = "darkdirtysolid"
 	},
 /area/f13/city)
 "bgN" = (
@@ -24152,21 +24141,25 @@
 /turf/open/floor/f13/wood,
 /area/f13/city)
 "blO" = (
-/obj/structure/table,
-/obj/item/stack/f13Cash/random/bottle_cap/med,
+/obj/machinery/power/apc{
+	pixel_y = -32;
+	req_access_txt = null;
+	req_one_access_txt = null
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/open/floor/f13{
 	tag = "icon-floorrusty";
 	icon_state = "floorrusty"
 	},
 /area/f13/city)
 "blP" = (
-/obj/structure/table,
-/obj/item/storage/backpack{
-	tag = "icon-satchel";
-	icon_state = "satchel"
-	},
+/obj/structure/simple_door/house,
 /turf/open/floor/f13{
-	tag = "icon-floorrusty";
 	icon_state = "floorrusty"
 	},
 /area/f13/city)
@@ -24268,14 +24261,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/city)
 "bmc" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/plastic,
-/obj/item/pickaxe,
-/turf/open/floor/f13{
-	tag = "icon-floorrusty";
-	icon_state = "floorrusty"
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
+/obj/item/stack/ore/uranium,
+/obj/structure/rack,
+/turf/open/floor/plating,
 /area/f13/city)
 "bmd" = (
 /obj/structure/chair/stool/bar,
@@ -24369,14 +24360,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/custodial)
 "bmr" = (
-/obj/item/stack/sheet/plasteel/fifty,
-/obj/structure/rack,
-/obj/item/stack/sheet/mineral/sandstone/thirty,
-/obj/item/stack/sheet/mineral/sandstone/thirty,
-/turf/open/floor/f13{
-	tag = "icon-floorrusty";
-	icon_state = "floorrusty"
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
+/obj/item/stack/sheet/metal/five,
+/obj/structure/rack,
+/turf/open/floor/plating,
 /area/f13/city)
 "bms" = (
 /obj/item/reagent_containers/food/drinks/drinkingglass,
@@ -24489,14 +24478,14 @@
 /turf/open/floor/holofloor/carpet,
 /area/f13/chapel)
 "bmH" = (
-/obj/structure/simple_door/house{
-	tag = "icon-roomopening";
-	icon_state = "roomopening"
+/obj/machinery/power/port_gen/pacman/super,
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
-/turf/open/floor/f13{
-	tag = "icon-floorrusty";
-	icon_state = "floorrusty"
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
+/turf/open/floor/plating,
 /area/f13/city)
 "bmI" = (
 /obj/structure/window/fulltile/house,
@@ -24551,12 +24540,10 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/village)
 "bmR" = (
-/obj/structure/rack,
-/obj/item/storage/toolbox/electrical{
-	pixel_y = 10
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
-/obj/item/storage/toolbox/mechanical,
-/turf/open/floor/f13/wood,
+/turf/open/floor/plating,
 /area/f13/city)
 "bmS" = (
 /obj/structure/closet/cabinet,
@@ -24709,9 +24696,11 @@
 	},
 /area/f13/village)
 "bnl" = (
-/obj/machinery/door/poddoor/ert,
-/turf/closed/indestructible/vaultdoor,
-/area/f13/vault/vents)
+/obj/structure/spacevine{
+	name = "odd vines"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/caves)
 "bnm" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -25009,6 +24998,21 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
+"boe" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/f13/city)
+"bof" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/f13{
+	tag = "icon-floorrusty";
+	icon_state = "floorrusty"
+	},
+/area/f13/city)
 "bog" = (
 /obj/structure/simple_door/house,
 /turf/open/floor/f13{
@@ -25027,6 +25031,31 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/clinic)
+"boi" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/obj/structure/closet/crate/engineering,
+/obj/item/stack/sheet/mineral/uranium{
+	amount = 5
+	},
+/turf/open/floor/plating,
+/area/f13/city)
+"boj" = (
+/obj/effect/landmark/start/f13/settler,
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 32
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
+"bok" = (
+/obj/structure/spacevine{
+	name = "odd vines"
+	},
+/mob/living/simple_animal/hostile/trog/sporecarrier,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/caves)
 "bol" = (
 /turf/open/floor/f13{
 	tag = "icon-bluedirtychess2";
@@ -25040,6 +25069,13 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/clinic)
+"bon" = (
+/obj/structure/spacevine{
+	name = "odd vines"
+	},
+/obj/item/mmi/posibrain,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/caves)
 "boo" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -25096,6 +25132,19 @@
 "bow" = (
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
+"box" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/tunnel)
+"boy" = (
+/obj/machinery/recharge_station,
+/obj/effect/landmark/start/f13/handy,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2";
+	tag = "icon-bluerustychess2"
+	},
+/area/f13/bunker)
 "boz" = (
 /obj/structure/chair/wood,
 /turf/open/indestructible/ground/outside/dirt{
@@ -25109,6 +25158,13 @@
 "boB" = (
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"boC" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/f13{
+	tag = "icon-floorrusty";
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "boD" = (
 /obj/structure/table/wood/settler,
 /turf/open/indestructible/ground/outside/dirt{
@@ -25198,6 +25254,10 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/clinic)
+"boN" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/wood/f13/old,
+/area/f13/village)
 "boO" = (
 /obj/machinery/jukebox,
 /turf/open/floor/f13/wood,
@@ -25322,6 +25382,12 @@
 	icon_state = "dirtcorner"
 	},
 /area/f13/wasteland)
+"bph" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "bpi" = (
 /obj/structure/rack,
 /obj/item/claymore/machete,
@@ -25431,6 +25497,13 @@
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"bps" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/f13{
+	tag = "icon-floorrusty";
+	icon_state = "floorrusty"
+	},
+/area/f13/city)
 "bpt" = (
 /obj/machinery/door/morgue,
 /turf/open/floor/f13/wood,
@@ -25442,6 +25515,12 @@
 /obj/item/storage/pill_bottle/chem_tin/radx,
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
+"bpv" = (
+/obj/item/wrench,
+/turf/open/floor/f13{
+	icon_state = "darkdirtysolid"
+	},
+/area/f13/city)
 "bpw" = (
 /obj/structure/rack,
 /obj/item/storage/box/lethalshot,
@@ -25451,6 +25530,12 @@
 	icon_state = "plating"
 	},
 /area/f13/legion)
+"bpx" = (
+/obj/item/screwdriver,
+/turf/open/floor/f13{
+	icon_state = "darkdirtysolid"
+	},
+/area/f13/city)
 "bpy" = (
 /mob/living/simple_animal/chicken,
 /turf/open/indestructible/ground/outside/dirt,
@@ -39608,11 +39693,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/tunnel)
-"ckT" = (
-/obj/machinery/recharge_station,
-/obj/effect/landmark/start/f13/handy,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/tunnel)
 "clh" = (
 /obj/structure/table/wood/settler,
 /obj/item/seeds/feracactus,
@@ -43775,7 +43855,7 @@ aBZ
 aTw
 aBZ
 aEl
-aGv
+bps
 aGv
 aGv
 aEl
@@ -46113,12 +46193,12 @@ acv
 acv
 ads
 aLK
+aPC
+bmH
+boi
 aPF
 bmc
-aLK
-aPC
-bjx
-bjx
+bmr
 aLK
 aLH
 acv
@@ -46369,13 +46449,13 @@ acv
 acv
 bjE
 ads
-blO
-aGv
-aGv
 aLK
-bjt
-bjx
-bnr
+bgM
+bpv
+aGv
+bgM
+bgM
+blO
 aLK
 aLH
 acv
@@ -46626,14 +46706,14 @@ acv
 acv
 acv
 ads
+aLK
+bgM
+bgM
+aGv
+bpx
+bgM
+bof
 blP
-aGv
-aGv
-bmH
-bjx
-bjx
-bjx
-bjd
 ach
 acv
 ads
@@ -46884,14 +46964,14 @@ acv
 acv
 ads
 aLK
-bgM
-bmr
-aLK
-bjx
+aPC
+bmH
+boi
+aPF
+boe
 bmR
-bnq
 aLK
-aLH
+boj
 acv
 ads
 aat
@@ -56567,7 +56647,7 @@ aae
 aae
 aae
 aHF
-aWu
+boN
 aWu
 aWu
 aWu
@@ -64683,7 +64763,7 @@ aaD
 ajd
 ajd
 aaD
-aaL
+boy
 akF
 aaD
 aae
@@ -75913,7 +75993,7 @@ acv
 acv
 bhV
 bmy
-ajQ
+bph
 afS
 afS
 agk
@@ -76015,7 +76095,7 @@ agk
 agk
 atJ
 aqa
-aqa
+boC
 agk
 acm
 aft
@@ -112699,7 +112779,7 @@ cor
 ckl
 cor
 awQ
-ckT
+box
 aae
 aaa
 "}
@@ -122430,10 +122510,10 @@ aae
 aae
 aae
 aae
-aae
-aae
-aFi
-aae
+chc
+chc
+aEZ
+chc
 bQH
 bQH
 bQH
@@ -122687,10 +122767,10 @@ aae
 aIa
 aIa
 aIa
-aIa
-aEZ
-aEZ
-aEZ
+chc
+bnl
+bok
+bnl
 bnj
 bQK
 bnp
@@ -122944,11 +123024,11 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
+chc
 bnl
+bon
+bok
+aFi
 bnM
 bns
 bnP
@@ -123201,10 +123281,10 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
+chc
+bnl
+bok
+bnl
 bQH
 bQK
 bnG
@@ -123458,10 +123538,10 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
+chc
+chc
+chc
+chc
 bQH
 bQH
 bQH

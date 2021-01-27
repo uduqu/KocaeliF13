@@ -32,7 +32,23 @@
 	light_color = LIGHT_COLOR_GREEN
 	light_power = 0.5
 	light_range = 0.2
+	var/last_event = 0
+	var/active = null
 
-/turf/open/water/radioactive/New()
-	..()
-	AddComponent(/datum/component/radioactive, 200, src, 0, TRUE, TRUE) //half-life of 0 because we keep on going.
+//beneath is ripped from uranium flooring code.
+/turf/open/water/radioactive/Entered(var/mob/AM)
+	.=..()
+	if(!.)
+		if(istype(AM))
+			radiate()
+
+/turf/open/water/radioactive/proc/radiate()
+	if(!active)
+		if(world.time > last_event+15)
+			active = 1
+			radiation_pulse(src, 10)
+			for(var/turf/open/water/radioactive/T in orange(1,src))
+				T.radiate()
+			last_event = world.time
+			active = 0
+			return
