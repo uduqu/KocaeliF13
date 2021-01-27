@@ -102,6 +102,7 @@
 				hurt = FALSE
 	if(hit_atom.density && isturf(hit_atom))
 		if(hurt)
+			Knockdown(20)
 			take_bodypart_damage(10)
 	if(iscarbon(hit_atom) && hit_atom != src)
 		var/mob/living/carbon/victim = hit_atom
@@ -110,8 +111,10 @@
 		if(hurt)
 			victim.take_bodypart_damage(10)
 			take_bodypart_damage(10)
+			victim.Knockdown(20)
+			Knockdown(20)
 			visible_message("<span class='danger'>[src] crashes into [victim]!</span>",\
-				"<span class='userdanger'>You violently crash into [victim]!</span>")
+				"<span class='userdanger'>You violently crash into [victim], knocking them both over!</span>")
 		playsound(src,'sound/weapons/punch1.ogg',50,1)
 
 
