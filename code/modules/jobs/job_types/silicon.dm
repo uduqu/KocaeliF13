@@ -100,7 +100,7 @@ Mr. Handy
 	//faction = "Station"
 	total_positions = 0
 	spawn_positions = 1
-	supervisors = "Your Creators"	//Nodrak
+	supervisors = "Your Creators"
 	selection_color = "#ddffdd"
 	minimal_player_age = 21
 	exp_requirements = 12000
