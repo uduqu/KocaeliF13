@@ -8,6 +8,7 @@
 	icon_gib = "deathclaw_gib"
 	gender = MALE
 	mob_biotypes = list(MOB_ORGANIC, MOB_BEAST)
+	stat_attack = UNCONSCIOUS
 	robust_searching = 1
 	anchored = 1
 	speak = list("ROAR!","Rawr!","GRRAAGH!","Growl!")
