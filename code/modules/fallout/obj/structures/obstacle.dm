@@ -96,8 +96,8 @@
 	desc = "Old, corroded metal bars. Ain't got a file on you, right?" //Description by Mr.Fagetti
 	icon = 'icons/obj/fence.dmi'
 	icon_state = "bars"
-	obj_integrity = 400
-	max_integrity = 400
+	obj_integrity = 850
+	max_integrity = 850//Far harder to break. Up from 400.
 	proj_pass_rate = 80 //Fairly good for executions.
 	pass_flags = LETPASSTHROW //Feed the prisoners, or not.
 

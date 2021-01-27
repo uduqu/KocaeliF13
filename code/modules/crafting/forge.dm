@@ -1,8 +1,8 @@
 /obj/machinery/forge
 	name = "metalworking forge"
 	desc = "A large furnace used for forging metal items such as swords, spears and shields. You can imagine yourself making iron daggers here for a long time."
-	icon = 'icons/obj/cult.dmi'
-	icon_state = "forge"
+	icon = 'icons/obj/anvil.dmi'
+	icon_state = "anvil_temp"//temp
 	resistance_flags = INDESTRUCTIBLE
 	density = TRUE
 	layer = BELOW_OBJ_LAYER

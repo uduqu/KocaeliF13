@@ -584,10 +584,10 @@
 
 /obj/item/jacobs_ladder
 	name = "jacob's ladder"
-	desc = "A celestial ladder that violates the laws of physics."
+	desc = "Once an incredibly powerful artifact that violated the laws of physics. Now, it's reduced to little more than a heavy piece of junk."
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "ladder00"
-
+/*
 /obj/item/jacobs_ladder/attack_self(mob/user)
 	var/turf/T = get_turf(src)
 	var/ladder_x = T.x
@@ -605,7 +605,7 @@
 /obj/structure/ladder/unbreakable/jacob
 	name = "jacob's ladder"
 	desc = "An indestructible celestial ladder that violates the laws of physics."
-
+*/
 ///Bosses
 
 //Miniboss Miner

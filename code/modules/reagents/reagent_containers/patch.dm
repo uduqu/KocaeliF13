@@ -58,6 +58,13 @@
 	icon_state = "bandaid_healingpowder"
 	self_delay = 0
 
+/obj/item/reagent_containers/pill/patch/legionmedx
+	name = "Natural Painkiller"
+	desc = "A powder used to numb nerve endings. Can be applied locally with very little effort to get full effect."
+	list_reagents = list("legion_medx" = 10)
+	icon_state = "bandaid_healingpowder"
+	self_delay = 0
+
 /obj/item/reagent_containers/pill/patch/healpoultice
 	name = "Healing poultice"
 	desc = "A concoction of broc flower, cave fungus, agrave fruit and xander root."
