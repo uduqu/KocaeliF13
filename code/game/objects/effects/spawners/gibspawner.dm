@@ -1,5 +1,7 @@
 
 /obj/effect/gibspawner
+	icon = 'icons/obj/items_and_weapons.dmi'//mapping purposes
+	icon_state = "syndballoon"
 	var/sparks = 0 //whether sparks spread
 	var/virusProb = 20 //the chance for viruses to spread on the gibs
 	var/list/gibtypes = list() //typepaths of the gib decals to spawn

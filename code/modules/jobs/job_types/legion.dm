@@ -126,10 +126,9 @@ Centurion
 	id =			/obj/item/card/id/dogtag/legcenturion
 	mask =			/obj/item/clothing/mask/bandana/legcenturion
 	glasses = 		/obj/item/clothing/glasses/sunglasses/big
-	ears = 			/obj/item/radio/headset
 	r_pocket =      /obj/item/restraints/handcuffs
 	backpack_contents = list(
-		/obj/item/restraints/legcuffs/bola=1, \
+		/obj/item/book/granter/martial/cqc=1,\
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/flashlight/lantern=1, \
 		/obj/item/key/scollar=1, \
@@ -137,7 +136,7 @@ Centurion
 		/obj/item/assembly/signaler/electropack/shockcollar=1, \
 		/obj/item/assembly/signaler/electropack/boomcollar=2, \
 		/obj/item/storage/bag/money/small/legofficers=1, \
-		/obj/item/restraints/legcuffs/bola/tactical=1, \
+		/obj/item/restraints/legcuffs/bola/tactical=2, \
 		)
 
 /datum/outfit/loadout/centheavy
@@ -146,7 +145,7 @@ Centurion
 	head = 			/obj/item/clothing/head/helmet/f13/legion/palacent
 	suit_store = /obj/item/gun/ballistic/automatic/smg10mm
 	backpack_contents = list(
-		/obj/item/melee/powerfist/goliath=1,
+		/obj/item/melee/powerfist=1,
 		/obj/item/ammo_box/magazine/m10mm_auto=2)
 
 /datum/outfit/loadout/centassault
@@ -274,18 +273,14 @@ Decanus
 	suit = 			/obj/item/clothing/suit/armor/f13/legion/heavy
 	head = 			/obj/item/clothing/head/helmet/f13/legion/heavy
 	suit_store = 	/obj/item/gun/ballistic/revolver/ballisticfist
-	ears = 			/obj/item/radio/headset
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola=1, \
-		/obj/item/throwing_star/spear, \
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
-		/obj/item/storage/box/handcuffs=1, \
 		/obj/item/flashlight/lantern=1, \
-		/obj/item/assembly/signaler/electropack/shockcollar=1, \
-		/obj/item/storage/bag/money/small/legofficers=1, \
-		/obj/item/restraints/legcuffs/bola/tactical=1,
-		/obj/item/storage/box/lethalshot=1,
-		/obj/item/storage/box/slugshot=1,
+		/obj/item/storage/bag/money/small/legofficers=1,\
+		/obj/item/restraints/legcuffs/bola/tactical=1,\
+		/obj/item/storage/box/lethalshot=1,\
+		/obj/item/storage/box/slugshot=1,\
 		/obj/item/shield/riot/roman=1)
 
 /*
@@ -317,18 +312,14 @@ Prime Decanus
 	glasses = 		/obj/item/clothing/glasses/sunglasses/big
 	suit = 			/obj/item/clothing/suit/armor/f13/legion/vet
 	head = 			/obj/item/clothing/head/helmet/f13/legion/prime/decan
-	ears = 			/obj/item/radio/headset
-	suit_store =	/obj/item/gun/ballistic/automatic/assault_rifle/infiltrator
+	suit_store =	/obj/item/gun/ballistic/automatic/greasegun
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola=1, \
-		/obj/item/throwing_star/spear, \
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
-		/obj/item/storage/box/handcuffs=1, \
 		/obj/item/flashlight/lantern=1, \
-		/obj/item/assembly/signaler/electropack/shockcollar=1, \
 		/obj/item/storage/bag/money/small/legofficers=1, \
-		/obj/item/ammo_box/magazine/m556/rifle=1,
-		/obj/item/claymore/machete/gladius=1)
+		/obj/item/claymore/machete/gladius=1,
+		/obj/item/ammo_box/magazine/greasegun=2)
 
 /*
 Vexillarius
@@ -363,14 +354,13 @@ Vexillarius
 	mask =			/obj/item/clothing/mask/bandana/legvet
 	suit = 			/obj/item/clothing/suit/armor/f13/legion/vet/vexil
 	glasses = 		/obj/item/clothing/glasses/sunglasses/big
-	ears = 			/obj/item/radio/headset
 	backpack_contents = list(
 		/obj/item/throwing_star/spear, \
 		/obj/item/claymore/machete/gladius=1, \
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/flashlight/lantern=1, \
 		/obj/item/megaphone/cornu=1, \
-		/obj/item/restraints/legcuffs/bola/tactical=1, \
+		/obj/item/restraints/legcuffs/bola=1, \
 		/obj/item/storage/bag/money/small/legenlisted)
 	r_pocket = /obj/item/restraints/handcuffs
 
@@ -403,6 +393,7 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 	spawn_positions = 1
 	description = "You are the feared and respected disciplinary corps of the Legion. Acting as both master of the Slaves and de-facto executioner of the Centurion's will within his ranks, you are a faceless and undoubtedly cruel torturer... but be careful to not let your hubris and malice lead to a strikeback from those you thought broken."
 	supervisors = "the Decani and Centurion"
+	exp_requirements = 240
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13slavemaster
 
@@ -416,14 +407,11 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 	glasses = 		/obj/item/clothing/glasses/sunglasses
 	r_hand = 		/obj/item/melee/classic_baton/telescopic
 	backpack_contents = list(
-		/obj/item/claymore/machete/reinforced=1, \
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/flashlight/lantern=1, \
 		/obj/item/storage/bag/money/small/legenlisted, \
 		/obj/item/key/scollar=1, \
-		/obj/item/key/bcollar=1, \
-		/obj/item/assembly/signaler/electropack/boomcollar=2, \
-		/obj/item/radio)
+		/obj/item/key/bcollar=1)
 	r_pocket = /obj/item/restraints/handcuffs
 
 /datum/job/CaesarsLegion/Legionnaire/f13slavemaster/after_spawn(mob/living/carbon/human/H, mob/M)
@@ -466,13 +454,11 @@ Veteran Legionary
 		/obj/item/claymore/machete/reinforced=1, \
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/flashlight/lantern=1, \
-		/obj/item/storage/bag/money/small/legenlisted,
-		/obj/item/radio)
+		/obj/item/storage/bag/money/small/legenlisted)
 	r_pocket = /obj/item/restraints/handcuffs
 
 /datum/outfit/loadout/vetlegassault
 	name = "Assault Legionary"
-	suit_store = /obj/item/gun/ballistic/revolver/thatgun
 	backpack_contents = list(
 		/obj/item/twohanded/fireaxe=1,
 		)
@@ -489,7 +475,6 @@ Veteran Legionary
 	suit_store = /obj/item/gun/ballistic/shotgun/trench
 	backpack_contents = list(
 		/obj/item/storage/box/slugshot=1,
-		/obj/item/shield/riot/roman=1
 		)
 
 /datum/job/CaesarsLegion/Legionnaire/f13vetlegionary/after_spawn(mob/living/carbon/human/H, mob/M)
@@ -507,6 +492,7 @@ Prime Legionairy
 	spawn_positions = 6
 	description = "You answer to the Decani and the Centurion. Acting as a loyal soldier of the Legion, you're not expected to do anything but follow orders."
 	supervisors = "the Decani and Centurion"
+	exp_requirements = 210
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary
 
@@ -528,19 +514,18 @@ Prime Legionairy
 		/obj/item/throwing_star/spear, \
 		/obj/item/claymore/machete=1, \
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
-		/obj/item/flashlight/flare/torch=1, \
-		/obj/item/radio)
+		/obj/item/flashlight/flare/torch=1)
 	r_pocket = /obj/item/restraints/handcuffs
 
 /datum/outfit/loadout/legassault
 	name = "Foot Legionary"
-	suit_store = /obj/item/gun/ballistic/automatic/marksman/servicerifle/varmint
+	suit_store = /obj/item/gun/ballistic/revolver/colt357
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle/small=2)
+		/obj/item/ammo_box/magazine/internal/cylinder/rev357=2)
 
 /datum/outfit/loadout/legbreach
 	name = "Assault Legionary"
-	suit_store = /obj/item/gun/ballistic/shotgun/trench
+	suit_store = /obj/item/gun/ballistic/revolver/caravan_shotgun
 	backpack_contents = list(
 		/obj/item/storage/box/lethalshot=2)
 
@@ -570,12 +555,8 @@ Recruit Legionary
 	head = 			/obj/item/clothing/head/helmet/f13/legion/recruit
 	mask =			/obj/item/clothing/mask/bandana/legrecruit
 	glasses = 		/obj/item/clothing/glasses/legiongoggles
-	r_pocket =      /obj/item/restraints/handcuffs
-	suit_store =	/obj/item/gun/ballistic/automatic/marksman/servicerifle/varmint
-	backpack_contents = list(
-		/obj/item/claymore/machete, \
-		/obj/item/flashlight/flare/torch=1,
-		/obj/item/radio)
+	r_pocket =      /obj/item/reagent_containers/pill/patch/healingpowder
+	backpack =		/obj/item/storage/backpack/spearquiver
 
 /datum/job/CaesarsLegion/Legionnaire/f13recruitleg/after_spawn(mob/living/carbon/human/H, mob/M)
 	H.add_quirk("Poor Aim")
@@ -592,6 +573,7 @@ Explorer
 	spawn_positions = 2
 	description = "Acting as the eyes and ears of the Legion, you are in the region to scout it out for potential conquest. Make note of your surroundings and above all, survive to report back."
 	supervisors = "the Decani and Centurion"
+	exp_requirements = 210
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13explorer
 
@@ -619,8 +601,7 @@ Explorer
 		/obj/item/claymore/machete/reinforced=1, \
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/flashlight/flare/torch=1, \
-		/obj/item/storage/bag/money/small/legenlisted,
-		/obj/item/radio)
+		/obj/item/storage/bag/money/small/legenlisted)
 	r_pocket = /obj/item/twohanded/binocs
 
 /datum/outfit/loadout/explinfil
@@ -670,8 +651,7 @@ Auxilia
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder=1, \
 		/obj/item/flashlight/flare/torch=1, \
-		/obj/item/storage/bag/money/small/legenlisted,
-		/obj/item/radio)
+		/obj/item/storage/bag/money/small/legenlisted)
 
 /datum/outfit/loadout/auxmedic
 	name = "Medicus Auxilia"
@@ -741,24 +721,22 @@ Auxilia
 	else if (follower_job == "miner")
 		belt = /obj/item/storage/bag/ore
 		backpack = /obj/item/pickaxe
-		l_hand = /obj/item/radio
 		if (prob(50))
 			suit = /obj/item/clothing/suit/fluff/vest
 	else if (follower_job == "farmer")
 		belt = /obj/item/storage/bag/plants
-		l_hand = /obj/item/radio
 		if (prob(50))
 			suit = /obj/item/clothing/suit/fluff/vest
 	else if (follower_job == "smith")
 		backpack = /obj/item/storage/backpack/satchel/explorer
-		backpack_contents = list(/obj/item/radio, /obj/item/screwdriver, /obj/item/wrench, /obj/item/crowbar, /obj/item/wirecutters)
+		backpack_contents = list(/obj/item/screwdriver, /obj/item/wrench, /obj/item/crowbar, /obj/item/wirecutters)
 		if (prob(50))
 			suit = /obj/item/clothing/suit/fluff/vest
 	else if (follower_job == "healer")
 		backpack = /obj/item/storage/backpack/satchel/explorer
-		backpack_contents = list(/obj/item/radio, /obj/item/reagent_containers/pill/patch/healingpowder=4, /obj/item/stack/medical/gauze/improvised = 2)
+		backpack_contents = list(/obj/item/reagent_containers/pill/patch/healingpowder=4, /obj/item/stack/medical/gauze/improvised = 2)
 		if (prob(50))
 			suit = /obj/item/clothing/suit/apron/surgical
 	else if (follower_job == "caretaker")
 		backpack = /obj/item/storage/backpack/satchel/explorer
-		backpack_contents = list(/obj/item/radio, /obj/item/soap/homemade, /obj/item/melee/flyswatter, /obj/item/reagent_containers/glass/rag, /obj/item/reagent_containers/glass/bucket, /obj/item/stack/medical/gauze/improvised)
+		backpack_contents = list(/obj/item/soap/homemade, /obj/item/melee/flyswatter, /obj/item/reagent_containers/glass/rag, /obj/item/reagent_containers/glass/bucket, /obj/item/stack/medical/gauze/improvised)

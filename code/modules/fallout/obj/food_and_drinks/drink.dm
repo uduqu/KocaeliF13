@@ -36,6 +36,11 @@
 	desc = "A metallic liquid container. Essential for survival out in the wastes."
 	list_reagents = list("water" = 55, "radx" = 5)
 
+/obj/item/reagent_containers/food/drinks/flask/survival/legion
+	name = "metal flask"
+	desc = "A metallic liquid container. Essential for survival out in the wastes."
+	list_reagents = list("water" = 60)
+
 /obj/item/reagent_containers/food/drinks/flask/vault13
 	name = "Vault 13 flask"
 	desc = "Take a sip from your trusty Vault 13 canteen."

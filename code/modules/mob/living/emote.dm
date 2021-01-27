@@ -178,6 +178,16 @@
 	message_mime = "giggles silently!"
 	emote_type = EMOTE_AUDIBLE
 
+/datum/emote/living/giggle/run_emote(mob/user, params)
+	. = ..()
+	if(. && ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if(H.dna.species.id == "human" && (!H.mind || !H.mind.miming))
+			if(user.gender == FEMALE)
+				playsound(H, pick('sound/voice/emotes/female_giggle1.ogg', 'sound/voice/emotes/female_giggle2.ogg'), 50, 1)
+			else
+				playsound(H, pick('sound/voice/emotes/male_laugh3b.ogg'), 50, 1)
+
 /datum/emote/living/glare
 	key = "glare"
 	key_third_person = "glares"
@@ -235,7 +245,7 @@
 			if(user.gender == FEMALE)
 				playsound(H, pick('sound/voice/emotes/female_laugh1.ogg', 'sound/voice/emotes/female_laugh2.ogg', 'sound/voice/emotes/female_laugh3.ogg'), 50, 1)
 			else
-				playsound(H, pick('sound/voice/emotes/male_laugh1.ogg', 'sound/voice/emotes/male_laugh2.ogg', 'sound/voice/emotes/male_laugh3.ogg', 'sound/voice/emotes/male_laugh1b.ogg', 'sound/voice/emotes/male_laugh2b.ogg', 'sound/voice/emotes/male_laugh3b.ogg'), 50, 1)
+				playsound(H, pick('sound/voice/emotes/male_laugh1.ogg', 'sound/voice/emotes/male_laugh2.ogg', 'sound/voice/emotes/male_laugh3.ogg', 'sound/voice/emotes/male_laugh1b.ogg', 'sound/voice/emotes/male_laugh2b.ogg'/*, 'sound/voice/emotes/male_laugh3b.ogg'*/), 50, 1)
 
 /datum/emote/living/look
 	key = "look"

@@ -12,7 +12,7 @@
 	jobtype = /datum/job/ncr/
 	backpack = /obj/item/storage/backpack/trekker
 	satchel = /obj/item/storage/backpack/satchel/trekker
-	ears = 			/obj/item/radio/headset/headset_ncr
+//	ears = 			/obj/item/radio/headset/headset_ncr
 	shoes = 		/obj/item/clothing/shoes/f13/military/ncr
 	gloves =        /obj/item/clothing/gloves/f13/ncr
 
@@ -189,7 +189,7 @@ Lieutenant
 /datum/outfit/loadout/ltcombat
 	name = "Combat Lieutenant"
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
-	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine
+	suit_store = /obj/item/gun/ballistic/automatic/marksman/servicerifle/r82
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle=3,
 		/obj/item/book/granter/trait/trekking=1)
@@ -197,9 +197,9 @@ Lieutenant
 /datum/outfit/loadout/ltscout
 	name = "Scout Lieutenant"
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/scout/officer
-	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper
+	suit_store = /obj/item/gun/ballistic/automatic/rangemaster/scoped
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/w308=3,
+		/obj/item/ammo_box/magazine/m762=2,
 		/obj/item/book/granter/trait/trekking=1)
 
 
@@ -254,9 +254,10 @@ Sergeant
 /datum/outfit/loadout/sgtscout
 	name = "Scout Sergeant"
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/scout/veteran
-	suit_store = /obj/item/gun/ballistic/automatic/marksman
+	suit_store = /obj/item/gun/ballistic/shotgun/remington/scoped
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle=3)
+		/obj/item/ammo_box/a762=3,
+		/obj/item/twohanded/binocs=1)
 
 /*
 Corporal
@@ -270,6 +271,7 @@ Corporal
 	description = "You are an experienced enlisted soldier with a high degree of skill in a particular area. You work closely with your squad, taking orders from your Sergeant to achieve the NCR's goals."
 	supervisors = "Sergeants and above"
 	selection_color = "#fff5cc"
+	exp_requirements = 240
 
 	outfit = /datum/outfit/job/ncr/f13specialist
 
@@ -345,6 +347,7 @@ NCR Heavy Trooper
 	description = "You are a Sergeant who has been selected for the special duty of Heavy Trooper. You are exceptionally physically fit, being conditioned to wear the many, many pounds of salvaged power armor; and trained with heavy weaponry. You are the poster-child of the NCR Embassy, and should act accordingly."
 	supervisors = "the officers"
 	selection_color = "#fff5cc"
+	exp_requirements = 240
 
 	outfit = /datum/outfit/job/ncr/f13ncrht
 
@@ -481,8 +484,8 @@ Non-Combatant
 	title = "NCR Non-Combatant"
 	flag = F13RECRUIT
 	faction = "NCR"
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are a noncombatant member of the NCR assigned the vital duty of helping them with cooking, farming, mining, and other menial tasks. While you have been to basic training, it was rushed and hardly prepared you for the horrors of war. Your sidearm is to be used in your own defense, only."
 	supervisors = "everyone in the NCR"
 	selection_color = "#fff5cc"
@@ -494,10 +497,10 @@ Non-Combatant
 	jobtype = /datum/job/ncr/f13recruit
 	id = 			/obj/item/card/id/dogtag/ncrtrooper
 	uniform =  		/obj/item/clothing/under/f13/ncr
-	accessory =     /obj/item/clothing/accessory/ncr/REC
+//	accessory =     /obj/item/clothing/accessory/ncr/REC
 	suit = 			/obj/item/clothing/suit/armor/f13/ncrarmor
 	suit_store = 	/obj/item/gun/ballistic/automatic/pistol/ninemil
-	ears = 			/obj/item/radio/headset //no NCR comms
+//	ears = 			/obj/item/radio/headset //no NCR comms
 	belt =			/obj/item/pickaxe
 	gloves = null
 	glasses = 		null
@@ -588,6 +591,7 @@ Ranger
 	description = "As a Ranger, you perform reconnaissance, seize or destroy assets, and capture or recover designated targets in service to the Republic. Your reason for being sent here is to find and exploit local assets within the Region in order to prepare the area for the Republic's eventual arrival."
 	supervisors = "Ranger Command, and the Veteran Ranger"
 	selection_color = "#fff5cc"
+	exp_requirements = 240
 
 	outfit = /datum/outfit/job/ncr/f13ranger
 

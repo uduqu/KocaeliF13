@@ -187,6 +187,10 @@
 				H.water += drink.water_level * amount * 2
 			if(istype(current_reagent,/datum/reagent/water))
 				H.water += amount * 2
+			if(istype(current_reagent,/datum/reagent/water/dwater))
+				H.water += amount * 0.2
+			if(istype(current_reagent,/datum/reagent/water/boiled))
+				H.water += amount * 1
 
 	var/part = amount / src.total_volume
 	var/trans_data = null

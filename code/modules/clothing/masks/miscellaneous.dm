@@ -128,7 +128,7 @@
 	flags_inv = HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	w_class = WEIGHT_CLASS_SMALL
 	var/voicechange = FALSE
-/*
+
 /obj/item/clothing/mask/frog/attack_self(mob/user)
 	voicechange = !voicechange
 	to_chat(user, "<span class='notice'>You turn the voice box [voicechange ? "on" : "off"]!</span>")
@@ -153,7 +153,7 @@
 	if(C.wear_mask == src)
 		to_chat(user, "<span class='warning'><B>[src] was cursed! Ree!!</B></span>")
 	return ..()
-*/
+
 
 /obj/item/clothing/mask/cowmask
 	name = "Cowface"

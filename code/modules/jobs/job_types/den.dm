@@ -31,7 +31,7 @@ Mayor
 	name = "Mayor"
 	jobtype = /datum/job/den/f13mayor
 
-	ears = 			/obj/item/radio/headset/headset_den
+//	ears = 			/obj/item/radio/headset/headset_den
 	id =            /obj/item/card/id/gold/mayor
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
@@ -79,7 +79,7 @@ Sheriff
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 
-	ears = 			/obj/item/radio/headset/headset_den
+//	ears = 			/obj/item/radio/headset/headset_den
 	uniform =  		/obj/item/clothing/under/f13/sheriff
 	shoes = 		/obj/item/clothing/shoes/f13/cowboy
 	suit = 			/obj/item/clothing/suit/armor/f13/town/sheriff
@@ -127,7 +127,7 @@ Deputy
 	name = "Deputy"
 	jobtype = /datum/job/den/f13deputy
 
-	ears = 			/obj/item/radio/headset/headset_den
+//	ears = 			/obj/item/radio/headset/headset_den
 	id =            /obj/item/card/id/dogtag/deputy
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
@@ -169,7 +169,7 @@ Farmer
 	jobtype = /datum/job/den/f13farmer
 
 	id = /obj/item/card/id/dogtag/town
-	ears = 			/obj/item/radio/headset/headset_den
+//	ears = 			/obj/item/radio/headset/headset_den
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	l_pocket = /obj/item/storage/bag/money/small/settler
@@ -215,7 +215,7 @@ Prospector
 	jobtype = /datum/job/den/f13prospector
 
 	id = /obj/item/card/id/dogtag/town
-	ears = /obj/item/radio/headset/headset_den
+//	ears = /obj/item/radio/headset/headset_den
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	l_pocket = /obj/item/storage/bag/money/small/settler
@@ -258,7 +258,7 @@ Doctor
 	jobtype = /datum/job/den/f13dendoc
 	chemwhiz = TRUE
 	uniform = /obj/item/clothing/under/f13/medic
-	ears = /obj/item/radio/headset/headset_den
+//	ears = /obj/item/radio/headset/headset_den
 	neck = /obj/item/clothing/neck/stethoscope
 	suit = /obj/item/clothing/suit/toggle/labcoat
 	backpack = /obj/item/storage/backpack/medic
@@ -362,7 +362,7 @@ Preacher
 /datum/outfit/job/den/f13preacher
 	name = "Preacher"
 	jobtype = /datum/job/den/f13preacher
-	ears = /obj/item/radio/headset/headset_den
+//	ears = /obj/item/radio/headset/headset_den
 	belt = null
 
 	id = /obj/item/card/id/dogtag/town
@@ -407,7 +407,7 @@ Settler
 	jobtype = /datum/job/den/f13settler
 
 	id = /obj/item/card/id/dogtag/town
-	ears = 			/obj/item/radio/headset/headset_den
+//	ears = 			/obj/item/radio/headset/headset_den
 	belt = null
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
@@ -450,7 +450,7 @@ Shopkeeper
 
     id = /obj/item/card/id/dogtag/town
     uniform = /obj/item/clothing/under/f13/roving
-    ears = /obj/item/radio/headset/headset_den
+//    ears = /obj/item/radio/headset/headset_den
     backpack = /obj/item/storage/backpack
     satchel = /obj/item/storage/backpack/satchel
     duffelbag = /obj/item/storage/backpack/duffelbag
