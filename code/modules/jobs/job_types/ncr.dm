@@ -189,7 +189,7 @@ Lieutenant
 /datum/outfit/loadout/ltcombat
 	name = "Combat Lieutenant"
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
-	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine
+	suit_store = /obj/item/gun/ballistic/automatic/marksman/servicerifle/r82
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle=3,
 		/obj/item/book/granter/trait/trekking=1)
@@ -197,9 +197,9 @@ Lieutenant
 /datum/outfit/loadout/ltscout
 	name = "Scout Lieutenant"
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/scout/officer
-	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper
+	suit_store = /obj/item/gun/ballistic/automatic/rangemaster/scoped
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/w308=3,
+		/obj/item/ammo_box/magazine/m762=2,
 		/obj/item/book/granter/trait/trekking=1)
 
 
@@ -254,9 +254,10 @@ Sergeant
 /datum/outfit/loadout/sgtscout
 	name = "Scout Sergeant"
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/scout/veteran
-	suit_store = /obj/item/gun/ballistic/automatic/marksman
+	suit_store = /obj/item/gun/ballistic/shotgun/remington/scoped
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle=3)
+		/obj/item/ammo_box/a762=3,
+		/obj/item/twohanded/binocs=1)
 
 /*
 Corporal
@@ -483,8 +484,8 @@ Non-Combatant
 	title = "NCR Non-Combatant"
 	flag = F13RECRUIT
 	faction = "NCR"
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are a noncombatant member of the NCR assigned the vital duty of helping them with cooking, farming, mining, and other menial tasks. While you have been to basic training, it was rushed and hardly prepared you for the horrors of war. Your sidearm is to be used in your own defense, only."
 	supervisors = "everyone in the NCR"
 	selection_color = "#fff5cc"

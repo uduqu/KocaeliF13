@@ -1442,7 +1442,7 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 	color = "#6D6374"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	overdose_threshold = 20
-	addiction_threshold = 6
+	addiction_threshold = 6//one injection doesn't hurt
 
 /datum/reagent/medicine/medx/on_mob_add(mob/living/carbon/human/M)
 	..()
@@ -1461,8 +1461,8 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 		M.physiology.armor.laser -= 25
 		M.physiology.armor.energy -= 20
 	switch(current_cycle)
-		if(6 to 25)
-			M.confused += 20
+		if(1 to 25)
+//			M.confused += 20
 			M.blur_eyes(20)
 			to_chat(M, "<span class='notice'>Your head is pounding. Med-X is hard on the body. </span>")
 		if(26 to 50)

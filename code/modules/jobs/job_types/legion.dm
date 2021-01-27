@@ -128,7 +128,7 @@ Centurion
 	glasses = 		/obj/item/clothing/glasses/sunglasses/big
 	r_pocket =      /obj/item/restraints/handcuffs
 	backpack_contents = list(
-		/obj/item/restraints/legcuffs/bola=1, \
+		/obj/item/book/granter/martial/cqc=1,\
 		/obj/item/reagent_containers/pill/patch/healingpowder=2, \
 		/obj/item/flashlight/lantern=1, \
 		/obj/item/key/scollar=1, \
@@ -136,7 +136,7 @@ Centurion
 		/obj/item/assembly/signaler/electropack/shockcollar=1, \
 		/obj/item/assembly/signaler/electropack/boomcollar=2, \
 		/obj/item/storage/bag/money/small/legofficers=1, \
-		/obj/item/restraints/legcuffs/bola/tactical=1, \
+		/obj/item/restraints/legcuffs/bola/tactical=2, \
 		)
 
 /datum/outfit/loadout/centheavy
@@ -145,7 +145,7 @@ Centurion
 	head = 			/obj/item/clothing/head/helmet/f13/legion/palacent
 	suit_store = /obj/item/gun/ballistic/automatic/smg10mm
 	backpack_contents = list(
-		/obj/item/melee/powerfist/goliath=1,
+		/obj/item/melee/powerfist=1,
 		/obj/item/ammo_box/magazine/m10mm_auto=2)
 
 /datum/outfit/loadout/centassault
@@ -573,6 +573,7 @@ Explorer
 	spawn_positions = 2
 	description = "Acting as the eyes and ears of the Legion, you are in the region to scout it out for potential conquest. Make note of your surroundings and above all, survive to report back."
 	supervisors = "the Decani and Centurion"
+	exp_requirements = 210
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13explorer
 
