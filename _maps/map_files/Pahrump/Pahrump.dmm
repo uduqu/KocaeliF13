@@ -5630,9 +5630,7 @@
 	},
 /area/f13/building)
 "apd" = (
-/obj/structure/sink/well{
-	pixel_x = 0
-	},
+/obj/structure/sink/well,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "ape" = (
@@ -18985,7 +18983,7 @@
 	},
 /area/f13/wasteland)
 "aYt" = (
-/obj/structure/sink/well,
+/obj/structure/sink/well/dwell,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/farm)
 "aYu" = (
@@ -19616,11 +19614,20 @@
 	},
 /area/f13/wasteland)
 "aZR" = (
-/obj/structure/barricade/sandbags,
-/turf/open/floor/plasteel/barber{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "bluerustychess2";
-	tag = "icon-bluerustychess2"
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	icon_state = "rwindow"
+	},
+/obj/machinery/porta_turret/syndicate/wasteland/energy,
+/turf/open/floor/f13{
+	icon_state = "darkdirtysolid"
 	},
 /area/f13/building)
 "aZS" = (
@@ -20954,13 +20961,12 @@
 	},
 /area/f13/building)
 "bdo" = (
-/obj/machinery/porta_turret/syndicate/wasteland,
-/turf/open/floor/plasteel/barber{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "bluerustychess2";
-	tag = "icon-bluerustychess2"
-	},
-/area/f13/building)
+/obj/structure/table/wood/settler,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "bdp" = (
 /obj/structure/simple_door/metal/fence,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -24479,11 +24485,9 @@
 /turf/closed/wall/f13/wood/interior,
 /area/f13/city)
 "bmG" = (
-/obj/structure/sink/well{
-	desc = "The very well that provided life to this town."
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/obj/structure/sacrificealtar,
+/turf/open/floor/holofloor/carpet,
+/area/f13/chapel)
 "bmH" = (
 /obj/structure/simple_door/house{
 	tag = "icon-roomopening";
@@ -24680,6 +24684,19 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
+"bni" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/closed/mineral/random/low_chance,
+/area/f13/vault/vents)
+"bnj" = (
+/obj/effect/turf_decal{
+	icon_state = "warningline";
+	dir = 4
+	},
+/turf/closed/indestructible/vaultdoor,
+/area/f13/vault/vents)
 "bnk" = (
 /obj/structure/toilet{
 	pixel_y = 0
@@ -24691,6 +24708,10 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/village)
+"bnl" = (
+/obj/machinery/door/poddoor/ert,
+/turf/closed/indestructible/vaultdoor,
+/area/f13/vault/vents)
 "bnm" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -24710,6 +24731,13 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/city)
+"bnp" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/vault/vents)
 "bnq" = (
 /obj/machinery/autolathe/constructionlathe,
 /turf/open/floor/f13/wood,
@@ -24718,6 +24746,14 @@
 /obj/machinery/light/small,
 /turf/open/floor/f13/wood,
 /area/f13/city)
+"bns" = (
+/obj/effect/gibspawner/human,
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "vt1"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/vault/vents)
 "bnt" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/condiment/pack/ketchup,
@@ -24797,6 +24833,17 @@
 /obj/structure/filingcabinet,
 /turf/open/floor/f13/wood,
 /area/f13/city)
+"bnG" = (
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/vault/vents)
+"bnH" = (
+/obj/item/wirerod,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/vault/vents)
 "bnI" = (
 /obj/structure/simple_door/house{
 	tag = "icon-roomopening";
@@ -24838,6 +24885,12 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/city)
+"bnM" = (
+/obj/item/restraints/legcuffs/beartrap{
+	armed = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/vault/vents)
 "bnN" = (
 /obj/machinery/light,
 /turf/open/floor/f13{
@@ -24857,10 +24910,25 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/city)
+"bnP" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/vault/vents)
 "bnQ" = (
 /obj/machinery/microwave/stove,
 /turf/open/floor/f13/wood,
 /area/f13/city)
+"bnR" = (
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "vt1"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/tunnel)
+"bnS" = (
+/obj/item/jammer,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "bnT" = (
 /obj/structure/window/fulltile/house,
 /turf/open/floor/f13{
@@ -25363,13 +25431,6 @@
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"bps" = (
-/obj/structure/ladder/unbreakable{
-	height = 2;
-	id = "V1"
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/tunnel)
 "bpt" = (
 /obj/machinery/door/morgue,
 /turf/open/floor/f13/wood,
@@ -25552,10 +25613,6 @@
 "bpU" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/book/bible,
-/turf/open/floor/holofloor/carpet,
-/area/f13/chapel)
-"bpV" = (
-/obj/structure/table/wood/fancy,
 /turf/open/floor/holofloor/carpet,
 /area/f13/chapel)
 "bpW" = (
@@ -26881,10 +26938,6 @@
 /obj/machinery/light/small,
 /turf/open/floor/f13/wood,
 /area/f13/chapel)
-"bum" = (
-/obj/structure/sink/well,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "bun" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/terminal{
@@ -40093,14 +40146,6 @@
 	tag = "icon-bluerustychess2"
 	},
 /area/f13/building)
-"coD" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 8;
-	icon_state = "outermaincornerouter";
-	tag = "icon-outermaincornerouter (WEST)"
-	},
-/area/f13/wasteland)
 "coE" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -40129,13 +40174,6 @@
 	dir = 1;
 	icon_state = "outermaincornerouter";
 	tag = "icon-outermaincornerouter (NORTH)"
-	},
-/area/f13/wasteland)
-"coI" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticaloutermaintop";
-	tag = "icon-verticaloutermaintop"
 	},
 /area/f13/wasteland)
 "coJ" = (
@@ -41279,10 +41317,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/ncr)
-"nPk" = (
-/obj/item/gun/ballistic/revolver/thatgun,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "okh" = (
 /obj/effect/landmark/start/f13/shaman,
 /turf/open/indestructible/ground/outside/dirt,
@@ -45555,7 +45589,7 @@ acv
 aMa
 agy
 ach
-bmG
+apd
 aVJ
 acv
 ads
@@ -50891,8 +50925,8 @@ coz
 acC
 acC
 aZO
-aZR
-aZR
+acC
+acC
 bba
 acC
 acC
@@ -51148,8 +51182,8 @@ aYk
 aYP
 acC
 acC
-bdo
 aZR
+acC
 acC
 acC
 aXc
@@ -51405,8 +51439,8 @@ coz
 aXb
 acC
 acC
-aZR
-aZR
+acC
+acC
 aXc
 aZO
 acC
@@ -53214,14 +53248,14 @@ aat
 aat
 aiH
 bbC
-coG
+aiu
 aat
 aat
 aat
 aat
 aat
 aat
-coI
+aiH
 bbC
 aiu
 bcS
@@ -53470,16 +53504,16 @@ aae
 aat
 aat
 bcz
-coE
-coH
+apt
+aoI
 aat
 aat
 aat
 aat
 bdW
 aat
-coD
-coE
+abA
+apt
 aoI
 aat
 aat
@@ -57380,7 +57414,7 @@ aae
 aae
 boU
 hAp
-bps
+bnR
 boU
 aae
 aae
@@ -63549,7 +63583,7 @@ bnX
 blc
 boY
 boY
-bpU
+bmG
 boY
 boY
 boY
@@ -63806,7 +63840,7 @@ bnX
 bkI
 boZ
 boY
-bpV
+bpU
 boY
 bqZ
 bmW
@@ -68698,7 +68732,7 @@ acl
 acl
 aat
 aat
-bum
+aat
 aat
 aat
 aat
@@ -96014,7 +96048,7 @@ agy
 aat
 ach
 acv
-apd
+acv
 acv
 ads
 aqe
@@ -96956,7 +96990,7 @@ aae
 aae
 aae
 bqA
-bre
+bdo
 brg
 bsA
 ael
@@ -122143,11 +122177,11 @@ aae
 aae
 aae
 aJO
-aJP
-aJP
-aJP
-aJP
-aJP
+bni
+bni
+bni
+bni
+bni
 aJP
 aJP
 aJP
@@ -122400,11 +122434,11 @@ aae
 aae
 aFi
 aae
-aae
-aae
-aae
-aae
-aae
+bQH
+bQH
+bQH
+bQH
+bQH
 aae
 aae
 aae
@@ -122657,11 +122691,11 @@ aIa
 aEZ
 aEZ
 aEZ
-aIa
-aIa
-aIa
-aIa
-aIa
+bnj
+bQK
+bnp
+bnH
+bnj
 aae
 aae
 aae
@@ -122914,11 +122948,11 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
+bnl
+bnM
+bns
+bnP
+bQH
 aae
 aae
 aae
@@ -123171,11 +123205,11 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
+bQH
+bQK
+bnG
+bQK
+bQH
 aae
 aae
 aae
@@ -123428,11 +123462,11 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
+bQH
+bQH
+bQH
+bQH
+bQH
 aae
 aae
 aae
@@ -167779,7 +167813,7 @@ aae
 aae
 aae
 aaa
-aaB
+bnS
 aaB
 aaB
 aaB
@@ -168036,7 +168070,7 @@ aae
 aae
 aae
 aaa
-nPk
+aaB
 aaB
 aaB
 aae
