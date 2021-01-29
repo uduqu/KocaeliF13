@@ -406,7 +406,7 @@
 	time = 10
 	category = CAT_WEAPONRY
 	subcategory = CAT_AMMO
-
+/*
 /datum/crafting_recipe/a50mg
 	name = ".50 MG (rifle) ammo box"
 	result = /obj/item/ammo_box/a50MGbox
@@ -416,7 +416,7 @@
 	time = 10
 	category = CAT_WEAPONRY
 	subcategory = CAT_AMMO
-
+*/
 /datum/crafting_recipe/a50ae
 	name = ".50 AE (pistol) ammo box"
 	result = /obj/item/ammo_box/a50AEbox

@@ -25,6 +25,7 @@
 	del_on_death = 1
 	deathmessage = "blows apart!"
 	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/three)
+	stat_attack = UNCONSCIOUS
 
 /mob/living/simple_animal/hostile/handy/Initialize()
 	. = ..()
@@ -49,10 +50,24 @@
 	retreat_distance = 2
 	minimum_distance = 2
 	check_friendly_fire = TRUE
+	stat_attack = UNCONSCIOUS
 	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/three, /obj/item/stock_parts/cell/ammo/mfc)
 
 /mob/living/simple_animal/hostile/handy/gutsy/AttackingTarget()
 	. = ..()
+
+//enclave
+/mob/living/simple_animal/hostile/handy/gutsy/enclave
+	name = "hardened mr. gutsy"
+	desc = "A pre-war combat robot based off the Mr. Handy design, armed with plasma weaponry and a deadly close-range flamer. This one appears to have reinforced armor plating."
+	health = 350
+	maxHealth = 350
+	melee_damage_lower = 14
+	melee_damage_upper = 42
+	projectiletype = /obj/item/projectile/plasma/repeater
+	retreat_distance = 2
+	minimum_distance = 4
+	stat_attack = UNCONSCIOUS
 
 /mob/living/simple_animal/hostile/handy/protectron
 	name = "protectron"
@@ -76,6 +91,23 @@
 	faction = list("wastebot")
 	check_friendly_fire = TRUE
 	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/five)
+	stat_attack = UNCONSCIOUS
+
+//enclave
+/mob/living/simple_animal/hostile/handy/protectron/enclave
+	name = "hardened protectron"
+	desc = "A pre-war security robot armed with deadly lasers. This one appears to have heavily reinforced armor plating."
+	health = 240
+	maxHealth = 240
+	speed = 2
+	melee_damage_lower = 15
+	melee_damage_upper = 25//don't corner it
+	extra_projectiles = 1//just the one
+	retreat_distance = 2
+	minimum_distance = 4//same as the gutsy
+	projectilesound = 'sound/weapons/laser.ogg'
+	projectiletype = /obj/item/projectile/beam/laser/pistol/wattz
+	stat_attack = UNCONSCIOUS
 
 /mob/living/simple_animal/pet/dog/protectron //Not an actual dog
 	name = "Trading Protectron"
@@ -173,9 +205,22 @@
 	speed = 0
 	melee_damage_lower = 55
 	melee_damage_upper = 60
+	stat_attack = UNCONSCIOUS
 	attacktext = "grinds their claws on"
+//	projectilesound = 'sound/weapons/ionrifle.ogg'
+//	projectiletype = /obj/item/projectile/beam/laser/heavylaser//generic heavy for the moment
+	speak = list("AO compromised! Engaging!", "Enemy combatant acquired. Weapons free!", "Scanners detecting sentient life. Alert level elevated.", "We have a situation!", "Sensor alert. Anomaly detected.")
 	faction = list("wastebot")
 	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/three, /obj/item/stock_parts/cell/ammo/mfc)
+
+/mob/living/simple_animal/hostile/handy/assaultron/bullet_act(obj/item/projectile/Proj)
+	if(!Proj)
+		CRASH("[src] assaultron invoked bullet_act() without a projectile")
+	if(prob(65) || Proj.damage > 26)
+		return ..()
+	else
+		visible_message("<span class='danger'>\The [Proj] shatters on \the [src]'s armor plating!</span>")
+		return FALSE
 
 /mob/living/simple_animal/hostile/handy/robobrain
 	name = "Robobrain"
@@ -188,7 +233,7 @@
 	melee_damage_lower = 24
 	melee_damage_upper = 72//why would you even get close?
 	extra_projectiles = 0
-	ranged_cooldown_time = 24//big ol' 'fuck off' laser
+	ranged_cooldown_time = 12//big ol' 'fuck off' laser
 	stat_attack = UNCONSCIOUS
 	ranged = TRUE
 	retreat_distance = 6
@@ -200,7 +245,7 @@
 	projectiletype = /obj/item/projectile/beam/mindflayer/robobrain
 	faction = list("wastebot")
 	check_friendly_fire = TRUE
-	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/five, /obj/item/stock_parts/cell/ammo/mfc, /obj/item/mmi/posibrain)
+	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/five, /obj/item/stock_parts/cell/ammo/mfc, /obj/item/integrated_circuit/input/mmi_tank)
 	speak = list("You could run? I'm trying to kill you, you know.", "Please believe me when I say I'm not enjoying this.", "There's no point in trying to hide from me. I'm programmed to be quite relentless.", "Why are you hiding? I will find you.", "They could have programmed me to love, to forgive; but noooooo.", "I calculate your chance of success to be...well, I don't want to be morbid...")
 
 
@@ -218,8 +263,8 @@
 
 /mob/living/simple_animal/hostile/handy/robobrain/bullet_act(obj/item/projectile/Proj)
 	if(!Proj)
-		CRASH("[src] sentrybot invoked bullet_act() without a projectile")
-	if(prob(45) || Proj.damage > 26) //far less chance to do something, even in comparison to a sentry bot, due to being an uncommon/boss creature.
+		CRASH("[src] robobrain invoked bullet_act() without a projectile")
+	if(prob(15) || Proj.damage > 32) //far less chance to do something, even in comparison to a sentry bot, due to being an incredibly uncommon/boss creature.
 		return ..()
 	else
 		visible_message("<span class='danger'>\The [Proj] shatters on \the [src]'s armor plating!</span>")

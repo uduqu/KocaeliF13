@@ -26,20 +26,16 @@ Cult Leader
 
 */
 
-/*
-Great Khan
-*/
-
 /datum/job/wasteland/f13pusher // Not a terrible role for a wandering dealer, if we remove Great Khan from it at somepoint
-	title = "Great Khan"
+	title = "Pusher"
 	flag = F13PUSHER
 	faction = "Wastelander"
-	total_positions = 0
-	spawn_positions = 0
-	description = "You are no common raider or tribal settler, for you are a Great Khan. Your ancestry is that of fierce warriors and noble chieftans, whose rites and sagas tell of blood soaked battlefields and great sacrifice for your tribe. At least, this was once the case: after the massacre at Bitter Springs by the NCR, your people have lost much of their strength - now you and many other Khans travel west of Vegas through Red Rock Canyon in the hopes of settling in the region of Pahrump. <span class='bold'>You are not a raider, and should not act as such without permission from server staff.</span>"
+	total_positions = 2
+	spawn_positions = 2
+	description = "You're a Raider, but not just any Raider, no. You're one of the few with knowledge of chemistry, enabling you to create all manner of drugs. How you go about this is up to you, but your camp should be well equipped as is."
 	supervisors = "your gang leadership"
-	selection_color = "#ff915e"
-	exp_requirements = 120
+	selection_color = "#ff4747"
+	exp_requirements = 30
 	exp_type = EXP_TYPE_CREW
 
 	outfit = /datum/outfit/job/wasteland/f13pusher
@@ -48,17 +44,17 @@ Great Khan
 	minimal_access = list()
 
 /datum/outfit/job/wasteland/f13pusher
-	name = "Great Khan"
+	name = "Pusher"
 	jobtype = /datum/job/wasteland/f13pusher
-
+	chemwhiz = TRUE
 	id = null
 	ears = null
 	belt = /obj/item/claymore/machete/pipe
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 
-	suit = /obj/item/clothing/suit/toggle/labcoat/f13/khan
-	uniform = /obj/item/clothing/under/f13/khan
+	suit = /obj/item/clothing/suit/f13/veteran
+	uniform = /obj/item/clothing/under/f13/doctorm
 
 /datum/outfit/job/wasteland/f13pusher/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -84,11 +80,10 @@ Great Khan
 	if(visualsOnly)
 		return
 
-	if(!H.gang)
-		var/datum/gang/greatkhans/GK = GLOB.greatkhans
-		GLOB.all_gangs |= GK
-		GK.add_member(H)
-		H.gang = GK
+	H.social_faction = "Raiders"
+	H.verbs |= /mob/living/proc/creategang
+
+
 
 /*
 Raider

@@ -266,12 +266,12 @@
 				/obj/item/clothing/suit/armor/f13/bmetalarmor,
 				/obj/item/clothing/head/helmet/knight/fluff/metal
 				)
-				
+
 	var/loot4 = list(
 				/obj/item/clothing/suit/armor/f13/bmetalarmor,
 				/obj/item/clothing/head/helmet/f13/eyebot
 				)
-				
+
 	var/loot5 = list(
 				/obj/item/clothing/suit/armor/f13/leatherarmor,
 				""
@@ -894,7 +894,8 @@
 				/obj/item/gun/energy/laser/plasma,
 				/obj/item/gun/energy/laser/plasma/scatter,
 				/obj/item/gun/ballistic/revolver/sequoia/scoped,
-				/obj/item/gun/ballistic/automatic/bozar
+				/obj/item/gun/ballistic/automatic/bozar,
+				/obj/item/gun/ballistic/automatic/atlauncher
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/unique //UNIQUE GUN

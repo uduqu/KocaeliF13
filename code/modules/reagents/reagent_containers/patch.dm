@@ -62,7 +62,7 @@
 	name = "Natural Painkiller"
 	desc = "A powder used to numb nerve endings. Can be applied locally with very little effort to get full effect."
 	list_reagents = list("legion_medx" = 10)
-	icon_state = "bandaid_healingpowder"
+	icon_state = "bandaid_legionmedx"
 	self_delay = 0
 
 /obj/item/reagent_containers/pill/patch/healpoultice

@@ -61,7 +61,7 @@
 	icon_state = "military"
 	item_state = "military"
 	permeability_coefficient = 0.01
-	clothing_flags = NOSLIP
+//	clothing_flags = NOSLIP
 	armor = list(melee = 10, bullet = 10, laser = 0, energy = 0, bomb = 10, bio = 0, rad = 0, fire = 10, acid = 0)
 	strip_delay = 40
 	resistance_flags = 0
@@ -70,7 +70,7 @@
 	name = "advanced combat boots"
 	desc = "High speed, no-drag combat boots designed for use by U.S. special forces before the Great War.<br>The soles are made of aerated rubber to silence the movement of the wearer."
 //	stepsound = FALSE
-	clothing_flags = NOSLIP
+//	clothing_flags = NOSLIP
 
 /obj/item/clothing/shoes/f13/military/diesel
 	name = "male diesel boots"
@@ -139,7 +139,7 @@
 	desc = "You see, Ivan, when you wear fin in desert, they help you swim good if you find much water."
 	icon_state = "flippers"
 	item_state = "flippers"
-	clothing_flags = NOSLIP
+//	clothing_flags = NOSLIP
 
 /obj/item/clothing/shoes/f13/moon
 	name = "moon boots"
@@ -151,7 +151,7 @@
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
 	heat_protection = FEET
 	max_heat_protection_temperature = SHOES_MAX_TEMP_PROTECT
-	clothing_flags = NOSLIP
+//	clothing_flags = NOSLIP
 
 /obj/item/clothing/shoes/f13/doom
 	name = "mars boots"
@@ -163,7 +163,7 @@
 	min_cold_protection_temperature = SHOES_MIN_TEMP_PROTECT
 	heat_protection = FEET
 	max_heat_protection_temperature = SHOES_MAX_TEMP_PROTECT
-	clothing_flags = NOSLIP
+//	clothing_flags = NOSLIP
 
 /obj/item/clothing/shoes/f13/miner
 	name = "mining boots"

@@ -573,3 +573,43 @@
 
 /obj/effect/mob_spawn/human/pirate/gunner
 	rank = "Gunner"
+
+
+/////////
+//F13 flavored stuff.
+/////////
+/obj/effect/mob_spawn/human/prisoner_transport
+	name = "prisoner containment sleeper"
+	desc = "A sleeper designed to put its occupant into a deep coma, unbreakable until the sleeper turns off. This one's glass is cracked and you can see a pale, sleeping face staring out."
+	mob_name = "an escaped prisoner"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper_s"
+	outfit = /datum/outfit/lavalandprisoner
+	roundstart = FALSE
+	death = FALSE
+	flavour_text = "<b>Good. It seems as though your ship crashed. <span class='big bold'>You're a prisoner,</span> sentenced to hard work in one of Vault-Tec's labor camps, but it seems as \
+	though fate has other plans for you. You remember that you were convicted of "
+	assignedrole = "Escaped Prisoner"
+
+/obj/effect/mob_spawn/human/prisoner_transport/special(mob/living/L)
+	L.real_name = "NTP #LL-0[rand(111,999)]" //Vault-Tec Prisoner #Lavaland-(numbers)
+	L.name = L.real_name
+
+/obj/effect/mob_spawn/human/prisoner_transport/Initialize(mapload)
+	. = ..()
+	var/list/crimes = list("murder", "larceny", "embezzlement", "unionization", "dereliction of duty", "kidnapping", "gross incompetence", "grand theft", "collaboration with the Enclave", \
+	"worship of a forbidden deity", "interspecies relations", "mutiny")
+	flavour_text += "[pick(crimes)]. but regardless of that, it seems like your crime doesn't matter now. You don't know where you are, but you know that it's out to kill you, and you're not going \
+	to lose this opportunity. Find a way to get out of this mess and back to where you rightfully belong - your [pick("house", "apartment", "spaceship", "station")]</b>."
+
+/datum/outfit/lavalandprisoner
+	name = "Lavaland Prisoner"
+	uniform = /obj/item/clothing/under/rank/prisoner
+	mask = /obj/item/clothing/mask/breath
+	shoes = /obj/item/clothing/shoes/sneakers/orange
+	r_pocket = /obj/item/tank/internals/emergency_oxygen
+
+
+/obj/effect/mob_spawn/human/prisoner_transport/Destroy()
+	new/obj/structure/fluff/empty_sleeper/syndicate(get_turf(src))
+	return ..()
