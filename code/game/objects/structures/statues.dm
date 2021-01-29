@@ -283,6 +283,15 @@
 	..()
 	icon_state = "stone-[pick(1,2)]"
 
+/obj/structure/statue/sandstone/gravestone/soldier
+	name = "grave marker"
+	desc = "An old grave marker, the name of the person buried here has long been lost to time."
+	icon = 'icons/obj/graveyard.dmi'
+	icon_state = "gravesoldier"
+
+/obj/structure/statue/sandstone/gravestone/soldier/New()
+	..()
+
 /////////////////////snow/////////////////////////////////////////
 
 /obj/structure/statue/snow

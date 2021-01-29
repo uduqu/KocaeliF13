@@ -62,7 +62,7 @@
 
 /turf/closed/indestructible/splashscreen/New()
 	icon = 'icons/fallout/misc/lobby.dmi'
-	icon_state = "title[rand(1,13)]"
+	icon_state = "title[rand(1,2)]"
 
 	src.fullDark = new/atom/movable{
 		icon = 'icons/fallout/misc/lobby.dmi' //Replace with actual icon
@@ -95,7 +95,7 @@
 	return
 
 /turf/closed/indestructible/splashscreen/proc/chooseIcon()
-	var/chosen_icon = "title[rand(1,13)]"
+	var/chosen_icon = "title[rand(1,2)]"
 	if(icon_state != chosen_icon)
 		icon_state = chosen_icon
 	else

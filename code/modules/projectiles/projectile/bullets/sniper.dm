@@ -43,7 +43,7 @@
 	damage = 60
 	dismemberment = 0
 	armour_penetration = 65
-	dismemberment = 5
+	dismemberment = 1
 
 /obj/item/projectile/bullet/a50MG/incendiary
 	damage = -20

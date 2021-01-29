@@ -846,9 +846,9 @@
 				)
 
 	var/loot11 = list(
-				/obj/item/gun/ballistic/shotgun/antimateriel,
-				/obj/item/ammo_box/a50MG,
-				/obj/item/ammo_box/a50MG
+				/obj/item/gun/ballistic/automatic/type93,
+				/obj/item/ammo_box/magazine/m556/rifle,
+				/obj/item/ammo_box/magazine/m556/rifle
 				)
 
 	var/loot12 = list(
