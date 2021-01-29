@@ -1089,24 +1089,30 @@
 	faction = list("wastebot")
 	desc = "A ballistic machine gun auto-turret. It appears to have incredibly advanced sensors, allowing it to acquire targets through thin cover."
 
+/obj/machinery/porta_turret/syndicate/wasteland/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/empprotection, EMP_PROTECT_SELF | EMP_PROTECT_WIRES)
+
+
 /obj/machinery/porta_turret/syndicate/wasteland/bos
 	scan_range = 12
 	req_access = list(ACCESS_BOS)
 	faction = list("BOS")
 	desc = "A ballistic machine gun auto-turret. It appears to have incredibly advanced sensors, capable of IFF targeting."
 
-/obj/machinery/porta_turret/syndicate/wasteland/ComponentInitialize()
-	. = ..()
-	AddComponent(/datum/component/empprotection, EMP_PROTECT_SELF | EMP_PROTECT_WIRES)
-
 
 /obj/machinery/porta_turret/syndicate/wasteland/energy
 	name = "gatling laser turret"
-	shot_delay = 5//far faster
+	shot_delay = 1//far faster
 	icon_state = "standard_lethal"
 	base_icon_state = "standard"
-	stun_projectile = /obj/item/projectile/beam/laser/tribeam//far worse damage & no armor pen
-	lethal_projectile = /obj/item/projectile/beam/laser/tribeam
+	stun_projectile = /obj/item/projectile/beam/laser/turret
+	lethal_projectile = /obj/item/projectile/beam/laser/turret
 	stun_projectile_sound = 'sound/weapons/lasercannonfire.ogg'
 	lethal_projectile_sound = 'sound/weapons/lasercannonfire.ogg'
 	desc = "An auto-turret with a rather advanced sensor array. It appears to be aware of your location, regardless of it's engagement state. Odd."
+
+/obj/item/projectile/beam/laser/turret
+	name = "laser beam"
+	damage = 25
+	armour_penetration = 15

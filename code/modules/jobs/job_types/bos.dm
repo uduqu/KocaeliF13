@@ -231,7 +231,7 @@ Head Scribe
 	H.add_trait(TRAIT_MEDICALEXPERT, TRAIT_GENERIC)
 
 /*
-Knight-Captain
+Knight Captain - Not west cost abiding. Disabled for now.
 */
 
 /datum/job/bos/f13knightcap
@@ -239,8 +239,8 @@ Knight-Captain
 	flag = F13KNIGHTCAPTAIN
 	head_announce = list("Security")
 	faction = "BOS"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are the Knight-Captain, head of the Knight division in the Chapter. Your knowledge of pre-war materials and engineering is almost unparalleled, and you have basic combat training and experience. You are in charge of the Chapter's engineering Corps, and your Knights. Delegate to them as necessary. As Chief Armorer, you are also in charge of the armory."
 	forbids = "The Brotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."

@@ -49,7 +49,6 @@
 /area/f13/underground/enclave_base)
 "ai" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/armor/tier5,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -57,7 +56,6 @@
 /area/f13/underground/enclave_base)
 "aj" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/armor/tier5,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier5,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -160,14 +158,13 @@
 "av" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier4,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
 "aw" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/tier5,
+/obj/item/book/granter/martial/cqc,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
@@ -210,24 +207,24 @@
 	},
 /area/f13/underground/enclave_base)
 "aC" = (
-/obj/machinery/porta_turret/syndicate{
-	scan_range = 10
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
-/turf/open/floor/plating,
+/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
 /area/f13/underground/enclave_base)
 "aD" = (
-/obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 4
-	},
-/turf/open/floor/plating,
+/obj/machinery/door/poddoor/ert,
+/turf/closed/wall/r_wall,
 /area/f13/underground/enclave_base)
 "aE" = (
-/obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
 	},
-/turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "aF" = (
 /turf/open/floor/plasteel/f13/vault_floor{
@@ -243,28 +240,34 @@
 	},
 /area/f13/underground/enclave_base)
 "aH" = (
-/obj/effect/turf_decal/stripes/line,
+/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "whiteredfull"
+	},
+/area/f13/underground/enclave_base)
+"aI" = (
+/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
+/area/f13/underground/enclave_base)
+"aJ" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating,
-/area/f13/underground/enclave_base)
-"aI" = (
-/obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 6
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
 	},
-/turf/open/floor/plating,
-/area/f13/underground/enclave_base)
-"aJ" = (
-/obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 10
+/obj/machinery/deepfryer{
+	name = "tactical deep fryer"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
 /area/f13/underground/enclave_base)
 "aK" = (
-/obj/effect/turf_decal/stripes/line,
+/mob/living/simple_animal/hostile/handy/protectron/enclave,
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "aL" = (
@@ -383,18 +386,23 @@
 	},
 /area/f13/underground/enclave_base)
 "aZ" = (
-/obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+/mob/living/simple_animal/hostile/handy/protectron/enclave,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
 	},
-/turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "ba" = (
-/obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 5
+/obj/machinery/light{
+	dir = 8
 	},
-/turf/open/floor/plating,
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
 /area/f13/underground/enclave_base)
 "bb" = (
 /obj/structure/cable{
@@ -405,21 +413,22 @@
 	},
 /area/f13/underground/enclave_base)
 "bc" = (
-/obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 9
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
 /area/f13/underground/enclave_base)
 "bd" = (
-/obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
 	},
-/obj/machinery/light{
-	dir = 4
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "whiteredfull"
 	},
-/turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "be" = (
 /obj/structure/grille,
@@ -498,6 +507,10 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
@@ -524,12 +537,13 @@
 	},
 /area/f13/underground/enclave_base)
 "bs" = (
-/mob/living/simple_animal/hostile/handy/gutsy{
-	a_intent = "harm";
-	name = "\improper Mister Gutsy"
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
 	},
+/mob/living/simple_animal/hostile/handy/gutsy/enclave,
 /turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "floorgrime"
+	icon_state = "whitepurplerustychess2"
 	},
 /area/f13/underground/enclave_base)
 "bt" = (
@@ -733,11 +747,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "Enclave APC";
-	pixel_x = -24
-	},
+/obj/item/wallframe/apc,
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "bV" = (
@@ -4902,40 +4912,46 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_Lower)
 "lR" = (
-/mob/living/simple_animal/hostile/handy/gutsy,
-/turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "floorgrime"
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
+/obj/machinery/camera/autoname{
+	dir = 4;
+	icon_state = "camera"
+	},
+/turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "lS" = (
-/obj/structure/cable{
-	icon_state = "4-8"
+/obj/structure/rack,
+/obj/item/stack/sheet/mineral/uranium{
+	amount = 50
 	},
-/mob/living/simple_animal/hostile/handy/gutsy,
-/turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "floorgrime"
+/obj/machinery/camera/autoname{
+	dir = 9;
+	icon_state = "camera"
 	},
+/turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "lT" = (
-/mob/living/simple_animal/hostile/handy/sentrybot,
+/obj/machinery/camera/autoname{
+	dir = 9;
+	icon_state = "camera"
+	},
 /turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "whiteredfull"
+	icon_state = "whitepurplerustychess2"
 	},
 /area/f13/underground/enclave_base)
 "lU" = (
-/obj/structure/table/wood,
-/obj/item/book/granter/trait/pa_wear,
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/armor/tier5,
 /turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "whiteredfull"
+	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
 "lV" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/mob/living/simple_animal/hostile/handy/gutsy,
+/obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "whitepurplerustychess2"
+	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
 "lW" = (
@@ -4946,8 +4962,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/underground/cave/vault)
 "lY" = (
-/mob/living/simple_animal/hostile/handy/gutsy,
-/turf/open/floor/plating,
+/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "greendirtysolid"
+	},
 /area/f13/underground/enclave_base)
 "lZ" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -5165,6 +5183,65 @@
 /mob/living/simple_animal/hostile/molerat,
 /turf/open/floor/plating/f13/outside/desert,
 /area/f13/underground/cave/vault)
+"mG" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
+/area/f13/underground/enclave_base)
+"mH" = (
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
+/area/f13/underground/enclave_base)
+"mI" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
+/area/f13/underground/enclave_base)
+"mJ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
+/area/f13/underground/enclave_base)
+"mK" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
+/area/f13/underground/enclave_base)
+"mL" = (
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "whitepurplerustychess2"
+	},
+/area/f13/underground/enclave_base)
+"mM" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plating,
+/area/f13/underground/enclave_base)
+"mN" = (
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plating,
+/area/f13/underground/enclave_base)
 "Aw" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/open/indestructible,
@@ -60475,7 +60552,7 @@ aa
 ab
 bP
 bU
-bY
+lR
 bQ
 bQ
 bQ
@@ -60704,14 +60781,14 @@ aa
 aa
 aa
 aa
+aa
+aa
 ab
+aD
+aD
 ab
-ab
-ab
-ab
-ab
-ab
-ab
+aa
+aa
 aa
 aa
 aa
@@ -60734,7 +60811,7 @@ bQ
 bQ
 bZ
 bS
-bS
+mM
 bY
 ab
 aa
@@ -60961,14 +61038,14 @@ aa
 aa
 aa
 aa
+aa
+aa
 ab
-aC
-aH
 ad
-ad
-aZ
-aC
+aI
 ab
+aa
+aa
 aa
 aa
 aa
@@ -60979,7 +61056,7 @@ ab
 bt
 bx
 bB
-bu
+bs
 bF
 bH
 bK
@@ -61219,12 +61296,12 @@ ab
 ab
 ab
 ab
-aD
-aI
+ab
+ab
 ad
 ad
-ba
-aD
+ab
+ab
 ab
 ab
 ab
@@ -61235,7 +61312,7 @@ ab
 ab
 bu
 by
-bu
+mL
 bu
 bG
 bu
@@ -61247,7 +61324,7 @@ ab
 bQ
 bV
 cb
-bQ
+aK
 bV
 cb
 ab
@@ -61464,37 +61541,37 @@ aa
 aa
 aa
 ab
-ag
+aE
 am
 am
 ap
 aq
 ao
+mH
+ad
+ah
+aZ
+ad
+ao
+ad
+bc
 ad
 ad
+mH
+ad
+ao
+ad
+mH
 ah
 ad
 ad
-ao
-ad
-ad
-ad
-ad
-ad
-ad
-ao
-ad
-bs
-ah
-ad
-ad
 ad
 ao
 bu
 bu
 bu
 bu
-bu
+mL
 bu
 bu
 ab
@@ -61729,7 +61806,7 @@ aq
 ao
 ad
 ad
-lR
+ad
 ad
 ad
 ao
@@ -61745,20 +61822,20 @@ bb
 bb
 bb
 bb
-bb
+mK
 bj
 bv
 bv
 bv
 bv
-lV
+bv
 bI
 bv
 bN
 bv
 bv
 bO
-bS
+mM
 bS
 cd
 bQ
@@ -61990,12 +62067,12 @@ ab
 ab
 ab
 ab
-aE
-aJ
+ab
+ab
 ad
-aS
-bc
-aE
+mJ
+ab
+ab
 ab
 ab
 ab
@@ -62006,7 +62083,7 @@ ab
 ab
 bu
 bz
-bu
+mL
 bu
 bu
 bw
@@ -62018,7 +62095,7 @@ ab
 bQ
 bQ
 ca
-lY
+bQ
 bQ
 ca
 ab
@@ -62246,14 +62323,14 @@ aa
 aa
 aa
 aa
+aa
+aa
 ab
-aC
-aK
 ad
 aS
-bd
-aC
 ab
+aa
+aa
 aa
 aa
 aa
@@ -62275,7 +62352,7 @@ ab
 bQ
 bQ
 ca
-bQ
+mN
 bQ
 ca
 ab
@@ -62503,14 +62580,14 @@ aa
 aa
 aa
 aa
-ab
-ab
+aa
+aa
 ab
 ao
 aT
 ab
-ab
-ab
+aa
+aa
 aa
 aa
 aa
@@ -62532,7 +62609,7 @@ ab
 bQ
 bV
 cb
-bQ
+aK
 cf
 ch
 ab
@@ -63020,7 +63097,7 @@ aa
 aa
 aa
 ab
-ad
+aI
 aS
 ab
 aa
@@ -63277,7 +63354,7 @@ aa
 aa
 aa
 ab
-aN
+mI
 aS
 ab
 aa
@@ -63294,7 +63371,7 @@ aa
 ab
 bw
 bu
-bu
+lT
 bu
 ab
 aa
@@ -63302,7 +63379,7 @@ aa
 ab
 bT
 bX
-bX
+lS
 bX
 bX
 bQ
@@ -63535,7 +63612,7 @@ aa
 aa
 ab
 ad
-aS
+aC
 ab
 aa
 aa
@@ -64049,7 +64126,7 @@ aa
 aa
 ab
 ad
-lS
+aS
 ab
 aa
 aa
@@ -64563,7 +64640,7 @@ aa
 aa
 ab
 aN
-aS
+mJ
 ab
 aa
 aa
@@ -65575,9 +65652,9 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+ab
+ab
+ab
 aa
 aa
 aa
@@ -65832,9 +65909,9 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+ab
+aJ
+ab
 aa
 aa
 aa
@@ -66090,7 +66167,7 @@ aa
 aa
 ab
 ab
-ab
+lV
 ab
 ab
 aa
@@ -66347,7 +66424,7 @@ aa
 aa
 ab
 ac
-ah
+ad
 ad
 ab
 aa
@@ -66358,13 +66435,13 @@ as
 au
 ay
 az
-ah
+ba
 ad
 ab
-ad
+mH
 aS
 ab
-bh
+lY
 bh
 bo
 bh
@@ -66873,7 +66950,7 @@ av
 ad
 az
 ad
-ad
+mH
 ab
 ad
 aW
@@ -67118,7 +67195,7 @@ aa
 aa
 ab
 ad
-aj
+lU
 ad
 ao
 ad
@@ -67375,7 +67452,7 @@ aa
 aa
 ab
 ad
-aj
+lU
 ad
 ab
 ab
@@ -67643,11 +67720,11 @@ at
 ax
 ay
 az
-ak
+mG
 ad
 ab
 ad
-ad
+mH
 ab
 bh
 bh
@@ -68159,7 +68236,7 @@ aa
 aa
 ab
 aF
-aF
+bd
 aF
 aF
 aF
@@ -68676,7 +68753,7 @@ aG
 aL
 aP
 aX
-lU
+bg
 bi
 ab
 aa
@@ -68931,7 +69008,7 @@ aa
 ab
 aF
 aM
-aF
+aH
 aY
 bg
 aF
@@ -69703,7 +69780,7 @@ aa
 aa
 ab
 aQ
-lT
+aF
 ab
 aa
 aa

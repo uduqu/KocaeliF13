@@ -1549,7 +1549,7 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 /datum/reagent/medicine/legionmedx
 	name = "natural painkiller"
 	id = "legion_medx"
-	description = "Med-X is a potent painkiller, allowing users to withstand high amounts of pain and continue functioning."
+	description = "A natural alternative to the far more common MedX, this is used to provide the user with an extreme tolerance for pain."
 	reagent_state = LIQUID
 	color = "#6D6374"
 	metabolization_rate = 0.7 * REAGENTS_METABOLISM

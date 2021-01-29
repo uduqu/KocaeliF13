@@ -362,10 +362,12 @@
 	description = "A chemical used to induce a euphoric high derived from brahmin dung. Fast-acting, powerful, and highly addictive."
 	color = "#60A584" // rgb: 96, 165, 132
 	overdose_threshold = 30
-	addiction_threshold = 20
+	addiction_threshold = 25
 
 /datum/reagent/drug/jet/on_mob_life(mob/living/carbon/M)
-	M.set_drugginess(20)
+	M.set_drugginess(15)
+	M.AdjustStun(-5, 0)
+	M.adjustStaminaLoss(-0.5*REM, 0)
 	if(isturf(M.loc) && !isspaceturf(M.loc))
 		if(M.canmove)
 			if(prob(10))

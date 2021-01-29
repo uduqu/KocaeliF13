@@ -222,7 +222,7 @@
 	eyeblur = 0
 	is_reflectable = TRUE
 
-/obj/item/projectile/plasma/repeater //Is this even used?
+/obj/item/projectile/plasma/repeater //Is this even used? - Now it is.
 	name = "plasma stream"
 	icon_state = "plasma_clot"
 	damage_type = BURN

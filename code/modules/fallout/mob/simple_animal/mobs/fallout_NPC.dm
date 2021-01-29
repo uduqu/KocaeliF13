@@ -564,7 +564,7 @@
 	check_friendly_fire = 1
 	status_flags = CANPUSH
 	del_on_death = 1
-	speak = "Yes!"
+	speak = list("I'm gonna mount you on my fucking wall!", "Aggghhh!", "Yeeeaaahhh!", "Oooh! Got a feisty one!", "Should have stayed in bed today, hero!", "Look at the kid playin' tough guy! Ha ha ha ha ha!")
 	speak_emote = list("rushes")
 	speak_chance = 2
 

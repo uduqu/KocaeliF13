@@ -46,6 +46,7 @@
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	unsuitable_atmos_damage = 0
 	faction = list("plants")
+	stat_attack = UNCONSCIOUS
 	butcher_results = list(/obj/item/stack/sheet/bone = 1)
 
 /mob/living/simple_animal/hostile/trog/sporecarrier/AttackingTarget()
@@ -54,6 +55,7 @@
 		var/mob/living/carbon/human/H = target
 		H.reagents.add_reagent("zombifying_pods", 5)
 		H.reagents.add_reagent("tirizene", 5)
+		H.reagents.add_reagent("sodium_thiopental", 5)
 
 /mob/living/simple_animal/hostile/trog/tunneler
 	name = "tunneler"
@@ -71,6 +73,7 @@
 	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0)
 	unsuitable_atmos_damage = 5
 	faction = list("tunneler")
+	stat_attack = UNCONSCIOUS
 	butcher_results = list(/obj/item/stack/sheet/bone = 1)
 
 /mob/living/simple_animal/hostile/trog/tunneler/AttackingTarget()
