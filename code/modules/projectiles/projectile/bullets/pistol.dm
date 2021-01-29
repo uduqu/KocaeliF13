@@ -17,6 +17,10 @@
 	damage = 0
 	armour_penetration = 0
 
+/obj/item/projectile/bullet/c9mm/npc//used exclusively by NPCs.
+	damage = 15
+	armour_penetration = 25
+
 /obj/item/projectile/bullet/c9mm/ap
 	damage = -5
 	armour_penetration = 15

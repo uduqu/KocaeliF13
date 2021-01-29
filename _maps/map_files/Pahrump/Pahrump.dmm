@@ -26965,6 +26965,11 @@
 /obj/item/clothing/shoes/legionleather,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"btm" = (
+/obj/structure/table/wood,
+/obj/item/ammo_box/magazine/uzim9mm/empty,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "btn" = (
 /obj/structure/simple_door/metal/fence{
 	dir = 8;
@@ -26991,6 +26996,30 @@
 /obj/item/folder/yellow,
 /turf/open/floor/f13/wood,
 /area/f13/city)
+"btr" = (
+/obj/item/ammo_casing/caseless{
+	dir = 4;
+	icon_state = "sS-casing";
+	tag = "icon-sS-casing (EAST)"
+	},
+/obj/item/ammo_casing/caseless{
+	dir = 10;
+	icon_state = "sS-casing";
+	pixel_x = -9;
+	pixel_y = -8;
+	tag = "icon-sS-casing (SOUTHWEST)"
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
+"bts" = (
+/obj/item/ammo_casing/caseless,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
+"btt" = (
+/obj/structure/table/wood,
+/obj/item/ammo_box/tube/m44/empty,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "btu" = (
 /obj/structure/dresser,
 /turf/open/floor/f13/wood,
@@ -27000,6 +27029,10 @@
 /obj/item/flashlight/lamp,
 /turf/open/floor/f13/wood,
 /area/f13/city)
+"btw" = (
+/obj/structure/sink/well/dwell,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/ncr)
 "btx" = (
 /obj/structure/table,
 /obj/item/kitchen/knife,
@@ -48030,7 +48063,7 @@ adT
 bDY
 akC
 akx
-amb
+btw
 amb
 amQ
 amb
@@ -90441,8 +90474,8 @@ aTD
 acv
 acv
 acv
-bth
-acv
+btm
+btr
 acv
 acv
 ads
@@ -90955,9 +90988,9 @@ aTD
 acv
 acv
 acv
-bth
+btt
 acv
-acv
+bts
 acv
 hlw
 brP

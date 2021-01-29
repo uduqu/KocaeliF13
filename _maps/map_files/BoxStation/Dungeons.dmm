@@ -259,9 +259,6 @@
 	dir = 4;
 	icon_state = "camera"
 	},
-/obj/machinery/deepfryer{
-	name = "tactical deep fryer"
-	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
@@ -4944,12 +4941,6 @@
 "lU" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/armor/tier5,
-/turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "floorgrime"
-	},
-/area/f13/underground/enclave_base)
-"lV" = (
-/obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
@@ -65652,9 +65643,9 @@ aa
 aa
 aa
 aa
-ab
-ab
-ab
+aa
+aa
+aa
 aa
 aa
 aa
@@ -65909,9 +65900,9 @@ aa
 aa
 aa
 aa
-ab
-aJ
-ab
+aa
+aa
+aa
 aa
 aa
 aa
@@ -66167,7 +66158,7 @@ aa
 aa
 ab
 ab
-lV
+ab
 ab
 ab
 aa
@@ -66424,7 +66415,7 @@ aa
 aa
 ab
 ac
-ad
+aJ
 ad
 ab
 aa

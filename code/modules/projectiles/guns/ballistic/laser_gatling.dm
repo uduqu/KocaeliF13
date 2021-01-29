@@ -104,7 +104,7 @@
 	w_class = WEIGHT_CLASS_HUGE
 	materials = list()
 	burst_size = 1
-	automatic = 0
+	automatic = 1//allows click dragging to fire
 	fire_delay = 3
 	spread = 40
 	weapon_weight = WEAPON_HEAVY

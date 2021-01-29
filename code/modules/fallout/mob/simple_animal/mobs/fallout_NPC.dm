@@ -534,9 +534,9 @@
 	//back = /obj/item/weapon/storage/backpack
 
 
-/mob/living/simple_animal/hostile/raider
-	name = "raiding npc"
-	desc = "this firefighter was once a man too."
+/mob/living/simple_animal/hostile/old_raider
+	name = "Raider"
+	desc = "This was once a man too."
 	icon_state = "firefighter_raider"
 	icon_living = "firefighter_raider"
 	icon_dead = "firefighter_raider"
@@ -568,7 +568,7 @@
 	speak_emote = list("rushes")
 	speak_chance = 2
 
-/obj/effect/mob_spawn/human/corpse/raider
+/obj/effect/mob_spawn/human/corpse/old_raider
 	name = "Raider"
 	uniform = /obj/item/clothing/under/f13/rag
 	suit = /obj/item/clothing/suit/armor/f13/tribal
@@ -580,12 +580,12 @@
 	//back = /obj/item/weapon/storage/backpack
 
 
-/mob/living/simple_animal/hostile/raider/Aggro()
+/mob/living/simple_animal/hostile/old_raider/Aggro()
 	..()
 	summon_backup(15)
 	say("HURRY, HURRY, HURRY!!!")
 
-/mob/living/simple_animal/hostile/raider/firefighter
+/mob/living/simple_animal/hostile/old_raider/old_firefighter
 	icon_state = "firefighter_raider"
 	icon_living = "firefighter_raider"
 	icon_dead = "firefighter_raider"
@@ -594,11 +594,11 @@
 	minimum_distance = 0
 	melee_damage_lower = 50
 	melee_damage_upper = 50
-	loot = list(/obj/effect/mob_spawn/human/corpse/raider)
+	loot = list(/obj/effect/mob_spawn/human/corpse/old_raider)
 	healable = 1
 	ranged = 0
 
-/mob/living/simple_animal/hostile/raider/tribal
+/mob/living/simple_animal/hostile/old_raider/old_tribal
 	icon_state = "tribal_raider"
 	icon_living = "tribal_raider"
 	icon_dead = "tribal_raider"
@@ -607,11 +607,11 @@
 	minimum_distance = 0
 	melee_damage_lower = 40
 	melee_damage_upper = 40
-	loot = list(/obj/effect/mob_spawn/human/corpse/raider/tribal)
+	loot = list(/obj/effect/mob_spawn/human/corpse/old_raider/tribal)
 	healable = 1
 	ranged = 0
 
-/obj/effect/mob_spawn/human/corpse/raider/tribal
+/obj/effect/mob_spawn/human/corpse/old_raider/tribal
 	uniform = /obj/item/clothing/under/f13/rag
 	suit = /obj/item/clothing/suit/armor/f13/raider/sadist/reinforced
 	shoes = /obj/item/clothing/shoes/f13/rag
@@ -623,7 +623,7 @@
 
 
 
-/mob/living/simple_animal/hostile/raider/baseball
+/mob/living/simple_animal/hostile/old_raider/old_baseball
 	icon_state = "baseball_raider"
 	icon_living = "baseball_raider"
 	icon_dead = "baseball_raider"
@@ -634,11 +634,11 @@
 	melee_damage_upper = 40
 	maxHealth = 200
 	health = 200
-	loot = list(/obj/effect/mob_spawn/human/corpse/raider/baseball)
+	loot = list(/obj/effect/mob_spawn/human/corpse/old_raider/baseball)
 	healable = 1
 	ranged = 0
 
-/obj/effect/mob_spawn/human/corpse/raider/baseball
+/obj/effect/mob_spawn/human/corpse/old_raider/baseball
 	uniform = /obj/item/clothing/under/f13/rag
 	suit = /obj/item/clothing/suit/armor/f13/raider/yankee/reinforced
 	shoes = /obj/item/clothing/shoes/f13/rag
@@ -649,7 +649,7 @@
 	//back = /obj/item/weapon/storage/backpack
 
 
-/mob/living/simple_animal/hostile/raider/biker
+/mob/living/simple_animal/hostile/old_raider/old_biker
 	icon_state = "biker_raider"
 	icon_living = "biker_raider"
 	icon_dead = "biker_raider"
@@ -660,14 +660,14 @@
 	melee_damage_upper = 20
 	maxHealth = 200
 	health = 200
-	loot = list(/obj/effect/mob_spawn/human/corpse/raider/biker)
+	loot = list(/obj/effect/mob_spawn/human/corpse/old_raider/biker)
 	healable = 1
 	ranged = 1
 	projectiletype = /obj/item/projectile/bullet/F13/c44mmBullet
 	projectilesound = 'sound/f13weapons/magnum_fire.ogg'
 	casingtype = /obj/item/ammo_casing/m44
 
-/obj/effect/mob_spawn/human/corpse/raider/biker
+/obj/effect/mob_spawn/human/corpse/old_raider/biker
 	uniform = /obj/item/clothing/under/f13/rag
 	suit = /obj/item/clothing/suit/armor/f13/slam
 	shoes = /obj/item/clothing/shoes/f13/rag

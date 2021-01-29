@@ -12,7 +12,7 @@
 	var/report_message = "Complete this goal."
 
 /datum/station_goal/proc/send_report()
-	priority_announce("Priority Vault-Tec directive received. Project \"[name]\" details inbound.", "Incoming Priority Message", 'sound/ai/commandreport.ogg')
+	priority_announce("Priority Vault-Tec directive received. Project \"[name]\" details inbound.", "Incoming Priority Message", 'sound/f13/broadcast.ogg')
 	print_command_report(get_report(),"Vault-Tec Directive [pick(GLOB.phonetic_alphabet)] \Roman[rand(1,50)]", announce=FALSE)
 	on_report()
 

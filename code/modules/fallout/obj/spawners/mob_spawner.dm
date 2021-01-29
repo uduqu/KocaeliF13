@@ -17,3 +17,11 @@
 /obj/effect/mob_spawner/cazador
 	name = "cazadors spawner"
 	mob_type = /mob/living/simple_animal/hostile/cazador
+
+/obj/effect/mob_spawner/raider
+	name = "raider spawner"
+	mob_type = list(/mob/living/simple_animal/hostile/raider,/mob/living/simple_animal/hostile/raider/ranged)
+
+/obj/effect/mob_spawner/raider_boss
+	name = "raider boss spawner"
+	mob_type = list(/mob/living/simple_animal/hostile/raider/ranged/boss)

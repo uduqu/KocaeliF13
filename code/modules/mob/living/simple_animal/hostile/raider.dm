@@ -28,6 +28,9 @@
 	check_friendly_fire = 1
 	status_flags = CANPUSH
 	del_on_death = 1
+	speak = list("I'm gonna mount you on my fucking wall!", "Aggghhh!", "Yeeeaaahhh!", "Oooh! Got a feisty one!", "Should have stayed in bed today, hero!", "Look at the kid playin' tough guy! Ha ha ha ha ha!")
+	speak_emote = list("rushes")
+	speak_chance = 2
 
 /mob/living/simple_animal/hostile/raider/ranged
 	icon_state = "raiderranged"
@@ -38,8 +41,11 @@
 	health = 115
 	retreat_distance = 4
 	minimum_distance = 6
-	projectiletype = /obj/item/projectile/bullet/c9mm
+	projectiletype = /obj/item/projectile/bullet/c9mm/npc
 	projectilesound = 'sound/f13weapons/ninemil.ogg'
+	speak = list("I'm gonna mount you on my fucking wall!", "Aggghhh!", "Yeeeaaahhh!", "Oooh! Got a feisty one!", "Should have stayed in bed today, hero!", "Look at the kid playin' tough guy! Ha ha ha ha ha!")
+	speak_emote = list("rushes")
+	speak_chance = 2
 
 /mob/living/simple_animal/hostile/raider/ranged/boss
 	name = "Raider Boss"
@@ -49,6 +55,9 @@
 	health = 170
 	extra_projectiles = 2
 	loot = list(/obj/effect/mob_spawn/human/corpse/raiderboss, /obj/item/gun/ballistic/automatic/greasegun)
+	speak = list("I'm gonna mount you on my fucking wall!", "Aggghhh!", "Yeeeaaahhh!", "Oooh! Got a feisty one!", "Should have stayed in bed today, hero!", "Look at the kid playin' tough guy! Ha ha ha ha ha!")
+	speak_emote = list("rushes")
+	speak_chance = 2
 
 /mob/living/simple_animal/hostile/raider/ranged/boss/Aggro()
 	..()
