@@ -619,7 +619,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	name = "Vault Dweller"
 	icon_state = "Vault Dweller"
 
-// Kebab // Is not Kebab is Oasis REEEE // It's Oasis, you absolute freaks.
+// Kebab // Is not Kebab is Oasis REEEE // It's Kebab, you absolute freaks.
 
 /obj/effect/landmark/start/f13/mayor
 	name = "Mayor"
