@@ -1962,17 +1962,8 @@
 	},
 /area/f13/legioncamp)
 "agh" = (
-/obj/machinery/button/vertibird{
-	pixel_x = -24
-	},
-/obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
-/turf/open/floor/f13{
-	tag = "icon-floordirtysolid";
-	icon_state = "floordirtysolid"
-	},
-/area/f13/underground/mountain)
+/turf/closed/indestructible/vaultdoor,
+/area/f13/admeme)
 "agi" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -4361,14 +4352,14 @@
 	},
 /area/crew_quarters/dorms)
 "anv" = (
-/turf/open/floor/plating,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/legioncamp)
 "anw" = (
-/turf/open/floor/plating,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/ncr_main)
 "anx" = (
-/turf/open/floor/plating,
-/area/f13/admeme)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/powerplant)
 "any" = (
 /obj/structure/janitorialcart,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
@@ -4457,6 +4448,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/crew_quarters/dorms)
 "anK" = (
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/admeme)
+"anL" = (
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "Legion Camp APC"
@@ -4467,16 +4461,16 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plating,
-/area/f13/legioncamp)
-"anL" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/smes/magical,
-/turf/open/floor/plating,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/legioncamp)
 "anM" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/smes/magical,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/legioncamp)
+"anN" = (
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "Unused APC"
@@ -4487,19 +4481,19 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plating,
-/area/f13/ncr_main)
-"anN" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/smes/magical,
-/turf/open/floor/plating,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/ncr_main)
 "anO" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/smes/magical,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/ncr_main)
+"anP" = (
 /obj/machinery/power/apc{
 	dir = 8;
-	name = "Unused APC"
+	name = "Power Plant APC"
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -4507,15 +4501,8 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/floor/plating,
-/area/f13/admeme)
-"anP" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/smes/magical,
-/turf/open/floor/plating,
-/area/f13/admeme)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/powerplant)
 "anQ" = (
 /obj/machinery/vending/wardrobe/jani_wardrobe,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
@@ -4541,49 +4528,52 @@
 /area/janitor)
 "anT" = (
 /obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating,
-/area/f13/legioncamp)
-"anU" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plating,
-/area/f13/legioncamp)
+/obj/machinery/power/smes/magical,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/powerplant)
+"anU" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Unused APC"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/admeme)
 "anV" = (
 /obj/structure/cable{
-	icon_state = "1-4"
+	icon_state = "0-8"
 	},
-/turf/open/floor/plating,
-/area/f13/ncr_main)
+/obj/machinery/power/smes/magical,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/admeme)
 "anW" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/turf/open/floor/plating,
-/area/f13/ncr_main)
-"anX" = (
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plating,
-/area/f13/admeme)
-"anY" = (
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/legioncamp)
+"anX" = (
 /obj/machinery/power/terminal{
 	dir = 1
 	},
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plating,
-/area/f13/admeme)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/legioncamp)
+"anY" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/ncr_main)
 "anZ" = (
 /obj/machinery/door/airlock,
 /obj/structure/cable{
@@ -4861,11 +4851,20 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess/bluechess2,
 /area/crew_quarters/toilet)
 "aoP" = (
-/turf/open/floor/plating,
-/area/f13/farmhouse)
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/ncr_main)
 "aoQ" = (
-/turf/open/floor/plating,
-/area/f13/klamat)
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/powerplant)
 "aoR" = (
 /obj/machinery/light{
 	dir = 1
@@ -4971,57 +4970,34 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/crew_quarters/bar/atrium)
 "apf" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "ADMIN APC"
+/obj/machinery/power/terminal{
+	dir = 1
 	},
 /obj/structure/cable{
-	icon_state = "0-4"
+	icon_state = "0-8"
 	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/f13/admeme)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/powerplant)
 "apg" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "Farmhouse APC"
-	},
 /obj/structure/cable{
-	icon_state = "0-4"
+	icon_state = "1-4"
 	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/f13/farmhouse)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/admeme)
 "aph" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/smes/magical,
-/turf/open/floor/plating,
-/area/f13/farmhouse)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/admeme)
 "api" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "Klamat APC"
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/f13/klamat)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/farmhouse)
 "apj" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/smes/magical,
-/turf/open/floor/plating,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/klamat)
 "apk" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -5101,34 +5077,50 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/crew_quarters/bar/atrium)
 "apw" = (
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "ADMIN APC"
 	},
-/turf/open/floor/plating,
-/area/f13/farmhouse)
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/admeme)
 "apx" = (
-/obj/machinery/power/terminal{
-	dir = 1
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Farmhouse APC"
 	},
 /obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "0-4"
 	},
-/turf/open/floor/plating,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/farmhouse)
 "apy" = (
 /obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating,
-/area/f13/klamat)
-"apz" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plating,
+/obj/machinery/power/smes/magical,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/farmhouse)
+"apz" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Klamat APC"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/klamat)
 "apA" = (
 /obj/structure/table,
@@ -5942,11 +5934,18 @@
 /turf/open/floor/plating,
 /area/f13/den)
 "arL" = (
-/turf/open/floor/plating,
-/area/f13/sunny_dale)
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/smes/magical,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/klamat)
 "arM" = (
-/turf/open/floor/plating,
-/area/f13/underground/enclave_base)
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/farmhouse)
 "arN" = (
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -6391,67 +6390,42 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
 "asS" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "Den APC"
+/obj/machinery/computer/vertibird_console,
+/turf/open/floor/f13{
+	tag = "icon-floordirtysolid";
+	icon_state = "floordirtysolid"
 	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/f13/den)
+/area/f13/admeme)
 "asT" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/smes/magical,
-/turf/open/floor/plating,
-/area/f13/den)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/farmhouse)
 "asU" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "Sunnydale APC"
-	},
 /obj/structure/cable{
-	icon_state = "0-4"
+	icon_state = "1-4"
 	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/f13/sunny_dale)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/klamat)
 "asV" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/power/smes/magical{
-	output_level = 150000
-	},
-/turf/open/floor/plating,
-/area/f13/sunny_dale)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/klamat)
 "asW" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "Enclave Base APC"
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/f13/underground/enclave_base)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/den)
 "asX" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/smes/magical,
-/turf/open/floor/plating,
-/area/f13/underground/enclave_base)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/sunny_dale)
 "asY" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -6761,49 +6735,58 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/hallway/secondary/exit)
 "atB" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating,
-/area/f13/den)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/underground/enclave_base)
 "atC" = (
-/obj/machinery/power/terminal{
-	dir = 1
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "0-2"
 	},
-/turf/open/floor/plating,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/den)
 "atD" = (
 /obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating,
-/area/f13/sunny_dale)
-"atE" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plating,
+/obj/machinery/power/smes/magical,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/den)
+"atE" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Sunnydale APC"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/sunny_dale)
 "atF" = (
 /obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating,
-/area/f13/underground/enclave_base)
-"atG" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/floor/plating,
+/obj/machinery/power/smes/magical{
+	output_level = 150000
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/sunny_dale)
+"atG" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Enclave Base APC"
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/underground/enclave_base)
 "atH" = (
 /obj/effect/turf_decal/stripes/line{
@@ -14673,10 +14656,17 @@
 	},
 /area/f13/den)
 "aNO" = (
-/obj/effect/decal/waste,
-/turf/open/floor/wood/f13/old,
-/turf/open/floor/plating/f13/inside/mountain,
-/area/f13/underground/mountain)
+/obj/machinery/button/vertibird{
+	pixel_x = -24
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	tag = "icon-floordirtysolid";
+	icon_state = "floordirtysolid"
+	},
+/area/f13/admeme)
 "aNP" = (
 /obj/structure/table/wood,
 /obj/item/paper,
@@ -16122,14 +16112,12 @@
 	},
 /area/f13/desert)
 "aRV" = (
-/obj/structure/sign/bilboards/den{
-	desc = "A sprayed metal sheet that says \"Den\".";
-	name = "Den Sign"
+/obj/structure/cable{
+	icon_state = "0-8"
 	},
-/turf/open/floor/plating/f13/outside/road{
-	icon_state = "innermiddle"
-	},
-/area/f13/desert)
+/obj/machinery/power/smes/magical,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/underground/enclave_base)
 "aRW" = (
 /turf/open/floor/plating/f13/outside/road{
 	icon_state = "innerturn";
@@ -16875,13 +16863,9 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/sunny_dale)
 "aUa" = (
-/obj/item/kitchen/knife,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/machinery/chem_dispenser,
+/mob/living/simple_animal/hostile/eyebot/floatingeye/warden,
 /turf/open/floor/plasteel/f13{
-	icon_state = "whitebluerustychess"
+	icon_state = "floorgrime"
 	},
 /area/f13/sunny_dale)
 "aUb" = (
@@ -17715,25 +17699,25 @@
 /turf/open/floor/wood/f13/stage_tr,
 /area/f13/sunny_dale)
 "aWB" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbrokenvertical"
-	},
-/area/f13/desert)
+/obj/structure/closet/crate/secure/weapon,
+/turf/open/floor/plating,
+/area/f13/ncr_main)
 "aWC" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
 "aWD" = (
-/obj/effect/decal/cleanable/shreds,
-/turf/open/space/basic,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
+/obj/machinery/light/small{
+	dir = 1
 	},
-/area/f13/powerplant)
+/obj/machinery/chem_master,
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluerustychess"
+	},
+/area/f13/sunny_dale)
 "aWE" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -18236,9 +18220,8 @@
 	},
 /area/f13/sunny_dale)
 "aYb" = (
-/obj/structure/window/fulltile/wood_window,
+/mob/living/simple_animal/hostile/eyebot/floatingeye/warden,
 /turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite,
 /area/f13/desert)
 "aYc" = (
 /obj/structure/toilet{
@@ -20555,12 +20538,9 @@
 	},
 /area/f13/sunny_dale)
 "beo" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbroken"
+/mob/living/simple_animal/hostile/eyebot/floatingeye/warden,
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "innermiddle"
 	},
 /area/f13/desert)
 "bep" = (
@@ -20645,14 +20625,11 @@
 	},
 /area/f13/raider_mall)
 "beD" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/mob/living/simple_animal/hostile/eyebot/floatingeye/warden,
+/turf/open/floor/plasteel/f13{
+	icon_state = "platingdmg1"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowdestroyed"
-	},
-/area/f13/desert)
+/area/f13/sunny_dale)
 "beE" = (
 /obj/effect/decal/roadline{
 	icon_state = "singlehorizontalright"
@@ -20661,6 +20638,12 @@
 	icon_state = "innermiddle"
 	},
 /area/f13/desert)
+"beF" = (
+/mob/living/simple_animal/hostile/eyebot/floatingeye/warden,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/prison)
 "beG" = (
 /turf/closed/wall/r_wall/f13superstore{
 	icon_state = "supermart3"
@@ -22842,6 +22825,13 @@
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/mountain_bunker)
+"bkK" = (
+/obj/structure/simple_door/interior,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/sunny_dale)
 "bkL" = (
 /obj/machinery/dna_scannernew,
 /turf/open/floor/plasteel/f13{
@@ -26912,10 +26902,15 @@
 	},
 /area/f13/desert)
 "bwy" = (
-/turf/open/floor/plating/f13/outside/road{
-	icon_state = "innermiddle"
+/obj/machinery/blackbox_recorder,
+/obj/machinery/light{
+	dir = 1;
+	light_color = "#706891"
 	},
-/area/holodeck/rec_center/basketball)
+/turf/open/floor/f13{
+	icon_state = "darkdirty"
+	},
+/area/f13/admeme)
 "bwz" = (
 /obj/item/reagent_containers/glass/bucket,
 /obj/machinery/light{
@@ -27292,8 +27287,17 @@
 	},
 /area/f13/powerplant)
 "bxG" = (
-/turf/closed/indestructible/vaultdoor,
-/area/f13/underground/mountain)
+/obj/machinery/button/vertibird{
+	pixel_x = 24
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	tag = "icon-floordirtysolid";
+	icon_state = "floordirtysolid"
+	},
+/area/f13/admeme)
 "bxH" = (
 /obj/structure/fence,
 /turf/open/floor/plating/f13/outside/road{
@@ -28108,12 +28112,13 @@
 	},
 /area/f13/desert)
 "bAe" = (
-/obj/machinery/computer/vertibird_console,
-/turf/open/floor/f13{
-	tag = "icon-floordirtysolid";
-	icon_state = "floordirtysolid"
+/turf/closed/indestructible/vaultdoor{
+	desc = "One of the doors to enter and exit the aircraft. This one appears jammed, or perhaps welded shut.";
+	icon = 'icons/obj/doors/airlocks/survival/survival.dmi';
+	icon_state = "closed";
+	name = "jammed exit hatch"
 	},
-/area/f13/underground/mountain)
+/area/f13/admeme)
 "bAf" = (
 /turf/open/floor/wood/f13/carpet{
 	icon_state = "torncarpet8"
@@ -28125,17 +28130,8 @@
 	},
 /area/f13/desert)
 "bAh" = (
-/obj/machinery/button/vertibird{
-	pixel_x = 24
-	},
-/obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
-/turf/open/floor/f13{
-	tag = "icon-floordirtysolid";
-	icon_state = "floordirtysolid"
-	},
-/area/f13/underground/mountain)
+/turf/open/floor/f13,
+/area/f13/admeme)
 "bAi" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -28217,15 +28213,10 @@
 	},
 /area/f13/powerplant)
 "bAu" = (
-/obj/machinery/blackbox_recorder,
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
 /turf/open/floor/f13{
-	icon_state = "darkdirty"
+	icon_state = "darkdirtysolid"
 	},
-/area/f13/underground/mountain)
+/area/f13/admeme)
 "bAv" = (
 /obj/effect/decal/remains/robot,
 /turf/open/floor/plating,
@@ -28242,13 +28233,9 @@
 	},
 /area/f13/desert)
 "bAy" = (
-/turf/closed/indestructible/vaultdoor{
-	desc = "One of the doors to enter and exit the aircraft. This one appears jammed, or perhaps welded shut.";
-	icon = 'icons/obj/doors/airlocks/survival/survival.dmi';
-	icon_state = "closed";
-	name = "jammed exit hatch"
-	},
-/area/f13/underground/mountain)
+/obj/landmark/vertibird_enter,
+/turf/open/floor/f13,
+/area/f13/admeme)
 "bAz" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/chair/f13chair2,
@@ -28414,9 +28401,9 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
 "bBa" = (
-/obj/landmark/vertibird_enter,
-/turf/open/floor/f13,
-/area/f13/underground/mountain)
+/obj/vertibird_exit_door,
+/turf/closed/indestructible/vaultdoor,
+/area/f13/admeme)
 "bBb" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
@@ -28566,6 +28553,14 @@
 	},
 /turf/open/floor/plating,
 /area/f13/powerplant)
+"bBy" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/f13{
+	icon_state = "darkdirtysolid"
+	},
+/area/f13/admeme)
 "bBz" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -28747,10 +28742,13 @@
 	},
 /area/f13/sunny_dale)
 "bBX" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
 	},
-/area/f13/underground/mountain)
+/area/f13/admeme)
 "bBY" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
@@ -28837,8 +28835,10 @@
 	},
 /area/f13/prison)
 "bCl" = (
+/obj/structure/closet/crate/medical,
+/obj/item/storage/firstaid/ancient,
 /turf/open/floor/f13,
-/area/f13/underground/mountain)
+/area/f13/admeme)
 "bCm" = (
 /obj/structure/closet,
 /obj/item/card/id/prisoner/one,
@@ -29260,13 +29260,13 @@
 	},
 /area/f13/prison)
 "bDr" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
+/obj/structure/closet/crate{
+	name = "emergency supplies crate"
 	},
-/turf/open/floor/f13{
-	icon_state = "darkdirtysolid"
-	},
-/area/f13/underground/mountain)
+/obj/machinery/light,
+/obj/item/storage/crayons,
+/turf/open/floor/f13,
+/area/f13/admeme)
 "bDs" = (
 /obj/item/mining_scanner,
 /turf/open/floor/plating/f13/outside/road{
@@ -29306,9 +29306,17 @@
 /turf/open/floor/plating,
 /area/f13/powerplant)
 "bDx" = (
-/obj/vertibird_exit_door,
-/turf/closed/indestructible/vaultdoor,
-/area/f13/underground/mountain)
+/obj/structure/closet/crate{
+	name = "emergency supplies crate"
+	},
+/obj/item/reagent_containers/food/snacks/f13/mre,
+/obj/item/reagent_containers/food/snacks/f13/mre,
+/obj/item/reagent_containers/food/snacks/f13/mre,
+/obj/item/reagent_containers/food/snacks/f13/mre,
+/obj/item/reagent_containers/food/snacks/f13/mre,
+/obj/item/reagent_containers/food/snacks/f13/mre,
+/turf/open/floor/f13,
+/area/f13/admeme)
 "bDy" = (
 /obj/machinery/trading_machine/ammo,
 /obj/machinery/light{
@@ -29324,13 +29332,11 @@
 	},
 /area/f13/desert)
 "bDA" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 8
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
-/turf/open/floor/f13{
-	icon_state = "darkdirtysolid"
-	},
-/area/f13/underground/mountain)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/den)
 "bDB" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
@@ -29448,6 +29454,15 @@
 	},
 /turf/open/floor/plating,
 /area/f13/powerplant)
+"bDS" = (
+/obj/structure/sign/bilboards/den{
+	desc = "A sprayed metal sheet that says 'Den'.";
+	name = "Den Sign"
+	},
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "innermiddle"
+	},
+/area/f13/desert)
 "bDT" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/f13/outside/road{
@@ -32078,10 +32093,14 @@
 /turf/open/floor/plasteel/bar,
 /area/f13/brotherhood)
 "bLO" = (
-/obj/structure/closet/crate/medical,
-/obj/item/storage/firstaid/ancient,
-/turf/open/floor/f13,
-/area/f13/underground/mountain)
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/den)
 "bLP" = (
 /obj/machinery/light{
 	dir = 8
@@ -32089,13 +32108,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/brotherhood)
 "bLQ" = (
-/obj/structure/closet/crate{
-	name = "emergency supplies crate"
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
-/obj/machinery/light,
-/obj/item/storage/crayons,
-/turf/open/floor/f13,
-/area/f13/underground/mountain)
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/sunny_dale)
 "bLR" = (
 /turf/closed/indestructible/vaultdoor,
 /area/f13/underground/vault_atrium_upper)
@@ -34146,17 +34163,14 @@
 /turf/open/floor/plating/f13/inside/mountain,
 /area/f13/underground/mountain)
 "bSf" = (
-/obj/structure/closet/crate{
-	name = "emergency supplies crate"
+/obj/machinery/power/terminal{
+	dir = 1
 	},
-/obj/item/reagent_containers/food/snacks/f13/mre,
-/obj/item/reagent_containers/food/snacks/f13/mre,
-/obj/item/reagent_containers/food/snacks/f13/mre,
-/obj/item/reagent_containers/food/snacks/f13/mre,
-/obj/item/reagent_containers/food/snacks/f13/mre,
-/obj/item/reagent_containers/food/snacks/f13/mre,
-/turf/open/floor/f13,
-/area/f13/underground/mountain)
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/sunny_dale)
 "bSg" = (
 /mob/living/simple_animal/hostile/handy/gutsy/enclave,
 /turf/open/floor/plasteel/f13{
@@ -35083,12 +35097,11 @@
 	},
 /area/f13/mountain_bunker)
 "bUn" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
+/mob/living/simple_animal/hostile/eyebot/floatingeye/warden,
+/turf/open/floor/plating/f13/outside/road{
+	icon_state = "horizontaloutermain0"
 	},
-/obj/structure/closet/crate/secure/weapon,
-/turf/open/floor/plating,
-/area/f13/ncr_main)
+/area/f13/desert)
 "bUo" = (
 /obj/structure/rack,
 /obj/item/wrench,
@@ -35291,17 +35304,31 @@
 	icon_state = "innermiddle"
 	},
 /area/f13/desert)
+"bUN" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/underground/enclave_base)
 "bUO" = (
 /obj/structure/window/fulltile/wood_window,
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
 "bUP" = (
-/obj/machinery/chem_master,
-/turf/open/floor/plasteel/f13{
-	icon_state = "whitebluerustychess"
+/obj/machinery/power/terminal{
+	dir = 1
 	},
-/area/f13/sunny_dale)
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/underground/enclave_base)
+"bUQ" = (
+/obj/effect/decal/waste,
+/turf/open/floor/wood/f13/old,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/underground/mountain)
 "bUR" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -35323,12 +35350,51 @@
 	icon_state = "whitebluerustychess"
 	},
 /area/f13/sunny_dale)
+"bUU" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowbrokenvertical"
+	},
+/area/f13/desert)
 "bUV" = (
 /obj/structure/window/fulltile/wood_window,
 /obj/structure/window/fulltile/wood_window,
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
+"bUW" = (
+/obj/effect/decal/cleanable/shreds,
+/turf/open/space/basic,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/f13/powerplant)
+"bUX" = (
+/obj/structure/window/fulltile/wood_window,
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite,
+/area/f13/desert)
+"bUY" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowbroken"
+	},
+/area/f13/desert)
+"bUZ" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowdestroyed"
+	},
+/area/f13/desert)
 "cdT" = (
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "ruins6"
@@ -35419,15 +35485,6 @@
 	icon_state = "ruins5"
 	},
 /area/f13/tunnel)
-"dxT" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/turf/open/floor/plating,
-/area/f13/powerplant)
 "dDb" = (
 /obj/item/radio/intercom{
 	name = "intercom";
@@ -35541,13 +35598,6 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/powerplant)
-"fqr" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/power/smes/magical,
-/turf/open/floor/plating,
 /area/f13/powerplant)
 "fxL" = (
 /obj/machinery/light{
@@ -35707,25 +35757,6 @@
 	icon_state = "whitebluechess"
 	},
 /area/f13/mountain_bunker)
-"iCI" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "Power Plant APC"
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/open/floor/plating,
-/area/f13/powerplant)
-"iMB" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/floor/plating,
-/area/f13/powerplant)
 "iOM" = (
 /obj/structure/table/wood,
 /obj/item/weldingtool/experimental/brass,
@@ -37613,27 +37644,27 @@ ann
 anq
 anv
 anv
-anK
-anT
+anL
+anW
 anv
 anq
 ann
 anp
 ans
-anx
-anx
-apf
-anX
-anx
+anK
+anK
+apw
+apg
+anK
 ans
 anp
 aqG
 ard
-arK
-arK
-asS
-atB
-arK
+asW
+asW
+atC
+bDA
+asW
 ard
 aqG
 bNA
@@ -38015,27 +38046,27 @@ ann
 anq
 anv
 anv
-anL
-anU
+anM
+anX
 anv
 anq
 ann
 anp
 ans
-anx
-anx
-anP
-anY
-anx
+anK
+anK
+anV
+aph
+anK
 ans
 anp
 aqG
 ard
-arK
-arK
-asT
-atC
-arK
+asW
+asW
+atD
+bLO
+asW
 ard
 aqG
 bNA
@@ -38424,20 +38455,20 @@ anq
 ann
 anp
 ans
-anx
-anx
-anx
-anx
-anx
+anK
+anK
+anK
+anK
+anK
 ans
 anp
 aqG
 ard
-arK
-arK
-arK
-arK
-arK
+asW
+asW
+asW
+asW
+asW
 ard
 aqG
 bNA
@@ -38633,7 +38664,7 @@ btk
 bSd
 vQi
 vQi
-bUn
+aWB
 boq
 aaf
 aaf
@@ -39564,13 +39595,13 @@ aab
 bNA
 bNA
 bNA
-bxG
-bDx
-bxG
-bxG
-bxG
-bxG
-bxG
+agh
+bAe
+agh
+agh
+agh
+agh
+agh
 bNA
 bNA
 aab
@@ -39964,16 +39995,16 @@ bNA
 aab
 aab
 bNA
-bxG
-bxG
-bxG
-bBa
-bxG
-bDr
-bDr
-bDr
-bxG
-bxG
+agh
+agh
+agh
+bAh
+agh
+bBy
+bBy
+bBy
+agh
+agh
 bNA
 aab
 aab
@@ -40366,16 +40397,16 @@ bNA
 aab
 aab
 bNA
-bxG
-bAe
 agh
-bBX
+asS
+aNO
+bAu
+bAh
+bAh
+bAh
+bAh
 bCl
-bCl
-bCl
-bCl
-bLO
-bxG
+agh
 bNA
 aab
 aab
@@ -40427,27 +40458,27 @@ ano
 anr
 anw
 anw
-anM
-anV
+anN
+anY
 anw
 anr
 ano
 aow
 aoF
-aoP
-aoP
-apg
-apw
-aoP
+api
+api
+apx
+arM
+api
 aoF
 aow
 aqH
 are
-arL
-arL
-asU
-atD
-arL
+asX
+asX
+atE
+bLQ
+asX
 are
 aqH
 bNA
@@ -40768,16 +40799,16 @@ bNA
 aab
 aab
 bNA
-bxG
-bxG
-bAu
-bCl
-bCl
-bCl
-bCl
-bCl
-bLQ
-bxG
+agh
+agh
+bwy
+bAh
+bAh
+bAh
+bAh
+bAh
+bDr
+agh
 bNA
 aab
 aab
@@ -40829,27 +40860,27 @@ ano
 anr
 anw
 anw
-anN
-anW
+anO
+aoP
 anw
 anr
 ano
 aow
 aoF
-aoP
-aoP
-aph
-apx
-aoP
+api
+api
+apy
+asT
+api
 aoF
 aow
 aqH
 are
-arL
-arL
-asV
-atE
-arL
+asX
+asX
+atF
+bSf
+asX
 are
 aqH
 bNA
@@ -41170,16 +41201,16 @@ bNA
 aab
 aab
 bNA
+agh
+asS
 bxG
-bAe
+bAu
 bAh
-bBX
-bCl
-bCl
-bCl
-bCl
-bSf
-bxG
+bAh
+bAh
+bAh
+bDx
+agh
 bNA
 aab
 aab
@@ -41238,20 +41269,20 @@ anr
 ano
 aow
 aoF
-aoP
-aoP
-aoP
-aoP
-aoP
+api
+api
+api
+api
+api
 aoF
 aow
 aqH
 are
-arL
-arL
-arL
-arL
-arL
+asX
+asX
+asX
+asX
+asX
 are
 aqH
 bNA
@@ -41572,16 +41603,16 @@ bNA
 aab
 aab
 bNA
-bxG
-bxG
-bxG
-bCl
-bxG
-bDA
-bDA
-bDA
-bxG
-bxG
+agh
+agh
+agh
+bAy
+agh
+bBX
+bBX
+bBX
+agh
+agh
 bNA
 aab
 aab
@@ -41976,13 +42007,13 @@ aab
 bNA
 bNA
 bNA
-bxG
-bAy
-bxG
-bxG
-bxG
-bxG
-bxG
+agh
+bBa
+agh
+agh
+agh
+agh
+agh
 bNA
 bNA
 aab
@@ -43239,29 +43270,29 @@ akc
 ajT
 iUz
 vrk
-bwI
-bwI
-iCI
-iMB
-bwI
+anx
+anx
+anP
+aoQ
+anx
 vrk
 iUz
 aox
 aoG
-aoQ
-aoQ
-api
-apy
-aoQ
+apj
+apj
+apz
+asU
+apj
 aoG
 aox
 aqI
 arf
-arM
-arM
-asW
-atF
-arM
+atB
+atB
+atG
+bUN
+atB
 arf
 aqI
 bNA
@@ -43641,29 +43672,29 @@ akc
 ajT
 iUz
 vrk
-bwI
-bwI
-fqr
-dxT
-bwI
+anx
+anx
+anT
+apf
+anx
 vrk
 iUz
 aox
 aoG
-aoQ
-aoQ
 apj
-apz
-aoQ
+apj
+arL
+asV
+apj
 aoG
 aox
 aqI
 arf
-arM
-arM
-asX
-atG
-arM
+atB
+atB
+aRV
+bUP
+atB
 arf
 aqI
 bNA
@@ -44043,29 +44074,29 @@ akc
 ajT
 iUz
 vrk
-bwI
-bwI
-bwI
-bwI
-bwI
+anx
+anx
+anx
+anx
+anx
 vrk
 iUz
 aox
 aoG
-aoQ
-aoQ
-aoQ
-aoQ
-aoQ
+apj
+apj
+apj
+apj
+apj
 aoG
 aox
 aqI
 arf
-arM
-arM
-arM
-arM
-arM
+atB
+atB
+atB
+atB
+atB
 arf
 aqI
 bNA
@@ -46053,11 +46084,11 @@ akc
 ajT
 anp
 ans
-anx
-anx
-anO
-anX
-anx
+anK
+anK
+anU
+apg
+anK
 ans
 anp
 bNA
@@ -46455,11 +46486,11 @@ ajT
 ajT
 anp
 ans
-anx
-anx
-anP
-anY
-anx
+anK
+anK
+anV
+aph
+anK
 ans
 anp
 bNA
@@ -46857,11 +46888,11 @@ bNA
 bNA
 anp
 ans
-anx
-anx
-anx
-anx
-anx
+anK
+anK
+anK
+anK
+anK
 ans
 anp
 bNA
@@ -64778,7 +64809,7 @@ byd
 btb
 byF
 byG
-aWD
+bUW
 bvv
 bzY
 boQ
@@ -67096,7 +67127,7 @@ aOa
 bdx
 bcc
 baq
-aZM
+beD
 bcX
 beW
 aOa
@@ -69920,7 +69951,7 @@ aOd
 beh
 baZ
 baZ
-aZM
+beD
 aOa
 afv
 aag
@@ -72720,7 +72751,7 @@ sRe
 sRe
 sRe
 sRe
-sRe
+aUa
 sRe
 sRe
 bcA
@@ -73115,7 +73146,7 @@ baE
 baE
 baE
 aeE
-aIG
+bkK
 aZM
 sRe
 sRe
@@ -73517,7 +73548,7 @@ baE
 aYz
 aYz
 aeE
-aIG
+bkK
 aZN
 sRe
 sRe
@@ -79091,7 +79122,7 @@ aab
 aab
 aKh
 aKh
-aNO
+bUQ
 aab
 aab
 aaf
@@ -79893,7 +79924,7 @@ aaf
 aaf
 aaf
 aab
-aNO
+bUQ
 aKh
 aKh
 aab
@@ -80297,7 +80328,7 @@ aaf
 aab
 aab
 aKh
-aNO
+bUQ
 aab
 aaf
 aaf
@@ -91718,7 +91749,7 @@ aag
 aag
 aag
 aMv
-bUP
+bAi
 bwM
 bwM
 aHv
@@ -92120,7 +92151,7 @@ aag
 aag
 aag
 aMv
-aUa
+aWD
 bwM
 bwM
 aHv
@@ -102188,8 +102219,8 @@ brA
 brA
 aaZ
 abg
-beo
-beD
+bUY
+bUZ
 aaz
 aaI
 aag
@@ -108203,7 +108234,7 @@ aaI
 brC
 aeO
 bst
-beo
+bUY
 bls
 aze
 aaZ
@@ -110332,7 +110363,7 @@ abq
 aag
 aag
 aag
-aeb
+aag
 aag
 aag
 aag
@@ -112203,8 +112234,8 @@ aaU
 aDU
 aCN
 aaU
-aWB
-aWB
+bUU
+bUU
 aaU
 aaI
 bhQ
@@ -119433,8 +119464,8 @@ aag
 aag
 aze
 brA
-aWB
-aWB
+bUU
+bUU
 aaU
 aaU
 aFp
@@ -119456,7 +119487,7 @@ aag
 aag
 aDU
 bae
-aYb
+bUX
 blR
 bvr
 bbD
@@ -129373,7 +129404,7 @@ aRd
 aen
 aer
 baE
-aRV
+bDS
 aeE
 afv
 aag
@@ -137127,7 +137158,7 @@ aen
 bvg
 baE
 baE
-baE
+beo
 baE
 aQB
 baE
@@ -137150,7 +137181,7 @@ aeO
 ahj
 aag
 aag
-aag
+aYb
 aag
 aag
 aag
@@ -137531,7 +137562,7 @@ baE
 baE
 baE
 baE
-bwy
+baE
 baE
 baE
 baE
@@ -141159,7 +141190,7 @@ bwU
 bBf
 bBf
 bBf
-bBf
+beF
 bBf
 bBf
 bBf
@@ -142398,7 +142429,7 @@ bFV
 afp
 afp
 afp
-afp
+bUn
 afp
 afp
 bGP
@@ -143556,7 +143587,7 @@ aag
 bmm
 aag
 aag
-aag
+aYb
 aag
 aag
 aag
@@ -143984,7 +144015,7 @@ bBf
 bCM
 aQt
 aag
-aag
+aYb
 aFW
 btt
 bDF
@@ -143994,7 +144025,7 @@ bDF
 btt
 afv
 aag
-aag
+aYb
 aag
 aag
 aag
