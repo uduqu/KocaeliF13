@@ -25,16 +25,6 @@
 	var/list/autogrant_actions_controller	//assoc list "[bitflag]" = list(typepaths)
 	var/list/mob/occupant_actions			//assoc list mob = list(type = action datum assigned to mob)
 	var/obj/vehicle/trailer
-	var/engine_on = 0
-	var/engine_on_sound = null
-	var/engine_loop_sound = null
-
-/obj/vehicle/New()
-	..()
-	if(engine_on)
-		src.verbs += /obj/vehicle/proc/StopEngine
-	else
-		src.verbs += /obj/vehicle/proc/StartEngine
 
 /obj/vehicle/Initialize(mapload)
 	. = ..()
@@ -106,8 +96,6 @@
 /obj/vehicle/proc/after_remove_occupant(mob/M)
 
 /obj/vehicle/relaymove(mob/user, direction)
-	if(!engine_on)
-		return
 	if(is_driver(user))
 		return driver_move(user, direction)
 	return FALSE
@@ -163,57 +151,3 @@
 	if(trailer && .)
 		var/dir_to_move = get_dir(trailer.loc, newloc)
 		step(trailer, dir_to_move)
-
-
-
-/////////
-// Waste Procs
-/////////
-
-/obj/vehicle/proc/StartEngine()
-	set name = "Start Engine"
-	set category = "Object"
-	set src in view(1)
-
-	start_engine()
-
-/obj/vehicle/proc/StopEngine()
-	set name = "Stop Engine"
-	set category = "Object"
-	set src in view(1)
-
-	stop_engine()
-
-/obj/vehicle/proc/stop_engine(mob/M)
-	src.verbs += /obj/vehicle/proc/StartEngine
-	src.verbs -= /obj/vehicle/proc/StopEngine
-
-	if(usr)
-		usr.visible_message("[usr] stop engine of [src].", "You stop engine.")
-
-	engine_on = FALSE
-
-	M.stop_sound_channel(CHANNEL_BICYCLE)
-
-/obj/vehicle/proc/start_engine(mob/living/M)
-	GET_COMPONENT(riding_datum, /datum/component/riding)
-	if(!riding_datum)
-		usr.visible_message("<span class = 'notice'>Sit on [src] to do this.</span>")
-		return
-
-	if(!inserted_key)
-		usr.visible_message("<span class = 'notice'>There is no key.</span>")
-		return
-
-	src.verbs += /obj/vehicle/proc/StopEngine
-	src.verbs -= /obj/vehicle/proc/StartEngine
-
-	if(usr)
-		usr.visible_message("[usr] start engine of [src].", "You start engine.")
-
-	engine_on = TRUE
-	if(engine_on_sound)
-		playsound(src, engine_on_sound, 50)
-//	if(engine_loop_sound)
-//		BeginAmbient(engine_loop_sound)
-		SEND_SOUND(M, sound(pick(engine_loop_sound), repeat = 1, wait = 0, volume = 35, channel = CHANNEL_BICYCLE))

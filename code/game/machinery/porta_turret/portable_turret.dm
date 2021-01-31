@@ -1116,4 +1116,3 @@
 	name = "laser beam"
 	damage = 25
 	armour_penetration = 15
-	hitscan = TRUE

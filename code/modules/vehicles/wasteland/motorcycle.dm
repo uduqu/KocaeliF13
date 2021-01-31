@@ -11,22 +11,9 @@
 	obj_integrity = 400
 	max_integrity = 400
 	armor = list(melee = 50, bullet = 40, laser = 30, energy = 30, bomb = 0, bio = 0, rad = 0, fire = 30, acid = 40)
-	key_type = /obj/item/key/motorcycle
 	var/image/cover = null
-//	var/datum_type = /datum/riding/motorcycle
-	engine_on_sound = 'sound/f13machines/bike_start.ogg'
-	engine_loop_sound = 'sound/f13machines/bike_loop.ogg'
+	var/datum_type = /datum/riding/motorcycle
 
-/obj/vehicle/ridden/fuel/motorcycle/Initialize()
-	. = ..()
-	var/datum/component/riding/D = LoadComponent(/datum/component/riding)
-	D.vehicle_move_delay = 1
-	D.set_riding_offsets(RIDING_OFFSET_ALL, list(TEXT_NORTH = list(0, 8), TEXT_SOUTH = list(-2, 5), TEXT_EAST = list(0, 12), TEXT_WEST = list( 2, 5)))
-	D.set_vehicle_dir_offsets(NORTH, -16, -16)
-	D.set_vehicle_dir_offsets(SOUTH, -16, -16)
-	D.set_vehicle_dir_offsets(EAST, -18, 0)
-	D.set_vehicle_dir_offsets(WEST, -18, 0)
-/*
 /obj/vehicle/ridden/fuel/motorcycle/buckle_mob()
 	. = ..()
 	riding_datum = new datum_type()
@@ -49,7 +36,7 @@
 	..()
 	cover = image(icon, "[icon_state]_cover")//"bike_cover")
 	cover.layer = ABOVE_MOB_LAYER
-*/
+
 /obj/item/key/motorcycle
 	name = "motorcycle key"
 	desc = "A keyring with a small steel key.<br>By the look of the key cuts it likely belongs to a motorcycle."
@@ -65,12 +52,7 @@
 	name = "rusty motorcycle"
 	desc = "A very old, weathered motorcycle.<br>Somehow the engine is still intact."
 	icon_state = "bike_rust_med"
-//	D.vehicle_move_delay = 1.2
-
-/obj/vehicle/ridden/fuel/motorcycle/rusty/Initialize()
-	. = ..()
-	var/datum/component/riding/D = LoadComponent(/datum/component/riding)
-	D.vehicle_move_delay = 1.2
+	datum_type = /datum/riding/motorcycle/slow
 
 /obj/vehicle/ridden/fuel/motorcycle/green
 	name = "green motorcycle"
@@ -86,13 +68,8 @@
 	name = "scrambler motorbike"
 	desc = "Scrambler is an old term for a dirt bike with a powerful engine that raced on dirt tracks with low jumps.<br>Something tells you it's better not to mess around with its owner."
 	icon_state = "bike_scrambler"
+	datum_type = /datum/riding/motorcycle/fast
 
-/obj/vehicle/ridden/fuel/motorcycle/scrambler/Initialize()
-	. = ..()
-	var/datum/component/riding/D = LoadComponent(/datum/component/riding)
-	D.vehicle_move_delay = 0.7
-
-/*
 //Motorcycle riding datum
 
 /datum/riding/motorcycle/fast
@@ -105,10 +82,10 @@
 	keytype = /obj/item/key/motorcycle
 	vehicle_move_delay = 1
 
-/datum/riding/motorcycle/proc/handle_vehicle_layer()
+/datum/riding/motorcycle/handle_vehicle_layer()
 	return
 
-/datum/riding/motorcycle/proc/handle_vehicle_offsets()
+/datum/riding/motorcycle/handle_vehicle_offsets()
 	..()
 	if(ridden.has_buckled_mobs())
 		for(var/m in ridden.buckled_mobs)
@@ -125,4 +102,4 @@
 					buckled_mob.pixel_y = 12
 				if(WEST)
 					buckled_mob.pixel_x = 2
-					buckled_mob.pixel_y = 5*/
+					buckled_mob.pixel_y = 5

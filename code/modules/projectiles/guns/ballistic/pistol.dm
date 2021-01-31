@@ -39,7 +39,6 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	fire_delay = 3
 	extra_damage = 45
-	fire_sound = 'sound/f13weapons/max_sawn_off.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/deagle/update_icon()
 	..()
@@ -98,13 +97,14 @@
 	extra_damage = 25
 	extra_penetration = 5
 
+
 /obj/item/gun/ballistic/automatic/pistol/n99/executive
 	name = "\improper Executive" //'the Executive'
 	desc = "A gas-operated N99 pistol chambered in 10mm rounds. It has an accurate two-round-burst and a blue Vault-Tec finish, for only the most robust overseers."
 	icon_state = "executive"
 	can_suppress = FALSE
 	burst_size = 2
-	extra_penetration = 10
+	extra_penetration = 10 
 	extra_damage = 30
 
 /obj/item/gun/ballistic/automatic/pistol/ninemil

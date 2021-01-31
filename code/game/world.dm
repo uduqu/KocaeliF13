@@ -254,7 +254,8 @@ GLOBAL_PROTECT(security_mode)
 		hostedby = CONFIG_GET(string/hostedby)
 
 	s += "<b>\[ENG] Fallout 13 \[18+]<br>"
-	s += "An 18+ 'HRP' server based around 2280. F2/F:NV.<br>"
+	s += "An 18+ HRP server based around 2280. F2/F:NV.<br>"
+	s += "Heavy RP \[https://discord.gg/kBButCnvZ9]<br>"
 	s += "Hosted by: Completely Underpaid Gremlins"
 
 	var/n = 0
