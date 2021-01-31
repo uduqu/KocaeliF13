@@ -41,9 +41,8 @@
 
 /obj/item/projectile/bullet/a50MG
 	damage = 60
-	dismemberment = 0
 	armour_penetration = 65
-	dismemberment = 1
+	dismemberment = 0
 
 /obj/item/projectile/bullet/a50MG/incendiary
 	damage = -20
@@ -68,7 +67,7 @@
 	damage = 80
 	armour_penetration = 100
 	knockdown = 100
-	dismemberment = 45
+	dismemberment = 1
 
 /obj/item/projectile/bullet/a50MG/explosive/on_hit(atom/target, blocked = FALSE)
 	..()

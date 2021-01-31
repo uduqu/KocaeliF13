@@ -187,20 +187,24 @@
 	name = "laser beam"
 	damage = 30
 	armour_penetration = 0
+	hitscan = TRUE
 
 /obj/item/projectile/beam/laser/pistol //AEP7
 	name = "laser beam"
 	damage = 20
 	armour_penetration = 0
+	hitscan = TRUE
 
 /obj/item/projectile/beam/laser/pistol/wattz //Wattz pistol
 	damage = 25
 	armour_penetration = -8
+	hitscan = TRUE
 
 /obj/item/projectile/beam/laser/pistol/wattz/magneto //upgraded Wattz
 	name = "penetrating laser beam"
 	damage = 30
 	armour_penetration = 0
+	hitscan = TRUE
 
 /obj/item/projectile/beam/laser/solar //Solar Scorcher
 	name = "solar scorcher beam"
