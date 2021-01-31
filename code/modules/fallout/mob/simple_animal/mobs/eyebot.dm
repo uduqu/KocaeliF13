@@ -74,6 +74,15 @@
 	..()
 	name = "FEB-[rand(1,99)]"
 
+/mob/living/simple_animal/hostile/eyebot/floatingeye/warden
+	name = "warden"
+	desc = "A quick-observation robot commonly found in pre-War military installations.<br>The floating eyebot uses a powerful taser to keep prisoners in line."
+	faction = list("hostile", "bs", "ghoul")
+
+/mob/living/simple_animal/hostile/eyebot/floatingeye/warden/New()
+	..()
+	name = "WRD-[rand(1,99)]"
+
 /mob/living/simple_animal/pet/dog/eyebot //It's a propaganda eyebot, not a dog, but...
 	name = "propaganda eyebot"
 	desc = "This eyebot's weapons module has been removed and replaced with a loudspeaker. It appears to be shouting Pre-War propaganda."
