@@ -13,7 +13,7 @@
 	var/voteweight = 1
 
 	// Config actually from the JSON - should default to Box
-	var/map_name = "Box Station"
+	var/map_name = "Sunnydale"
 	var/map_path = "map_files/BoxStation"
 	var/map_file = "BoxStation.dmm"
 

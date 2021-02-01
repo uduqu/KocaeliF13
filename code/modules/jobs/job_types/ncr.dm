@@ -12,7 +12,7 @@
 	jobtype = /datum/job/ncr/
 	backpack = /obj/item/storage/backpack/trekker
 	satchel = /obj/item/storage/backpack/satchel/trekker
-//	ears = 			/obj/item/radio/headset/headset_ncr
+	ears = 			/obj/item/radio/headset/headset_ncr
 	shoes = 		/obj/item/clothing/shoes/f13/military/ncr
 	gloves =        /obj/item/clothing/gloves/f13/ncr
 
@@ -195,8 +195,11 @@ Lieutenant
 
 /datum/outfit/loadout/ltscout
 	name = "Scout Lieutenant"
+	uniform = /obj/item/clothing/under/f13/ncr/scout
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/scout/officer
 	suit_store = /obj/item/gun/ballistic/automatic/rangemaster/scoped
+	head = /obj/item/clothing/head/beret/ncr_scout_lt
+	shoes = /obj/item/clothing/shoes/f13/military/ncr_scout
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m762=2,
 		/obj/item/book/granter/trait/trekking=1)
@@ -252,8 +255,11 @@ Sergeant
 
 /datum/outfit/loadout/sgtscout
 	name = "Scout Sergeant"
+	uniform = /obj/item/clothing/under/f13/ncr/scout
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/scout/veteran
 	suit_store = /obj/item/gun/ballistic/shotgun/remington/scoped
+	head = /obj/item/clothing/head/beret/ncr_scout
+	shoes = /obj/item/clothing/shoes/f13/military/ncr_scout
 	backpack_contents = list(
 		/obj/item/ammo_box/a762=3,
 		/obj/item/twohanded/binocs=1)
@@ -327,12 +333,14 @@ Corporal
 
 /datum/outfit/loadout/specscout
 	name = "Scout"
+	uniform = /obj/item/clothing/under/f13/ncr/scout
+	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/scout
 	suit_store = /obj/item/gun/ballistic/shotgun/remington/scoped
 	head = /obj/item/clothing/head/beret/ncr_scout
+	shoes = /obj/item/clothing/shoes/f13/military/ncr_scout
 	backpack_contents = list(
 		/obj/item/ammo_box/a762=3,
-		/obj/item/twohanded/binocs=1
-		)
+		/obj/item/twohanded/binocs=1)
 /*
 NCR Heavy Trooper
 */

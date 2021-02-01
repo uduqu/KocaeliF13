@@ -26483,10 +26483,12 @@
 	},
 /area/f13/den)
 "bvk" = (
-/obj/effect/decal/waste,
-/turf/open/floor/wood/f13/old,
-/turf/open/floor/plating/f13/inside/mountain,
-/area/f13/underground/mountain)
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/underground/enclave_base)
 "bvl" = (
 /obj/structure/bed/mattress/pregame,
 /obj/effect/landmark/start/f13/vetlegionary,
@@ -34879,12 +34881,10 @@
 	},
 /area/f13/underground/enclave_base)
 "bTP" = (
-/obj/structure/table,
-/obj/item/reagent_containers/glass/beaker/large/fluorine,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/underground/enclave_base)
+/obj/structure/table/wood,
+/obj/machinery/cell_charger,
+/turf/open/floor/wood/f13/old,
+/area/f13/klamat)
 "bTQ" = (
 /obj/structure/table,
 /obj/item/reagent_containers/glass/beaker/large/water,
@@ -35368,6 +35368,25 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
 "bUW" = (
+/obj/structure/table/wood,
+/obj/machinery/cell_charger,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/den)
+"bUX" = (
+/obj/effect/decal/waste,
+/turf/open/floor/wood/f13/old,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/underground/mountain)
+"bUY" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/powerplant)
+"bUZ" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -35376,19 +35395,19 @@
 	icon_state = "ruinswindowbrokenvertical"
 	},
 /area/f13/desert)
-"bUX" = (
+"bVa" = (
 /obj/effect/decal/cleanable/shreds,
 /turf/open/space/basic,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
 /area/f13/powerplant)
-"bUY" = (
+"bVb" = (
 /obj/structure/window/fulltile/wood_window,
 /turf/open/indestructible/ground/outside/desert,
 /turf/closed/wall/r_wall/f13composite,
 /area/f13/desert)
-"bUZ" = (
+"bVc" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -35397,7 +35416,7 @@
 	icon_state = "ruinswindowbroken"
 	},
 /area/f13/desert)
-"bVa" = (
+"bVd" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -59004,7 +59023,7 @@ aaf
 bTH
 arf
 auU
-bTP
+bvk
 bTQ
 aBO
 auU
@@ -61190,7 +61209,7 @@ boQ
 boT
 buc
 buc
-boT
+bUY
 btL
 boQ
 bva
@@ -64823,7 +64842,7 @@ byd
 btb
 byF
 byG
-bUX
+bVa
 bvv
 bzY
 boQ
@@ -79136,7 +79155,7 @@ aab
 aab
 aKh
 aKh
-bvk
+bUX
 aab
 aab
 aaf
@@ -79938,7 +79957,7 @@ aaf
 aaf
 aaf
 aab
-bvk
+bUX
 aKh
 aKh
 aab
@@ -80342,7 +80361,7 @@ aaf
 aab
 aab
 aKh
-bvk
+bUX
 aab
 aaf
 aaf
@@ -102233,8 +102252,8 @@ brA
 brA
 aaZ
 abg
-bUZ
-bVa
+bVc
+bVd
 aaz
 aaI
 aag
@@ -108248,7 +108267,7 @@ aaI
 brC
 aeO
 bst
-bUZ
+bVc
 bls
 aze
 aaZ
@@ -111566,7 +111585,7 @@ piZ
 acR
 adu
 adj
-agu
+bTP
 acS
 aag
 acS
@@ -112248,8 +112267,8 @@ aaU
 aDU
 aCN
 aaU
-bUW
-bUW
+bUZ
+bUZ
 aaU
 aaI
 bhQ
@@ -119478,8 +119497,8 @@ aag
 aag
 aze
 brA
-bUW
-bUW
+bUZ
+bUZ
 aaU
 aaU
 aFp
@@ -119501,7 +119520,7 @@ aag
 aag
 aDU
 bae
-bUY
+bVb
 blR
 bvr
 bbD
@@ -135016,7 +135035,7 @@ aIY
 aGq
 afp
 aGq
-aIY
+bUW
 bUs
 bUx
 aGq

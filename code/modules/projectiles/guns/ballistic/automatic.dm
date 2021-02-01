@@ -734,7 +734,7 @@
 /obj/item/gun/ballistic/automatic/marksman/servicerifle/r82
 	name = "R82 heavy service rifle"
 	desc = "A top of the line 5.56x45 automatic service rifle manufactured by the NCR and issued to high ranking personnel."
-	fire_delay = 4 
+	fire_delay = 4
 	projectile_speed = 0.8 //faster velocity, superior to regular service rifle
 	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
@@ -807,7 +807,7 @@
 	weapon_weight = WEAPON_HEAVY
 
 /obj/item/gun/ballistic/automatic/shotgun/riot
-	name = "breacher shotgun" //name changed to distinguish from /obj/item/gun/ballistic/shotgun/riot
+	name = "riot shotgun" //name changed to distinguish from /obj/item/gun/ballistic/shotgun/riot
 	desc = "A compact riot shotgun designed to fight in close quarters."
 	icon_state = "riot_shotgun"
 	item_state = "huntingshotgun"
