@@ -411,7 +411,7 @@
 
 /obj/machinery/chem_dispenser/drinks
 	name = "soda dispenser"
-	desc = "Contains soda-brands from around the East-Coast!"
+	desc = "Contains soda-brands from around the West-Coast!"
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "soda_dispenser"
 	has_panel_overlay = FALSE
