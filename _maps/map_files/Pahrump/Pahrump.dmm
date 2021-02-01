@@ -4170,9 +4170,6 @@
 	},
 /area/f13/ncr)
 "aly" = (
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_x = 32
-	},
 /obj/machinery/vending/snack/green,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
@@ -4214,15 +4211,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "alD" = (
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_y = 32
-	},
-/obj/structure/chair/wood{
-	dir = 4;
-	icon_state = "wooden_chair_settler";
-	tag = "icon-wooden_chair_settler (EAST)"
-	},
-/turf/open/floor/f13/wood,
+/obj/effect/landmark/poster_spawner/ncr,
+/turf/closed/wall/f13/store,
 /area/f13/ncr)
 "alE" = (
 /obj/structure/table/wood/settler,
@@ -5081,10 +5071,13 @@
 	},
 /area/f13/ncr)
 "aoo" = (
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_x = -32
+/obj/machinery/light/small{
+	dir = 8
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/f13{
+	icon_state = "yellowdirtyfull";
+	tag = "icon-yellowdirtyfull"
+	},
 /area/f13/ncr)
 "aor" = (
 /turf/open/indestructible/ground/outside/ruins{
@@ -8130,10 +8123,14 @@
 	},
 /area/f13/wasteland)
 "awz" = (
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_y = 32
+/obj/structure/table/wood/settler,
+/obj/machinery/light/small{
+	dir = 8
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/f13{
+	icon_state = "yellowdirtyfull";
+	tag = "icon-yellowdirtyfull"
+	},
 /area/f13/ncr)
 "awA" = (
 /turf/closed/wall/f13/supermart,
@@ -9174,13 +9171,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "azv" = (
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_x = -32
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
+/obj/effect/landmark/poster_spawner/ncr,
+/turf/closed/wall/f13/wood,
 /area/f13/ncr)
 "azw" = (
 /obj/structure/wreck/trash/five_tires,
@@ -12739,9 +12731,6 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "aIN" = (
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_x = 32
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
 	dir = 4
@@ -22030,8 +22019,8 @@
 	dir = 1
 	},
 /turf/open/floor/f13{
-	tag = "icon-floordirtysolid";
-	icon_state = "floordirtysolid"
+	icon_state = "floordirtysolid";
+	tag = "icon-floordirtysolid"
 	},
 /area/f13/admeme)
 "bhO" = (
@@ -22514,8 +22503,8 @@
 	dir = 1
 	},
 /turf/open/floor/f13{
-	tag = "icon-floordirtysolid";
-	icon_state = "floordirtysolid"
+	icon_state = "floordirtysolid";
+	tag = "icon-floordirtysolid"
 	},
 /area/f13/admeme)
 "bjf" = (
@@ -26512,8 +26501,8 @@
 "btP" = (
 /mob/living/simple_animal/hostile/radroach,
 /turf/open/indestructible/ground/outside/road{
-	tag = "icon-horizontalinnermainleft";
-	icon_state = "horizontalinnermainleft"
+	icon_state = "horizontalinnermainleft";
+	tag = "icon-horizontalinnermainleft"
 	},
 /area/f13/wasteland)
 "btQ" = (
@@ -27427,6 +27416,9 @@
 /turf/closed/indestructible/rock,
 /area/f13/legion)
 "bzv" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/ncr)
 "bzx" = (
@@ -28788,6 +28780,9 @@
 /area/f13/brotherhood)
 "bEc" = (
 /obj/machinery/workbench,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/f13{
 	icon_state = "yellowdirtyfull";
 	tag = "icon-yellowdirtyfull"
@@ -39814,17 +39809,14 @@
 	},
 /area/f13/ncr)
 "cph" = (
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_x = 32
-	},
+/obj/structure/rack,
+/obj/machinery/light/small,
 /turf/open/floor/f13{
-	icon_state = "floorrusty"
+	icon_state = "yellowdirtyfull";
+	tag = "icon-yellowdirtyfull"
 	},
 /area/f13/ncr)
 "cpl" = (
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_x = -32
-	},
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -39947,13 +39939,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
-"cpE" = (
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_x = 32
-	},
-/obj/structure/closet/cabinet,
-/turf/open/floor/f13/wood,
-/area/f13/ncr)
 "cpF" = (
 /obj/structure/closet,
 /obj/item/storage/bag/plants,
@@ -40004,15 +39989,6 @@
 /obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
-"cpY" = (
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_x = -32
-	},
-/turf/open/floor/f13{
-	icon_state = "reddirtyfull";
-	tag = "icon-reddirtyfull"
-	},
-/area/f13/ncr)
 "cqb" = (
 /obj/structure/simple_door/metal/barred,
 /turf/open/floor/f13{
@@ -40132,9 +40108,6 @@
 "crC" = (
 /obj/machinery/light/small{
 	dir = 1
-	},
-/obj/effect/landmark/poster_spawner/ncr{
-	pixel_x = 32
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty";
@@ -43334,7 +43307,7 @@ aJN
 aJN
 aJL
 aJN
-bDY
+alD
 bDY
 bkT
 bDY
@@ -46947,7 +46920,7 @@ aat
 aat
 blD
 bDY
-bDY
+alD
 crF
 crF
 bDY
@@ -47694,7 +47667,7 @@ atx
 bDY
 bzi
 cpt
-cph
+cpt
 cpt
 cpt
 bzi
@@ -47946,12 +47919,12 @@ bDY
 bDY
 bDY
 alY
-bDY
+alD
 bDY
 bDY
 cpt
 bDY
-bDY
+alD
 cps
 cps
 bDY
@@ -48203,7 +48176,7 @@ cpt
 cpt
 cpt
 bzi
-azv
+bzi
 bzi
 cpt
 cpt
@@ -49239,7 +49212,7 @@ cpt
 bDY
 bDY
 bDY
-bDY
+alD
 xhl
 vzE
 bDY
@@ -49496,14 +49469,14 @@ bzi
 cpt
 bDY
 bkZ
-cpY
+xhl
 xhl
 bst
 bDY
 aat
 cqw
 cqH
-cpE
+anu
 cqu
 cqw
 dIH
@@ -49760,7 +49733,7 @@ bDY
 aat
 cqw
 alY
-cqw
+azv
 cqw
 cqw
 cqw
@@ -50771,7 +50744,7 @@ cqb
 cpg
 atW
 bDY
-bDY
+alD
 cpt
 cpt
 bDY
@@ -51523,7 +51496,7 @@ afF
 afF
 aHZ
 bDY
-bDY
+alD
 bDY
 amd
 amd
@@ -51547,6 +51520,7 @@ cpt
 cpt
 bDY
 bDY
+alD
 bDY
 bDY
 bDY
@@ -51555,8 +51529,7 @@ bDY
 bDY
 bDY
 bDY
-bDY
-bzv
+aat
 aat
 aat
 aat
@@ -52328,7 +52301,7 @@ acv
 acv
 byM
 bwP
-bAp
+awz
 bAp
 bDY
 bDY
@@ -52827,8 +52800,8 @@ asb
 asV
 bDY
 aat
-afw
-brV
+ach
+acv
 acv
 acv
 acv
@@ -53084,8 +53057,8 @@ aqR
 asV
 bDY
 aat
-aat
 ach
+acv
 acv
 acv
 acv
@@ -53341,8 +53314,8 @@ aqS
 asW
 bDY
 awD
-aat
 ach
+acv
 acv
 acv
 acv
@@ -53358,7 +53331,7 @@ bDY
 bAp
 bwP
 bwQ
-cpT
+cph
 bDY
 aae
 aae
@@ -53598,8 +53571,8 @@ apD
 apD
 bDY
 aat
-aat
 ach
+acv
 acv
 acv
 acv
@@ -53854,9 +53827,9 @@ bDY
 bDY
 bDY
 bDY
-aat
-aat
+aql
 ach
+acv
 acv
 acv
 acv
@@ -53868,7 +53841,7 @@ ayJ
 blD
 bDY
 bwP
-bwP
+aoo
 bwP
 bwP
 bwP
@@ -54112,8 +54085,8 @@ acO
 acO
 acO
 acO
-acO
 bgs
+acv
 acv
 acv
 bsq
@@ -54129,7 +54102,7 @@ bwP
 bwQ
 bwP
 cpu
-bDY
+alD
 bDY
 aae
 aae
@@ -57193,8 +57166,8 @@ akP
 akP
 akP
 asy
-bDY
-awz
+alD
+akP
 aph
 akP
 aph
@@ -57955,16 +57928,16 @@ bDY
 bDY
 alY
 bDY
+alD
 bDY
 bDY
 bDY
-bDY
-bDY
+alD
 bDY
 alY
 bDY
 bDY
-bDY
+alD
 akP
 anP
 akP
@@ -58212,11 +58185,11 @@ bDY
 anv
 akP
 akP
-aoo
+akP
 cqH
 apF
 akP
-aoo
+akP
 akP
 cqH
 apF
@@ -58461,8 +58434,8 @@ aae
 aae
 aae
 aaa
-bDY
 alD
+alZ
 alZ
 akP
 bDY
@@ -58479,7 +58452,7 @@ aph
 cqH
 asT
 bDY
-awz
+akP
 cqH
 akP
 akP
