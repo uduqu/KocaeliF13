@@ -1243,11 +1243,18 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/underground/mountain)
 "adY" = (
-/obj/structure/reagent_dispensers/barrel/half,
-/turf/open/floor/plasteel/f13{
-	icon_state = "yellowrustyfull"
+/obj/machinery/light/small{
+	dir = 1
 	},
-/area/f13/ncr_main)
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/obj/item/reagent_containers/food/drinks/flask/survival/legion,
+/turf/open/floor/wood/f13/old,
+/area/f13/legioncamp)
 "adZ" = (
 /obj/structure/sink/well,
 /turf/open/indestructible/ground/outside/desert,
@@ -26476,11 +26483,10 @@
 	},
 /area/f13/den)
 "bvk" = (
-/obj/structure/wreck/trash/three_barrels,
-/turf/open/floor/plasteel/f13{
-	icon_state = "yellowrustyfull"
-	},
-/area/f13/ncr_main)
+/obj/effect/decal/waste,
+/turf/open/floor/wood/f13/old,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/underground/mountain)
 "bvl" = (
 /obj/structure/bed/mattress/pregame,
 /obj/effect/landmark/start/f13/vetlegionary,
@@ -35325,10 +35331,9 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/underground/enclave_base)
 "bUQ" = (
-/obj/effect/decal/waste,
-/turf/open/floor/wood/f13/old,
-/turf/open/floor/plating/f13/inside/mountain,
-/area/f13/underground/mountain)
+/obj/structure/reagent_dispensers/barrel/three,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "bUR" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -35351,6 +35356,18 @@
 	},
 /area/f13/sunny_dale)
 "bUU" = (
+/obj/structure/reagent_dispensers/barrel/three,
+/turf/open/floor/plasteel/f13{
+	icon_state = "yellowrustyfull"
+	},
+/area/f13/ncr_main)
+"bUV" = (
+/obj/structure/window/fulltile/wood_window,
+/obj/structure/window/fulltile/wood_window,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/wood/f13/old,
+/area/f13/sunny_dale)
+"bUW" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -35359,25 +35376,19 @@
 	icon_state = "ruinswindowbrokenvertical"
 	},
 /area/f13/desert)
-"bUV" = (
-/obj/structure/window/fulltile/wood_window,
-/obj/structure/window/fulltile/wood_window,
-/obj/structure/barricade/wooden/planks/pregame,
-/turf/open/floor/wood/f13/old,
-/area/f13/sunny_dale)
-"bUW" = (
+"bUX" = (
 /obj/effect/decal/cleanable/shreds,
 /turf/open/space/basic,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
 /area/f13/powerplant)
-"bUX" = (
+"bUY" = (
 /obj/structure/window/fulltile/wood_window,
 /turf/open/indestructible/ground/outside/desert,
 /turf/closed/wall/r_wall/f13composite,
 /area/f13/desert)
-"bUY" = (
+"bUZ" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -35386,7 +35397,7 @@
 	icon_state = "ruinswindowbroken"
 	},
 /area/f13/desert)
-"bUZ" = (
+"bVa" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -48314,7 +48325,7 @@ btl
 btl
 boD
 bpC
-bvk
+bUU
 mLn
 mLn
 mLn
@@ -48716,7 +48727,7 @@ bRc
 bRc
 buI
 boq
-adY
+mLn
 mLn
 mLn
 mLn
@@ -64809,7 +64820,7 @@ byd
 btb
 byF
 byG
-bUW
+bUX
 bvv
 bzY
 boQ
@@ -79122,7 +79133,7 @@ aab
 aab
 aKh
 aKh
-bUQ
+bvk
 aab
 aab
 aaf
@@ -79924,7 +79935,7 @@ aaf
 aaf
 aaf
 aab
-bUQ
+bvk
 aKh
 aKh
 aab
@@ -80328,7 +80339,7 @@ aaf
 aab
 aab
 aKh
-bUQ
+bvk
 aab
 aaf
 aaf
@@ -102219,8 +102230,8 @@ brA
 brA
 aaZ
 abg
-bUY
 bUZ
+bVa
 aaz
 aaI
 aag
@@ -108234,7 +108245,7 @@ aaI
 brC
 aeO
 bst
-bUY
+bUZ
 bls
 aze
 aaZ
@@ -112234,8 +112245,8 @@ aaU
 aDU
 aCN
 aaU
-bUU
-bUU
+bUW
+bUW
 aaU
 aaI
 bhQ
@@ -119464,8 +119475,8 @@ aag
 aag
 aze
 brA
-bUU
-bUU
+bUW
+bUW
 aaU
 aaU
 aFp
@@ -119487,7 +119498,7 @@ aag
 aag
 aDU
 bae
-bUX
+bUY
 blR
 bvr
 bbD
@@ -138869,7 +138880,7 @@ abt
 acH
 xTx
 abt
-adA
+adY
 xTx
 xTx
 xTx
@@ -147705,7 +147716,7 @@ abq
 aag
 aag
 aag
-adx
+bUQ
 abq
 aag
 aag

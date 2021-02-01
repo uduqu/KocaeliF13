@@ -1,6 +1,7 @@
 /obj/item/radio/intercom
-	name = "station intercom"
+	name = "intercom"
 	desc = "Talk through this."
+	icon = 'icons/fallout/machines/radio.dmi'
 	icon_state = "intercom"
 	anchored = TRUE
 	w_class = WEIGHT_CLASS_BULKY
@@ -11,6 +12,30 @@
 	var/last_tick //used to delay the powercheck
 	dog_fashion = null
 	var/unfastened = FALSE
+
+/obj/item/radio/intercom/ham_radio
+	name = "station intercom"
+	desc = "Talk through this."
+	icon = 'icons/fallout/machines/radio.dmi'
+	icon_state = "radio_mic3"
+	anchored = TRUE
+	w_class = WEIGHT_CLASS_BULKY
+	canhear_range = 6
+
+/obj/item/radio/intercom/ham_radio
+	name = "station intercom"
+	desc = "Talk through this."
+	icon = 'icons/fallout/machines/radio.dmi'
+	icon_state = "radio_mic3"
+	anchored = TRUE
+	w_class = WEIGHT_CLASS_BULKY
+	canhear_range = 2
+
+/obj/item/radio/intercom/ham_radio/attackby(obj/item/I, mob/living/user, params)
+	if(istype(I, /obj/item/screwdriver))
+		to_chat(user, "<span class='danger'>[src] is bolted down and can't be removed.</span>")
+		return //no unfastening 2
+	. = ..()
 
 /obj/item/radio/intercom/unscrewed
 	unfastened = TRUE
