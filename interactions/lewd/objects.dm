@@ -1,6 +1,6 @@
 /obj/item/dildo
 	name = "dildo"
-	desc = "Hmmm, deal throw."
+	desc = "This only exists because some people think being erotic is being a character!"
 	icon = 'honk/icons/obj/items/dildo.dmi'
 	icon_state = "dildo_map"
 	item_state = "dildo"
@@ -68,7 +68,7 @@
 /datum/reagent/consumable/cum // could probably be made /blood/consumable/cum to just inherit the DNA procs sometime
 	name = "cum"
 	id = "cum"
-	description = "Where you found this is your own business."
+	description = "Good Job, Champ! This is why your parents disowned you."
 	color = "#AAAAAA77"
 	taste_description = "something with a tang"
 	data = list("donor"=null,"viruses"=null,"donor_DNA"=null,"blood_type"=null,"resistances"=null,"trace_chem"=null,"mind"=null,"ckey"=null,"gender"=null,"real_name"=null)
@@ -97,7 +97,7 @@
 
 /obj/effect/decal/cleanable/cum
 	name = "cum"
-	desc = "It's pie cream from a cream pie. Or not..."
+	desc = "The pullout game is strong with this one."
 	gender = PLURAL
 	layer = ABOVE_NORMAL_TURF_LAYER
 	density = 0

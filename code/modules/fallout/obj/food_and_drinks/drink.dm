@@ -9,15 +9,6 @@
 	icon = 'icons/fallout/objects/food&drinks/drinks.dmi'
 	list_reagents = list("beer" = 10, "mannitol" = 10, "potass_iodide" = 10)
 
-/obj/item/reagent_containers/food/drinks/bottle/nukacola //It's actually a coffee...
-	name = "Nuka-Cola"
-	desc = "The most popular flavored soft drink in the United States before the Great War.<br>It was preserved in a fairly pristine state."
-	icon_state = "nukacola"
-	item_state = "beer"
-	materials = list(MAT_GLASS=500)
-	icon = 'icons/fallout/objects/food&drinks/drinks.dmi'
-	list_reagents = list("coffee" = 30)
-
 /obj/item/reagent_containers/food/drinks/bottle/nukacola/radioactive //Whoa, oh, oh, oh, oh, whoa, oh, oh, oh, I'm radioactive, radioactive!
 	desc = "The most popular flavored soft drink in the United States before the Great War.<br>It was preserved in a fairly pristine state.<br>The bottle is slightly glowing."
 	list_reagents = list("coffee" = 25, "radium" = 5)
@@ -58,3 +49,59 @@
 	desc = "A strange metal flask with some meaningless letters engraved on the side."
 	icon_state = "flaskss13"
 	list_reagents = list("tricordrazine" = 40, "adminordrazine" = 10)
+
+// Fallout Stuff
+
+/obj/item/reagent_containers/food/drinks/bottle/nukacola
+	name = "Nuka-Cola"
+	desc = "The most popular flavored soft drink in the United States before the Great War.<br>It was preserved in a fairly pristine state."
+	icon_state = "nukacola"
+	item_state = "beer"
+	materials = list(MAT_GLASS=500)
+	icon = 'icons/fallout/objects/food&drinks/drinks.dmi'
+	list_reagents = list("nuka" = 30)
+
+/obj/item/reagent_containers/food/drinks/bottle/nukacolaquantum
+	name = "Nuka-Cola Quantum"
+	desc = "Nuka-Cola with twice the calories, carbs and caffeine alongside twice the taste! It is a rarity in the wasteland. "
+	icon_state = "quantumcola"
+	item_state = "beer"
+	materials = list(MAT_GLASS=500)
+	icon = 'icons/fallout/objects/food&drinks/drinks.dmi'
+	list_reagents = list("nukaquantum" = 30)
+
+/obj/item/reagent_containers/food/drinks/bottle/nukacolavictory
+	name = "Nuka-Cola Victory"
+	desc = "A South-Western flavour of Nuka-Cola noted for it's patriotic glory!"
+	icon_state = "fusioncola"
+	item_state = "beer"
+	materials = list(MAT_GLASS=500)
+	icon = 'icons/fallout/objects/food&drinks/drinks.dmi'
+	list_reagents = list("nukavictory" = 30)
+
+/obj/item/reagent_containers/food/drinks/bottle/nukacolaquartz
+	name = "Nuka-Cola Quartz"
+	desc = "A South-Western flavour of Nuka-Cola noted for it's lack of food colourings!"
+	icon_state = "quartzcola"
+	item_state = "beer"
+	materials = list(MAT_GLASS=500)
+	icon = 'icons/fallout/objects/food&drinks/drinks.dmi'
+	list_reagents = list("nukaquartz" = 30)
+
+/obj/item/reagent_containers/food/drinks/bottle/nukacolacherry
+	name = "Nuka-Cola Cherry"
+	desc = "Nuka-Cola with the added flavour of cherry! If cherry tasted like filthy sewer shit."
+	icon_state = "cherrycola"
+	item_state = "beer"
+	materials = list(MAT_GLASS=500)
+	icon = 'icons/fallout/objects/food&drinks/drinks.dmi'
+	list_reagents = list("nukacherry" = 30)
+
+/obj/item/reagent_containers/food/drinks/bottle/sunset //SASS
+	name = "Sunset Sarsaparilla"
+	desc = "Sunset Sasparilla! Build up mass with Sass!"
+	icon_state = "sunset"
+	item_state = "beer"
+	materials = list(MAT_GLASS=500)
+	icon = 'icons/fallout/objects/food&drinks/drinks.dmi'
+	list_reagents = list("sasp" = 30)

@@ -357,12 +357,12 @@
 
 /obj/item/udder/Initialize()
 	create_reagents(50)
-	reagents.add_reagent("milk", 20)
+	reagents.add_reagent("brahminmilk", 20)
 	. = ..()
 
 /obj/item/udder/proc/generateMilk()
 	if(prob(10))
-		reagents.add_reagent("milk", rand(5, 10))
+		reagents.add_reagent("brahminmilk", rand(5, 10))
 
 /obj/item/udder/proc/milkAnimal(obj/O, mob/user)
 	var/obj/item/reagent_containers/glass/G = O

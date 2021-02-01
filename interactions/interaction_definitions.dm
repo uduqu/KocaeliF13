@@ -30,7 +30,7 @@
 	command = "headpat"
 	description = "Pat their head. Aww..."
 	require_user_hands = 1
-	simple_message = "USER headpats TARGET!"
+	simple_message = "USER headpats TARGET! Because they're the sort of person who does that! Fucking weirdo."
 	needs_physical_contact = 1
 
 /datum/interaction/salute
@@ -65,7 +65,7 @@
 	command = "holdhand"
 	description = "Hold their hand."
 	require_user_hands = 1
-	simple_message = "USER holds TARGET's hand. Degenerate."
+	simple_message = "USER holds TARGET's hand. Who the fuck hurt you?"
 	max_distance = 25
 	needs_physical_contact = 1
 	max_distance = 25
