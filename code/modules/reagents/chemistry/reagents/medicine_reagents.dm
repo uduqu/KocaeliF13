@@ -1735,3 +1735,45 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 	M.adjustToxLoss(4*REM, 0)
 	..()
 	. = 1
+
+/datum/reagent/medicine/bitterdrink
+	name = "Bitter-Drink"
+	id = "bitterdrink"
+	description = "Restores and revitalizes the drinker."
+	reagent_state = LIQUID
+	color = "#7A601F"
+	overdose_threshold = 60
+
+/datum/reagent/medicine/bitterdrink/on_mob_life(mob/living/M)
+	if(!M.reagents.has_reagent("stimpak") && !M.reagents.has_reagent("healing_powder")) // Bitter-Drink does not stack with Stimpacks, and is much, much weaker than powder. It however can be stored and made enmass, good for sharing!
+		M.adjustFireLoss(-1*REM)
+		M.adjustBruteLoss(-1*REM)
+
+
+/datum/reagent/medicine/brocjuice
+	name = "Broc Pulp"
+	id = "brocpulp"
+	description = "Extracted pulp from the Broc Flower. Used in the creation of stimpack-fluid, bitter-drink and salads across the Wasteland!"
+	reagent_state = LIQUID
+	color = "#DCDCDC"
+	metabolization_rate = 1 * REAGENTS_METABOLISM
+	overdose_threshold = 90
+
+/datum/reagent/medicine/brocjuice/on_mob_life(mob/living/M)
+	if(!M.reagents.has_reagent("stimpak") && !M.reagents.has_reagent("healing_powder")) // No, you cannot shove medicinal pulp down your throat with a stimpack you powerloving fuck.
+		M.adjustFireLoss(-0.4*REM)
+		M.adjustBruteLoss(-0.4*REM)
+
+/datum/reagent/medicine/xanderjuice
+	name = "Xander Pulp"
+	id = "xanderpulp"
+	description = "Extracted pulp from the Xander-Root. Used in the creation of stimpack-fluid, bitter-drink and salads across the Wasteland!"
+	reagent_state = LIQUID
+	color = "#DCDCDC"
+	metabolization_rate = 1 * REAGENTS_METABOLISM
+	overdose_threshold = 90
+
+/datum/reagent/medicine/xanderjuice/on_mob_life(mob/living/M)
+	if(!M.reagents.has_reagent("stimpak") && !M.reagents.has_reagent("healing_powder")) // No, you cannot shove medicinal pulp down your throat with a stimpack you powerloving fuck.
+		M.adjustFireLoss(-0.2*REM)
+		M.adjustBruteLoss(-0.2*REM)

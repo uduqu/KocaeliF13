@@ -785,3 +785,111 @@
 	glass_name = "glass of grenadine"
 	glass_desc = "Delicious flavored syrup."
 	water_level = 1
+
+// FALLOUT DRINKS BELLOW
+
+// Nuka-Cola and it's many variations!
+
+/datum/reagent/consumable/f13_nukacola
+	name = "Nuka-Cola"
+	id = "nuka"
+	description = "One of the most popular drinks of the pre-and-post war community!"
+	color = "#2B1105"
+	taste_description = "flat sugary goodness"
+	glass_name = "glass of Nuka-Cola"
+	glass_desc = "One of the Pre-War America's favorite soda brands! So strange to have it served outside it's iconic bottle..."
+	water_level = 1
+
+/datum/reagent/consumable/f13_nukacolaquant
+	name = "Nuka-Cola Quantum"
+	id = "nukaquantum"
+	description = "Nuka-Cola with twice the calories, carbs and caffeine alongside twice the taste! It is a rarity in the wasteland. "
+	color = "#00F7FF"
+	taste_description = "heavenly cola goodness with a hint of pomegranate"
+	glass_name = "glass of Nuka-Cola Qauntum"
+	glass_desc = "An extremely rare treat containing twice the carbs, calories and caffeine you could ever want!"
+	water_level = 1
+
+/datum/reagent/consumable/f13_nukacolavictory
+	name = "Nuka-Cola Victory"
+	id = "nukavictory"
+	description = "A South-Western flavour of Nuka-Cola noted for it's patriotic glory!"
+	color = "#D63C04"
+	taste_description = "FREEDOM MOTHERFUCKER!"
+	glass_name = "glass of Nuka-Cola Victory"
+	glass_desc = "One of the Pre-War America's favorite soda brand gone PATRIOTIC! GOD BLESS THE UNITED FUCKING STATES OF AMERICA!"
+	water_level = 1
+
+/datum/reagent/consumable/f13_nukacolaquartz
+	name = "Nuka-Cola Quartz"
+	id = "nukaquartz"
+	description = "A South-Western flavour of Nuka-Cola noted for it's lack of food colourings!"
+	color = "#F0F0F0"
+	taste_description = "flat sugary goodness without the caramel color"
+	glass_name = "glass of Nuka-Cola Quartz"
+	glass_desc = "One of the Pre-War America's favorite soda brand gone PATRIOTIC! GOD BLESS THE UNITED FUCKING STATES OF AMERICA!"
+	water_level = 1
+
+/datum/reagent/consumable/f13_nukacolacherry
+	name = "Nuka-Cola Cherry"
+	id = "nukacherry"
+	description = "Nuka-Cola with the added flavour of cherry! If cherry tasted like filthy sewer shit."
+	color = "#2B1105"
+	taste_description = "what would happen if you mixed cherry, John Goodmans ass-sweat and then served it within a filthy pirate-hookers vagina."
+	glass_name = "glass of Nuka-Cola Cherry"
+	glass_desc = "One of the Pre-War America's favorite soda brand's biggest fuck-ups! It's only use is target practice or torture."
+	water_level = 1
+
+/datum/reagent/consumable/f13_nukacolahomemade
+	name = "Nuka-Cola Homebrew"
+	id = "nukahomebrew"
+	description = "Some wastelanders poor attempt at making Nuka-Cola post-war! It's bitter, rather unpleasant- But oddly thirst-quenching!"
+	color = "#2B1105"
+	taste_description = "bitter soda"
+	glass_name = "glass of Nuka-Cola Homebrew"
+	glass_desc = "Homemade Nuka-Cola! It's not exactly the same, but it sure is nourishing!"
+	water_level = 3
+
+/datum/reagent/consumable/f13_nukacolawaterdown
+	name = "Watered Nuka-Cola"
+	id = "nukawater"
+	description = "Watered down Nuka-Cola. Because poverty is a real cunt."
+	color = "#2B1105"
+	taste_description = "watery sugary delight"
+	glass_name = "glass of Nuka-Cola"
+	glass_desc = "One of the Pre-War America's favorite soda brands! So strange to have it served outside it's iconic bottle..." // They can't tell the difference visually!
+	water_level = 0.5
+
+// Sunset Sasparilla!
+
+/datum/reagent/consumable/f13_sunsetsasp
+	name = "Sunset Sasparilla"
+	id = "sasp"
+	description = "Sunset Sasparilla! Build up mass with Sass!"
+	color = "#2B1105"
+	taste_description = "sasparilla"
+	glass_name = "glass of Sunset Sasparilla"
+	glass_desc = "Builds up mass with Sass! Or multiple health disorders, really a toss-up depending on marketing.."
+	water_level = 1
+
+
+// Brahmin Milk
+
+/datum/reagent/consumable/brahminmilk
+	name = "Brahmin Milk"
+	id = "brahminmilk"
+	description = "An opaque white liquid produced by a Brahmin! Somehow cures radiation.."
+	color = "#DFDFDF" // rgb: 223, 223, 223
+	taste_description = "oddly thick milk"
+	glass_name = "glass of brahmin milk"
+	glass_desc = "Best part of waking up is not fucking this... But it will help with radiation poisoning!"
+	water_level = 1
+
+/datum/reagent/consumable/brahminmilk/on_mob_life(mob/living/carbon/M) //Legit it is just fucking tribal radaway
+	M.adjustToxLoss(-3*REM)
+	M.radiation -= min(M.radiation, 16)
+	if(ishuman(M) && prob(7))
+		var/mob/living/carbon/human/H = M
+		H.confused = max(M.confused, 3)
+	. = 1
+	..()
