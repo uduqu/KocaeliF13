@@ -237,8 +237,8 @@
 	is_reflectable = FALSE
 
 /obj/item/projectile/plasma/pistol //Plasma pistol
-	damage = 35
-	armour_penetration = 15
+	damage = 45
+	armour_penetration = 35//Less shots, better overall.
 
 /obj/item/projectile/plasma/pistol/glock //Glock (upgraded plasma pistol)
 	damage = 40
