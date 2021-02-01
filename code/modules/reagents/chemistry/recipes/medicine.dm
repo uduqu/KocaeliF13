@@ -247,11 +247,14 @@
 	required_reagents = list("diethylamine" = 1, "ammonia" = 1, "phenol" = 1, "acetone" = 1, "sacid" = 1)
 	required_catalysts = list("bromine" = 1) // as close to the real world synthesis as possible
 
+// Fallout Stuff
+
+
 /datum/chemical_reaction/stimpak
 	name = "Stimpak Fluid"
 	id = "stimpak"
-	results = list("stimpak" = 2)
-	required_reagents = list("blood" = 2, "spaceacillin" = 3)
+	results = list("stimpak" = 1)
+	required_reagents = list("blood" = 1, "xanderpulp" = 1, "brocpulp" = 1, )
 	required_temp = 300
 
 /datum/chemical_reaction/antivenom
@@ -259,4 +262,18 @@
 	id = "antivenom"
 	results = list("antivenom" = 3)
 	required_reagents = list("calomel" = 2, "blood" = 1,)
+
+/datum/chemical_reaction/f13_nukacolahomemade
+	name = "Nuka-Cola Homemade"
+	id = "nukacolahome"
+	results = list("nukahomebrew" = 10)
+	required_reagents = list("triple_citrus" = 5, "water" = 5,)
+
+/datum/chemical_reaction/bitterdrink
+	name = "Bitter-Drink"
+	id = "drinkbitter"
+	results = list("bitterdrink" = 2)
+	required_reagents = list("brocpulp" = 1, "xanderpulp" = 1,)
+
+
 

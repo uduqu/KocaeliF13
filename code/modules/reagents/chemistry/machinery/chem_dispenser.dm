@@ -411,7 +411,7 @@
 
 /obj/machinery/chem_dispenser/drinks
 	name = "soda dispenser"
-	desc = "Contains a large reservoir of soft drinks."
+	desc = "Contains soda-brands from around the East-Coast!"
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "soda_dispenser"
 	has_panel_overlay = FALSE
@@ -423,27 +423,13 @@
 	nopower_state = null
 	dispensable_reagents = list(
 		"water",
-		"ice",
 		"coffee",
-		"cream",
 		"tea",
-		"icetea",
-		"cola",
-		"spacemountainwind",
-		"dr_gibb",
-		"space_up",
-		"tonic",
-		"sodawater",
-		"lemon_lime",
-		"pwr_game",
-		"shamblers",
-		"sugar",
-		"orangejuice",
-		"grenadine",
-		"limejuice",
-		"tomatojuice",
-		"lemonjuice",
-		"menthol"
+		"nuka",
+		"nukavictory",
+		"nukaquartz",
+		"nukacherry",
+		"sasp"
 	)
 	emagged_reagents = list(
 		"thirteenloko",
