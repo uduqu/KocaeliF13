@@ -25684,7 +25684,7 @@
 /obj/structure/fence,
 /obj/machinery/light,
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/legion)
 "bsz" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
