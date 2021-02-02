@@ -176,12 +176,8 @@
 	},
 /area/f13/building)
 "aaI" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 1;
-	icon_state = "outerborder";
-	tag = "icon-outerborder (NORTH)"
-	},
-/area/space)
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "aaJ" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -338,12 +334,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/village)
-"abg" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0";
-	tag = "icon-horizontalbottomborderbottom0"
-	},
-/area/space)
 "abh" = (
 /obj/effect/decal/remains/human,
 /obj/item/clothing/suit/armor/f13/leatherarmor,
@@ -3429,16 +3419,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"ajk" = (
-/obj/machinery/light/lampost{
-	dir = 1;
-	pixel_x = -32
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0";
-	tag = "icon-horizontalbottomborderbottom0"
-	},
-/area/space)
 "ajl" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -4007,13 +3987,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/stage_l,
 /area/f13/ncr)
-"akV" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0";
-	tag = "icon-horizontalbottomborderbottom0"
-	},
-/area/space)
 "akW" = (
 /obj/machinery/vending/cigarette,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -4280,13 +4253,6 @@
 	tag = "icon-floordirtysolid"
 	},
 /area/f13/ncr)
-"alI" = (
-/obj/effect/landmark/latejoin,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0";
-	tag = "icon-horizontalbottomborderbottom0"
-	},
-/area/space)
 "alJ" = (
 /obj/structure/chair{
 	dir = 4;
@@ -4735,13 +4701,6 @@
 /obj/machinery/light/small,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
-"anb" = (
-/obj/effect/landmark/start/f13/wastelander,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0";
-	tag = "icon-horizontalbottomborderbottom0"
-	},
-/area/space)
 "anc" = (
 /obj/structure/bed,
 /obj/item/bedsheet{
@@ -5545,8 +5504,8 @@
 	pixel_y = -25
 	},
 /obj/machinery/camera/autoname{
-	icon_state = "camera";
-	dir = 1
+	dir = 1;
+	icon_state = "camera"
 	},
 /obj/machinery/recharger,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
@@ -5759,9 +5718,6 @@
 /obj/effect/landmark/start/f13/handy,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/vault/botcontrol)
-"apS" = (
-/turf/closed/indestructible/f13/matrix,
-/area/space)
 "apT" = (
 /obj/effect/landmark/start/f13/ncrmp,
 /obj/machinery/light,
@@ -5769,12 +5725,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/ncr)
-"apU" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0";
-	tag = "icon-verticalrightborderright0"
-	},
-/area/space)
 "apV" = (
 /obj/effect/landmark/start/f13/ncrmp,
 /turf/open/floor/f13{
@@ -5875,12 +5825,6 @@
 	dir = 5
 	},
 /area/f13/ncr)
-"aqj" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 9;
-	icon_state = "outerpavement"
-	},
-/area/space)
 "aqk" = (
 /obj/structure/fence{
 	dir = 8;
@@ -6002,22 +5946,13 @@
 /obj/machinery/light/small,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
-"aqy" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 1;
-	icon_state = "outerpavement"
-	},
-/area/space)
 "aqz" = (
 /obj/structure/destructible/tribal_torch,
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 1;
 	icon_state = "outerpavement"
 	},
-/area/space)
-"aqA" = (
-/turf/closed/wall/f13/tunnel,
-/area/space)
+/area/f13/wasteland)
 "aqB" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticaloutermain1";
@@ -6149,12 +6084,6 @@
 	dir = 6
 	},
 /area/f13/ncr)
-"aqV" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 8;
-	icon_state = "outerpavement"
-	},
-/area/space)
 "aqW" = (
 /obj/machinery/shower{
 	dir = 1
@@ -6199,9 +6128,6 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/ncr)
-"arc" = (
-/turf/open/indestructible/ground/outside/desert,
-/area/space)
 "ard" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old,
@@ -6325,18 +6251,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/building)
-"arv" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 2;
-	icon_state = "outerpavementcorner"
-	},
-/area/space)
-"arw" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 7;
-	icon_state = "outerpavement"
-	},
-/area/space)
 "arx" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -6356,12 +6270,7 @@
 /area/f13/ncr)
 "arz" = (
 /turf/closed/wall/f13/store,
-/area/space)
-"arA" = (
-/turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirtcorner"
-	},
-/area/space)
+/area/f13/legion)
 "arB" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -6401,11 +6310,6 @@
 	dir = 8
 	},
 /area/f13/ncr)
-"arG" = (
-/turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirt"
-	},
-/area/space)
 "arH" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/blue/side{
@@ -6525,12 +6429,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/ncr)
-"arX" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 8;
-	icon_state = "dirtcorner"
-	},
-/area/space)
 "arY" = (
 /obj/machinery/shower{
 	dir = 4;
@@ -6541,12 +6439,6 @@
 /obj/item/soap,
 /turf/open/floor/plasteel/blue,
 /area/f13/ncr)
-"arZ" = (
-/turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirtcorner";
-	tag = "icon-dirtcorner"
-	},
-/area/space)
 "asa" = (
 /obj/structure/simple_door/metal/dirtystore,
 /turf/open/floor/f13{
@@ -6691,24 +6583,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
-"asu" = (
-/turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirt";
-	tag = "icon-dirt"
-	},
-/area/space)
 "asv" = (
 /turf/closed/mineral/random/low_chance,
-/area/space)
-"asw" = (
-/turf/closed/indestructible/rock,
-/area/space)
-"asx" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 4;
-	icon_state = "outerpavement"
-	},
-/area/space)
+/area/f13/legion)
 "asy" = (
 /obj/structure/chair/comfy{
 	dir = 4;
@@ -6859,13 +6736,13 @@
 /area/f13/ncr)
 "asR" = (
 /turf/open/indestructible/ground/outside/sidewalk,
-/area/space)
+/area/f13/building)
 "asS" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaloutermain2";
 	tag = "icon-horizontaloutermain2"
 	},
-/area/space)
+/area/f13/building)
 "asT" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -7304,14 +7181,6 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/ncr)
-"atV" = (
-/obj/structure/toilet{
-	pixel_y = 13
-	},
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/space)
 "atW" = (
 /obj/structure/toilet{
 	dir = 8;
@@ -8615,7 +8484,7 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/space)
+/area/f13/building)
 "axf" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
@@ -8682,7 +8551,7 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/space)
+/area/f13/building)
 "axp" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -8882,12 +8751,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
-"axS" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 6;
-	icon_state = "dirt"
-	},
-/area/space)
 "axT" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/light/small{
@@ -8897,7 +8760,7 @@
 /area/f13/ncr)
 "axU" = (
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "axV" = (
 /obj/machinery/camera/autoname,
 /turf/open/indestructible/ground/inside/mountain,
@@ -9066,12 +8929,6 @@
 	icon_state = "darkdirty"
 	},
 /area/f13/ncr)
-"ays" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 8;
-	icon_state = "dirt"
-	},
-/area/space)
 "ayt" = (
 /obj/structure/flora/tree/tall{
 	icon_state = "tree_2";
@@ -9079,12 +8936,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"ayu" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirt"
-	},
-/area/space)
 "ayv" = (
 /obj/structure/bus_door,
 /turf/open/indestructible/ground/outside/road{
@@ -9686,13 +9537,6 @@
 	tag = "icon-housewood2"
 	},
 /area/f13/village)
-"aAb" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 8;
-	icon_state = "dirt";
-	tag = "icon-dirt (WEST)"
-	},
-/area/space)
 "aAc" = (
 /obj/structure/chair/comfy{
 	dir = 4;
@@ -12705,13 +12549,6 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
-"aHX" = (
-/obj/structure/flora/tree/tall{
-	icon_state = "tree_3";
-	tag = "icon-tree_3"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/space)
 "aHY" = (
 /obj/structure/bed/mattress,
 /obj/effect/landmark/start/f13/ncrtrooper,
@@ -13443,12 +13280,6 @@
 	tag = "icon-floorrusty"
 	},
 /area/f13/city)
-"aJX" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright2";
-	tag = "icon-verticalrightborderright2"
-	},
-/area/space)
 "aJY" = (
 /obj/effect/landmark/start/f13/sheriff,
 /turf/open/floor/f13{
@@ -13520,12 +13351,6 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/wasteland)
-"aKi" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 6;
-	icon_state = "outerpavement"
-	},
-/area/space)
 "aKj" = (
 /obj/structure/table/wood/settler,
 /obj/structure/table/wood/settler,
@@ -13677,13 +13502,6 @@
 "aKC" = (
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/village)
-"aKD" = (
-/mob/living/simple_animal/hostile/ghoul,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2";
-	tag = "icon-horizontaloutermain2"
-	},
-/area/space)
 "aKE" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -13794,7 +13612,7 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/space)
+/area/f13/building)
 "aKX" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/indestructible/ground/outside/road{
@@ -13862,11 +13680,6 @@
 	tag = "icon-wasteland33"
 	},
 /area/f13/wasteland)
-"aLh" = (
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/space)
 "aLi" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "housewindowvertical";
@@ -13894,33 +13707,13 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/space)
+/area/f13/building)
 "aLk" = (
 /obj/machinery/door/poddoor/gate{
 	id = 87
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/city)
-"aLl" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 2;
-	icon_state = "outerpavementcorner";
-	tag = "icon-outerpavementcorner"
-	},
-/area/space)
-"aLm" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 8;
-	icon_state = "outerpavementcorner"
-	},
-/area/space)
-"aLn" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirt";
-	tag = "icon-dirt (EAST)"
-	},
-/area/space)
 "aLo" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/random,
@@ -13941,12 +13734,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/vault/security/checkpoint)
-"aLq" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 9;
-	icon_state = "dirt"
-	},
-/area/space)
 "aLr" = (
 /obj/structure/closet/fridge,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -14742,12 +14529,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/tunnel)
-"aNB" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 1;
-	icon_state = "dirtcorner"
-	},
-/area/space)
 "aNC" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/pill/patch/jet,
@@ -14957,12 +14738,6 @@
 	tag = "icon-housewood2"
 	},
 /area/f13/village)
-"aOh" = (
-/obj/structure/simple_door/metal/store,
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/space)
 "aOi" = (
 /obj/structure/table/wood,
 /obj/item/clothing/head/helmet/f13/eyebot,
@@ -15580,13 +15355,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/tunnel)
-"aPO" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 10;
-	icon_state = "outerpavement";
-	tag = "icon-outerpavement (SOUTHWEST)"
-	},
-/area/space)
 "aPP" = (
 /obj/structure/fermenting_barrel,
 /turf/open/indestructible/ground/outside/desert,
@@ -15694,13 +15462,6 @@
 /mob/living/simple_animal/pet/dog/mutant,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
-"aQg" = (
-/obj/structure/flora/tree/tall{
-	icon_state = "tree_2";
-	tag = "icon-tree_2"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/space)
 "aQh" = (
 /obj/structure/wreck/trash/two_barrels,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -15836,12 +15597,6 @@
 	tag = "icon-horizontalbottomborderbottom2right"
 	},
 /area/f13/wasteland)
-"aQy" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirtcorner"
-	},
-/area/space)
 "aQz" = (
 /obj/structure/closet/crate/wicker,
 /turf/open/indestructible/ground/outside/dirt,
@@ -15853,12 +15608,6 @@
 	tag = "icon-dirt (EAST)"
 	},
 /area/f13/farm)
-"aQB" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 1;
-	icon_state = "dirt"
-	},
-/area/space)
 "aQC" = (
 /obj/structure/guillotine,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -16153,13 +15902,6 @@
 	tag = "icon-horizontaltopbordertop0"
 	},
 /area/f13/wasteland)
-"aRt" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 6;
-	icon_state = "dirt";
-	tag = "icon-dirt (SOUTHEAST)"
-	},
-/area/space)
 "aRu" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -17501,7 +17243,7 @@
 "aVn" = (
 /obj/structure/tires/five,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "aVo" = (
 /mob/living/simple_animal/cow/brahmin,
 /turf/open/indestructible/ground/outside/dirt{
@@ -18456,11 +18198,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
-"aYb" = (
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
 "aYc" = (
 /obj/item/storage/trash_stack,
 /turf/open/indestructible/ground/outside/desert,
@@ -18571,7 +18308,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "aYv" = (
 /obj/structure/table,
 /obj/item/ammo_box/c10mm,
@@ -18581,7 +18318,7 @@
 	icon_state = "redmark";
 	tag = "icon-redmark (SOUTHWEST)"
 	},
-/area/space)
+/area/f13/building)
 "aYw" = (
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 1;
@@ -18668,12 +18405,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/farm)
-"aYF" = (
-/turf/open/floor/f13{
-	icon_state = "reddirtyfull";
-	tag = "icon-reddirtyfull"
-	},
-/area/space)
 "aYG" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -20475,11 +20206,7 @@
 	icon_state = "redmark";
 	tag = "icon-redmark"
 	},
-/area/space)
-"bdg" = (
-/obj/structure/flora/stump,
-/turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/building)
 "bdh" = (
 /mob/living/simple_animal/hostile/radscorpion,
 /turf/open/indestructible/ground/outside/desert,
@@ -20535,13 +20262,6 @@
 	tag = "icon-bluerustychess2"
 	},
 /area/f13/building)
-"bdo" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 1;
-	icon_state = "dirtcorner";
-	tag = "icon-dirtcorner (NORTH)"
-	},
-/area/space)
 "bdp" = (
 /obj/structure/simple_door/metal/fence,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -20583,10 +20303,6 @@
 /obj/item/flashlight/lamp,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"bdx" = (
-/obj/structure/destructible/tribal_torch,
-/turf/open/indestructible/ground/outside/desert,
-/area/space)
 "bdy" = (
 /mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/plasteel/barber{
@@ -20716,10 +20432,6 @@
 /obj/machinery/microwave,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"bdR" = (
-/obj/structure/kitchenspike/cross,
-/turf/open/indestructible/ground/outside/desert,
-/area/space)
 "bdS" = (
 /obj/structure/table/wood,
 /obj/item/clothing/mask/cigarette/pipe,
@@ -21475,7 +21187,7 @@
 	icon_state = "dirt";
 	tag = "icon-dirt (WEST)"
 	},
-/area/space)
+/area/f13/wasteland)
 "bfM" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop0";
@@ -21721,16 +21433,6 @@
 	tag = "icon-dirt (SOUTHEAST)"
 	},
 /area/f13/wasteland)
-"bgt" = (
-/obj/machinery/light/lampost{
-	dir = 1;
-	pixel_x = -32
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0";
-	tag = "icon-verticalrightborderright0"
-	},
-/area/space)
 "bgu" = (
 /obj/effect/decal/remains{
 	icon_state = "remains";
@@ -21783,7 +21485,7 @@
 "bgB" = (
 /obj/structure/car,
 /turf/open/indestructible/ground/outside/sidewalk,
-/area/space)
+/area/f13/building)
 "bgC" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters{
@@ -21801,7 +21503,7 @@
 	icon_state = "horizontaloutermain2";
 	tag = "icon-horizontaloutermain2"
 	},
-/area/space)
+/area/f13/building)
 "bgE" = (
 /obj/effect/decal/remains{
 	icon_state = "remains";
@@ -21810,7 +21512,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bgF" = (
 /obj/structure/mirror{
 	pixel_y = 30
@@ -21845,14 +21547,14 @@
 	icon_state = "reddirtyfull";
 	tag = "icon-reddirtyfull"
 	},
-/area/space)
+/area/f13/building)
 "bgJ" = (
 /obj/item/stack/f13Cash/random/bottle_cap/med,
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull";
 	tag = "icon-reddirtyfull"
 	},
-/area/space)
+/area/f13/building)
 "bgK" = (
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirtcorner";
@@ -21884,7 +21586,7 @@
 	icon_state = "reddirtyfull";
 	tag = "icon-reddirtyfull"
 	},
-/area/space)
+/area/f13/building)
 "bgO" = (
 /obj/structure/window/fulltile/house,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -21912,20 +21614,10 @@
 /obj/item/clothing/under/f13/doctor,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"bgS" = (
-/mob/living/simple_animal/hostile/ghoul,
-/turf/open/indestructible/ground/outside/sidewalk,
-/area/space)
 "bgT" = (
 /obj/item/flag/legion,
 /turf/open/indestructible/ground/outside/desert,
-/area/space)
-"bgU" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 5;
-	icon_state = "dirt"
-	},
-/area/space)
+/area/f13/wasteland)
 "bgV" = (
 /obj/structure/rack,
 /obj/item/kitchen/fork{
@@ -21981,17 +21673,11 @@
 "bhb" = (
 /obj/structure/tires/half,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "bhc" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /turf/open/indestructible/ground/outside/sidewalk,
-/area/space)
-"bhd" = (
-/obj/structure/simple_door/metal/store,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
+/area/f13/building)
 "bhe" = (
 /obj/structure/table,
 /obj/item/ammo_casing/shotgun/buckshot,
@@ -22002,17 +21688,10 @@
 	icon_state = "redmark";
 	tag = "icon-redmark (SOUTHWEST)"
 	},
-/area/space)
-"bhf" = (
-/obj/structure/barricade/wooden,
-/turf/open/indestructible/ground/outside/desert,
-/area/space)
-"bhg" = (
-/turf/closed/wall/f13/ruins,
-/area/space)
+/area/f13/building)
 "bhh" = (
 /turf/closed/wall/f13/wood,
-/area/space)
+/area/f13/legion)
 "bhi" = (
 /obj/machinery/door/airlock/wood{
 	req_access = 34;
@@ -22118,22 +21797,13 @@
 /obj/item/clothing/gloves/color/white,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"bhu" = (
-/obj/structure/simple_door/metal/store{
-	icon_state = "brokenstore";
-	tag = "icon-brokenstore"
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
 "bhv" = (
 /obj/effect/landmark/start/f13/farmer,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "bhw" = (
 /turf/closed/wall/f13/wood/house,
-/area/space)
+/area/f13/legion)
 "bhx" = (
 /obj/structure/simple_door/metal/store{
 	icon_state = "brokenstore";
@@ -22149,7 +21819,7 @@
 	dir = 4;
 	icon_state = "dirt"
 	},
-/area/space)
+/area/f13/wasteland)
 "bhz" = (
 /obj/item/seeds/poppy/broc,
 /turf/open/indestructible/ground/outside/desert,
@@ -22161,10 +21831,6 @@
 	tag = "icon-floordirtysolid"
 	},
 /area/f13/admeme)
-"bhB" = (
-/obj/structure/destructible/tribal_torch,
-/turf/open/indestructible/ground/outside/dirt,
-/area/space)
 "bhC" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
@@ -22172,7 +21838,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bhD" = (
 /obj/item/clothing/under/f13/police,
 /obj/item/clothing/head/f13/police,
@@ -22184,7 +21850,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bhE" = (
 /obj/item/clothing/under/f13/police,
 /obj/item/clothing/head/f13/police,
@@ -22198,7 +21864,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bhF" = (
 /obj/structure/reagent_dispensers/barrel/two,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -22259,7 +21925,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bhN" = (
 /obj/machinery/button/vertibird{
 	pixel_x = -24
@@ -22306,13 +21972,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"bhU" = (
-/obj/structure/table,
-/obj/machinery/microwave,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
 "bhV" = (
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 1;
@@ -22396,7 +22055,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bii" = (
 /obj/structure/table,
 /obj/item/paper,
@@ -22404,19 +22063,13 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bij" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
-"bik" = (
-/obj/machinery/vending/nukacolavend,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
+/area/f13/building)
 "bil" = (
 /obj/structure/table,
 /obj/machinery/microwave,
@@ -22424,20 +22077,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"bim" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 1;
-	icon_state = "dirt";
-	tag = "icon-dirt (NORTH)"
-	},
-/area/space)
-"bin" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 10;
-	icon_state = "dirt";
-	tag = "icon-dirt (SOUTHWEST)"
-	},
-/area/space)
 "bio" = (
 /obj/effect/decal/remains{
 	icon_state = "remains";
@@ -22447,7 +22086,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bip" = (
 /obj/structure/ladder/unbreakable{
 	height = 2;
@@ -22516,7 +22155,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "biA" = (
 /obj/structure/toilet,
 /turf/open/floor/f13{
@@ -22578,29 +22217,11 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "biH" = (
 /obj/structure/decoration/clock/old/active,
 /turf/closed/wall/f13/store,
-/area/space)
-"biI" = (
-/obj/structure/table,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
-"biJ" = (
-/obj/structure/chair/stool{
-	dir = 2;
-	icon_state = "bench";
-	tag = "icon-bench"
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
+/area/f13/building)
 "biK" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -22610,7 +22231,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "biL" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -22620,7 +22241,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "biM" = (
 /obj/item/seeds/xander,
 /turf/open/indestructible/ground/outside/desert,
@@ -22695,7 +22316,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "biX" = (
 /obj/structure/sink{
 	dir = 8;
@@ -22713,13 +22334,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
-"biZ" = (
-/obj/item/storage/trash_stack,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
+/area/f13/building)
 "bja" = (
 /obj/structure/reagent_dispensers/barrel/dangerous,
 /turf/open/floor/plating/tunnel,
@@ -22731,7 +22346,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bjc" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass,
@@ -22811,7 +22426,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bjo" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "storewindowbottom";
@@ -22820,7 +22435,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bjp" = (
 /obj/structure/simple_door/house,
 /obj/machinery/door/poddoor/shutters{
@@ -22908,12 +22523,6 @@
 /obj/structure/closet/crate/bin,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"bjC" = (
-/obj/structure/closet/crate/bin,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
 "bjD" = (
 /obj/structure/chair/wood/worn{
 	dir = 1
@@ -23044,19 +22653,6 @@
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"bjU" = (
-/mob/living/simple_animal/hostile/ghoul/reaver,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
-"bjV" = (
-/obj/structure/closet/fridge,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
 "bjW" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light{
@@ -23066,7 +22662,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bjX" = (
 /obj/structure/fence,
 /turf/open/indestructible/ground/outside/dirt{
@@ -23152,11 +22748,11 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bkj" = (
 /obj/structure/kitchenspike/cross,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "bkk" = (
 /obj/structure/chair{
 	dir = 4
@@ -23242,12 +22838,6 @@
 /obj/item/hatchet,
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
-"bku" = (
-/obj/machinery/light,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/space)
 "bkv" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/f13{
@@ -23281,7 +22871,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bkA" = (
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt"
@@ -23297,14 +22887,14 @@
 	icon_state = "horizontalbottomborderbottom0";
 	tag = "icon-horizontalbottomborderbottom0"
 	},
-/area/space)
+/area/f13/wasteland)
 "bkD" = (
 /obj/structure/stacklifter,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0";
 	tag = "icon-horizontalbottomborderbottom0"
 	},
-/area/space)
+/area/f13/wasteland)
 "bkE" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/f13/settler,
@@ -23390,7 +22980,7 @@
 	icon_state = "outerborder";
 	tag = "icon-outerborder (EAST)"
 	},
-/area/space)
+/area/f13/wasteland)
 "bkS" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -23431,14 +23021,7 @@
 	dir = 8;
 	icon_state = "dirtcorner"
 	},
-/area/space)
-"bkY" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 8;
-	icon_state = "outerborder";
-	tag = "icon-outerborder (WEST)"
-	},
-/area/space)
+/area/f13/wasteland)
 "bkZ" = (
 /obj/item/clothing/under/rank/prisoner,
 /obj/item/clothing/under/rank/prisoner,
@@ -23525,12 +23108,6 @@
 	icon_state = "whitebluechess"
 	},
 /area/f13/brotherhood)
-"blj" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0";
-	tag = "icon-horizontaltopbordertop0"
-	},
-/area/space)
 "blk" = (
 /obj/structure/sink{
 	dir = 4;
@@ -24097,12 +23674,6 @@
 /obj/structure/window/fulltile/house,
 /turf/open/floor/f13/wood,
 /area/f13/city)
-"bmJ" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerborder";
-	tag = "icon-outerborder (EAST)"
-	},
-/area/space)
 "bmK" = (
 /obj/structure/bed/mattress/pregame,
 /obj/item/clothing/head/fedora,
@@ -24113,7 +23684,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bmL" = (
 /obj/structure/table,
 /obj/item/radio/off,
@@ -24167,7 +23738,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bmU" = (
 /obj/structure/window/fulltile/wood,
 /turf/open/floor/f13/wood,
@@ -24253,7 +23824,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bnf" = (
 /obj/structure/chair{
 	dir = 1;
@@ -24403,19 +23974,12 @@
 /obj/structure/simple_door/brokenglass,
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
-"bnB" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 4;
-	icon_state = "outerborder";
-	tag = "icon-outerborder (EAST)"
-	},
-/area/space)
 "bnC" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bnD" = (
 /obj/structure/simple_door/metal/fence{
 	dir = 8;
@@ -24424,7 +23988,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "bnE" = (
 /obj/structure/chair{
 	dir = 1;
@@ -24607,20 +24171,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
-"bod" = (
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 9;
-	icon_state = "dirt";
-	tag = "icon-dirt (NORTHWEST)"
-	},
-/area/space)
-"boe" = (
-/obj/structure/destructible/tribal_torch,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 1;
-	icon_state = "dirt"
-	},
-/area/space)
 "bof" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -24742,16 +24292,6 @@
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
-"bov" = (
-/obj/item/toy/beach_ball/holoball,
-/turf/open/indestructible/ground/outside/sidewalk,
-/area/space)
-"bow" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalleftborderleft0";
-	tag = "icon-verticalleftborderleft0"
-	},
-/area/space)
 "box" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -24764,28 +24304,14 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "boz" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
 	icon_state = "dirtcorner"
 	},
-/area/space)
-"boA" = (
-/obj/structure/holohoop{
-	dir = 4;
-	icon_state = "hoop";
-	tag = "icon-hoop (EAST)"
-	},
-/turf/open/indestructible/ground/outside/sidewalk,
-/area/space)
-"boB" = (
-/obj/structure/holohoop{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/sidewalk,
-/area/space)
+/area/f13/wasteland)
 "boC" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/f13{
@@ -24809,7 +24335,7 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
-/area/space)
+/area/f13/building)
 "boE" = (
 /obj/structure/table/wood/settler,
 /obj/item/reagent_containers/food/drinks/drinkingglass,
@@ -25015,7 +24541,7 @@
 "bpg" = (
 /obj/structure/kitchenspike/cross,
 /turf/open/floor/wood/f13/stage_tl,
-/area/space)
+/area/f13/wasteland)
 "bph" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/f13{
@@ -25024,22 +24550,22 @@
 /area/f13/building)
 "bpi" = (
 /turf/open/floor/wood/f13/stage_t,
-/area/space)
+/area/f13/wasteland)
 "bpj" = (
 /obj/structure/kitchenspike/cross,
 /turf/open/floor/wood/f13/stage_t,
-/area/space)
+/area/f13/wasteland)
 "bpk" = (
 /obj/structure/kitchenspike/cross,
 /turf/open/floor/wood/f13/stage_tr,
-/area/space)
+/area/f13/wasteland)
 "bpl" = (
 /obj/item/flag/legion,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
 	icon_state = "dirt"
 	},
-/area/space)
+/area/f13/wasteland)
 "bpm" = (
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
@@ -25107,7 +24633,7 @@
 /area/f13/city)
 "bpw" = (
 /turf/open/floor/wood/f13/stage_l,
-/area/space)
+/area/f13/wasteland)
 "bpx" = (
 /obj/item/screwdriver,
 /turf/open/floor/f13{
@@ -25116,7 +24642,7 @@
 /area/f13/city)
 "bpy" = (
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/wasteland)
 "bpz" = (
 /obj/machinery/power/smes,
 /obj/structure/cable{
@@ -25129,7 +24655,7 @@
 /area/f13/city)
 "bpA" = (
 /turf/open/floor/wood/f13/stage_r,
-/area/space)
+/area/f13/wasteland)
 "bpB" = (
 /obj/structure/kitchenspike/cross,
 /turf/open/indestructible/ground/outside/dirt{
@@ -25137,47 +24663,35 @@
 	icon_state = "dirt";
 	tag = "icon-dirt (SOUTHWEST)"
 	},
-/area/space)
+/area/f13/wasteland)
 "bpC" = (
 /obj/structure/destructible/tribal_torch,
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt";
 	tag = "icon-dirt"
 	},
-/area/space)
-"bpD" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 4;
-	icon_state = "outerpavementcorner"
-	},
-/area/space)
-"bpE" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 1;
-	icon_state = "outerpavementcorner"
-	},
-/area/space)
+/area/f13/wasteland)
 "bpF" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress1"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bpG" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt";
 	tag = "icon-dirt"
 	},
-/area/space)
+/area/f13/wasteland)
 "bpH" = (
 /obj/structure/guillotine,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/wasteland)
 "bpI" = (
 /obj/structure/bonfire,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/wasteland)
 "bpJ" = (
 /obj/structure/closet/crate{
 	icon_state = "medicalcrate";
@@ -25206,10 +24720,6 @@
 	tag = "icon-bluedirtychess2"
 	},
 /area/f13/city)
-"bpM" = (
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/dirt,
-/area/space)
 "bpN" = (
 /obj/structure/table/wood/settler,
 /obj/item/reagent_containers/food/drinks/beer,
@@ -25270,7 +24780,7 @@
 /obj/structure/target_stake,
 /obj/item/target,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "bpY" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
@@ -25281,17 +24791,17 @@
 	dir = 1
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bqa" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2"
 	},
 /obj/effect/landmark/start/f13/legionary,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bqb" = (
 /turf/open/floor/wood/f13/stage_bl,
-/area/space)
+/area/f13/wasteland)
 "bqc" = (
 /obj/structure/simple_door/house{
 	icon_state = "roomopening";
@@ -25304,7 +24814,7 @@
 /area/f13/city)
 "bqd" = (
 /turf/open/floor/wood/f13/stage_b,
-/area/space)
+/area/f13/wasteland)
 "bqe" = (
 /obj/structure/closet,
 /obj/item/clothing/glasses/regular,
@@ -25320,11 +24830,7 @@
 /area/f13/city)
 "bqf" = (
 /turf/open/floor/wood/f13/stage_br,
-/area/space)
-"bqg" = (
-/mob/living/simple_animal/hostile/cazador/young,
-/turf/open/indestructible/ground/outside/desert,
-/area/space)
+/area/f13/wasteland)
 "bqh" = (
 /obj/structure/table/wood,
 /obj/structure/decoration/sign{
@@ -25422,7 +24928,7 @@
 	},
 /obj/effect/landmark/start/f13/legionary,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bqv" = (
 /obj/machinery/shower{
 	pixel_y = 20
@@ -25438,7 +24944,7 @@
 	},
 /obj/effect/landmark/start/f13/legionary,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bqx" = (
 /obj/structure/table/wood/settler,
 /obj/item/twohanded/spear,
@@ -25449,11 +24955,11 @@
 	icon_state = "dirt";
 	tag = "icon-dirt"
 	},
-/area/space)
+/area/f13/wasteland)
 "bqy" = (
 /obj/structure/destructible/tribal_torch,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bqz" = (
 /obj/structure/kitchenspike/cross,
 /turf/open/indestructible/ground/outside/dirt{
@@ -25461,21 +24967,21 @@
 	icon_state = "dirt";
 	tag = "icon-dirt (NORTHWEST)"
 	},
-/area/space)
+/area/f13/wasteland)
 "bqA" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress5"
 	},
 /obj/effect/landmark/start/f13/legionary,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bqB" = (
 /obj/structure/simple_door/metal/store{
 	icon_state = "brokenstore";
 	tag = "icon-brokenstore"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bqC" = (
 /obj/structure/flora/tree/tall{
 	icon_state = "tree_3";
@@ -25489,7 +24995,7 @@
 	dir = 1;
 	icon_state = "dirtcorner"
 	},
-/area/space)
+/area/f13/wasteland)
 "bqE" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
@@ -25498,7 +25004,7 @@
 "bqF" = (
 /obj/machinery/light/small,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bqG" = (
 /obj/structure/closet/crate,
 /obj/item/target,
@@ -25511,21 +25017,21 @@
 	dir = 1;
 	icon_state = "dirt"
 	},
-/area/space)
+/area/f13/wasteland)
 "bqH" = (
 /obj/structure/table/wood/settler,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 1;
 	icon_state = "dirt"
 	},
-/area/space)
+/area/f13/wasteland)
 "bqI" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress1"
 	},
 /obj/effect/landmark/start/f13/legionary,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bqJ" = (
 /obj/structure/table,
 /obj/item/storage/box/syringes,
@@ -25672,26 +25178,26 @@
 "brd" = (
 /obj/structure/table/wood/settler,
 /turf/open/indestructible/ground/outside/desert,
-/area/space)
+/area/f13/wasteland)
 "bre" = (
 /obj/item/storage/box/matches,
 /obj/structure/table/wood/settler,
 /turf/open/indestructible/ground/outside/desert,
-/area/space)
+/area/f13/wasteland)
 "brf" = (
 /obj/structure/table/wood/settler,
 /obj/item/storage/box/matches,
 /turf/open/indestructible/ground/outside/desert,
-/area/space)
+/area/f13/wasteland)
 "brg" = (
 /obj/structure/bed/mattress,
 /obj/effect/landmark/start/f13/legionary,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "brh" = (
 /obj/structure/fence,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bri" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress3"
@@ -25700,14 +25206,14 @@
 	dir = 1
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "brj" = (
 /obj/structure/kitchenspike/cross,
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt";
 	tag = "icon-dirt"
 	},
-/area/space)
+/area/f13/wasteland)
 "brk" = (
 /obj/structure/simple_door/house{
 	icon_state = "room";
@@ -25731,64 +25237,64 @@
 	icon_state = "fence"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "brn" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress6"
 	},
 /obj/effect/landmark/start/f13/recleg,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bro" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress1"
 	},
 /obj/effect/landmark/start/f13/recleg,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "brp" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "brq" = (
 /obj/structure/table/wood/settler,
 /obj/item/clothing/gloves/boxing,
 /obj/item/clothing/gloves/boxing/blue,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "brr" = (
 /obj/structure/table/wood/settler,
 /obj/item/clothing/gloves/boxing/green,
 /obj/item/clothing/gloves/boxing/yellow,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "brs" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress3"
 	},
 /obj/effect/landmark/start/f13/recleg,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "brt" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2"
 	},
 /obj/effect/landmark/start/f13/recleg,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bru" = (
 /obj/item/flag/legion,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "brv" = (
 /obj/structure/fence/corner{
 	dir = 8;
 	icon_state = "corner"
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "brw" = (
 /obj/structure/bed,
 /obj/item/bedsheet{
@@ -25803,7 +25309,7 @@
 "brx" = (
 /obj/structure/simple_door/metal/fence,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "bry" = (
 /obj/structure/simple_door/house{
 	icon_state = "dirtyglassopening";
@@ -25941,21 +25447,13 @@
 	tag = "icon-bluedirtychess2"
 	},
 /area/f13/city)
-"brN" = (
-/obj/structure/fence{
-	dir = 4;
-	icon_state = "straight";
-	tag = "icon-metal_fence3"
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/space)
 "brO" = (
 /obj/structure/fence/corner{
 	dir = 4;
 	icon_state = "corner"
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "brP" = (
 /obj/structure/destructible/tribal_torch,
 /turf/open/indestructible/ground/outside/dirt{
@@ -25969,14 +25467,14 @@
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "brR" = (
 /obj/structure/fence/corner{
 	dir = 9;
 	icon_state = "corner"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "brS" = (
 /turf/closed/indestructible/vaultdoor{
 	desc = "One of the doors to enter and exit the aircraft. This one appears jammed, or perhaps welded shut.";
@@ -25995,7 +25493,7 @@
 	tag = "icon-metal_fence3"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "brV" = (
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 10;
@@ -26006,11 +25504,11 @@
 "brW" = (
 /obj/structure/fence,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "brX" = (
 /obj/effect/landmark/start/f13/librator,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "brY" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress3"
@@ -26019,23 +25517,7 @@
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/space)
-"brZ" = (
-/obj/machinery/light/lampost{
-	dir = 1;
-	pixel_x = -32
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright3";
-	tag = "icon-verticalrightborderright3"
-	},
-/area/space)
-"bsa" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderrightbottom";
-	tag = "icon-verticalrightborderrightbottom"
-	},
-/area/space)
+/area/f13/legion)
 "bsb" = (
 /obj/item/storage/trash_stack,
 /turf/open/indestructible/ground/outside/dirt{
@@ -26172,7 +25654,7 @@
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bsv" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -26186,7 +25668,7 @@
 	icon_state = "mattress6"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bsx" = (
 /obj/item/melee/curator_whip{
 	desc = "It stings like hell to be hit by.";
@@ -26197,12 +25679,12 @@
 	},
 /obj/structure/closet/cabinet,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bsy" = (
 /obj/structure/fence,
 /obj/machinery/light,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/wasteland)
 "bsz" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -26214,7 +25696,7 @@
 "bsA" = (
 /obj/structure/simple_door/brokenglass,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bsB" = (
 /obj/structure/simple_door/house{
 	icon_state = "dirtyglassopen";
@@ -26350,7 +25832,7 @@
 	},
 /obj/effect/landmark/start/f13/slavemaster,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bsU" = (
 /obj/structure/wreck/trash/engine,
 /turf/open/indestructible/ground/outside/desert,
@@ -26370,14 +25852,14 @@
 	tag = "icon-storewindowleft"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bsY" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "storewindowhorizontal";
 	tag = "icon-storewindowhorizontal (NORTHEAST)"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bsZ" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light/small{
@@ -26437,21 +25919,21 @@
 	tag = "icon-storewindowright"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "btk" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress2"
 	},
 /obj/effect/landmark/start/f13/campfollower,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "btl" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress1"
 	},
 /obj/effect/landmark/start/f13/campfollower,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "btm" = (
 /obj/structure/table/wood,
 /obj/item/ammo_box/magazine/uzim9mm/empty,
@@ -26461,7 +25943,7 @@
 /obj/effect/landmark/start/f13/auxilia,
 /obj/structure/destructible/tribal_torch,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bto" = (
 /obj/structure/table/wood,
 /obj/machinery/recharger,
@@ -26561,22 +26043,12 @@
 	tag = "icon-verticaloutermain2bottom"
 	},
 /area/f13/wasteland)
-"btD" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderrighttop";
-	tag = "icon-verticalrightborderrighttop"
-	},
-/area/space)
-"btE" = (
-/obj/effect/spawner/lootdrop/trash,
-/turf/closed/mineral/random/low_chance,
-/area/space)
 "btF" = (
 /obj/structure/bed,
 /obj/item/bedsheet/red,
 /obj/effect/landmark/start/f13/centurion,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "btG" = (
 /obj/structure/chair/comfy{
 	dir = 4;
@@ -26584,7 +26056,7 @@
 	tag = "icon-comfychair (EAST)"
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "btH" = (
 /obj/structure/showcase/machinery/tv{
 	name = "Old television";
@@ -26593,14 +26065,14 @@
 	},
 /obj/structure/table/wood/settler,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "btI" = (
 /obj/machinery/photocopier,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "btJ" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderrighttop";
@@ -26610,7 +26082,7 @@
 "btK" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "btL" = (
 /obj/structure/chair/wood/worn{
 	dir = 1
@@ -26698,12 +26170,12 @@
 /obj/item/pen,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "btY" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/computer/terminal,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "btZ" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/f13{
@@ -26717,14 +26189,14 @@
 	dir = 1
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bub" = (
 /obj/structure/destructible/tribal_torch,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
 	icon_state = "dirtcorner"
 	},
-/area/space)
+/area/f13/wasteland)
 "buc" = (
 /mob/living/simple_animal/hostile/radroach,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -26738,15 +26210,15 @@
 	},
 /obj/effect/landmark/start/f13/campfollower,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bue" = (
 /obj/effect/landmark/start/f13/auxilia,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buf" = (
 /obj/structure/closet,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bug" = (
 /mob/living/simple_animal/hostile/radroach,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -26838,12 +26310,6 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
-"bus" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright3";
-	tag = "icon-verticalrightborderright3"
-	},
-/area/space)
 "but" = (
 /obj/structure/closet/cabinet,
 /obj/item/twohanded/binocs,
@@ -26856,36 +26322,36 @@
 /obj/item/tank/internals/oxygen,
 /obj/item/tank/internals/oxygen,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buu" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buv" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/cash_legion_med,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buw" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bux" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress5"
 	},
 /obj/effect/landmark/start/f13/campfollower,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buy" = (
 /obj/effect/landmark/start/f13/priestess,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buz" = (
 /obj/structure/dresser,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buA" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/neck/stethoscope,
@@ -26900,18 +26366,18 @@
 "buB" = (
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buC" = (
 /obj/structure/chair/office/dark,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/start/f13/legate,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buD" = (
 /obj/structure/table/wood/settler,
 /obj/item/storage/box/matches,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buE" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/shoes/sandal,
@@ -26925,7 +26391,7 @@
 /obj/item/clothing/under/f13/rag,
 /obj/item/clothing/shoes/sandal,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buF" = (
 /obj/structure/closet/cabinet,
 /obj/item/assembly/signaler/electropack/shockcollar,
@@ -26939,13 +26405,13 @@
 /obj/item/assembly/signaler/electropack/boomcollar,
 /obj/item/assembly/signaler/electropack/shockcollar,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buG" = (
 /obj/structure/table/wood/settler,
 /obj/item/assembly/signaler/advanced,
 /obj/item/assembly/signaler/advanced,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buH" = (
 /obj/structure/simple_door/interior,
 /turf/open/floor/f13/wood,
@@ -27018,19 +26484,19 @@
 /obj/item/storage/box/matches,
 /obj/machinery/light/small,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buS" = (
 /obj/structure/punching_bag,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buT" = (
 /obj/structure/table/wood/settler,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buU" = (
 /obj/structure/reagent_dispensers/barrel/explosive,
 /turf/open/indestructible/ground/outside/desert,
-/area/space)
+/area/f13/wasteland)
 "buV" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -27042,7 +26508,7 @@
 "buW" = (
 /obj/structure/simple_door/metal/store,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "buX" = (
 /obj/structure/destructible/tribal_torch,
 /turf/open/indestructible/ground/outside/dirt{
@@ -27050,7 +26516,7 @@
 	icon_state = "dirt";
 	tag = "icon-dirt (WEST)"
 	},
-/area/space)
+/area/f13/wasteland)
 "buY" = (
 /obj/structure/sink{
 	dir = 8;
@@ -27060,7 +26526,7 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/space)
+/area/f13/legion)
 "buZ" = (
 /obj/structure/toilet{
 	dir = 8
@@ -27070,36 +26536,36 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/space)
+/area/f13/legion)
 "bva" = (
 /obj/structure/chair/wood{
 	dir = 1
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvb" = (
 /obj/structure/chair/wood{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvc" = (
 /obj/structure/weightlifter,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvd" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/space)
+/area/f13/legion)
 "bve" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/space)
+/area/f13/legion)
 "bvf" = (
 /obj/machinery/shower{
 	dir = 8
@@ -27108,33 +26574,33 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
-/area/space)
+/area/f13/legion)
 "bvg" = (
 /obj/structure/bed/mattress,
 /obj/effect/landmark/start/f13/vexillarius,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvh" = (
 /obj/structure/closet/cabinet,
 /obj/item/claymore/machete/gladius,
 /obj/item/claymore/machete/gladius,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvi" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvj" = (
 /obj/structure/chalkboard,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvk" = (
 /obj/structure/table/wood/settler,
 /obj/item/pen,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvl" = (
 /turf/closed/indestructible/fakeglass,
 /area/f13/tunnel)
@@ -27147,14 +26613,14 @@
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvo" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvp" = (
 /obj/effect/decal/remains{
 	icon_state = "remains";
@@ -27175,23 +26641,23 @@
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvs" = (
 /obj/structure/table/wood/settler,
 /obj/item/shovel/spade,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvt" = (
 /obj/effect/landmark/start/f13/vexillarius,
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvu" = (
 /obj/structure/simple_door/dirtyglass,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvv" = (
 /obj/structure/table/wood/settler,
 /obj/item/cultivator,
@@ -27200,16 +26666,16 @@
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvw" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/lootdrop/f13/cash_legion_low,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvx" = (
 /obj/structure/legion_extractor,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvy" = (
 /obj/structure/chair/wood,
 /turf/open/floor/f13/wood,
@@ -27217,7 +26683,7 @@
 "bvz" = (
 /obj/structure/reagent_dispensers/compostbin,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvA" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier1,
 /turf/open/floor/f13{
@@ -27228,13 +26694,13 @@
 /obj/structure/closet/cabinet,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvC" = (
 /obj/structure/chair{
 	dir = 1
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvD" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "floor5-old";
@@ -27259,61 +26725,61 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvH" = (
 /obj/structure/fence{
 	dir = 8;
 	icon_state = "straight"
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "bvI" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvJ" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvK" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvL" = (
 /obj/structure/reagent_dispensers/barrel/half,
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvM" = (
 /obj/structure/chair/stool,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvN" = (
 /obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvO" = (
 /obj/item/storage/bag/plants,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "bvP" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /mob/living/simple_animal/cow/brahmin,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "bvQ" = (
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "bvR" = (
 /obj/structure/bed/mattress,
 /obj/effect/landmark/start/f13/explorer,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvS" = (
 /obj/structure/kitchenspike/cross,
 /turf/open/indestructible/ground/outside/desert,
@@ -27330,11 +26796,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/start/f13/explorer,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvV" = (
 /obj/machinery/ammobench/makeshift,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvW" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/light/small{
@@ -27348,7 +26814,7 @@
 "bvX" = (
 /obj/machinery/workbench,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bvY" = (
 /obj/effect/decal/remains/human,
 /turf/open/indestructible/ground/inside/mountain,
@@ -27356,23 +26822,23 @@
 "bvZ" = (
 /obj/structure/table,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwa" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwb" = (
 /obj/structure/simple_door/metal/fence{
 	dir = 8;
 	icon_state = "fence"
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "bwc" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "bwd" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -27383,26 +26849,26 @@
 /obj/structure/bed/mattress,
 /obj/effect/landmark/start/f13/vetlegionary,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwf" = (
 /obj/structure/bed/mattress,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/start/f13/vetlegionary,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwg" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/space)
+/area/f13/legion)
 "bwh" = (
 /obj/structure/closet/fridge,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwi" = (
 /obj/item/clothing/under/f13/female/tribal,
 /turf/open/indestructible/ground/outside/desert,
@@ -27427,24 +26893,17 @@
 /obj/item/seeds/cotton,
 /obj/item/seeds/cotton,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwm" = (
 /obj/structure/sink/well/dwell,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
-"bwn" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 1;
-	icon_state = "outerbordercorner";
-	tag = "icon-outerbordercorner (NORTH)"
-	},
-/area/space)
+/area/f13/legion)
 "bwo" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/lootdrop/f13/cash_legion_low,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwp" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -27452,7 +26911,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/space)
+/area/f13/legion)
 "bwq" = (
 /obj/item/storage/belt/military/assault/legion,
 /obj/item/storage/belt/military/assault/legion,
@@ -27464,7 +26923,7 @@
 /obj/item/storage/belt/military/assault/legion,
 /obj/item/storage/belt/military/assault/legion,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwr" = (
 /obj/item/storage/backpack/spearquiver,
 /obj/item/storage/backpack/spearquiver,
@@ -27478,7 +26937,7 @@
 /obj/item/throwing_star/spear,
 /obj/item/storage/backpack/spearquiver,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bws" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/food/drinks/flask/survival/legion,
@@ -27488,19 +26947,19 @@
 /obj/item/reagent_containers/food/drinks/flask/survival/legion,
 /obj/item/reagent_containers/food/drinks/flask/survival/legion,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwt" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwu" = (
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/tunnel)
 "bwv" = (
 /obj/structure/rack,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bww" = (
 /obj/structure/rack,
 /obj/item/ammo_box/magazine/mm762,
@@ -27511,14 +26970,14 @@
 /obj/item/ammo_box/magazine/mm762,
 /obj/item/gun/ballistic/automatic/l6_saw/m38,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwx" = (
 /obj/structure/rack,
 /obj/item/storage/box/lethalshot,
 /obj/item/storage/box/lethalshot,
 /obj/item/ammo_box/c10mm,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwy" = (
 /obj/structure/rack,
 /obj/item/ammo_box/tube/a357,
@@ -27532,32 +26991,32 @@
 /obj/item/ammo_box/a357,
 /obj/item/ammo_box/a357,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwz" = (
 /obj/structure/table/wood/settler,
 /obj/item/seeds/watermelon,
 /obj/item/seeds/watermelon,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwA" = (
 /mob/living/simple_animal/cow/brahmin,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "bwB" = (
 /mob/living/simple_animal/chicken,
 /turf/open/indestructible/ground/outside/dirt,
-/area/space)
+/area/f13/legion)
 "bwC" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwD" = (
 /obj/structure/dresser,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwE" = (
 /obj/structure/janitorialcart,
 /obj/item/mop,
@@ -27565,7 +27024,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/space)
+/area/f13/legion)
 "bwF" = (
 /obj/structure/table/wood/settler,
 /obj/item/seeds/wheat,
@@ -27576,20 +27035,20 @@
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwG" = (
 /obj/structure/bed,
 /obj/item/bedsheet/grey,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/start/f13/decanus,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwH" = (
 /obj/structure/bed,
 /obj/item/bedsheet/grey,
 /obj/effect/landmark/start/f13/primedecanus,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwI" = (
 /obj/structure/rack,
 /obj/item/shield/legion/buckler,
@@ -27608,7 +27067,7 @@
 /obj/item/shield/legion,
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwJ" = (
 /obj/structure/rack,
 /obj/item/twohanded/spear,
@@ -27617,7 +27076,7 @@
 /obj/item/twohanded/spear,
 /obj/item/twohanded/spear,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwK" = (
 /obj/structure/rack,
 /obj/item/claymore/machete,
@@ -27631,13 +27090,13 @@
 /obj/item/claymore/machete,
 /obj/item/claymore/machete,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwL" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwM" = (
 /obj/item/clothing/under/f13/tribal,
 /turf/open/indestructible/ground/outside/desert,
@@ -27667,7 +27126,7 @@
 /obj/structure/rack,
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwS" = (
 /obj/structure/rack,
 /obj/item/restraints/legcuffs/bola,
@@ -27682,7 +27141,7 @@
 /obj/item/restraints/legcuffs/bola,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwT" = (
 /obj/effect/landmark/start/f13/mayor,
 /turf/open/floor/f13/wood,
@@ -27700,7 +27159,7 @@
 /obj/item/restraints/handcuffs,
 /obj/item/restraints/handcuffs,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwV" = (
 /obj/structure/rack,
 /obj/item/flashlight/lantern,
@@ -27716,7 +27175,7 @@
 /obj/item/flashlight/lantern,
 /obj/item/flashlight/lantern,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwW" = (
 /obj/structure/table,
 /obj/item/kitchen/knife,
@@ -27724,28 +27183,28 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwX" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/condiment/peppermill,
 /obj/item/reagent_containers/food/condiment/saltshaker,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwY" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bwZ" = (
 /obj/structure/campfire/stove,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bxa" = (
 /obj/structure/table,
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bxb" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -27753,32 +27212,32 @@
 	pixel_y = 6
 	},
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bxc" = (
 /obj/structure/table/wood/settler,
 /obj/item/seeds/carrot,
 /obj/item/seeds/potato,
 /obj/item/seeds/potato,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bxd" = (
 /obj/structure/simple_door/metal/store,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/space)
+/area/f13/legion)
 "bxe" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/f13{
 	icon_state = "floordirtysolid";
 	tag = "icon-floordirtysolid"
 	},
-/area/space)
+/area/f13/legion)
 "bxf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small,
 /turf/open/floor/f13/wood,
-/area/space)
+/area/f13/legion)
 "bxg" = (
 /obj/structure/simple_door/metal/ventilation,
 /turf/open/floor/plating,
@@ -27796,7 +27255,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/space)
+/area/f13/legion)
 "bxj" = (
 /obj/structure/closet/fridge,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -27812,20 +27271,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/space)
+/area/f13/legion)
 "bxl" = (
 /obj/structure/table/wood/settler,
 /obj/item/storage/toolbox/mechanical/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/space)
+/area/f13/legion)
 "bxm" = (
 /turf/open/floor/f13{
 	icon_state = "floordirtysolid";
 	tag = "icon-floordirtysolid"
 	},
-/area/space)
+/area/f13/legion)
 "bxn" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -27835,7 +27294,7 @@
 	icon_state = "floordirtysolid";
 	tag = "icon-floordirtysolid"
 	},
-/area/space)
+/area/f13/legion)
 "bxo" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/indestructible/ground/inside/mountain,
@@ -27849,13 +27308,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/space)
+/area/f13/legion)
 "bxq" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/space)
+/area/f13/legion)
 "bxr" = (
 /obj/structure/rack,
 /obj/item/pickaxe,
@@ -27865,14 +27324,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/space)
+/area/f13/legion)
 "bxs" = (
 /obj/structure/reagent_dispensers/barrel/three,
 /turf/open/floor/f13{
 	icon_state = "floordirtysolid";
 	tag = "icon-floordirtysolid"
 	},
-/area/space)
+/area/f13/legion)
 "bxt" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/kitchen/knife/butcher,
@@ -27881,14 +27340,14 @@
 	icon_state = "floordirtysolid";
 	tag = "icon-floordirtysolid"
 	},
-/area/space)
+/area/f13/legion)
 "bxu" = (
 /obj/structure/kitchenspike,
 /turf/open/floor/f13{
 	icon_state = "floordirtysolid";
 	tag = "icon-floordirtysolid"
 	},
-/area/space)
+/area/f13/legion)
 "bxv" = (
 /obj/structure/kitchenspike,
 /obj/effect/decal/cleanable/dirt,
@@ -27896,7 +27355,7 @@
 	icon_state = "floordirtysolid";
 	tag = "icon-floordirtysolid"
 	},
-/area/space)
+/area/f13/legion)
 "bxA" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -89941,69 +89400,69 @@ abS
 abS
 abS
 abS
-aaI
-apU
-apU
-apU
-aJX
-aJX
-aJX
-bgt
-apU
-apU
-apU
-apU
-aJX
-aJX
-apU
-apU
-apU
-apU
-apU
-apU
-aJX
-aJX
-aJX
-apU
-apU
-apU
-apU
-apU
-apU
-apU
-apU
-aJX
-apU
-apU
-apU
-apU
-apU
-brZ
-bsa
-arc
-arc
-arc
-btD
-bus
-apU
-apU
-apU
-apU
-apU
-apU
-apU
-aJX
-aJX
-apU
-apU
-bwn
-aqy
-arc
-arc
-arc
-arc
-asv
-asw
+aeS
+axb
+axb
+axb
+aya
+aya
+aya
+agL
+axb
+axb
+axb
+axb
+aya
+aya
+axb
+axb
+axb
+axb
+axb
+axb
+aya
+aya
+aya
+axb
+axb
+axb
+axb
+axb
+axb
+axb
+axb
+aya
+axb
+axb
+axb
+axb
+axb
+eWl
+apr
+aat
+aat
+aat
+btJ
+aMG
+axb
+axb
+axb
+axb
+axb
+axb
+axb
+aya
+aya
+axb
+axb
+ayp
+ayW
+aat
+aat
+aat
+aat
+aae
+aaa
 "}
 (188,1,1) = {"
 aaa
@@ -90198,69 +89657,69 @@ abT
 abS
 abS
 abS
-abg
-aqj
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-bpE
-arc
-arc
-arc
-aLm
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-aqV
-bpE
-arc
-arc
-arc
-arc
-asv
-asw
+aeV
+aiq
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+aWT
+aat
+aat
+aat
+agm
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+adf
+aWT
+aat
+aat
+aat
+aat
+aae
+aaa
 "}
 (189,1,1) = {"
 aaa
@@ -90455,69 +89914,69 @@ abS
 abS
 abT
 abS
-abg
-aqy
-arc
-arc
-arv
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arz
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-asv
-asw
+aeV
+ayW
+aat
+aat
+aKU
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+agk
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aae
+aaa
 "}
 (190,1,1) = {"
 aaa
@@ -90712,69 +90171,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arv
-asx
-aKi
-arz
+aeV
+ayW
+aKU
+aBO
+aHW
+agk
 asR
 asS
 asR
-arz
+agk
 bhC
-aYb
-arz
-bjC
-bik
-arz
+afS
+agk
+afR
+aiZ
+agk
 bmK
 biY
-arz
+agk
 boD
 biY
-arz
-bpD
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-asv
-asv
-asv
-asw
+agk
+aJR
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aae
+aae
+aae
+aaa
 "}
 (191,1,1) = {"
 aaa
@@ -90969,69 +90428,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arw
-asR
-aKD
+aeV
+ayW
+agl
+afF
+ayY
 asR
 asR
 bgB
 asS
-arz
+agk
 bhD
-aYb
-bhd
-aYb
-aYb
-arz
+afS
+afC
+afS
+afS
+agk
 bmT
 bnC
-arz
+agk
 bmT
-aYb
-arz
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-asv
-asv
-asv
-asv
-asv
-arc
-arc
-arc
-arc
-arc
-arc
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
+afS
+agk
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aae
+aae
+aae
+aae
+aae
+aat
+aat
+aat
+aat
+aat
+aat
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
 "}
 (192,1,1) = {"
 aaa
@@ -91226,69 +90685,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arw
-asS
-asR
+aeV
+ayW
+agl
+acB
+afF
 asR
 asS
 asR
 bhc
-arz
+agk
 bhE
 bio
 biL
-bjU
-bku
-arz
+beQ
+alt
+agk
 bne
 bnD
-arz
+agk
 bnD
 bne
-arz
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
+agk
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
 "}
 (193,1,1) = {"
 aaa
@@ -91483,69 +90942,69 @@ abS
 abS
 abS
 abS
-ajk
-aqy
-arw
-asR
-asS
-arz
+nLp
+ayW
+agl
+afF
+acB
+agk
 asR
 bgD
 asR
-arz
+agk
 bhM
-aYb
+afS
 biW
-aYb
-aYb
-arz
-biZ
-aYb
-bjU
-aYb
-aYb
-arz
-bpE
-arc
-bqg
-arc
-arc
-arc
-arc
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
+afS
+afS
+agk
+beR
+afS
+beQ
+afS
+afS
+agk
+aWT
+aat
+anY
+aat
+aat
+aat
+aat
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 "}
 (194,1,1) = {"
 aaa
@@ -91740,69 +91199,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arz
-arz
-arz
-arz
-arz
-arz
-bhd
-arz
-arz
-arz
-arz
-arz
-bhd
-arz
-aYb
-aYb
+aeV
+ayW
+agk
+agk
+agk
+agk
+agk
+agk
+afC
+agk
+agk
+agk
+agk
+agk
+afC
+agk
+afS
+afS
 boy
-aYb
+afS
 boy
-arz
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-btE
-asv
-asv
-asv
-asw
+agk
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aHE
+aae
+aae
+aae
+aaa
 bhh
 bhw
 bhw
 bhh
 bhh
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
 "}
 (195,1,1) = {"
 aaa
@@ -91997,69 +91456,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arz
-atV
+aeV
+ayW
+agk
+aip
 aKW
-arz
-aYb
+agk
+afS
 bgE
 aYu
-arz
-bhU
+agk
+bil
 biz
 biY
-bjV
-aYb
-arz
+bfn
+afS
+agk
 bgE
-arz
-arz
-arz
-arz
-arz
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
+agk
+agk
+agk
+agk
+agk
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 bhh
 bvg
 bvt
 bvg
 bhw
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
 "}
 (196,1,1) = {"
 aaa
@@ -92254,69 +91713,69 @@ abS
 abS
 abT
 abS
-abg
-aqy
-arz
+aeV
+ayW
+agk
 axe
-aLh
-aOh
+ahj
+ail
 aYu
 aYu
-aYb
-bhd
-aYb
-aYb
-aYb
-aYb
-aYb
-bhd
-aYb
-arz
-asw
-asw
-asw
-asw
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
+afS
+afC
+afS
+afS
+afS
+afS
+afS
+afC
+afS
+agk
+aaa
+aaa
+aaa
+aaa
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 bhh
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bhw
-asw
-asw
-asw
-asw
-asw
-asv
-asv
-asv
-asv
-asv
-asw
+aaa
+aaa
+aaa
+aaa
+aaa
+aae
+aae
+aae
+aae
+aae
+aaa
 "}
 (197,1,1) = {"
 aaa
@@ -92511,69 +91970,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arz
+aeV
+ayW
+agk
 axo
 aLj
-arz
+agk
 aYu
-aYb
-aYb
-arz
+afS
+afS
+agk
 bih
-aYb
-biZ
-aYb
+afS
+beR
+afS
 bki
-arz
-bjC
-arz
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
+agk
+afR
+agk
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 bhw
 bvh
-bpy
+aaI
 bvw
 bhh
 bhh
 bhw
 bhw
 bhw
-asw
-asv
-asv
-asv
-asv
-asv
-asw
+aaa
+aae
+aae
+aae
+aae
+aae
+aaa
 "}
 (198,1,1) = {"
 aaa
@@ -92768,69 +92227,69 @@ abS
 abS
 acq
 abS
-abg
-aqy
-arz
-arz
-arz
-arz
+aeV
+ayW
+agk
+agk
+agk
+agk
 aYv
 bgI
 bhe
-arz
+agk
 bii
 biG
-aYb
+afS
 bjW
-aYb
-arz
-arz
-arz
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
+afS
+agk
+agk
+agk
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 bhw
 bhh
 bvu
 bhh
 bhh
 bvI
-bpy
+aaI
 bwe
 bhh
-asw
-asv
-asv
-asv
-asv
-asv
-asw
+aaa
+aae
+aae
+aae
+aae
+aae
+aaa
 "}
 (199,1,1) = {"
 aaa
@@ -93025,69 +92484,69 @@ abS
 abS
 acq
 abS
-abg
-aqy
-arc
-arc
-arc
-arz
-aYF
+aeV
+ayW
+aat
+aat
+aat
+agk
+bgH
 bgJ
-aYF
-arz
-arz
+bgH
+agk
+agk
 biH
-bhd
-arz
-bhd
-arz
-asw
-asw
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
+afC
+agk
+afC
+agk
+aaa
+aaa
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 bro
-bpy
+aaI
 bhw
-arc
-arc
-arc
-asu
-axU
-axU
-axU
-axU
-axU
+aat
+aat
+aat
+anl
+acv
+acv
+acv
+acv
+acv
 bsA
-bpy
+aaI
 buu
 bqF
 bhh
-asw
-asv
-asv
-asv
-asv
-asv
-asw
+aaa
+aae
+aae
+aae
+aae
+aae
+aaa
 "}
 (200,1,1) = {"
 aaa
@@ -93282,69 +92741,69 @@ abS
 abS
 acq
 abS
-abg
-aqy
-arc
-arc
-arc
-arz
+aeV
+ayW
+aat
+aat
+aat
+agk
 bdf
 bgN
 bdf
-arz
+agk
 bij
 bih
-aYb
-arz
-aYb
-arz
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
+afS
+agk
+afS
+agk
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 bhw
 bhw
 brt
 brs
-bpy
-bpy
+aaI
+aaI
 brn
 bhh
-arc
-arc
-arc
-asu
-bhB
-axU
-axU
-axU
-axU
+aat
+aat
+aat
+anl
+acT
+acv
+acv
+acv
+acv
 bhh
 bvB
-bpy
+aaI
 bwf
 bhw
-asw
-asw
-asw
-asw
-asv
-asv
-asw
+aaa
+aaa
+aaa
+aaa
+aae
+aae
+aaa
 "}
 (201,1,1) = {"
 aaa
@@ -93539,69 +92998,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-aLl
-arz
-arz
-arz
-arz
-arz
-arz
-biI
+aeV
+ayW
+aat
+aat
+bbZ
+agk
+agk
+agk
+agk
+agk
+agk
+beF
 bjb
-arz
-aYb
-arz
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
+agk
+afS
+agk
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 bhw
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 brn
-bpy
-bpy
+aaI
+aaI
 bhh
-bpy
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
+aaI
 bhh
-arc
-arc
-arc
-asu
-axU
-axU
-axU
-axU
-bhh
-bhw
-bhh
-bhh
+aat
+aat
+aat
+anl
+acv
+acv
+acv
+acv
 bhh
 bhw
 bhh
 bhh
 bhh
-asw
-asv
-asv
-asw
+bhw
+bhh
+bhh
+bhh
+aaa
+aae
+aae
+aaa
 "}
 (202,1,1) = {"
 aaa
@@ -93796,56 +93255,56 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-aLm
-aPO
-asR
-asR
-asR
-arz
-aYb
-aYb
-aYb
-aYb
-aYb
-arz
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-bpy
+aeV
+ayW
+aat
+aat
+agm
+bgy
+afF
+afF
+afF
+agk
+afS
+afS
+afS
+afS
+afS
+agk
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aaI
 bqu
 bqy
 bqA
-bpy
+aaI
 bhw
 bqA
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
 brs
 bhh
-bpy
+aaI
 brt
 bsu
 bro
 bhw
 bhw
-arc
-arc
-arc
-asu
-axU
-axU
-axU
-axU
+aat
+aat
+aat
+anl
+acv
+acv
+acv
+acv
 bhh
 bvw
 buu
@@ -93855,10 +93314,10 @@ bwe
 bwC
 bwe
 bhh
-asw
-asv
-asv
-asw
+aaa
+aae
+aae
+aaa
 "}
 (203,1,1) = {"
 aaa
@@ -94053,69 +93512,69 @@ abS
 abT
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-aLm
-aPO
-bgS
-asR
-bhu
+aeV
+ayW
+aat
+aat
+aat
+agm
+bgy
+bec
+afF
+bhx
 bgE
-aYb
-aYb
+afS
+afS
 bki
-aYb
-arz
-asw
-asv
-asv
-asv
-asv
-asv
+afS
+agk
+aaa
+aae
+aae
+aae
+aae
+aae
 bpF
-bpy
+aaI
 bqa
-bpy
-bpy
+aaI
+aaI
 bqF
 bhh
 bhw
 bpZ
 bqa
-bpy
-bpy
+aaI
+aaI
 bqF
 bhw
-bpy
-bpy
+aaI
+aaI
 bhh
 bhh
 bhw
 bgT
-arc
-arc
-arc
-asu
-axU
-axU
-axU
-axU
+aat
+aat
+aat
+anl
+acv
+acv
+acv
+acv
 bvu
-bpy
-bpy
+aaI
+aaI
 bqF
 bhw
 buu
-bpy
+aaI
 buu
 bhh
-asw
-asv
-asv
-asw
+aaa
+aae
+aae
+aaa
 "}
 (204,1,1) = {"
 aaa
@@ -94310,69 +93769,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-aLm
-aqV
-aqV
-arz
-bik
-biJ
+aeV
+ayW
+aat
+aat
+aat
+aat
+agm
+adf
+adf
+agk
+aiZ
+ajB
 bjn
-aYb
+afS
 bkz
-arz
-asw
-asv
-asv
-asv
-asv
-asv
+agk
+aaa
+aae
+aae
+aae
+aae
+aae
 bhw
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
 bqA
 bqa
 bhh
 brg
-bpy
+aaI
 bro
-bpy
+aaI
 brt
 bhw
 bqB
 bhw
 bhh
-arc
-arc
-arc
-arc
-arc
-arZ
-aRt
-axU
-axU
-axU
-axU
+aat
+aat
+aat
+aat
+aat
+bgK
+bgs
+acv
+acv
+acv
+acv
 bhh
 bvB
-bpy
+aaI
 bvU
 bhh
 bvI
-bpy
+aaI
 bvI
 bhw
-asw
-asw
-asw
-asw
+aaa
+aaa
+aaa
+aaa
 "}
 (205,1,1) = {"
 aaa
@@ -94567,56 +94026,56 @@ abS
 abS
 abS
 abS
-ajk
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-arZ
-arz
-arz
+nLp
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+bgK
+agk
+agk
 biK
 bjo
-arz
-arz
-arz
-asw
-asv
-asv
-asv
-asv
-arc
+agk
+agk
+agk
+aaa
+aae
+aae
+aae
+aae
+aat
 bhh
 bpZ
-bpy
+aaI
 bqu
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bhw
 bqu
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bhh
 bhh
-axU
-bgU
-aQy
-arc
-arc
-bdx
-arZ
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
+acv
+ael
+afL
+aat
+aat
+aaV
+bgK
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
 bhh
 bhw
 bhw
@@ -94629,7 +94088,7 @@ bhw
 bhh
 bhh
 bhh
-asw
+aaa
 "}
 (206,1,1) = {"
 aaa
@@ -94824,69 +94283,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-aQg
-arc
-arZ
-aRt
-axU
-axU
-axU
-bim
-arc
-asv
-asv
-asw
-asv
-asv
-arc
-arc
-arc
+aeV
+ayW
+aat
+aat
+aat
+ayt
+aat
+bgK
+bgs
+acv
+acv
+acv
+bhV
+aat
+aae
+aae
+aaa
+aae
+aae
+aat
+aat
+aat
 bhh
 bqa
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bqa
-bpy
+aaI
 bhw
-bpy
-bpy
+aaI
+aaI
 bqA
 bhw
 bhw
-asu
-axU
-axU
-aQB
-arc
-arZ
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bhB
-axU
-axU
-axU
+anl
+acv
+acv
+ads
+aat
+bgK
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acT
+acv
+acv
+acv
 bhh
 bvI
-bpy
+aaI
 bwe
 bhh
-asw
+aaa
 "}
 (207,1,1) = {"
 aaa
@@ -95081,34 +94540,34 @@ abS
 abS
 abT
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arZ
-aRt
-axU
-axU
-axU
-axU
-bim
-arc
-asv
-asw
-asw
-asv
-asv
-arc
-arc
-arc
+aeV
+ayW
+aat
+aat
+aat
+aat
+bgK
+bgs
+acv
+acv
+acv
+acv
+bhV
+aat
+aae
+aaa
+aaa
+aae
+aae
+aat
+aat
+aat
 bhw
 bhw
 bqw
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bqI
 bhh
 bhh
@@ -95116,34 +94575,34 @@ bqB
 bhh
 bhh
 bgT
-asu
-axU
-axU
-bgU
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+anl
+acv
+acv
+ael
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 bvu
-bpy
+aaI
 buu
 bqF
 bhh
-asw
+aaa
 "}
 (208,1,1) = {"
 aaa
@@ -95338,29 +94797,29 @@ abS
 abS
 abT
 abS
-abg
-aqy
-arc
-arA
-aLn
-aLn
-aRt
-axU
-axU
-axU
-axU
-aLq
-bdo
-asv
-asv
-asw
-asv
-asv
-arc
-arc
-arc
-arc
-bhf
+aeV
+ayW
+aat
+aii
+bgA
+bgA
+bgs
+acv
+acv
+acv
+acv
+adr
+bgL
+aae
+aae
+aaa
+aae
+aae
+aat
+aat
+aat
+aat
+amE
 bhw
 bhh
 bhh
@@ -95368,39 +94827,39 @@ bqB
 bhw
 bhw
 bhw
-bin
-axU
-aQB
-arc
-arc
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+brV
+acv
+ads
+aat
+aat
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 bhh
 bvw
 buu
 bwf
 bhw
-asw
+aaa
 "}
 (209,1,1) = {"
 aaa
@@ -95595,53 +95054,53 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-aLq
-bdo
-arc
-asv
-asw
-asw
-asv
-asv
-arc
-arc
-arc
-bhw
-bhf
+aeV
+ayW
+aat
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+adr
+bgL
+aat
+aae
+aaa
+aaa
+aae
+aae
+aat
+aat
+aat
+adN
+amE
 bgT
-arc
-asu
-axU
-aQB
-arc
-arc
-asu
-axU
-bgU
-ayu
+aat
+anl
+acv
+ads
+aat
+aat
+anl
+acv
+ael
+acO
 bhy
-aRt
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+bgs
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 arz
 arz
 arz
@@ -95657,7 +95116,7 @@ arz
 bhh
 bhh
 bhh
-asw
+aaa
 "}
 (210,1,1) = {"
 aaa
@@ -95852,69 +95311,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arA
-axS
-axU
-axU
-axU
-axU
-axU
-axU
-bim
-arc
-aQg
-asv
-asw
-asv
-asv
-asv
-arc
-arc
-arc
-bhw
-bhh
-arc
-bdx
-asu
-axU
-bgU
-ayu
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bod
+aeV
+ayW
+aii
+acu
+acv
+acv
+acv
+acv
+acv
+acv
+bhV
+aat
+ayt
+aae
+aaa
+aae
+aae
+aae
+aat
+aat
+aat
+adN
+adp
+aat
+aaV
+anl
+acv
+ael
+acO
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+bsq
 buX
 arz
-bpy
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
+aaI
 buu
 buw
-bpy
+aaI
 bwC
-bpy
+aaI
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (211,1,1) = {"
 aaa
@@ -96109,57 +95568,57 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arG
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bim
-arc
-arc
-asv
-asw
-asv
-asv
-asv
-arc
-arc
-arc
-bhh
-bhh
-arc
-arc
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+aeV
+ayW
+ach
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+bhV
+aat
+aat
+aae
+aaa
+aae
+aae
+aae
+aat
+aat
+aat
+adp
+adp
+aat
+aat
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 bkj
-aQB
-arc
+ads
+aat
 arz
 bvi
 buu
-bpy
+aaI
 bvC
 bvC
 buB
@@ -96168,10 +95627,10 @@ bvw
 bwD
 bwG
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (212,1,1) = {"
 aaa
@@ -96366,57 +95825,57 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arG
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bim
-arc
-arc
-bhg
-bhg
-bhw
-arc
-arZ
-ayu
-ayu
-aQy
-bhf
-bhf
-arc
-arc
-arX
-aAb
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bod
-aAb
-aNB
-arc
+aeV
+ayW
+ach
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+bhV
+aat
+aat
+aQW
+aQW
+adN
+aat
+bgK
+acO
+acO
+afL
+amE
+amE
+aat
+aat
+afw
+bvT
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+bsq
+bvT
+afj
+aat
 arz
 bvj
 buu
-bpy
+aaI
 bvC
 bvC
 buu
@@ -96425,10 +95884,10 @@ arz
 arz
 arz
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (213,1,1) = {"
 aaa
@@ -96623,69 +96082,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arG
-axU
-axU
-axU
-bdg
-aLq
-ays
-ays
-bdo
-arc
-bhf
-bhg
-bhh
-arc
-arZ
-aRt
-bhB
-axU
-aQB
-arc
-bhf
-arc
-arc
-arc
-arc
-arX
-aAb
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bod
-aNB
-arc
-arc
-arc
+aeV
+ayW
+ach
+acv
+acv
+acv
+afd
+adr
+acP
+acP
+bgL
+aat
+amE
+aQW
+adp
+aat
+bgK
+bgs
+acT
+acv
+ads
+aat
+amE
+aat
+aat
+aat
+aat
+afw
+bvT
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+bsq
+afj
+aat
+aat
+aat
 arz
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bvC
 bvC
-bpy
+aaI
 buw
-bpy
+aaI
 brQ
 buu
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (214,1,1) = {"
 aaa
@@ -96880,69 +96339,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arG
-axU
-axU
-axU
-aLq
-bdo
-arc
-arc
-arc
-bhf
-bhh
-bhw
-bhw
-arc
-asu
-axU
-axU
-axU
-aQB
-arc
-bhh
-bhh
-arc
-arc
-arc
-arc
-bdx
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+aeV
+ayW
+ach
+acv
+acv
+acv
+adr
+bgL
+aat
+aat
+aat
+amE
+adp
+adN
+adN
+aat
+anl
+acv
+acv
+acv
+ads
+aat
+adp
+adp
+aat
+aat
+aat
+aat
+aaV
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 bkj
-bod
-aAb
-aNB
-arc
-arc
-arc
-arc
+bsq
+bvT
+afj
+aat
+aat
+aat
+aat
 arz
 bvk
-bpy
-bpy
+aaI
+aaI
 bvG
 bvC
-bpy
+aaI
 arz
 bwo
 buz
 bwH
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (215,1,1) = {"
 aaa
@@ -97137,69 +96596,69 @@ abS
 abS
 abT
 abS
-abg
-aqy
-arX
-ays
-ays
-ays
-bdo
-arc
-arc
-arc
-bdR
-bhf
-bhh
-bhg
-arc
-arZ
-aRt
+aeV
+ayW
+afw
+acP
+acP
+acP
+bgL
+aat
+aat
+aat
+bvS
+amE
+adp
+aQW
+aat
+bgK
+bgs
 bkj
-axU
-axU
-aQB
-arc
+acv
+acv
+ads
+aat
 bpG
-bhh
-bhw
-bhf
-arc
-bhh
+adp
+adN
+amE
+aat
+adp
 brd
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bod
-aAb
-aNB
-arc
-arc
-arc
-arc
-arc
-arc
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+bsq
+bvT
+afj
+aat
+aat
+aat
+aat
+aat
+aat
 arz
 bvi
-bpy
+aaI
 buu
-bpy
-bpy
+aaI
+aaI
 buB
 arz
 arz
 arz
 arz
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (216,1,1) = {"
 aaa
@@ -97394,69 +96853,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-bhg
-bhh
-arc
-arc
-asu
-axU
-axU
-axU
-axU
-bgU
-ayu
-aRt
-bhw
-bhw
-bhw
-bhf
-bhw
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aQW
+adp
+aat
+aat
+anl
+acv
+acv
+acv
+acv
+ael
+acO
+bgs
+adN
+adN
+adN
+amE
+adN
 bre
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-bod
-aAb
-aNB
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+bsq
+bvT
+afj
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
 arz
-bpy
+aaI
 buu
-bpy
+aaI
 buu
-bpy
-bpy
+aaI
+aaI
 bwg
 bwp
 bwE
 arz
 asv
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (217,1,1) = {"
 aaa
@@ -97651,47 +97110,47 @@ abS
 abS
 abT
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-aHX
-arc
-arc
-bhf
-bhh
-bhw
-arZ
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+bqC
+aat
+aat
+amE
+adp
+adN
+bgK
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 boz
-bhh
+adp
 brf
-asu
-axU
-axU
-axU
-axU
-axU
-bod
+anl
+acv
+acv
+acv
+acv
+acv
+bsq
 bqD
-arc
-arc
-arc
-arc
+aat
+aat
+aat
+aat
 arz
 arz
 arz
@@ -97701,8 +97160,8 @@ arz
 arz
 arz
 arz
-bpy
-bpy
+aaI
+aaI
 arz
 arz
 arz
@@ -97710,10 +97169,10 @@ arz
 arz
 arz
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (218,1,1) = {"
 aaa
@@ -97908,47 +97367,47 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arA
-ayu
-ayu
-aQy
-arc
-arc
-arc
-arc
-bhg
-bhh
-bhw
-asu
-bhB
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bgU
-ayu
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
-aQB
-arc
-arc
-arc
-arc
-arc
+aeV
+ayW
+aii
+acO
+acO
+afL
+aat
+aat
+aat
+aat
+aQW
+adp
+adN
+anl
+acT
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ael
+acO
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
+ads
+aat
+aat
+aat
+aat
+aat
 arz
 btF
 but
@@ -97958,19 +97417,19 @@ buu
 bvc
 arz
 buf
-bpy
+aaI
 buB
 arz
 buT
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bwI
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (219,1,1) = {"
 aaa
@@ -98165,69 +97624,69 @@ abS
 abS
 abS
 abS
-ajk
-aqy
-arG
-axU
-axU
-aQB
-arc
-arc
-arc
-bhf
-bhh
-arc
-arc
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+nLp
+ayW
+ach
+acv
+acv
+ads
+aat
+aat
+aat
+amE
+adp
+aat
+aat
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 bkj
-aQB
-arc
-arc
-arc
-arc
-arc
+ads
+aat
+aat
+aat
+aat
+aat
 arz
-bpy
-bpy
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
 arz
 buf
-bpy
-bpy
+aaI
+aaI
 arz
 buT
 buu
 bwq
-bpy
+aaI
 bwJ
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (220,1,1) = {"
 aaa
@@ -98422,47 +97881,47 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arG
-axU
-aLq
-aNB
-bdx
-arc
-arc
-bhw
-bhg
-arc
-arc
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bod
-aAb
-aAb
-aAb
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-aQB
-arc
-arc
-arc
-arc
-arc
+aeV
+ayW
+ach
+acv
+adr
+afj
+aaV
+aat
+aat
+adN
+aQW
+aat
+aat
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+bsq
+bvT
+bvT
+bvT
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+ads
+aat
+aat
+aat
+aat
+aat
 arz
 btG
 buu
@@ -98473,9 +97932,9 @@ bvd
 arz
 buf
 buu
-bpy
+aaI
 buW
-bpy
+aaI
 buu
 bwr
 buu
@@ -98484,7 +97943,7 @@ arz
 arz
 arz
 arz
-asw
+aaa
 "}
 (221,1,1) = {"
 aaa
@@ -98679,69 +98138,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arX
-ays
-aNB
-arc
-arc
-arc
-bhf
-bhw
-arc
-arc
-arZ
-aRt
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bod
-aAb
-aAb
-aNB
-arc
-arc
-bhh
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-bgU
-ayu
-ayu
-ayu
-ayu
-ayu
+aeV
+ayW
+afw
+acP
+afj
+aat
+aat
+aat
+amE
+adN
+aat
+aat
+bgK
+bgs
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+bsq
+bvT
+bvT
+afj
+aat
+aat
+adp
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+ael
+acO
+acO
+acO
+acO
+acO
 arz
-bpy
+aaI
 buu
-bpy
+aaI
 arz
 buY
 bve
 arz
 buf
 buu
-bpy
+aaI
 arz
-bpy
+aaI
 buu
 bws
-bpy
+aaI
 bwL
 arz
 bxi
 bxp
 arz
-asw
+aaa
 "}
 (222,1,1) = {"
 aaa
@@ -98936,69 +98395,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
 bgT
-bhg
-bhh
-arc
-arc
-asu
+aQW
+adp
+aat
+aat
+anl
 bkj
-axU
-axU
-axU
-axU
-bod
-aAb
-aAb
-aNB
-arc
-arc
-arc
-arc
-arc
-bhf
-asu
-axU
-axU
-axU
-bhB
-axU
+acv
+acv
+acv
+acv
+bsq
+bvT
+bvT
+afj
+aat
+aat
+aat
+aat
+aat
+amE
+anl
+acv
+acv
+acv
+acT
+acv
 bru
-axU
-axU
-axU
-axU
-axU
-axU
+acv
+acv
+acv
+acv
+acv
+acv
 arz
 btH
 buv
-bpy
+aaI
 arz
 buZ
 bvf
 arz
 buf
 buu
-bpy
+aaI
 arz
 bvV
-bpy
-bpy
+aaI
+aaI
 buu
-bpy
+aaI
 bxd
 bxk
 bxq
 arz
-asw
+aaa
 "}
 (223,1,1) = {"
 aaa
@@ -99193,46 +98652,46 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-bhh
-bhh
-arc
-arZ
-aRt
-axU
-axU
-axU
-axU
-bod
-aNB
-bhh
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+adp
+adp
+aat
+bgK
+bgs
+acv
+acv
+acv
+acv
+bsq
+afj
+adp
 bgT
-arc
-bdx
-arc
-arZ
-ayu
-ayu
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
+aat
+aaV
+aat
+bgK
+acO
+acO
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
 brv
-brW
-brW
-brW
-brW
-brW
+adq
+adq
+adq
+adq
+adq
 bsy
 arz
 arz
@@ -99243,19 +98702,19 @@ arz
 arz
 arz
 buf
-bpy
+aaI
 buB
 arz
 buT
-bpy
+aaI
 bwt
-bpy
+aaI
 bwR
 arz
 bxl
 bxr
 arz
-asw
+aaa
 "}
 (224,1,1) = {"
 aaa
@@ -99450,69 +98909,69 @@ abS
 abS
 abT
 abS
-abg
+aeV
 aqz
-arc
-arc
-arc
-arc
-bdR
-arc
-bhg
+aat
+aat
+aat
+aat
+bvS
+aat
+aQW
 bhy
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
-aQB
-bhh
-bhh
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
+ads
+adp
+adp
 bpg
 bpw
 bpw
 bqb
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-brx
-axU
-axU
-axU
-axU
-axU
-axU
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+buj
+acv
+acv
+acv
+acv
+acv
+acv
 arz
 btI
-bpy
-bpy
+aaI
+aaI
 buu
-bpy
-bpy
+aaI
+aaI
 arz
 buf
-bpy
-bpy
+aaI
+aaI
 arz
 bvX
-bpy
+aaI
 bwv
-bpy
+aaI
 bwv
 arz
 arz
 arz
 arz
-asw
+aaa
 "}
 (225,1,1) = {"
 aaa
@@ -99707,69 +99166,69 @@ abS
 abS
 abS
 ayb
-akV
-aqy
-arc
-arc
-arc
-arZ
-ayu
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-aQB
-bhf
-arc
+ayS
+ayW
+aat
+aat
+aat
+bgK
+acO
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ads
+amE
+aat
 bpi
 bpy
 bpH
 bqd
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-brN
-axU
-axU
-axU
-axU
-axU
-axU
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acR
+acv
+acv
+acv
+acv
+acv
+acv
 bsX
 btK
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 buu
-bpy
+aaI
 buw
 buu
-bpy
-bpy
+aaI
+aaI
 bvJ
-bpy
+aaI
 buu
 buu
-bpy
-bpy
+aaI
+aaI
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (226,1,1) = {"
 aaa
@@ -99964,69 +99423,69 @@ abT
 abS
 abS
 ayb
-abg
-aqy
-arZ
-ayu
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-aQB
-bhw
-arc
+aeV
+ayW
+bgK
+acO
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ads
+adN
+aat
 bpj
 bpy
 bpy
 bqd
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 brq
-brN
+acR
 brX
-axU
-axU
-axU
-axU
-axU
+acv
+acv
+acv
+acv
+acv
 bsY
-bpy
+aaI
 buu
 buu
-bpy
-bpy
+aaI
+aaI
 buB
 arz
 buf
-bpy
-bpy
+aaI
+aaI
 bvJ
-bpy
-bpy
+aaI
+aaI
 bww
 buu
 bwS
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (227,1,1) = {"
 aaa
@@ -100221,69 +99680,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-boe
-bhw
-bhf
+aeV
+ayW
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+aez
+adN
+amE
 bpi
 bpy
 bpy
 bqd
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 brr
-brN
+acR
 brX
-axU
-axU
-axU
-axU
-axU
+acv
+acv
+acv
+acv
+acv
 bsY
 btX
-bpy
-bpy
+aaI
+aaI
 buT
 bva
-bpy
+aaI
 arz
 buf
-bpy
+aaI
 buu
 bvK
-bpy
-bpy
+aaI
+aaI
 bwx
-bpy
+aaI
 bwU
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (228,1,1) = {"
 aaa
@@ -100478,69 +99937,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-aQB
-bhh
-bhh
+aeV
+ayW
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ads
+adp
+adp
 bpj
 bpy
 bpy
 bqd
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-brN
-axU
-axU
-axU
-axU
-axU
-axU
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acR
+acv
+acv
+acv
+acv
+acv
+acv
 btj
 btY
-bpy
+aaI
 buC
 buT
 bvb
 buu
 arz
 buf
-bpy
+aaI
 buu
 bvJ
-bpy
+aaI
 buu
 bwy
-bpy
+aaI
 bwV
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (229,1,1) = {"
 aab
@@ -100735,69 +100194,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bgU
+aeV
+ayW
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ael
 boz
-bhh
+adp
 bpi
 bpy
 bpI
 bqd
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-brx
-axU
-axU
-axU
-axU
-axU
-axU
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+buj
+acv
+acv
+acv
+acv
+acv
+acv
 arz
 bua
-bpy
+aaI
 buD
 buT
-bpy
-bpy
+aaI
+aaI
 arz
 buf
-bpy
+aaI
 buB
 arz
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
 bwR
 arz
 arz
 arz
 arz
-asw
+aaa
 "}
 (230,1,1) = {"
 aac
@@ -100992,46 +100451,46 @@ abS
 abS
 abS
 ayb
-abg
-aqy
-arX
-aAb
-aAb
-aAb
+aeV
+ayW
+afw
+bvT
+bvT
+bvT
 bfL
-aAb
-bhg
-bhB
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-aQB
-bhh
+bvT
+aQW
+acT
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ads
+adp
 bpk
 bpA
 bpA
 bqf
 bqx
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 brO
-brW
-brW
-brW
-brW
-brW
+adq
+adq
+adq
+adq
+adq
 bsy
 arz
 arz
@@ -101043,7 +100502,7 @@ arz
 arz
 arz
 buu
-bpy
+aaI
 arz
 arz
 arz
@@ -101054,7 +100513,7 @@ arz
 bxm
 bxs
 arz
-asw
+aaa
 "}
 (231,1,1) = {"
 aac
@@ -101249,69 +100708,69 @@ abS
 abS
 abT
 ayb
-akV
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-bhg
-bhh
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bgU
-ayu
+ayS
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+aQW
+adp
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ael
+acO
 bpl
-aQy
-bdx
-arc
-arX
-aAb
-aAb
-bin
-axU
-axU
-axU
-axU
-bhB
-axU
+afL
+aaV
+aat
+afw
+bvT
+bvT
+brV
+acv
+acv
+acv
+acv
+acT
+acv
 bru
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-aQB
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ads
 buU
 buU
 arz
 bvn
 bvn
-bpy
-bpy
+aaI
+aaI
 bvL
 arz
 bwh
-bpy
+aaI
 buu
-bpy
+aaI
 bxe
 bxm
 bxt
 arz
-asw
+aaa
 "}
 (232,1,1) = {"
 aac
@@ -101506,69 +100965,69 @@ abS
 abS
 abS
 abS
-abg
+aeV
 aqz
-arc
-arc
-arc
-arc
-arc
+aat
+aat
+aat
+aat
+aat
 bgT
-bhf
-bhh
-arX
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bgU
-aQy
-arc
-arc
-arc
-arc
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-bod
-aAb
-aAb
-aAb
-aAb
-aAb
-aAb
-aAb
-aAb
-aAb
-aNB
-arc
-arc
+amE
+adp
+afw
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ael
+afL
+aat
+aat
+aat
+aat
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+bsq
+bvT
+bvT
+bvT
+bvT
+bvT
+bvT
+bvT
+bvT
+bvT
+afj
+aat
+aat
 arz
 bvo
 buT
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 arz
 bwh
-bpy
+aaI
 buu
 bwW
 arz
 bxn
 bxu
 arz
-asw
+aaa
 "}
 (233,1,1) = {"
 aac
@@ -101763,69 +101222,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-bhf
-bhw
-bhg
-arX
-aAb
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bgU
-ayu
-ayu
-ayu
-ayu
-aRt
-axU
-axU
-axU
-axU
-axU
-axU
-aQB
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+amE
+adN
+aQW
+afw
+bvT
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ael
+acO
+acO
+acO
+acO
+bgs
+acv
+acv
+acv
+acv
+acv
+acv
+ads
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
 arz
 bvr
 bvr
-bpy
+aaI
 buu
 bvM
 bvZ
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bwX
 arz
 bxm
 bxv
 arz
-asw
+aaa
 "}
 (234,1,1) = {"
 aac
@@ -102020,69 +101479,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-bdx
-arc
-bhf
-bhw
-bhh
-arc
-asu
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+aaV
+aat
+amE
+adN
+adp
+aat
+anl
 bkj
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-aQB
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arc
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ads
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aat
 arz
-bpy
+aaI
 buu
-bpy
-bpy
+aaI
+aaI
 bvM
 bwa
-bpy
+aaI
 buu
-bpy
+aaI
 bwY
 arz
 arz
 arz
 arz
-asw
+aaa
 "}
 (235,1,1) = {"
 aac
@@ -102277,69 +101736,69 @@ abS
 abT
 abS
 abS
-abg
-aqy
-arc
-aHX
-arc
-arc
-arc
-arc
-arc
-bhg
-bhg
-bhh
-bhg
-arX
-aAb
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bgU
-ayu
-aQy
-arc
-arZ
-ayu
-ayu
-ayu
+aeV
+ayW
+aat
+bqC
+aat
+aat
+aat
+aat
+aat
+aQW
+aQW
+adp
+aQW
+afw
+bvT
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ael
+acO
+afL
+aat
+bgK
+acO
+acO
+acO
 bub
-arc
-arc
-arc
-arc
+aat
+aat
+aat
+aat
 arz
 bvn
 bvn
-bpy
-bpy
+aaI
+aaI
 bvN
 bvZ
 buu
 buu
-bpy
+aaI
 bwZ
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (236,1,1) = {"
 aac
@@ -102534,69 +101993,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-bhg
-asw
-asv
-bhg
-arc
-arc
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aQW
+aaa
+aae
+aQW
+aat
+aat
 bkX
-aAb
-aAb
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
+bvT
+bvT
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
 bkj
-bgU
-ayu
-aRt
-axU
-axU
-axU
-bgU
-ayu
-ayu
-aQy
-arc
+ael
+acO
+bgs
+acv
+acv
+acv
+ael
+acO
+acO
+afL
+aat
 arz
 bvo
 buT
-bpy
+aaI
 buu
 bvM
 bvZ
-bpy
-bpy
+aaI
+aaI
 buu
 bxa
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (237,1,1) = {"
 aac
@@ -102791,69 +102250,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-asv
-asw
-asv
-arc
-arc
-arc
-arc
-arc
-arc
-arX
-aAb
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-bod
-aAb
-aAb
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bgU
-aQy
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aae
+aaa
+aae
+aat
+aat
+aat
+aat
+aat
+aat
+afw
+bvT
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+bsq
+bvT
+bvT
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ael
+afL
 arz
 bvr
 bvr
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 arz
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bxb
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (238,1,1) = {"
 aac
@@ -103048,53 +102507,53 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-asv
-asw
-asv
-asv
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-asu
-bhB
-axU
-axU
-axU
-axU
-axU
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aae
+aaa
+aae
+aae
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+anl
+acT
+acv
+acv
+acv
+acv
+acv
 bqG
-bhh
-bhh
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-bgU
+adp
+adp
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+ael
 arz
 arz
 arz
@@ -103107,10 +102566,10 @@ buW
 arz
 arz
 arz
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aaa
 "}
 (239,1,1) = {"
 aab
@@ -103305,69 +102764,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-asv
-asw
-asv
-asv
-asv
-aaI
-bkY
-aaI
-apU
-apU
-apU
-bkY
-axU
-axU
-axU
-axU
-axU
-axU
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aae
+aaa
+aae
+aae
+aae
+aeS
+axn
+aeS
+axb
+axb
+axb
+axn
+acv
+acv
+acv
+acv
+acv
+acv
 bqH
-bhf
-bhw
-arX
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-asv
-asv
-asv
-asv
-asw
+amE
+adN
+afw
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+aae
+aae
+aae
+aae
+aaa
 "}
 (240,1,1) = {"
 aaa
@@ -103562,69 +103021,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arA
-ayu
-ayu
-ayu
-aQy
-arc
-asv
-asw
-asw
-asv
-asv
+aeV
+ayW
+aat
+aii
+acO
+acO
+acO
+afL
+aat
+aae
+aaa
+aaa
+aae
+aae
 bkC
-blj
-abg
-asR
-boA
-asR
-blj
-axU
-bpM
-bpM
-axU
-axU
-axU
+adH
+aeV
+afF
+bAq
+afF
+adH
+acv
+aTD
+aTD
+acv
+acv
+acv
 bqH
-bhf
-bhf
+amE
+amE
 bgT
 bpC
-axU
-axU
-axU
-axU
-axU
-axU
-bod
-aAb
-aAb
-bin
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-axU
-asv
-asv
-asv
-asv
-asw
+acv
+acv
+acv
+acv
+acv
+acv
+bsq
+bvT
+bvT
+brV
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+acv
+aae
+aae
+aae
+aae
+aaa
 "}
 (241,1,1) = {"
 aaa
@@ -103819,69 +103278,69 @@ abT
 abS
 abS
 abS
-abg
-aqy
-arc
-asu
-axU
+aeV
+ayW
+aat
+anl
+acv
 aVn
-axU
-bgU
-aQy
-asv
-asv
-asw
-asv
-asv
-abg
-blj
-abg
-asR
-asR
-asR
-blj
-axU
-axU
-axU
-bpM
-bpM
-axU
-aQB
-arc
-bhf
-bhh
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-aQB
-arc
-arc
-arX
-bin
-axU
-axU
-axU
-bhB
-bhh
-bhw
-bhh
-bpy
-bpy
-bpy
+acv
+ael
+afL
+aae
+aae
+aaa
+aae
+aae
+aeV
+adH
+aeV
+afF
+afF
+afF
+adH
+acv
+acv
+acv
+aTD
+aTD
+acv
+ads
+aat
+amE
+adp
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+ads
+aat
+aat
+afw
+brV
+acv
+acv
+acv
+acT
 bhh
 bhw
+bhh
+aaI
+aaI
+aaI
+bhh
+bhw
 bhw
 bhh
 bhh
-asv
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aae
+aaa
 "}
 (242,1,1) = {"
 aaa
@@ -104076,69 +103535,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arA
-axS
-axU
-axU
-axU
+aeV
+ayW
+aii
+acu
+acv
+acv
+acv
 bhb
-aQB
-asv
-asv
-asw
-asv
-asv
+ads
+aae
+aae
+aaa
+aae
+aae
 bkC
-blj
-abg
-asR
-asR
-asR
-blj
-axU
-axU
-axU
-axU
-axU
-bod
-aNB
-arc
-bhh
-arc
-asu
-axU
-axU
-axU
-axU
-axU
-axU
-boe
-arc
-arc
-arc
-asu
-axU
-axU
-axU
-axU
+adH
+aeV
+afF
+afF
+afF
+adH
+acv
+acv
+acv
+acv
+acv
+bsq
+afj
+aat
+adp
+aat
+anl
+acv
+acv
+acv
+acv
+acv
+acv
+aez
+aat
+aat
+aat
+anl
+acv
+acv
+acv
+acv
 bhh
 bvs
 bvv
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
 bwl
 bwz
 bwF
 bxc
-asv
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aae
+aaa
 "}
 (243,1,1) = {"
 aaa
@@ -104333,69 +103792,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-asu
-axU
-axU
-axU
-bdg
-axU
-aQB
-asv
-asv
-asw
-asv
-asv
-abg
-blj
-abg
-asR
-asR
-asR
-blj
-axU
-axU
-axU
-axU
-axU
-aQB
-arc
-arc
-bhw
-arc
+aeV
+ayW
+anl
+acv
+acv
+acv
+afd
+acv
+ads
+aae
+aae
+aaa
+aae
+aae
+aeV
+adH
+aeV
+afF
+afF
+afF
+adH
+acv
+acv
+acv
+acv
+acv
+ads
+aat
+aat
+adN
+aat
 brj
-axU
-axU
-bod
-bin
-axU
-axU
-aQB
-arc
-arc
-arc
-asu
+acv
+acv
+bsq
+brV
+acv
+acv
+ads
+aat
+aat
+aat
+anl
 bkj
-axU
-axU
-axU
-bpy
-bpy
-bpy
-bpy
+acv
+acv
+acv
+aaI
+aaI
+aaI
+aaI
 buu
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 buu
-bpy
+aaI
 buu
-asv
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aae
+aaa
 "}
 (244,1,1) = {"
 aaa
@@ -104590,69 +104049,69 @@ abS
 abS
 abS
 abS
-ajk
-aqy
-asu
-axU
-axU
-axU
-axU
-axU
-aQB
-asv
-asv
-asw
-asv
-asv
+nLp
+ayW
+anl
+acv
+acv
+acv
+acv
+acv
+ads
+aae
+aae
+aaa
+aae
+aae
 bkD
-blj
-abg
-asR
-asR
-asR
-blj
-axU
-axU
-axU
-axU
-axU
-aQB
-arc
-arc
-bhw
-arZ
-aRt
-axU
-axU
-aQB
-asu
-axU
-axU
-bgU
-arc
+adH
+aeV
+afF
+afF
+afF
+adH
+acv
+acv
+acv
+acv
+acv
+ads
+aat
+aat
+adN
+bgK
+bgs
+acv
+acv
+ads
+anl
+acv
+acv
+ael
+aat
 bgT
-arc
-asu
-axU
-axU
-axU
-axU
-bpy
-bpy
+aat
+anl
+acv
+acv
+acv
+acv
+aaI
+aaI
 buu
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 buu
-bpy
-bpy
-bpy
-bpy
-bpy
-asv
-asv
-asv
-asw
+aaI
+aaI
+aaI
+aaI
+aaI
+aae
+aae
+aae
+aaa
 "}
 (245,1,1) = {"
 aaa
@@ -104847,45 +104306,45 @@ abS
 abS
 abS
 abT
-abg
-aqy
-arX
-ays
-ays
-ays
-ays
-ays
-aNB
-asv
-asv
-asw
-asv
-asv
-abg
-blj
-abg
-bov
-asR
-asR
-blj
-axU
+aeV
+ayW
+afw
+acP
+acP
+acP
+acP
+acP
+afj
+aae
+aae
+aaa
+aae
+aae
+aeV
+adH
+aeV
+ais
+afF
+afF
+adH
+acv
 bpX
-axU
-axU
-axU
-aQB
-arc
-arc
+acv
+acv
+acv
+ads
+aat
+aat
 bhh
 bhh
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bhw
 bhh
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bhh
 bhh
 bhh
@@ -104893,10 +104352,10 @@ bhh
 bhw
 bhw
 bhh
-axU
+acv
 bhh
 bpZ
-bpy
+aaI
 bvx
 bhw
 brW
@@ -104905,11 +104364,11 @@ brW
 brW
 bhh
 buu
-bpy
-asv
-asv
-asv
-asw
+aaI
+aae
+aae
+aae
+aaa
 "}
 (246,1,1) = {"
 aab
@@ -105104,56 +104563,56 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-aQg
-arc
-arc
-arc
-asv
-asv
-asw
-asv
-asv
+aeV
+ayW
+aat
+aat
+aat
+ayt
+aat
+aat
+aat
+aae
+aae
+aaa
+aae
+aae
 bkD
-blj
-abg
-asR
-asR
-asR
-blj
+adH
+aeV
+afF
+afF
+afF
+adH
 bpB
-axU
-axU
+acv
+acv
 bpX
-axU
-aQB
-arc
-arc
+acv
+ads
+aat
+aat
 bhh
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
 brQ
-bpy
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
+aaI
 brQ
 btk
 btl
 bux
 brQ
 buW
-axU
-bpy
-bpy
-bpy
+acv
+aaI
+aaI
+aaI
 bvz
 bvH
 bvO
@@ -105161,12 +104620,12 @@ bwc
 bwc
 bwA
 bvH
-bpy
-bpy
+aaI
+aaI
 bqF
 bhh
-asv
-asw
+aae
+aaa
 "}
 (247,1,1) = {"
 aac
@@ -105361,69 +104820,69 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-asv
-asv
-asw
-asv
-asv
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+aae
+aae
+aaa
+aae
+aae
 bkR
-bmJ
-abg
-asR
-asR
-asR
-blj
+ajT
+aeV
+afF
+afF
+afF
+adH
 bpC
-axU
-axU
-axU
+acv
+acv
+acv
 bqz
 bqD
-arc
-arc
+aat
+aat
 bhw
 bpZ
-bpy
-bpy
-bpy
-bpy
-bpy
-bpy
-bpy
-bpy
-bpy
-bpy
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
+aaI
 buW
-axU
-bpy
-bpy
+acv
+aaI
+aaI
 buu
-bpy
+aaI
 brx
 axU
 bwc
 bwc
 bvQ
 brx
-bpy
+aaI
 buu
-bpy
-asv
-asv
-asw
+aaI
+aae
+aae
+aaa
 "}
 (248,1,1) = {"
 aac
@@ -105618,35 +105077,35 @@ abS
 abS
 abS
 abS
-abg
-aqy
-arc
-arc
-arc
-arc
-arc
-asv
-asv
-asv
-asv
-asw
-asv
-asv
-asv
-asv
-abg
-asR
-boB
-asR
-blj
-asu
-axU
-axU
-axU
-aQB
-arc
-arc
-arc
+aeV
+ayW
+aat
+aat
+aat
+aat
+aat
+aae
+aae
+aae
+aae
+aaa
+aae
+aae
+aae
+aae
+aeV
+afF
+aWs
+afF
+adH
+anl
+acv
+acv
+acv
+ads
+aat
+aat
+aat
 bhh
 brh
 brm
@@ -105658,29 +105117,29 @@ brm
 brh
 bhh
 bhh
-bpy
+aaI
 btl
 bud
-bpy
+aaI
 buE
 bhh
-axU
+acv
 bhh
 buu
-bpy
-bpy
+aaI
+aaI
 bhw
 bvP
 bwc
 bwc
 bwB
 bvH
-bpy
+aaI
 buu
-bpy
-asv
-asv
-asw
+aaI
+aae
+aae
+aaa
 "}
 (249,1,1) = {"
 aac
@@ -105875,69 +105334,69 @@ acq
 abS
 abS
 abS
-abg
-aqy
-arc
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
-asv
-asv
-asv
-asv
-bnB
-bow
-bow
-bow
-bmJ
-arX
-aAb
-bin
-axU
-aQB
-arc
-arc
-arc
+aeV
+ayW
+aat
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
+aae
+aae
+aae
+aae
+aeX
+acG
+acG
+acG
+ajT
+afw
+bvT
+brV
+acv
+ads
+aat
+aat
+aat
 bhh
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
 brU
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
 bhw
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
 buF
 bhw
-brW
+adq
 bhh
-bpy
+aaI
 buu
-bpy
+aaI
 bvH
 bvQ
 bwc
 bwc
 bwB
 bhw
-bpy
-bpy
-bpy
-asv
-asv
-asw
+aaI
+aaI
+aaI
+aae
+aae
+aaa
 "}
 (250,1,1) = {"
 aac
@@ -106132,56 +105591,56 @@ aan
 aan
 aan
 aan
-abg
-aqA
-aqA
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
-asv
-asv
-asv
-asv
-arc
-arc
-arc
-arc
-arc
-arc
-arc
-arX
-aAb
-aNB
-arc
-arc
-arc
+ayH
+aab
+aab
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
+aae
+aae
+aae
+aae
+aat
+aat
+aat
+aat
+aat
+aat
+aat
+afw
+bvT
+afj
+aat
+aat
+aat
 bhw
-bpy
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
+aaI
 brU
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 bsw
 bhh
-bpy
+aaI
 btn
 bue
 buy
 buG
 bhw
-axU
+acv
 bhw
 bpZ
-bpy
+aaI
 buu
 bvH
 axU
@@ -106189,12 +105648,12 @@ axU
 bwm
 axU
 bhw
-bpy
-bpy
-bpy
-asv
-asv
-asw
+aaI
+aaI
+aaI
+aae
+aae
+aaa
 "}
 (251,1,1) = {"
 aac
@@ -106389,69 +105848,69 @@ aan
 aan
 aan
 aan
-abg
-aqA
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-arc
-arc
-arc
-arc
-arc
+ayH
+aab
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aat
+aat
+aat
+aat
+aat
 bhh
 bri
-bpy
+aaI
 brp
-bpy
+aaI
 brU
 brY
-bpy
-bpy
+aaI
+aaI
 asv
 bhw
 bsA
 bhw
-bpy
-bpy
+aaI
+aaI
 buR
 bhh
+acv
+bhw
+aaI
+aaI
+aaI
+bhw
+axU
+axU
+axU
 axU
 bhw
-bpy
-bpy
-bpy
-bhw
-axU
-axU
-axU
-axU
-bhw
-bpy
+aaI
 bxf
 bhh
-asv
-asv
-asw
+aae
+aae
+aaa
 "}
 (252,1,1) = {"
 aac
@@ -106646,69 +106105,69 @@ aan
 aan
 aan
 aan
-abg
-aqA
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-bhh
-asv
-asv
+ayH
+aab
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+ahz
+aae
+aae
 bhh
 brQ
-bpy
+aaI
 bhh
-bpy
-bpy
-bpy
+aaI
+aaI
+aaI
 asv
-asv
-asv
-asv
+aae
+aae
+aae
 bhh
-bpy
+aaI
 bhh
 brW
 bwb
 brW
 brW
 bhh
-bpy
-bpy
-asv
-asv
-asv
-asw
+aaI
+aaI
+aae
+aae
+aae
+aaa
 "}
 (253,1,1) = {"
 aab
@@ -106903,44 +106362,44 @@ aan
 aan
 aan
 aan
-alI
-aqA
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
+ayG
+aab
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 bhw
 bsx
 bsT
@@ -106949,23 +106408,23 @@ buf
 buf
 buf
 bhh
-asv
-asv
-asv
-asv
-bpy
-bpy
-bpy
-bpy
+aae
+aae
+aae
+aae
+aaI
+aaI
+aaI
+aaI
 buu
-bpy
-bpy
+aaI
+aaI
 bsu
-bpy
-asv
-asv
-asv
-asw
+aaI
+aae
+aae
+aae
+aaa
 "}
 (254,1,1) = {"
 aaa
@@ -107160,44 +106619,44 @@ aaf
 aaf
 aaf
 aaf
-anb
-aqA
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asw
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
+ayF
+aab
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aaa
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 bhh
 bhh
 asv
@@ -107206,23 +106665,23 @@ asv
 bhh
 asv
 asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
-asv
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
+aae
 bhh
-asv
-asv
-asv
-asv
-asw
+aae
+aae
+aae
+aae
+aaa
 "}
 (255,1,1) = {"
 aaa
@@ -107417,69 +106876,69 @@ aac
 aac
 aac
 aac
-apS
-aqA
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
-asw
+aac
+aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 "}
 
 (1,1,2) = {"
