@@ -268,7 +268,7 @@
 
 // RIOT SHOTGUN //
 /obj/item/gun/ballistic/shotgun/riot //for spawn in the armory
-	name = "riot shotgun"
+	name = "breacher shotgun"
 	desc = "A lightweight shotgun chambered in 12 gauge, designed to be used by paramilitary companies during air raids, but was later absorbed by Vault-tec for use by security in their vaults."
 	icon_state = "riotshotgun"
 	item_state = "shotgunriot"
@@ -355,7 +355,7 @@
 	force = 25
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
-	recoil = 1 
+	recoil = 1
 	fire_delay = 6
 	projectile_speed = 0.3
 	extra_damage = 55

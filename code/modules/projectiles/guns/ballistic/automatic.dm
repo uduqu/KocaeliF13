@@ -549,7 +549,7 @@
 	switch(select)
 		if(0)
 			select += 1
-			burst_size = 6
+			burst_size = 3
 			spread = 23
 			to_chat(user, "<span class='notice'>You switch to [burst_size]-rnd burst.</span>")
 		if(1)

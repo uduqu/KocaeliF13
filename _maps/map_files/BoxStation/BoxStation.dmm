@@ -4321,9 +4321,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/maintenance/central)
 "anm" = (
-/obj/machinery/porta_turret/syndicate,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/maintenance/central)
+/obj/machinery/newscaster/security_unit{
+	pixel_y = 32
+	},
+/obj/machinery/camera/autoname,
+/obj/structure/closet/secure_closet/security,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
 "ann" = (
 /turf/closed/wall/r_wall/f13superstore{
 	icon_state = "supermart0"
@@ -4663,9 +4667,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/maintenance/central/secondary)
 "aom" = (
-/obj/machinery/porta_turret/syndicate,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/maintenance/central/secondary)
+/obj/machinery/light{
+	dir = 1;
+	light_color = "#706891"
+	},
+/obj/structure/closet/secure_closet/security,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/security/brig)
 "aon" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
@@ -5152,6 +5160,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
+/obj/effect/landmark/start/f13/handy,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/ai_monitored/turret_protected/ai_upload)
 "apE" = (
@@ -5173,21 +5182,22 @@
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/security/brig)
 "apI" = (
-/obj/structure/table/reinforced,
-/obj/machinery/newscaster/security_unit{
-	pixel_y = 32
-	},
-/obj/machinery/camera/autoname,
+/obj/structure/guncase,
+/obj/effect/turf_decal/bot,
+/obj/item/gun/ballistic/automatic/smg10mm,
+/obj/item/gun/ballistic/automatic/smg10mm,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
-/area/security/brig)
+/area/ai_monitored/security/armory)
 "apJ" = (
-/obj/structure/table/reinforced,
 /obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
+	dir = 1
 	},
-/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
-/area/security/brig)
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
 "apK" = (
 /obj/structure/closet/secure_closet/security,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
@@ -8192,13 +8202,9 @@
 /area/ai_monitored/security/armory)
 "awD" = (
 /obj/structure/table,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
-	},
 /obj/item/storage/toolbox/syndicate,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
-/area/ai_monitored/security/armory)
+/area/security/checkpoint)
 "awE" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
@@ -10727,21 +10733,21 @@
 "aCV" = (
 /obj/structure/guncase/shotgun,
 /obj/effect/turf_decal/bot,
-/obj/item/gun/ballistic/shotgun/riot,
-/obj/item/gun/ballistic/shotgun/riot,
-/obj/item/gun/ballistic/shotgun/riot,
+/obj/item/gun/ballistic/automatic/shotgun/riot,
+/obj/item/gun/ballistic/automatic/shotgun/riot,
+/obj/item/gun/ballistic/automatic/shotgun/riot,
+/obj/item/gun/ballistic/automatic/shotgun/riot,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/ai_monitored/security/armory)
 "aCW" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/ai_monitored/security/armory)
+/obj/effect/decal/waste,
+/turf/open/floor/wood/f13/old,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/underground/mountain)
 "aCX" = (
-/obj/machinery/light{
-	dir = 1
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/ai_monitored/security/armory)
@@ -10866,10 +10872,6 @@
 /area/f13/underground/enclave_base)
 "aDo" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
-	},
 /obj/machinery/camera/autoname{
 	dir = 5;
 	icon_state = "camera"
@@ -10878,18 +10880,11 @@
 /area/ai_monitored/security/armory)
 "aDp" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
-	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/ai_monitored/security/armory)
 "aDq" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/ai_monitored/security/armory)
@@ -11193,8 +11188,9 @@
 	},
 /area/f13/underground/enclave_base)
 "aEb" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
 	},
 /obj/item/radio/intercom{
 	frequency = 1361;
@@ -11533,36 +11529,33 @@
 	},
 /area/f13/desert)
 "aET" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/rack,
+/obj/item/ammo_box/magazine/m10mm_auto,
+/obj/item/ammo_box/magazine/m10mm_auto,
+/obj/item/ammo_box/magazine/m10mm_auto,
+/obj/item/ammo_box/magazine/m10mm_auto,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
+"aEU" = (
 /obj/structure/table,
 /obj/structure/cable,
 /obj/machinery/power/apc{
 	name = "Armory APC";
 	pixel_y = -25
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
-	},
-/obj/item/paper_bin,
 /obj/machinery/camera/autoname{
 	icon_state = "camera";
 	dir = 1
 	},
-/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
-/area/ai_monitored/security/armory)
-"aEU" = (
-/obj/structure/table,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
-	},
-/obj/item/folder/red,
+/obj/machinery/recharger,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/ai_monitored/security/armory)
 "aEV" = (
 /obj/structure/table,
+/obj/machinery/cell_charger,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
-/area/security/checkpoint)
+/area/ai_monitored/security/armory)
 "aEW" = (
 /obj/structure/chair/stool/f13stool{
 	name = "stool"
@@ -35375,10 +35368,14 @@
 	},
 /area/f13/den)
 "bUX" = (
-/obj/effect/decal/waste,
-/turf/open/floor/wood/f13/old,
-/turf/open/floor/plating/f13/inside/mountain,
-/area/f13/underground/mountain)
+/obj/effect/turf_decal/bot,
+/obj/structure/rack,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
 "bUY" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -35387,6 +35384,26 @@
 	},
 /area/f13/powerplant)
 "bUZ" = (
+/obj/structure/guncase,
+/obj/item/gun/energy/laser/aer9,
+/obj/item/gun/energy/laser/aer9,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
+"bVa" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"bVb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/ai_monitored/security/armory)
+"bVc" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -35395,19 +35412,19 @@
 	icon_state = "ruinswindowbrokenvertical"
 	},
 /area/f13/desert)
-"bVa" = (
+"bVd" = (
 /obj/effect/decal/cleanable/shreds,
 /turf/open/space/basic,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
 /area/f13/powerplant)
-"bVb" = (
+"bVe" = (
 /obj/structure/window/fulltile/wood_window,
 /turf/open/indestructible/ground/outside/desert,
 /turf/closed/wall/r_wall/f13composite,
 /area/f13/desert)
-"bVc" = (
+"bVf" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -35416,7 +35433,7 @@
 	icon_state = "ruinswindowbroken"
 	},
 /area/f13/desert)
-"bVd" = (
+"bVg" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -63019,7 +63036,6 @@ bLU
 aol
 aol
 aol
-aom
 aol
 aol
 aol
@@ -63031,7 +63047,8 @@ aol
 aol
 aol
 aol
-aom
+aol
+aol
 aol
 aol
 aol
@@ -64246,19 +64263,19 @@ aoc
 aoc
 aol
 bLU
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bLU
+bLU
+bLU
+bLU
+bLU
+bLU
+bLU
+bLU
+bLU
+bLU
+bLU
+bLU
+bLU
 aaf
 aaf
 aaf
@@ -64647,19 +64664,19 @@ awL
 aoc
 aoc
 aol
-bLU
-bLU
-bLU
-bLU
-bLU
-bLU
-bLU
-bLU
-bLU
-bLU
-bLU
-bLU
-bLU
+aol
+aol
+aol
+aol
+aol
+aol
+aol
+aol
+aol
+aol
+aol
+aol
+aol
 bLU
 aaf
 aaf
@@ -64842,7 +64859,7 @@ byd
 btb
 byF
 byG
-bVa
+bVd
 bvv
 bzY
 boQ
@@ -65048,19 +65065,19 @@ aAm
 awL
 aoc
 aoc
-aol
-aol
-aol
-aol
-aol
-aol
-aol
-aom
-aol
-aol
-aol
-aol
-aol
+aoc
+aoc
+aoc
+aCG
+aCG
+aCG
+aCG
+aCG
+aCG
+aoc
+aoc
+aoc
+aoc
 aol
 bLU
 aaf
@@ -65454,13 +65471,13 @@ aoc
 aoc
 aoc
 aCG
+aCV
+aEb
+aDo
+aDE
 aCG
 aCG
 aCG
-aCG
-aoc
-aoc
-aoc
 aoc
 aoc
 aol
@@ -65856,13 +65873,13 @@ aoc
 aoc
 aoc
 aCG
-aCV
-aDo
-aDE
+bRv
+aCX
+aDp
+bRx
+aET
+bUX
 aCG
-aoc
-aoc
-aoc
 aoc
 aoc
 aol
@@ -66258,12 +66275,12 @@ aod
 aod
 aod
 aCG
-bRv
-aDp
-bRx
-aCG
-awH
-aCG
+apI
+aCX
+bVa
+bVb
+bVb
+bVb
 aCG
 aoc
 aoc
@@ -66634,7 +66651,7 @@ aaf
 aaf
 aaf
 bLU
-aom
+aol
 aqJ
 arm
 arT
@@ -66660,12 +66677,12 @@ aBz
 aBz
 aBz
 aCG
-aCW
-aDq
-aCW
-aEb
+bUZ
+aCX
 aDr
-awD
+aDr
+aDr
+awH
 aCG
 aoc
 aoc
@@ -67062,12 +67079,12 @@ aBz
 aBz
 aBz
 aCG
-aCX
-aDr
+apJ
+aDq
 aDr
 aDr
 aEx
-aET
+aEU
 aCG
 aoc
 aoc
@@ -67469,7 +67486,7 @@ awE
 awF
 aDr
 aEy
-aEU
+aEV
 aCG
 aoc
 aoc
@@ -68273,7 +68290,7 @@ aDs
 aDF
 aEd
 aEA
-aEV
+awD
 aDs
 aoc
 aoc
@@ -68638,7 +68655,7 @@ bLU
 aol
 aol
 aol
-aom
+aol
 aol
 aol
 aoc
@@ -69885,7 +69902,7 @@ aEY
 aFk
 aDs
 aoc
-aom
+aol
 bLU
 aaf
 aaf
@@ -71046,7 +71063,7 @@ aaf
 aaf
 aaf
 bLU
-aom
+aol
 aol
 aZg
 aoH
@@ -72297,7 +72314,7 @@ aDx
 aDx
 aoc
 aoc
-aom
+aol
 bLU
 aFK
 aic
@@ -74659,7 +74676,7 @@ aaf
 aaf
 aaf
 bLU
-aom
+aol
 aon
 bIM
 aoJ
@@ -76311,7 +76328,7 @@ aoc
 aoc
 aol
 aol
-aom
+aol
 aol
 aol
 aol
@@ -77083,7 +77100,7 @@ bIL
 bIS
 bIL
 aon
-apI
+anm
 apT
 aqk
 aqA
@@ -77108,7 +77125,7 @@ aAA
 aBc
 azS
 aoc
-aom
+aol
 bLU
 bLU
 bLU
@@ -77485,7 +77502,7 @@ bIL
 bIS
 bIZ
 aon
-apJ
+aom
 apE
 aql
 aqA
@@ -79078,7 +79095,7 @@ aaf
 aaf
 aaf
 aCo
-anm
+anl
 ane
 ant
 any
@@ -79155,7 +79172,7 @@ aab
 aab
 aKh
 aKh
-bUX
+aCW
 aab
 aab
 aaf
@@ -79957,7 +79974,7 @@ aaf
 aaf
 aaf
 aab
-bUX
+aCW
 aKh
 aKh
 aab
@@ -80361,7 +80378,7 @@ aaf
 aab
 aab
 aKh
-bUX
+aCW
 aab
 aaf
 aaf
@@ -81126,7 +81143,7 @@ azB
 aAd
 awY
 ane
-anm
+anl
 aCo
 aaf
 aaf
@@ -83098,7 +83115,7 @@ aaf
 aaf
 aaf
 aCo
-anm
+anl
 ane
 anu
 anD
@@ -84309,14 +84326,6 @@ anl
 anl
 anl
 anl
-anm
-anl
-anl
-anl
-anl
-anl
-anl
-anm
 anl
 anl
 anl
@@ -84326,7 +84335,15 @@ anl
 anl
 anl
 anl
-anm
+anl
+anl
+anl
+anl
+anl
+anl
+anl
+anl
+anl
 anl
 anl
 anl
@@ -84339,7 +84356,7 @@ aol
 aol
 aol
 aol
-aom
+aol
 aol
 aol
 anl
@@ -85149,7 +85166,7 @@ aBf
 aBf
 aBI
 apZ
-aom
+aol
 bLU
 aaf
 aaf
@@ -86329,7 +86346,7 @@ aaf
 aaf
 aaf
 bLU
-aom
+aol
 aol
 aol
 aol
@@ -89150,7 +89167,6 @@ aol
 aol
 aol
 aol
-aom
 aol
 aol
 aol
@@ -89161,7 +89177,8 @@ aol
 aol
 aol
 aol
-aom
+aol
+aol
 aol
 aol
 aol
@@ -102252,8 +102269,8 @@ brA
 brA
 aaZ
 abg
-bVc
-bVd
+bVf
+bVg
 aaz
 aaI
 aag
@@ -108267,7 +108284,7 @@ aaI
 brC
 aeO
 bst
-bVc
+bVf
 bls
 aze
 aaZ
@@ -112267,8 +112284,8 @@ aaU
 aDU
 aCN
 aaU
-bUZ
-bUZ
+bVc
+bVc
 aaU
 aaI
 bhQ
@@ -119497,8 +119514,8 @@ aag
 aag
 aze
 brA
-bUZ
-bUZ
+bVc
+bVc
 aaU
 aaU
 aFp
@@ -119520,7 +119537,7 @@ aag
 aag
 aDU
 bae
-bVb
+bVe
 blR
 bvr
 bbD

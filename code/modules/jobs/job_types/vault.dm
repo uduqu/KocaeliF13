@@ -10,7 +10,7 @@ here's a tip, go search DEFINES/access.dm
 // I swear to god stop copy-pasting you damn snowflakes
 /datum/job/vault
 	department_flag = VAULT
-	exp_type = EXP_TYPE_VAULT
+	exp_type = EXP_TYPE_VAULT//Only here in case of oversight. Otherwise, all the jobs have it, too.
 
 /datum/outfit/job/vault
 	gloves = /obj/item/pda
@@ -37,8 +37,8 @@ Overseer
 	department_flag = VAULT
 	head_announce = list("Security")
 	faction = "Vault"
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 1
+	spawn_positions = 1
 	forbids = "The vault forbids: Harming other Vault Dwellers. Dereliction of duty. Leaving the Vault unless there is no other choice."
 	enforces = "The vault expects: Obeying the Overseer. Adherence to VaultTec Corporate Regulations. Participation in special projects (the vaults experiment, which you wont know about.)"
 	description = "You are the leader of the Vault and the direct superior to the Chief Of Security, working with them and your fellow vault dwellers, your goal is to ensure the continued prosperity and survival of the vault through whatever means are at your disposal. "
@@ -46,6 +46,7 @@ Overseer
 	selection_color = "#ccffcc"
 	req_admin_notify = 1
 	exp_requirements = 360
+	exp_type = EXP_TYPE_VAULT
 
 	outfit = /datum/outfit/job/vault/f13overseer
 
@@ -88,8 +89,8 @@ Head of Security
 	department_flag = VAULT
 	head_announce = list("Security")
 	faction = "Vault"
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 1
+	spawn_positions = 1
 	forbids = "The vault forbids: Harming other Vault Dwellers. Dereliction of duty. Leaving the Vault unless there is no other choice."
 	enforces = "The vault expects: Obeying the Overseer. Adherence to VaultTec Corporate Regulations. Participation in special projects (the vaults experiment, which you wont know about.)"
 	description = "You answer directly to the Overseer, organising the safety, security and readiness of the Vault. If the time comes, you are in charge of organising and preparing an expedition team for the Wasteland. Until such a time, you keep your Vault ready and safe, training capable dwellers in the usage of weapons, issuing permits for their usage."
@@ -142,15 +143,15 @@ Medical Doctor
 	department_head = list("Overseer")
 	department_flag = VAULT
 	faction = "Vault"
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 2
+	spawn_positions = 2
 	forbids = "The vault forbids: Harming other Vault Dwellers. Dereliction of duty. Leaving the Vault unless there is no other choice."
 	enforces = "The vault expects: Obeying the Overseer. Adherence to VaultTec Corporate Regulations. Participation in special projects (the vaults experiment, which you wont know about.)"
 	description = "You answer directly to the Overseer, administering medical aid to your fellow vault dwellers, you also work around the clock to produce the vital medicines and compounds needed to keep your department running. "
 	supervisors = "the overseer"
 	selection_color = "#ddffdd"
 	exp_requirements = 120
-	exp_type = EXP_TYPE_CREW
+	exp_type = EXP_TYPE_VAULT
 
 	outfit = /datum/outfit/job/vault/f13doctor
 
@@ -188,15 +189,15 @@ Scientist
 	department_head = list("Overseer")
 	department_flag = VAULT
 	faction = "Vault"
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 2
+	spawn_positions = 2
 	forbids = "The vault forbids: Harming other Vault Dwellers. Dereliction of duty. Leaving the Vault unless there is no other choice."
 	enforces = "The vault expects: Obeying the Overseer. Adherence to VaultTec Corporate Regulations. Participation in special projects (the vaults experiment, which you wont know about.)"
 	description = "You answer directly to the Overseer, conducting vital research for the denizens of the vault, you spend your days pouring over pre-war blueprints in the hopes of revitalizing the sciences of the old world. "
 	supervisors = "the overseer"
 	selection_color = "#ddffdd"
 	exp_requirements = 120
-	exp_type = EXP_TYPE_CREW
+	exp_type = EXP_TYPE_VAULT
 
 	outfit = /datum/outfit/job/vault/f13vaultscientist
 
@@ -224,14 +225,15 @@ Security Officer
 	department_head = list("Chief of Security")
 	department_flag = VAULT
 	faction = "Vault"
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 4
+	spawn_positions = 4
 	forbids = "The vault forbids: Harming other Vault Dwellers. Dereliction of duty. Leaving the Vault unless there is no other choice."
 	enforces = "The vault expects: Obeying the Overseer. Adherence to VaultTec Corporate Regulations. Participation in special projects (the vaults experiment, which you wont know about.)"
 	description = "You answer directly to the Chief Of Security, acting as the first line of defense against civil unrest and outside intrusion, you enforce the laws created by the Overseer, while proactively seeking out potential threats to the safety of vault residents."
 	supervisors = "the head of security"
 	selection_color = "#ddffdd"
 	exp_requirements = 160
+	exp_type = EXP_TYPE_VAULT
 
 	outfit = /datum/outfit/job/vault/f13security
 
@@ -377,15 +379,15 @@ Vault Engineer
 	department_head = list("Overseer")
 	department_flag = VAULT
 	faction = "Vault"
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 4
+	spawn_positions = 4
 	forbids = "The vault forbids: Harming other Vault Dwellers. Dereliction of duty. Leaving the Vault unless there is no other choice."
 	enforces = "The vault expects: Obeying the Overseer. Adherence to VaultTec Corporate Regulations. Participation in special projects (the vaults experiment, which you wont know about.)"
 	description = "You answer directly to the Overseer, tasked with the maintenance of the vaults defenses and machinery, while also overseeing the smooth operation of its generators and electrical systems."
 	supervisors = "the overseer"
 	selection_color = "#ddffdd"
 	exp_requirements = 120
-	exp_type = EXP_TYPE_CREW
+	exp_type = EXP_TYPE_VAULT
 
 	outfit = /datum/outfit/job/vault/f13vaultengineer
 
@@ -415,8 +417,8 @@ Vault Engineer
 	flag = ASSISTANT
 	department_flag = VAULT
 	faction = "Vault"
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 12
+	spawn_positions = 12
 	forbids = "The vault forbids: Harming other Vault Dwellers. Dereliction of duty. Leaving the Vault unless there is no other choice."
 	enforces = "The vault expects: Obeying the Overseer. Adherence to VaultTec Corporate Regulations. Participation in special projects (the vaults experiment, which you wont know about.)"
 	description = "You answer directly to the Overseer, being assigned to fulfill whatever menial tasks are required. You lack an assignment, but may be given one the Overseer if required or requested. You should otherwise busy yourself with assisting personnel with tasks around the Vault."
@@ -424,7 +426,7 @@ Vault Engineer
 	selection_color = "#ddffdd"
 	access = list()			//See /datum/job/vault/assistant/get_access()
 	minimal_access = list()	//See /datum/job/vault/assistant/get_access()
-	exp_requirements = 120
+	exp_requirements = 480
 	exp_type = EXP_TYPE_CREW
 
 	outfit = /datum/outfit/job/vault/f13vaultDweller
@@ -448,9 +450,10 @@ Vault Engineer
 		ears = /obj/item/radio/headset/headset_vault
 		shoes = /obj/item/clothing/shoes/jackboots
 
-
+/*
 /datum/job/vault/New()
 	..()
 	if(SSmapping.config.map_name == "Pahrump")
 		total_positions = 0
 		spawn_positions = 0
+*/

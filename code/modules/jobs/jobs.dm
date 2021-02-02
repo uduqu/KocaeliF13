@@ -16,9 +16,9 @@ GLOBAL_LIST_INIT(command_positions, list(
     "Chief",
     "Shaman"))
 
-
+/*
 GLOBAL_LIST_INIT(silicon_whitelist_positions, list(
-"Mr. Handy"))
+"Mr. Handy"))*/
 //Whitelisted positions list FO13 anything that shows up here requires that the user have an entry in the 'role_whitelist' table of id,ckey,"faction"
 //NCR Assistant and Legion Camp Follower re-added to whitelisting.  BoS Initiate removed from whitelist.
 

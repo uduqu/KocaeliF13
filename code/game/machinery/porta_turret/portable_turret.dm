@@ -1100,6 +1100,11 @@
 	faction = list("BOS")
 	desc = "A ballistic machine gun auto-turret. It appears to have incredibly advanced sensors, capable of IFF targeting."
 
+/obj/machinery/porta_turret/syndicate/wasteland/vault
+	req_access = list(ACCESS_VAULT)
+	faction = list("Vault")
+	desc = "A ballistic machine gun auto-turret. It appears to have incredibly advanced sensors, capable of IFF targeting."
+
 
 /obj/machinery/porta_turret/syndicate/wasteland/energy
 	name = "gatling laser turret"

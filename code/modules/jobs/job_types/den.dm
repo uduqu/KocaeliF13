@@ -158,7 +158,7 @@ Farmer
 	supervisors = "the sheriff and the mayor"
 	description = "A local settler of Pahrump, you know a thing or two about cultivation and husbandry, making you a vital backbone of the town in growing medicines, crops and raising livestock in the service of the townsfolk."
 	selection_color = "#dcba97"
-
+	exp_type = EXP_TYPE_DEN
 
 	outfit = /datum/outfit/job/den/f13farmer
 	access = list(ACCESS_BAR)
@@ -205,6 +205,7 @@ Prospector
 	supervisors = "the sheriff and the mayor"
 	description = "Prospecting is a complicated business, some call it scrounging or looting but there is more to it then sifting through rubble - few can boast the skills you posess in mining and delving through the ruins of pre-war America. Not many survive this line of business and the pay has always been uncertain, but perhaps today you'll find strike gold."
 	selection_color = "#dcba97"
+	exp_type = EXP_TYPE_DEN
 
 	outfit = /datum/outfit/job/den/f13prospector
 	access = list(ACCESS_BAR)
@@ -248,6 +249,7 @@ Doctor
 	supervisors = "the sheriff and the mayor"
 	description = "Handy with a scalpel and a scanner, your expertise in the practice of medicine makes you an indespesnbile asset to the town. How you play your trade and whether it be for profit or the fortune of others rests entirely upon your shoulders."
 	selection_color = "#dcba97"
+	exp_type = EXP_TYPE_DEN
 
 	outfit = /datum/outfit/job/den/f13dendoc
 	access = list(ACCESS_BAR, ACCESS_CLONING)
@@ -289,6 +291,7 @@ Preacher
 	supervisors = "Your Master(s)."
 	description = "You are a beacon of faith in this godless Mojave wasteland, answering only to the higher beings past the plain of the mortal realm. Spread the beliefs of your divine masters through this land by any means necessary."
 	selection_color = "#dcba97"
+	exp_type = EXP_TYPE_DEN
 
 	outfit = /datum/outfit/job/den/f13preacher
 
@@ -397,6 +400,7 @@ Settler
 	supervisors = "the sheriff and the mayor"
 	description = "Much of the wasteland is filled with conflict and strife, as a local settler to Pahrump you benefit in that you have a claim to the land and the opportunities that unfold. What destiny awaits you? Will you find your way? Or dissapear trying. Will you rise to glory or dissapear into obscurity?"
 	selection_color = "#dcba97"
+	exp_type = EXP_TYPE_DEN
 
 	outfit = /datum/outfit/job/den/f13settler
 	access = list(ACCESS_BAR)
