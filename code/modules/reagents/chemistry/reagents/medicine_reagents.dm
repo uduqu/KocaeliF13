@@ -1739,7 +1739,7 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 /datum/reagent/medicine/bitterdrink
 	name = "Bitter-Drink"
 	id = "bitterdrink"
-	description = "Restores and revitalizes the drinker."
+	description = "Restores and revitalizes the drinker. Bringing forth the regeneration of flesh, lifeblood and purifying the body of lesser toxins."
 	reagent_state = LIQUID
 	color = "#7A601F"
 	overdose_threshold = 60
@@ -1748,6 +1748,7 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 	if(!M.reagents.has_reagent("stimpak") && !M.reagents.has_reagent("healing_powder")) // Bitter-Drink does not stack with Stimpacks, and is much, much weaker than powder. It however can be stored and made enmass, good for sharing!
 		M.adjustFireLoss(-1*REM)
 		M.adjustBruteLoss(-1*REM)
+		M.adjustToxLoss(-1*REM)
 
 
 /datum/reagent/medicine/brocjuice

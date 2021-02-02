@@ -580,3 +580,12 @@
 	id = "pax"
 	results = list("pax" = 3)
 	required_reagents  = list("mindbreaker" = 1, "synaptizine" = 1, "water" = 1)
+
+// Fallout Stuff
+
+/datum/chemical_reaction/boilingwater
+	name = "Boiling Water"
+	id = "bwaterboil"
+	results = list("bwater" = 5)
+	required_reagents = list("dwater" = 10) // ADVANCED BOILING WATER CODE URAH
+	mob_react = FALSE // You cannot boil water inside yourself you fucking mongoloid
