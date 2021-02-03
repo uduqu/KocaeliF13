@@ -32345,9 +32345,6 @@
 	icon_state = "2-i"
 	},
 /area/f13/vault)
-"bRb" = (
-/turf/closed/indestructible/f13/matrix,
-/area/f13/vault)
 "bRc" = (
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2";
@@ -40661,9 +40658,6 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier4,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
-"jNm" = (
-/turf/closed/indestructible/f13/matrix,
-/area/f13/brotherhood)
 "jSS" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/cash_random_med,
@@ -120531,7 +120525,7 @@ aae
 bQH
 bQK
 bQR
-bRb
+bRa
 bRm
 bRm
 bRm
@@ -165064,7 +165058,7 @@ bAD
 bAD
 bAD
 bAD
-jNm
+bAD
 bBa
 bBa
 bBa
