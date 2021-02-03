@@ -3269,18 +3269,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/bunker)
-"ik" = (
-/mob/living/simple_animal/hostile/ghoul/glowing{
-	maxHealth = 280;
-	melee_damage_lower = 25;
-	melee_damage_upper = 40;
-	name = "Security Chief";
-	resize = 1.2
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "redrustyfull"
-	},
-/area/f13/bunker)
 "il" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -4887,7 +4875,6 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/mob/living/simple_animal/hostile/spawner/ghoul/larger,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
@@ -5160,15 +5147,6 @@
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/bunker)
-"mu" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/porta_turret/syndicate/wasteland,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/bunker)
 "mv" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5260,21 +5238,6 @@
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
-	},
-/area/f13/bunker)
-"mD" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/porta_turret/syndicate/wasteland,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/bunker)
-"mE" = (
-/obj/machinery/porta_turret/syndicate/wasteland,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
 	},
 /area/f13/bunker)
 "mF" = (
@@ -10224,10 +10187,6 @@
 	tag = "icon-bluerustychess2"
 	},
 /area/f13/bunker)
-"PO" = (
-/obj/structure/reagent_dispensers/barrel/explosive,
-/turf/closed/indestructible/rock,
-/area/f13/underground/cave)
 "PQ" = (
 /obj/structure/rack{
 	dir = 8;
@@ -17394,7 +17353,7 @@ aa
 aa
 aa
 aa
-PO
+aa
 aX
 pI
 pI
@@ -19193,7 +19152,7 @@ aa
 aa
 aa
 aa
-PO
+aa
 aX
 aV
 aV
@@ -68701,7 +68660,7 @@ eI
 ez
 HD
 io
-mD
+ee
 mj
 et
 HD
@@ -69999,7 +69958,7 @@ em
 em
 em
 ip
-mu
+em
 em
 mO
 kI
@@ -71786,7 +71745,7 @@ dS
 HD
 dZ
 lI
-mE
+dZ
 HD
 HD
 HD
@@ -72311,7 +72270,7 @@ lr
 gq
 lP
 hE
-ik
+hY
 mS
 HD
 aa

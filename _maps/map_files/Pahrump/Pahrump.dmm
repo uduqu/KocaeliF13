@@ -8810,10 +8810,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/vault/security/armory)
-"axH" = (
-/mob/living/simple_animal/hostile/spawner/ghoul/larger,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "axI" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verylittleshadowleft";
@@ -19175,12 +19171,6 @@
 	tag = "icon-bluerustychess2"
 	},
 /area/f13/building)
-"aZP" = (
-/mob/living/simple_animal/hostile/spawner/ghoul,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland)
 "aZQ" = (
 /obj/structure/simple_door/metal/fence,
 /turf/open/indestructible/ground/outside/dirt{
@@ -30272,10 +30262,6 @@
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
-"bHl" = (
-/mob/living/simple_animal/hostile/spawner/ghoul,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/tunnel)
 "bHm" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
@@ -32646,10 +32632,6 @@
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/tunnel)
-"bPX" = (
-/mob/living/simple_animal/hostile/spawner/radroach,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "bPY" = (
 /obj/structure/noticeboard,
 /turf/closed/wall/f13/ruins,
@@ -32743,13 +32725,6 @@
 /mob/living/simple_animal/hostile/radscorpion/black,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
-"bQs" = (
-/mob/living/simple_animal/hostile/spawner/ghoul,
-/turf/open/floor/f13{
-	icon_state = "greenrustyfull";
-	tag = "icon-greenrustyfull"
-	},
-/area/f13/tunnel)
 "bQt" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "gibmid1";
@@ -46752,7 +46727,7 @@ vbb
 adH
 adY
 abS
-aZP
+abS
 aiv
 bcT
 aat
@@ -115526,7 +115501,7 @@ aae
 aae
 bFx
 biV
-bHl
+aah
 aah
 bFx
 bFx
@@ -120067,7 +120042,7 @@ aae
 aae
 aae
 aaB
-axH
+aaB
 bLL
 aae
 aae
@@ -125765,7 +125740,7 @@ aaB
 aaB
 aaB
 aaB
-bPX
+aaB
 aaB
 aaB
 puP
@@ -131728,7 +131703,7 @@ bFx
 bFx
 bFx
 bFx
-bHl
+aah
 aah
 aah
 bFx
@@ -136424,7 +136399,7 @@ aah
 aah
 aah
 aah
-bHl
+aah
 bFx
 bFx
 aae
@@ -137446,7 +137421,7 @@ bHv
 bpQ
 aaB
 aaB
-bPX
+aaB
 aaB
 aae
 aae
@@ -138443,7 +138418,7 @@ aah
 aah
 aah
 aah
-bHl
+aah
 aah
 aah
 aah
@@ -138549,7 +138524,7 @@ aah
 aah
 aah
 aah
-bHl
+aah
 aah
 aah
 aah
@@ -143020,7 +142995,7 @@ aae
 aae
 bFx
 aah
-bHl
+aah
 aah
 aah
 aah
@@ -144678,7 +144653,7 @@ aae
 bFx
 aah
 aah
-bHl
+aah
 aah
 aah
 aah
@@ -145610,7 +145585,7 @@ aae
 aae
 bFx
 biV
-bHl
+aah
 bJA
 bFx
 aae
@@ -146974,7 +146949,7 @@ bFx
 bKb
 aah
 aah
-bQs
+bKb
 bFx
 aae
 aae
@@ -153182,7 +153157,7 @@ aae
 bFx
 bGZ
 aah
-bHl
+aah
 bKb
 bFx
 aae
@@ -154648,7 +154623,7 @@ aah
 aah
 aah
 bHe
-bHl
+aah
 aah
 aah
 aah
@@ -154751,7 +154726,7 @@ aah
 aah
 aah
 aah
-bHl
+aah
 cid
 bOf
 bGZ

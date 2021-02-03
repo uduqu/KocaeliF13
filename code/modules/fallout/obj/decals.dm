@@ -7,10 +7,10 @@
 	icon_state = "goo1"
 	anchored = 1
 	layer = 2.1
-	light_color = LIGHT_COLOR_GREEN
+/*	light_color = LIGHT_COLOR_GREEN
 	light_power = 3
 	light_range = 3
-
+*/
 /obj/effect/decal/waste/New()
 	..()
 	icon_state = "goo[rand(1,13)]"

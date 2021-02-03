@@ -15,11 +15,11 @@
 	icon_state = "dangerous"
 	tank_volume = 500
 	reagent_id = "radium"
-	light_color = LIGHT_COLOR_GREEN
+/*	light_color = LIGHT_COLOR_GREEN
 	light_power = 3
 	light_range = 2
-//	self_weight = 200
-
+	self_weight = 200
+*/
 /obj/structure/reagent_dispensers/barrel/dangerous/Initialize()
 	. = ..()
 	AddComponent(/datum/component/radioactive, 100, src, 0, TRUE, TRUE) //half-life of 0 because we keep on going.
