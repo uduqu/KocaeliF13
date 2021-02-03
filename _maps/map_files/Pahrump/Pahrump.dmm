@@ -40210,10 +40210,6 @@
 	tag = "icon-verticalrightborderrighttop"
 	},
 /area/f13/wasteland)
-"dSX" = (
-/obj/structure/closet/crate/footlocker/legion,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "dXJ" = (
 /obj/structure/legion_extractor,
 /turf/open/indestructible/ground/outside/dirt,
@@ -40264,6 +40260,10 @@
 	},
 /turf/closed/wall/r_wall/f13/vault,
 /area/f13/brotherhood)
+"eAw" = (
+/obj/structure/closet/crate/footlocker/legion,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "eHs" = (
 /obj/structure/closet/crate/bin{
 	desc = "Smells like shit.";
@@ -40582,6 +40582,12 @@
 	tag = "icon-outerturn (EAST)"
 	},
 /area/f13/wasteland)
+"iQC" = (
+/obj/structure/closet/cabinet,
+/obj/item/stack/medical/gauze,
+/obj/item/stack/medical/gauze,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "iWS" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress1"
@@ -40615,6 +40621,15 @@
 	tag = "icon-verticalleftborderleft2bottom"
 	},
 /area/f13/wasteland)
+"jlA" = (
+/obj/structure/table/wood/settler,
+/obj/item/kitchen/knife,
+/obj/item/screwdriver,
+/obj/item/wirecutters,
+/obj/item/kitchen/knife/butcher,
+/obj/item/crowbar,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "jlD" = (
 /obj/machinery/light/lampost{
 	dir = 1;
@@ -40721,13 +40736,6 @@
 	tag = "icon-floorrusty"
 	},
 /area/f13/ncr)
-"kuQ" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/structure/closet/crate/footlocker/legion,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "kAA" = (
 /obj/machinery/light/lampost{
 	dir = 1;
@@ -40738,11 +40746,6 @@
 	tag = "icon-horizontalbottomborderbottom2right"
 	},
 /area/f13/wasteland)
-"kJC" = (
-/obj/machinery/light/small,
-/obj/structure/closet/crate/footlocker/legion,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "ljE" = (
 /obj/structure/closet/crate/miningcar,
 /obj/effect/spawner/lootdrop/f13/traitbooks,
@@ -40893,6 +40896,12 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier2,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"owN" = (
+/obj/structure/closet/cabinet,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "ozC" = (
 /obj/structure/fermenting_barrel,
 /turf/open/indestructible/ground/outside/dirt{
@@ -40968,12 +40977,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
-"pzR" = (
-/obj/structure/closet/cabinet,
-/obj/item/stack/medical/gauze,
-/obj/item/stack/medical/gauze,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "pAB" = (
 /obj/structure/table/wood/settler,
 /obj/item/kitchen/knife,
@@ -41004,6 +41007,10 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"qtE" = (
+/obj/structure/bed/mattress/pregame,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "quW" = (
 /obj/item/clothing/head/hardhat,
 /turf/open/floor/f13/wood,
@@ -41031,6 +41038,19 @@
 /obj/item/kitchen/knife,
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
+"raY" = (
+/obj/structure/table/wood/settler,
+/obj/item/clothing/suit/apron/surgical,
+/obj/item/lighter,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
+"rel" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/closet/crate/footlocker/legion,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "rnb" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
@@ -41045,10 +41065,6 @@
 	},
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
-"rYQ" = (
-/obj/structure/bed/mattress/pregame,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "sgn" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -41095,7 +41111,7 @@
 	tag = "icon-housewood2"
 	},
 /area/f13/village)
-"sNZ" = (
+"sCP" = (
 /obj/structure/table/wood/settler,
 /obj/item/bedsheet{
 	icon_state = "sheetgrey";
@@ -41148,12 +41164,6 @@
 	tag = "icon-horizontaltopbordertop2left"
 	},
 /area/f13/wasteland)
-"tCL" = (
-/obj/structure/table/wood/settler,
-/obj/item/clothing/suit/apron/surgical,
-/obj/item/lighter,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "tDg" = (
 /obj/machinery/door/airlock/hatch{
 	locked = 1
@@ -41276,6 +41286,11 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"uYa" = (
+/obj/machinery/light/small,
+/obj/structure/closet/crate/footlocker/legion,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "vaC" = (
 /obj/item/candle/tribal_torch,
 /turf/open/indestructible/ground/outside/dirt{
@@ -41377,12 +41392,6 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/village)
-"wDX" = (
-/obj/structure/closet/cabinet,
-/obj/item/reagent_containers/pill/patch/healingpowder,
-/obj/item/reagent_containers/pill/patch/healingpowder,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "wGH" = (
 /obj/machinery/door/airlock/grunge/abandoned{
 	locked = 1
@@ -41411,15 +41420,6 @@
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
-"wVh" = (
-/obj/structure/table/wood/settler,
-/obj/item/kitchen/knife,
-/obj/item/screwdriver,
-/obj/item/wirecutters,
-/obj/item/kitchen/knife/butcher,
-/obj/item/crowbar,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "wZd" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/f13/wood,
@@ -92581,7 +92581,7 @@ aae
 aae
 aae
 bro
-dSX
+eAw
 bhw
 aat
 aat
@@ -92836,7 +92836,7 @@ bhw
 bhw
 brt
 brs
-dSX
+eAw
 aaI
 brn
 bhh
@@ -93084,18 +93084,18 @@ aae
 aae
 aae
 bhw
-dSX
+eAw
 aaI
-dSX
+eAw
 brn
 aaI
-dSX
+eAw
 bhh
 aaI
 aaI
 aaI
 aaI
-dSX
+eAw
 bhh
 aat
 aat
@@ -93335,11 +93335,11 @@ aae
 aae
 aae
 aae
-dSX
+eAw
 bqu
 bqy
 bqA
-dSX
+eAw
 bhw
 bqA
 aaI
@@ -93603,10 +93603,10 @@ bpZ
 bqa
 aaI
 aaI
-kJC
+uYa
 bhw
 aaI
-dSX
+eAw
 bhh
 bhh
 bhw
@@ -93851,7 +93851,7 @@ aae
 bhw
 aaI
 aaI
-dSX
+eAw
 aaI
 bqA
 bqa
@@ -94106,17 +94106,17 @@ aae
 aae
 aat
 bhh
-kuQ
+rel
 aaI
 bqu
 aaI
 aaI
-dSX
+eAw
 bhw
 bqu
 aaI
 aaI
-dSX
+eAw
 bhh
 bhh
 acv
@@ -94368,7 +94368,7 @@ aaI
 aaI
 aaI
 bqa
-dSX
+eAw
 bhw
 aaI
 aaI
@@ -104646,7 +104646,7 @@ acv
 bkj
 acv
 bhh
-wDX
+owN
 aaI
 aaI
 aaI
@@ -104903,7 +104903,7 @@ acv
 acv
 acv
 bhw
-tCL
+raY
 aaI
 aaI
 aaI
@@ -105160,8 +105160,8 @@ acv
 acv
 acv
 bhw
-wVh
-rYQ
+jlA
+qtE
 aaI
 bhh
 brh
@@ -105417,7 +105417,7 @@ bvT
 brV
 acv
 bhh
-sNZ
+sCP
 aaI
 aaI
 bhh
@@ -105674,7 +105674,7 @@ aat
 afw
 bvT
 bhh
-pzR
+iQC
 aaI
 aaI
 bhw
