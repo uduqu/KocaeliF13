@@ -205,6 +205,12 @@
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
 
+/obj/item/gun/energy/laser/plasma/deathsquad
+	name ="modified plasma rifle"
+	desc = "This rifle appears to have a modified charging rail, permitting it to fire much faster."
+	pin = /obj/item/firing_pin/implant/mindshield
+	fire_delay = 1
+
 /obj/item/gun/energy/laser/plasma/scatter
 	name = "multiplas Rifle"
 	item_state = "multiplas"
@@ -256,6 +262,12 @@
 	weapon_weight = WEAPON_LIGHT
 	cell_type = /obj/item/stock_parts/cell/ammo/ec
 	slot_flags = ITEM_SLOT_BELT
+
+/obj/item/gun/energy/laser/plasma/glock/extended/deathsquad
+	name ="modified glock 86a"
+	desc = "This sidearm appears to have a modified charging rail, permitting it to fire much faster."
+	pin = /obj/item/firing_pin/implant/mindshield
+	fire_delay = 1
 
 /obj/item/gun/energy/laser/wattz
 	name = "Wattz 1000 laser pistol"

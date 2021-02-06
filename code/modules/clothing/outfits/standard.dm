@@ -367,27 +367,26 @@
 	mask = /obj/item/clothing/mask/breath
 
 /datum/outfit/death_commando
-	name = "Death Commando"
+	name = "Enclave Fireteam Unit"
 
-	uniform = /obj/item/clothing/under/color/green
-	suit = /obj/item/clothing/suit/space/hardsuit/deathsquad
+	head = /obj/item/clothing/head/helmet/f13/combat/enclave
+	uniform = /obj/item/clothing/under/f13/combat
+	suit = /obj/item/clothing/suit/armor/f13/combat/enclave
 	shoes = /obj/item/clothing/shoes/combat/swat
 	gloves = /obj/item/clothing/gloves/combat
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
-	glasses = /obj/item/clothing/glasses/hud/toggle/thermal
+	glasses = /obj/item/clothing/glasses/thermal/f13/enclave/dsquad
 	back = /obj/item/storage/backpack/security
-	l_pocket = /obj/item/melee/transforming/energy/sword/saber
-	r_pocket = /obj/item/shield/energy
-	suit_store = /obj/item/tank/internals/emergency_oxygen
-	belt = /obj/item/gun/ballistic/revolver/mateba
-	r_hand = /obj/item/gun/energy/pulse/loyalpin
+	l_pocket = /obj/item/stock_parts/cell/ammo/mfc
+	r_pocket = /obj/item/stock_parts/cell/ammo/mfc
+	suit_store = /obj/item/gun/energy/laser/plasma/deathsquad
+	belt = /obj/item/gun/energy/laser/plasma/glock/extended/deathsquad
 	id = /obj/item/card/id
-	ears = /obj/item/radio/headset/headset_cent/alt
+	ears = /obj/item/radio/headset/headset_enclave
 
 	backpack_contents = list(/obj/item/storage/box=1,\
-		/obj/item/ammo_box/a357=1,\
+		/obj/item/stock_parts/cell/ammo/ec=2,\
 		/obj/item/storage/firstaid/regular=1,\
-		/obj/item/storage/box/flashbangs=1,\
 		/obj/item/flashlight=1,\
 		/obj/item/grenade/plastic/x4=1)
 
@@ -407,13 +406,16 @@
 	W.icon_state = "centcom"
 	W.access = get_all_accesses()//They get full station access.
 	W.access += get_centcom_access("Death Commando")//Let's add their alloted CentCom access.
-	W.assignment = "Death Commando"
+	W.assignment = "Enclave Fireteam"
 	W.registered_name = H.real_name
 	W.update_label(W.registered_name, W.assignment)
 
 /datum/outfit/death_commando/officer
-	name = "Death Commando Officer"
-	head = /obj/item/clothing/head/helmet/space/beret
+	name = "Enclave Fireteam Officer"
+
+	suit = null
+	uniform = /obj/item/clothing/under/f13/enclave_officer
+	head = /obj/item/clothing/head/soft/f13/enclave
 
 /datum/outfit/chrono_agent
 	name = "Timeline Eradication Agent"
