@@ -41,6 +41,10 @@
 	icon_state = "enclavegoggles"
 	item_state = "enclavegoggles"
 
+/obj/item/clothing/glasses/thermal/f13/enclave/dsquad
+	name = "\improper combat goggles"
+	desc = "Heat-sensitive goggles commonly worn by Enclave ground units."
+
 //Fallout 13 science goggles
 
 /obj/item/clothing/glasses/science/f13

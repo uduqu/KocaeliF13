@@ -30,9 +30,9 @@
 /datum/ert/deathsquad
 	roles = list(/datum/antagonist/ert/deathsquad)
 	leader_role = /datum/antagonist/ert/deathsquad/leader
-	rename_team = "Deathsquad"
+	rename_team = "Enclave Fireteam"
 	code = "Delta"
-	mission = "Leave no witnesses."
+	mission = "Leave no witnesses. Carry out the orders of your superior."
 	polldesc = "an elite Strike Team"
 
 /datum/ert/centcom_official

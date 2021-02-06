@@ -60,9 +60,9 @@
 	outfit = /datum/outfit/ert/commander/alert
 
 /datum/antagonist/ert/deathsquad
-	name = "Deathsquad Trooper"
+	name = "Enclave Soldier"
 	outfit = /datum/outfit/death_commando
-	role = "Trooper"
+	role = "Enclave Fireteam Unit"
 
 /datum/antagonist/ert/medic/inquisitor
 	outfit = /datum/outfit/ert/medic/inquisitor
@@ -89,9 +89,9 @@
 	owner.isholy = TRUE
 
 /datum/antagonist/ert/deathsquad/leader
-	name = "Deathsquad Officer"
+	name = "Enclave Officer"
 	outfit = /datum/outfit/death_commando
-	role = "Officer"
+	role = "Enclave Fireteam Officer"
 
 /datum/antagonist/ert/create_team(datum/team/ert/new_team)
 	if(istype(new_team))
@@ -131,9 +131,9 @@
 
 	to_chat(owner, "<B><font size=3 color=red>You are the [name].</font></B>")
 
-	var/missiondesc = "Your squad is being sent on a mission to [station_name()] by Security Division."
+	var/missiondesc = "Your squad is being sent on a mission to [station_name()] by the an Enclave Security Detachment."
 	if(leader) //If Squad Leader
-		missiondesc += " Lead your squad to ensure the completion of the mission. Board the shuttle when your team is ready."
+		missiondesc += " Lead your squad to ensure the completion of the mission. Board the Vertibird when your team is ready."
 	else
 		missiondesc += " Follow orders given to you by your squad leader."
 
