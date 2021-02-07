@@ -243,7 +243,7 @@
 			cell.update_icon()
 			cell = null
 			to_chat(user, "<span class='notice'>You pull the cell out of \the [src].</span>")
-			playsound(src, 'sound/f13other/laser_charge.ogg', 50, 1)
+			playsound(src, 'sound/f13other/laser_unload.ogg', 50, 1)
 		else
 			to_chat(user, "<span class='notice'>There's no cell in \the [src].</span>")
 		return
@@ -262,7 +262,7 @@
 		cell.update_icon()
 		cell = null
 		to_chat(user, "<span class='notice'>You pull the cell out of \the [src].</span>")
-		playsound(src, 'sound/f13other/laser_charge.ogg', 50, 1)
+		playsound(src, 'sound/f13other/laser_unload.ogg', 50, 1)
 	else
 		to_chat(user, "<span class='notice'>There's no cell in \the [src].</span>")
 	return
@@ -276,6 +276,7 @@
 			if(user.transferItemToLoc(AM, src))
 				cell = AM
 				to_chat(user, "<span class='notice'>You load a new cell into \the [src].</span>")
+				playsound(src, 'sound/f13other/laser_load.ogg', 50, 1)
 				A.update_icon()
 				update_icon()
 				return 1
