@@ -35451,11 +35451,19 @@
 /turf/open/floor/plating,
 /area/f13/underground/mountain)
 "bVo" = (
+/obj/structure/foamedmetal/iron,
+/turf/open/floor/plating,
+/area/f13/underground/mountain)
+"bVp" = (
+/mob/living/simple_animal/hostile/trog/tunneler,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/underground/mountain)
+"bVq" = (
 /obj/effect/decal/waste,
 /turf/open/floor/wood/f13/old,
 /turf/open/floor/plating/f13/inside/mountain,
 /area/f13/underground/mountain)
-"bVp" = (
+"bVr" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -35464,19 +35472,19 @@
 	icon_state = "ruinswindowbrokenvertical"
 	},
 /area/f13/desert)
-"bVq" = (
+"bVs" = (
 /obj/effect/decal/cleanable/shreds,
 /turf/open/space/basic,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
 /area/f13/powerplant)
-"bVr" = (
+"bVt" = (
 /obj/structure/window/fulltile/wood_window,
 /turf/open/indestructible/ground/outside/desert,
 /turf/closed/wall/r_wall/f13composite,
 /area/f13/desert)
-"bVs" = (
+"bVu" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -35485,7 +35493,7 @@
 	icon_state = "ruinswindowbroken"
 	},
 /area/f13/desert)
-"bVt" = (
+"bVv" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -63375,11 +63383,11 @@ aaf
 aaf
 aaf
 aab
-aic
+bVl
 bOA
 bOA
 bOA
-aic
+bVl
 aab
 aab
 aab
@@ -63391,16 +63399,16 @@ aab
 aab
 aab
 aab
-aic
-aic
-aic
+bMp
+bMp
+bMp
 aic
 aic
 aic
 aic
 bOA
-bOA
-bOA
+bVo
+bVo
 aab
 aab
 aab
@@ -63794,19 +63802,19 @@ aab
 aab
 aic
 bNG
+bMp
+bMp
+bMp
+bOA
+bOA
+bOA
+bOA
+bVo
+bVo
+bVo
 aic
 aic
-aic
-bOA
-bOA
-bOA
-bOA
-bOA
-bOA
-bOA
-aic
-aic
-bVl
+bVp
 aab
 aab
 aab
@@ -64184,27 +64192,27 @@ aic
 bOA
 bOA
 bOA
-bOA
-bOA
+bVo
+bVo
+bMp
 aic
-bVl
 aab
 aab
 aab
 aab
 aab
-bVl
+bVp
 aic
 aic
 bUI
 bVj
-bOA
-bOA
+bVo
+bVo
 aab
 aab
 aab
 aab
-bOA
+bVo
 bOA
 aic
 aic
@@ -64586,9 +64594,9 @@ aic
 aic
 bOA
 bOA
-bOA
-bOA
-bOA
+bVo
+bVo
+bVo
 aic
 aic
 aab
@@ -64599,13 +64607,13 @@ aic
 aic
 aic
 bVk
-bOA
-bOA
-bOA
+bVo
+bVo
+bVo
 aab
 aab
 aab
-bVl
+bVp
 bOA
 bOA
 aic
@@ -64904,7 +64912,7 @@ byd
 btb
 byF
 byG
-bVq
+bVs
 bqt
 bzY
 boQ
@@ -64986,10 +64994,10 @@ aic
 aic
 bVl
 aab
-aic
-aic
-aic
-bOA
+bMp
+bMp
+bMp
+bVo
 bOA
 bOA
 aic
@@ -65001,7 +65009,7 @@ aic
 aic
 bOA
 bOA
-bOA
+bVo
 aab
 aab
 aab
@@ -65011,7 +65019,7 @@ aic
 aic
 bOA
 aic
-bVl
+aic
 aic
 aic
 aic
@@ -65389,9 +65397,9 @@ aic
 aab
 aab
 aab
-aic
-aic
-aic
+bMp
+bMp
+bMp
 bOA
 bOA
 aic
@@ -65417,7 +65425,7 @@ aic
 aic
 aic
 aic
-bVl
+bVp
 aab
 aab
 aab
@@ -65793,7 +65801,7 @@ aab
 aab
 aab
 aab
-aic
+bMp
 bOA
 bOA
 aic
@@ -66194,7 +66202,7 @@ aab
 aab
 aab
 aab
-bVl
+bVp
 aic
 bOA
 bOA
@@ -67004,7 +67012,7 @@ aic
 bOA
 bOA
 bOA
-bVl
+bVp
 aic
 bOA
 bOA
@@ -67018,7 +67026,7 @@ aab
 aab
 aab
 aab
-bVl
+bVp
 bOA
 bOA
 bOA
@@ -69010,7 +69018,7 @@ aab
 aab
 aab
 aic
-bVl
+aic
 aic
 aic
 bUI
@@ -69820,7 +69828,7 @@ aic
 aic
 aic
 aic
-bVl
+aic
 aic
 aab
 aab
@@ -70215,14 +70223,14 @@ aab
 aab
 aab
 aab
+bVp
 aic
 aic
 aic
 aic
 aic
 aic
-aic
-aic
+bVp
 aab
 aab
 aab
@@ -79217,7 +79225,7 @@ aab
 aab
 aKh
 aKh
-bVo
+bVq
 aab
 aab
 aaf
@@ -80019,7 +80027,7 @@ aaf
 aaf
 aaf
 aab
-bVo
+bVq
 aKh
 aKh
 aab
@@ -80423,7 +80431,7 @@ aaf
 aab
 aab
 aKh
-bVo
+bVq
 aab
 aaf
 aaf
@@ -102314,8 +102322,8 @@ brA
 brA
 aaZ
 abg
-bVs
-bVt
+bVu
+bVv
 aaz
 aaI
 aag
@@ -108329,7 +108337,7 @@ aaI
 brC
 aeO
 bst
-bVs
+bVu
 bls
 aze
 aaZ
@@ -112329,8 +112337,8 @@ aaU
 aDU
 aCN
 aaU
-bVp
-bVp
+bVr
+bVr
 aaU
 aaI
 bhQ
@@ -119559,8 +119567,8 @@ aag
 aag
 aze
 brA
-bVp
-bVp
+bVr
+bVr
 aaU
 aaU
 aFp
@@ -119582,7 +119590,7 @@ aag
 aag
 aDU
 bae
-bVr
+bVt
 blR
 bvr
 brI
