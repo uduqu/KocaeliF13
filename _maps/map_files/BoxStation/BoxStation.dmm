@@ -4762,11 +4762,6 @@
 	},
 /area/maintenance/central/secondary)
 "aoA" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12;
-	pixel_y = 2
-	},
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -4774,6 +4769,10 @@
 	frequency = 1361;
 	name = "Vault Intercom";
 	pixel_x = -32
+	},
+/obj/structure/sink/bsink{
+	dir = 8;
+	pixel_x = -11
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
 /area/crew_quarters/toilet)
@@ -4795,13 +4794,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess,
 /area/crew_quarters/toilet)
 "aoD" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12;
-	pixel_y = 2
-	},
 /obj/machinery/light/small{
 	dir = 1
+	},
+/obj/structure/sink/bsink{
+	dir = 8;
+	pixel_x = -11
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/bluechess/bluechess2,
 /area/crew_quarters/toilet)
@@ -5075,10 +5073,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/crew_quarters/bar/atrium)
 "apt" = (
-/obj/structure/sink{
+/obj/structure/sink/bsink{
 	dir = 8;
-	pixel_x = -12;
-	pixel_y = 2
+	pixel_x = -11
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/crew_quarters/bar/atrium)
@@ -5799,6 +5796,7 @@
 	dir = 4
 	},
 /obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/crew_quarters/heads/hop)
 "aru" = (
@@ -9187,6 +9185,9 @@
 	name = "Storage APC";
 	pixel_x = -25
 	},
+/obj/item/clothing/suit/armor/f13/power_armor/excavator,
+/obj/item/clothing/head/helmet/power_armor/excavator,
+/obj/item/book/granter/trait/pa_wear,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/quartermaster/storage)
 "azg" = (
@@ -9613,16 +9614,16 @@
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/hydroponics/garden)
 "aAh" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 11
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1;
 	icon_state = "warningline"
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
+	},
+/obj/structure/sink/bsink{
+	dir = 4;
+	pixel_x = 11
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/hydroponics/garden)
@@ -10321,10 +10322,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/medical/medbay/central)
 "aBO" = (
-/obj/effect/decal/waste,
-/turf/open/floor/wood/f13/old,
-/turf/open/floor/plating/f13/inside/mountain,
-/area/f13/underground/mountain)
+/obj/effect/turf_decal/bot,
+/obj/item/gun/ballistic/automatic/shotgun/riot,
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/ai_monitored/security/armory)
 "aBP" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -10747,14 +10749,8 @@
 	},
 /area/f13/underground/enclave_base)
 "aCV" = (
-/obj/structure/guncase/shotgun,
-/obj/effect/turf_decal/bot,
-/obj/item/gun/ballistic/automatic/shotgun/riot,
-/obj/item/gun/ballistic/automatic/shotgun/riot,
-/obj/item/gun/ballistic/automatic/shotgun/riot,
-/obj/item/gun/ballistic/automatic/shotgun/riot,
-/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
-/area/ai_monitored/security/armory)
+/turf/closed/indestructible/f13/matrix,
+/area/crew_quarters/dorms)
 "aCW" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/mineral/uranium,
@@ -10881,14 +10877,17 @@
 	},
 /area/f13/underground/enclave_base)
 "aDl" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbrokenvertical"
+/obj/structure/sink/bsink{
+	dir = 4;
+	pixel_x = 11
 	},
-/area/f13/desert)
+/turf/open/floor/plasteel/f13{
+	icon_state = "showroomfloor"
+	},
+/area/f13/underground/enclave_base)
 "aDm" = (
 /obj/machinery/porta_turret/syndicate/wasteland/energy,
 /obj/structure/window/reinforced,
@@ -11484,7 +11483,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
 /area/medical/sleeper)
 "aEI" = (
-/obj/structure/sink{
+/obj/structure/sink/bsink{
 	dir = 4;
 	pixel_x = 11
 	},
@@ -12425,17 +12424,12 @@
 	},
 /area/f13/underground/enclave_base)
 "aHf" = (
-/obj/machinery/light{
-	dir = 4
+/obj/structure/sink/bsink{
+	dir = 8;
+	pixel_x = -11
 	},
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 11
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "showroomfloor"
-	},
-/area/f13/underground/enclave_base)
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood)
 "aHg" = (
 /mob/living/simple_animal/hostile/handy/gutsy/enclave,
 /turf/open/floor/plasteel/f13/vault_floor{
@@ -32501,19 +32495,18 @@
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/brotherhood)
 "bMM" = (
-/obj/structure/sink,
+/obj/structure/sink/bsink{
+	dir = 8;
+	pixel_x = -11
+	},
 /obj/structure/mirror{
-	pixel_y = -32
+	pixel_x = -32;
+	pixel_y = 0
 	},
 /turf/open/floor/plasteel/barber,
 /area/f13/brotherhood)
 "bMN" = (
 /obj/machinery/light,
-/obj/structure/sink,
-/obj/structure/mirror{
-	pixel_x = 0;
-	pixel_y = -32
-	},
 /turf/open/floor/plasteel/barber,
 /area/f13/brotherhood)
 "bMO" = (
@@ -32735,6 +32728,10 @@
 "bNq" = (
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/structure/sink/bsink{
+	dir = 8;
+	pixel_x = -11
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
 /area/f13/brotherhood)
@@ -32994,9 +32991,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/f13/brotherhood)
 "bOq" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12
+/obj/structure/sink/bsink{
+	dir = 4;
+	pixel_x = 11
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/brotherhood)
@@ -33019,13 +33016,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/brotherhood)
 "bOu" = (
-/obj/structure/sink{
-	desc = "'Probably the most important thing in this bunker...";
+/obj/structure/sink/bsink{
 	dir = 4;
-	name = "The Sink";
 	pixel_x = 11
 	},
-/turf/open/floor/plasteel/f13/vault_floor/red,
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
 /area/f13/brotherhood)
 "bOv" = (
 /obj/item/target,
@@ -34892,12 +34887,12 @@
 /obj/item/reagent_containers/glass/bottle/killer/weedkiller,
 /obj/item/reagent_containers/spray/plantbgone,
 /obj/item/plant_analyzer,
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 12
-	},
 /obj/item/reagent_containers/glass/bucket,
 /obj/machinery/camera/autoname,
+/obj/structure/sink/bsink{
+	dir = 4;
+	pixel_x = 11
+	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
@@ -34929,12 +34924,14 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/klamat)
 "bTQ" = (
-/obj/effect/decal/cleanable/shreds,
-/turf/open/space/basic,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
+/obj/structure/sink/bsink{
+	dir = 8;
+	pixel_x = -11
 	},
-/area/f13/powerplant)
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/mountain_bunker)
 "bTR" = (
 /obj/structure/chair/f13chair2{
 	dir = 8;
@@ -35597,28 +35594,33 @@
 	},
 /area/f13/underground/enclave_base)
 "bVw" = (
-/obj/structure/window/fulltile/wood_window,
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite,
-/area/f13/desert)
+/obj/structure/sink/bsink{
+	dir = 8;
+	pixel_x = -11
+	},
+/turf/open/floor/plasteel/bar,
+/area/f13/brotherhood)
 "bVx" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbroken"
-	},
-/area/f13/desert)
+/obj/effect/decal/waste,
+/turf/open/floor/wood/f13/old,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/underground/mountain)
 "bVy" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
 /turf/open/indestructible/ground/outside/desert,
 /turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowdestroyed"
+	icon_state = "ruinswindowbrokenvertical"
 	},
 /area/f13/desert)
+"bVz" = (
+/obj/effect/decal/cleanable/shreds,
+/turf/open/space/basic,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/f13/powerplant)
 "bVA" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -35645,6 +35647,29 @@
 	icon_state = "whitebluechess"
 	},
 /area/f13/underground/enclave_base)
+"bVD" = (
+/obj/structure/window/fulltile/wood_window,
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite,
+/area/f13/desert)
+"bVE" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowbroken"
+	},
+/area/f13/desert)
+"bVF" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowdestroyed"
+	},
+/area/f13/desert)
 "cdT" = (
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "ruins6"
@@ -36072,16 +36097,6 @@
 /mob/living/simple_animal/hostile/radscorpion,
 /turf/open/floor/wood/f13/old,
 /area/f13/underground/mountain)
-"jGH" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12;
-	pixel_y = 2
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/mountain_bunker)
 "jHe" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10;
@@ -44786,7 +44801,7 @@ aFV
 aFP
 arf
 aGP
-aHf
+aDl
 aCb
 arf
 auU
@@ -45029,7 +45044,7 @@ bLT
 bMq
 awB
 bNa
-bNr
+bOu
 bNP
 bOj
 bOE
@@ -49448,7 +49463,7 @@ aNb
 bJG
 bLF
 bKH
-bKH
+bMM
 bMM
 aNb
 bNw
@@ -52263,7 +52278,7 @@ bKJ
 bKM
 bKM
 bKM
-bKM
+bVw
 aNb
 bNx
 bNU
@@ -55081,7 +55096,7 @@ aNb
 aNb
 bNB
 bNX
-bOq
+aHf
 aNb
 bPf
 bPp
@@ -58297,7 +58312,7 @@ aaf
 aNb
 bNB
 bOb
-bOu
+bOq
 aNb
 bLS
 bPp
@@ -65055,7 +65070,7 @@ byd
 btb
 byF
 byG
-bTQ
+bVz
 bqt
 bzY
 boQ
@@ -65667,7 +65682,7 @@ aoc
 aoc
 aoc
 aCG
-aCV
+aBO
 aEb
 aDo
 aDE
@@ -72879,7 +72894,7 @@ aoc
 aqa
 aqz
 aqP
-aqL
+axx
 arX
 aqa
 atn
@@ -79368,7 +79383,7 @@ aab
 aab
 aKh
 aKh
-aBO
+bVx
 aab
 aab
 aaf
@@ -80170,7 +80185,7 @@ aaf
 aaf
 aaf
 aab
-aBO
+bVx
 aKh
 aKh
 aab
@@ -80574,7 +80589,7 @@ aaf
 aab
 aab
 aKh
-aBO
+bVx
 aab
 aaf
 aaf
@@ -83313,7 +83328,7 @@ aaf
 aCo
 anl
 ane
-anu
+aCV
 anD
 anD
 anD
@@ -102465,8 +102480,8 @@ brA
 brA
 aaZ
 abg
-bVx
-bVy
+bVE
+bVF
 aaz
 aaI
 aag
@@ -108480,7 +108495,7 @@ aaI
 brC
 aeO
 bst
-bVx
+bVE
 bls
 aze
 aaZ
@@ -112480,8 +112495,8 @@ aaU
 aDU
 aCN
 aaU
-aDl
-aDl
+bVy
+bVy
 aaU
 aaI
 bhQ
@@ -119710,8 +119725,8 @@ aag
 aag
 aze
 brA
-aDl
-aDl
+bVy
+bVy
 aaU
 aaU
 aFp
@@ -119733,7 +119748,7 @@ aag
 aag
 aDU
 bae
-bVw
+bVD
 blR
 bvr
 brI
@@ -143383,7 +143398,7 @@ bgi
 bUg
 bjC
 bcq
-jGH
+bTQ
 bTm
 bTo
 bgi

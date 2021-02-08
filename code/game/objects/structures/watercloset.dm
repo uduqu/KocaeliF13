@@ -572,12 +572,13 @@
 	qdel(src)
 
 
-
 /obj/structure/sink/kitchen
 	name = "kitchen sink"
 	icon_state = "sink_alt"
+	desc = "A sink used for washing dishes. It appears this one has a built in filter."
+	dispensedreagent = "water"
 
-/obj/structure/bsink
+/obj/structure/broken_sink
 	name = "broken sink"
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "sink"
