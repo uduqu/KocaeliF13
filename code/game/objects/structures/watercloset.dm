@@ -456,6 +456,10 @@
 	var/busy = FALSE 	//Something's being washed at the moment
 	var/dispensedreagent = "dwater" // for whenever plumbing happens
 
+/obj/structure/sink/bsink
+	name = "bunker sink"
+	desc = "A sink used for washing one's hands and face. This appears to be hooked up to the bunker's filtration systems."
+	dispensedreagent = "water" // for whenever plumbing happens
 
 /obj/structure/sink/attack_hand(mob/living/user)
 	. = ..()

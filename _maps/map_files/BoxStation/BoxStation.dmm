@@ -5795,11 +5795,12 @@
 /turf/open/floor/plating,
 /area/f13/klamat/mine)
 "art" = (
-/obj/machinery/computer/card{
-	dir = 8
+/obj/machinery/light{
+	dir = 4
 	},
+/obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
-/area/f13/underground/overseer_office)
+/area/crew_quarters/heads/hop)
 "aru" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
@@ -6963,14 +6964,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/crew_quarters/heads/hop)
 "atY" = (
-/obj/machinery/computer/card{
-	dir = 8
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/vault/meds,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
 	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
-/area/crew_quarters/heads/hop)
+/area/f13/underground/enclave_base)
 "atZ" = (
 /obj/machinery/light/small{
 	dir = 8;
@@ -10322,12 +10321,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/medical/medbay/central)
 "aBO" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/underground/enclave_base)
+/obj/effect/decal/waste,
+/turf/open/floor/wood/f13/old,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/underground/mountain)
 "aBP" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -10407,8 +10404,9 @@
 /area/f13/underground/enclave_base)
 "aBZ" = (
 /obj/machinery/iv_drip,
+/obj/effect/spawner/lootdrop/f13/medical/surgical/blood,
 /turf/open/floor/plasteel/f13{
-	icon_state = "whitebluechess"
+	icon_state = "showroomfloor"
 	},
 /area/f13/underground/enclave_base)
 "aCa" = (
@@ -10538,9 +10536,26 @@
 	},
 /area/f13/underground/enclave_base)
 "aCt" = (
-/obj/machinery/iv_drip,
+/obj/machinery/porta_turret/syndicate/wasteland/energy,
+/obj/structure/window/reinforced{
+	dir = 4;
+	icon_state = "rwindow";
+	tag = "icon-rwindow (EAST)"
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1;
+	icon_state = "rwindow"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/open/floor/plasteel/f13{
-	icon_state = "showroomfloor"
+	icon_state = "floorrustysolid"
 	},
 /area/f13/underground/enclave_base)
 "aCu" = (
@@ -10616,11 +10631,10 @@
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "aCD" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
 	},
-/turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "aCE" = (
 /obj/structure/table,
@@ -10710,9 +10724,10 @@
 	},
 /area/f13/desert)
 "aCS" = (
-/obj/machinery/porta_turret/syndicate/wasteland,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/window/reinforced,
 /turf/open/floor/plasteel/f13{
-	icon_state = "floorrustysolid"
+	icon_state = "catwalk"
 	},
 /area/f13/underground/enclave_base)
 "aCT" = (
@@ -10826,30 +10841,54 @@
 	},
 /area/f13/underground/mountain)
 "aDi" = (
-/obj/machinery/vending/snack,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
+	icon_state = "catwalk"
 	},
 /area/f13/underground/enclave_base)
 "aDj" = (
-/obj/machinery/vending/coffee,
 /obj/machinery/camera/autoname,
+/obj/machinery/porta_turret/syndicate/wasteland/energy,
+/obj/structure/window/reinforced{
+	dir = 4;
+	icon_state = "rwindow";
+	tag = "icon-rwindow (EAST)"
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
+	icon_state = "floorrustysolid"
 	},
 /area/f13/underground/enclave_base)
 "aDk" = (
-/obj/machinery/vending/nukacolavend,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	icon_state = "rwindow";
+	tag = "icon-rwindow (EAST)"
+	},
 /turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
+	icon_state = "catwalk"
 	},
 /area/f13/underground/enclave_base)
 "aDl" = (
-/obj/structure/table,
-/turf/open/floor/plasteel/f13{
-	icon_state = "whitebluechess"
+/obj/structure/spacevine{
+	name = "Mutant Vines"
 	},
-/area/f13/underground/enclave_base)
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowbrokenvertical"
+	},
+/area/f13/desert)
 "aDm" = (
 /obj/machinery/porta_turret/syndicate/wasteland/energy,
 /obj/structure/window/reinforced,
@@ -10978,15 +11017,14 @@
 	},
 /area/f13/underground/enclave_base)
 "aDD" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
+/obj/machinery/camera/autoname{
 	dir = 4;
-	icon_state = "rwindow";
-	tag = "icon-rwindow (EAST)"
+	icon_state = "camera"
 	},
-/turf/open/floor/plating,
+/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
 /area/f13/underground/enclave_base)
 "aDE" = (
 /obj/structure/rack,
@@ -11347,11 +11385,12 @@
 	},
 /area/f13/underground/mountain)
 "aEv" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/medical/surgical/blood,
-/obj/effect/spawner/lootdrop/f13/junkspawners,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube"
+	},
 /turf/open/floor/plasteel/f13{
-	icon_state = "whitebluechess"
+	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
 "aEw" = (
@@ -11501,11 +11540,23 @@
 	},
 /area/f13/underground/enclave_base)
 "aEP" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/obj/effect/spawner/lootdrop/f13/armor/tier2,
+/obj/machinery/porta_turret/syndicate/wasteland/energy,
+/obj/structure/window/reinforced{
+	dir = 4;
+	icon_state = "rwindow";
+	tag = "icon-rwindow (EAST)"
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1;
+	icon_state = "rwindow"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/open/floor/plasteel/f13{
-	icon_state = "whitebluechess"
+	icon_state = "floorrustysolid"
 	},
 /area/f13/underground/enclave_base)
 "aEQ" = (
@@ -11520,7 +11571,9 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
 /area/f13/underground/enclave_base)
 "aES" = (
 /turf/open/indestructible/ground/outside/ruins{
@@ -11653,10 +11706,17 @@
 	},
 /area/f13/underground/enclave_base)
 "aFh" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	icon_state = "rwindow";
+	tag = "icon-rwindow (EAST)"
+	},
+/obj/structure/window/reinforced,
 /turf/open/floor/plasteel/f13{
-	icon_state = "whitebluechess"
+	icon_state = "catwalk"
 	},
 /area/f13/underground/enclave_base)
 "aFi" = (
@@ -11911,7 +11971,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
 /area/f13/underground/enclave_base)
 "aFR" = (
 /obj/machinery/light{
@@ -12019,7 +12081,9 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
 /area/f13/underground/enclave_base)
 "aGi" = (
 /obj/structure/chair/f13chair2,
@@ -12248,10 +12312,12 @@
 /area/f13/underground/enclave_base)
 "aGQ" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
+	dir = 5;
 	icon_state = "warningline"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
 /area/f13/underground/enclave_base)
 "aGR" = (
 /obj/effect/decal/remains/human,
@@ -12266,15 +12332,20 @@
 /area/f13/desert)
 "aGS" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 6
+	dir = 5
 	},
 /obj/structure/window/reinforced{
 	dir = 4;
 	icon_state = "rwindow";
 	tag = "icon-rwindow (EAST)"
 	},
-/obj/structure/window/reinforced,
-/turf/open/floor/plating,
+/obj/structure/window/reinforced{
+	dir = 1;
+	icon_state = "rwindow"
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
 /area/f13/underground/enclave_base)
 "aGT" = (
 /turf/open/floor/wood/f13/old{
@@ -12328,27 +12399,21 @@
 	},
 /area/f13/sunny_dale)
 "aHc" = (
-/obj/machinery/light,
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
-	},
-/turf/open/floor/plating,
-/area/f13/underground/enclave_base)
-"aHd" = (
-/obj/machinery/porta_turret/syndicate/wasteland/energy,
-/obj/structure/window/reinforced{
-	dir = 4;
-	icon_state = "rwindow";
-	tag = "icon-rwindow (EAST)"
+	dir = 10
 	},
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
-	dir = 1;
-	icon_state = "rwindow"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13{
-	icon_state = "floorrustysolid"
+	icon_state = "catwalk"
+	},
+/area/f13/underground/enclave_base)
+"aHd" = (
+/mob/living/simple_animal/hostile/handy/assaultron,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
 "aHe" = (
@@ -12384,19 +12449,13 @@
 	},
 /area/f13/desert)
 "aHi" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 5
+/obj/machinery/camera/autoname{
+	dir = 6;
+	icon_state = "camera"
 	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	icon_state = "rwindow";
-	tag = "icon-rwindow (EAST)"
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
 	},
-/obj/structure/window/reinforced{
-	dir = 1;
-	icon_state = "rwindow"
-	},
-/turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "aHj" = (
 /turf/closed/wall/r_wall/f13superstore{
@@ -12466,8 +12525,10 @@
 	},
 /area/f13/underground/enclave_base)
 "aHs" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating,
+/mob/living/simple_animal/hostile/handy/assaultron,
+/turf/open/floor/plasteel/f13{
+	icon_state = "bluefull"
+	},
 /area/f13/underground/enclave_base)
 "aHt" = (
 /turf/closed/wall/r_wall/f13superstore{
@@ -13282,10 +13343,16 @@
 /area/f13/underground/enclave_base)
 "aJM" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 5;
-	icon_state = "warningline"
+	dir = 6
 	},
-/turf/open/floor/plating,
+/obj/structure/window/reinforced{
+	dir = 4;
+	icon_state = "rwindow";
+	tag = "icon-rwindow (EAST)"
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
 /area/f13/underground/enclave_base)
 "aJN" = (
 /turf/closed/wall/r_wall/f13superstore{
@@ -13359,10 +13426,12 @@
 /area/f13/underground/enclave_base)
 "aJY" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 4;
+	dir = 8;
 	icon_state = "warningline"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
 /area/f13/underground/enclave_base)
 "aJZ" = (
 /turf/open/floor/plating/f13/outside/road{
@@ -13480,10 +13549,12 @@
 /area/f13/den)
 "aKp" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 6
+	dir = 4;
+	icon_state = "warningline"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
 /area/f13/underground/enclave_base)
 "aKq" = (
 /obj/effect/decal/remains/human,
@@ -14406,7 +14477,9 @@
 	icon_state = "warningline";
 	dir = 10
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
 /area/f13/underground/enclave_base)
 "aMX" = (
 /obj/structure/table/reinforced,
@@ -34856,18 +34929,20 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/klamat)
 "bTQ" = (
-/obj/structure/table,
-/obj/item/reagent_containers/glass/beaker/large/water,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
+/obj/effect/decal/cleanable/shreds,
+/turf/open/space/basic,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
 	},
-/area/f13/underground/enclave_base)
+/area/f13/powerplant)
 "bTR" = (
 /obj/structure/chair/f13chair2{
 	dir = 8;
 	icon_state = "f13chair2"
 	},
 /mob/living/simple_animal/hostile/handy/assaultron{
+	health = 650;
+	maxHealth = 650;
 	name = "Chief Medical Officer"
 	},
 /turf/open/floor/plasteel/f13{
@@ -35459,32 +35534,74 @@
 /turf/open/floor/plating/f13/inside/mountain,
 /area/f13/underground/mountain)
 "bVq" = (
-/obj/effect/decal/waste,
-/turf/open/floor/wood/f13/old,
-/turf/open/floor/plating/f13/inside/mountain,
+/turf/closed/indestructible/opshuttle,
 /area/f13/underground/mountain)
 "bVr" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/effect/turf_decal/stripes/line{
+	icon_state = "warningline";
+	dir = 6
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbrokenvertical"
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
 	},
-/area/f13/desert)
+/area/f13/underground/enclave_base)
 "bVs" = (
-/obj/effect/decal/cleanable/shreds,
-/turf/open/space/basic,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
 	},
-/area/f13/powerplant)
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
+/area/f13/underground/enclave_base)
 "bVt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1;
+	icon_state = "warningline"
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
+/area/f13/underground/enclave_base)
+"bVu" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8;
+	icon_state = "warningline"
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "catwalk"
+	},
+/area/f13/underground/enclave_base)
+"bVv" = (
+/obj/machinery/porta_turret/syndicate/wasteland/energy,
+/obj/structure/window/reinforced{
+	dir = 4;
+	icon_state = "rwindow";
+	tag = "icon-rwindow (EAST)"
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorrustysolid"
+	},
+/area/f13/underground/enclave_base)
+"bVw" = (
 /obj/structure/window/fulltile/wood_window,
 /turf/open/indestructible/ground/outside/desert,
 /turf/closed/wall/r_wall/f13composite,
 /area/f13/desert)
-"bVu" = (
+"bVx" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -35493,7 +35610,7 @@
 	icon_state = "ruinswindowbroken"
 	},
 /area/f13/desert)
-"bVv" = (
+"bVy" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
 	},
@@ -35502,6 +35619,32 @@
 	icon_state = "ruinswindowdestroyed"
 	},
 /area/f13/desert)
+"bVA" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/porta_turret/syndicate/wasteland/energy,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorrustysolid"
+	},
+/area/f13/underground/enclave_base)
+"bVB" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/medical/vault/meds,
+/turf/open/floor/plasteel/f13{
+	icon_state = "showroomfloor"
+	},
+/area/f13/underground/enclave_base)
+"bVC" = (
+/obj/machinery/iv_drip,
+/obj/effect/spawner/lootdrop/f13/medical/surgical/blood,
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluechess"
+	},
+/area/f13/underground/enclave_base)
 "cdT" = (
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "ruins6"
@@ -39019,13 +39162,13 @@ aFP
 aFP
 aFP
 aFP
-aFP
+aHs
 aJd
 aLf
 arf
 bTV
 aFP
-aFP
+aHs
 aJI
 aLf
 aFP
@@ -40212,7 +40355,7 @@ aFA
 aHy
 aFL
 arf
-aFP
+aHs
 bJp
 aFP
 aJf
@@ -42620,7 +42763,7 @@ auU
 aDX
 cLV
 aDX
-auU
+aHd
 auU
 auU
 avo
@@ -43014,7 +43157,7 @@ aaf
 bTH
 arf
 aDi
-auU
+aHc
 aDY
 cLV
 aDY
@@ -43043,13 +43186,13 @@ auU
 bTE
 aCE
 arf
-aDD
+aDk
+aFh
+auU
+auU
+auU
 aGS
-auU
-auU
-auU
-aHi
-aDD
+aDk
 arf
 bTH
 aaf
@@ -43416,7 +43559,7 @@ aaf
 bTH
 arf
 aDj
-auU
+aCS
 aDY
 cLV
 aDY
@@ -43818,7 +43961,7 @@ aaf
 bTH
 arf
 aDk
-auU
+aFh
 aDY
 cLV
 aDY
@@ -44228,7 +44371,7 @@ auU
 aDZ
 cLV
 aDZ
-auU
+aHd
 auU
 aFr
 arf
@@ -44634,7 +44777,7 @@ aGO
 auU
 auU
 arf
-aFP
+aHs
 aFV
 aFP
 bdg
@@ -44649,7 +44792,7 @@ arf
 auU
 aGO
 auU
-auU
+aHd
 arf
 aIe
 aHr
@@ -46226,13 +46369,13 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
 aaf
 aaf
 aaf
@@ -46621,19 +46764,19 @@ bTH
 bTH
 bTH
 bTH
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
 bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
+arf
+arf
+arf
+arf
+arf
 bTH
 bTH
 bTH
@@ -47022,19 +47165,19 @@ arf
 arf
 arf
 arf
+bTH
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+bTH
 arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
+bVv
+aCD
+aJM
 arf
 arf
 arf
@@ -47416,26 +47559,26 @@ ass
 ass
 atI
 aun
-auU
 avo
-avS
-auU
-auU
-auU
-auU
 auU
 avS
 auU
+aDD
 auU
 auU
-auU
-avS
-bTE
-avo
-bTT
-auU
-auU
-auU
+arf
+bTH
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+bTH
+arf
+aCD
+aFh
 avS
 auU
 auU
@@ -47818,7 +47961,6 @@ ass
 ass
 ass
 aun
-arN
 avo
 auU
 auU
@@ -47826,17 +47968,18 @@ auU
 auU
 auU
 auU
-auU
-auU
-auU
-auU
-auU
-auU
-auU
-avo
-auU
-auU
-auU
+arf
+bTH
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+bTH
+arf
+aCS
 aGO
 auU
 auU
@@ -47848,8 +47991,8 @@ auU
 auU
 avo
 auU
-aFQ
-aHc
+bVs
+bVu
 arf
 bTH
 aaf
@@ -48225,18 +48368,18 @@ arf
 arf
 arf
 arf
+avo
+avo
 arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
-arf
+bTH
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+bTH
 arf
 arf
 arf
@@ -48250,8 +48393,8 @@ arf
 arf
 arf
 auU
-aGQ
-aCS
+bVt
+bVA
 arf
 bTH
 aaf
@@ -48626,17 +48769,17 @@ arf
 bTH
 bTH
 bTH
+arf
+auU
+auU
+arf
 bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
-bTH
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
 bTH
 bTH
 bTH
@@ -49027,12 +49170,12 @@ arf
 arf
 bTH
 bNA
-bNA
-bNA
-bNA
-bNA
-bNA
-bNA
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 aaf
@@ -49429,12 +49572,12 @@ bTH
 bTH
 bTH
 bNA
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+bTT
+aFr
+arf
+bTH
 aaf
 aaf
 aaf
@@ -49831,12 +49974,12 @@ bNA
 bNA
 bNA
 bNA
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 aaf
@@ -49847,7 +49990,7 @@ bTH
 arf
 bUc
 aFc
-aDl
+aFg
 aCa
 aCa
 aFc
@@ -50233,12 +50376,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 aaf
@@ -50249,10 +50392,10 @@ bTH
 arf
 aCB
 aEQ
-aDl
+aFg
 aCa
 aCa
-aDl
+aFg
 aEO
 arf
 bTH
@@ -50635,12 +50778,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 aaf
@@ -50651,7 +50794,7 @@ bTH
 arf
 aCa
 bTO
-aDl
+aFg
 aCa
 aCa
 aFg
@@ -51037,12 +51180,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 aaf
@@ -51439,12 +51582,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 aaf
@@ -51841,12 +51984,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 aaf
@@ -52243,29 +52386,29 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+aFr
+arf
+bTH
 aaf
 aaf
 aaf
 aaf
 bTH
 arf
-aEv
+aFg
 bUb
-aEP
+aFg
 arf
 aCa
 aCa
 aCa
 arf
-aFh
+aFg
 bUb
-aEv
+aFg
 arf
 bTH
 aaf
@@ -52645,12 +52788,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 aaf
@@ -53047,19 +53190,19 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+bTT
+arf
+bTH
 aaf
 aaf
 aaf
 aaf
 bTH
 arf
-aBZ
+bVC
 aCa
 aCa
 aCT
@@ -53069,7 +53212,7 @@ bUF
 aCT
 aCa
 aCa
-aBZ
+bVC
 arf
 bTH
 aaf
@@ -53449,12 +53592,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+aHi
+auU
+arf
+bTH
 aaf
 aaf
 bTH
@@ -53851,12 +53994,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 bTH
@@ -54253,12 +54396,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 bTH
@@ -54655,12 +54798,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 bTH
@@ -55057,12 +55200,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 bTH
@@ -55459,29 +55602,29 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+aFr
+arf
+bTH
 aaf
 aaf
 bTH
 arf
 aCs
 aCb
-aCb
+bVB
 arf
 aCa
 aKr
 aFQ
-aCD
+aJY
 aMW
 aKr
 aCa
 arf
-aCb
+bVB
 aCb
 aCs
 arf
@@ -55861,19 +56004,19 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 bTH
 arf
-aCt
+aBZ
 aCb
-aCb
+bVB
 arf
 aCT
 arf
@@ -55883,9 +56026,9 @@ aCC
 arf
 aCT
 arf
+bVB
 aCb
-aCb
-aCt
+aBZ
 arf
 bTH
 aaf
@@ -56263,12 +56406,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 bTH
@@ -56279,9 +56422,9 @@ arf
 arf
 aCa
 aKN
-aGQ
-aHd
-aHs
+aCt
+aIe
+aEP
 aKN
 aCa
 arf
@@ -56665,12 +56808,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+bTT
+auU
+arf
+bTH
 aaf
 aaf
 bTH
@@ -56681,9 +56824,9 @@ bTH
 arf
 aCa
 aCa
-aJM
-aJY
+aGQ
 aKp
+bVr
 aCa
 aCa
 arf
@@ -57067,12 +57210,12 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 aaf
@@ -57469,19 +57612,19 @@ aaf
 aaf
 aaf
 aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
 aaf
 aaf
 aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bVq
 bTH
 arf
 aCa
@@ -57491,7 +57634,7 @@ aCa
 aCa
 arf
 bTH
-aaf
+bVq
 aaf
 aaf
 aaf
@@ -57871,19 +58014,19 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+arf
+auU
+auU
+arf
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
 bTH
 arf
 arf
@@ -58273,20 +58416,20 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
 bTH
+arf
+auU
+aFr
+arf
+arf
+arf
+arf
+arf
+arf
+arf
+arf
+arf
+arf
 arf
 auU
 auU
@@ -58675,21 +58818,21 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
 bTH
 arf
+auU
+auU
+avo
+aEv
+auU
+auU
+auU
+bTZ
+auU
+auU
+auU
+aEv
+avo
 auU
 auU
 auU
@@ -59077,25 +59220,25 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
 bTH
 arf
 auU
+auU
+avo
+auU
+auU
+auU
+auU
+auU
+auU
+auU
+auU
+auU
+avo
+auU
 bvk
-bTQ
-aBO
+atY
+atY
 auU
 arf
 bTH
@@ -59479,20 +59622,20 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
 bTH
+arf
+arf
+arf
+arf
+arf
+arf
+arf
+arf
+arf
+arf
+arf
+arf
+arf
 arf
 auU
 bTN
@@ -59881,19 +60024,19 @@ aaf
 aaf
 aaf
 aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
-aaf
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
+bTH
 bTH
 arf
 auU
@@ -64912,7 +65055,7 @@ byd
 btb
 byF
 byG
-bVs
+bTQ
 bqt
 bzY
 boQ
@@ -72736,7 +72879,7 @@ aoc
 aqa
 aqz
 aqP
-art
+aqL
 arX
 aqa
 atn
@@ -73946,7 +74089,7 @@ aru
 asg
 aru
 atp
-atY
+art
 auI
 aru
 avx
@@ -79225,7 +79368,7 @@ aab
 aab
 aKh
 aKh
-bVq
+aBO
 aab
 aab
 aaf
@@ -80027,7 +80170,7 @@ aaf
 aaf
 aaf
 aab
-bVq
+aBO
 aKh
 aKh
 aab
@@ -80431,7 +80574,7 @@ aaf
 aab
 aab
 aKh
-bVq
+aBO
 aab
 aaf
 aaf
@@ -102322,8 +102465,8 @@ brA
 brA
 aaZ
 abg
-bVu
-bVv
+bVx
+bVy
 aaz
 aaI
 aag
@@ -108337,7 +108480,7 @@ aaI
 brC
 aeO
 bst
-bVu
+bVx
 bls
 aze
 aaZ
@@ -112337,8 +112480,8 @@ aaU
 aDU
 aCN
 aaU
-bVr
-bVr
+aDl
+aDl
 aaU
 aaI
 bhQ
@@ -119567,8 +119710,8 @@ aag
 aag
 aze
 brA
-bVr
-bVr
+aDl
+aDl
 aaU
 aaU
 aFp
@@ -119590,7 +119733,7 @@ aag
 aag
 aDU
 bae
-bVt
+bVw
 blR
 bvr
 brI
