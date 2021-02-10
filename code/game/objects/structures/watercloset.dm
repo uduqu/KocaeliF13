@@ -456,6 +456,10 @@
 	var/busy = FALSE 	//Something's being washed at the moment
 	var/dispensedreagent = "dwater" // for whenever plumbing happens
 
+/obj/structure/sink/bsink
+	name = "bunker sink"
+	desc = "A sink used for washing one's hands and face. This appears to be hooked up to the bunker's filtration systems."
+	dispensedreagent = "water" // for whenever plumbing happens
 
 /obj/structure/sink/attack_hand(mob/living/user)
 	. = ..()
@@ -568,12 +572,13 @@
 	qdel(src)
 
 
-
 /obj/structure/sink/kitchen
 	name = "kitchen sink"
 	icon_state = "sink_alt"
+	desc = "A sink used for washing dishes. It appears this one has a built in filter."
+	dispensedreagent = "water"
 
-/obj/structure/bsink
+/obj/structure/broken_sink
 	name = "broken sink"
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "sink"

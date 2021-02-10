@@ -41,6 +41,7 @@
 	icon_dead = "ghoulreaver_dead"
 	speed = 1
 	a_intent = INTENT_HARM
+	stat_attack = UNCONSCIOUS
 	maxHealth = 100
 	health = 100
 	harm_intent_damage = 6
@@ -93,6 +94,7 @@
 	maxHealth = 80
 	health = 80
 	speed = 1
+	stat_attack = UNCONSCIOUS
 	harm_intent_damage = 10
 	melee_damage_lower = 20
 	melee_damage_upper = 20

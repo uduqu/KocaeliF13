@@ -4957,7 +4957,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/vault_atrium_Lower)
 "lY" = (
-/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/mob/living/simple_animal/hostile/handy/protectron/enclave,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
@@ -5174,6 +5174,12 @@
 	icon_state = "plating"
 	},
 /area/f13/bunker)
+"mF" = (
+/mob/living/simple_animal/hostile/handy/assaultron,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "floorgrime"
+	},
+/area/f13/underground/enclave_base)
 "mG" = (
 /obj/machinery/light{
 	dir = 4
@@ -5231,6 +5237,19 @@
 /area/f13/underground/enclave_base)
 "mN" = (
 /obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/plating,
+/area/f13/underground/enclave_base)
+"mO" = (
+/mob/living/simple_animal/hostile/handy/assaultron,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "whitepurplerustychess2"
+	},
+/area/f13/underground/enclave_base)
+"mP" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/mob/living/simple_animal/hostile/handy/assaultron,
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "Aw" = (
@@ -61290,7 +61309,7 @@ ab
 ab
 ab
 ad
-ad
+mF
 ab
 ab
 ab
@@ -61798,7 +61817,7 @@ ao
 ad
 ad
 ad
-ad
+mF
 ad
 ao
 ad
@@ -61831,7 +61850,7 @@ bS
 cd
 bQ
 bQ
-ca
+mP
 ab
 aa
 aa
@@ -63363,7 +63382,7 @@ ab
 bw
 bu
 lT
-bu
+mO
 ab
 aa
 aa
@@ -66432,7 +66451,7 @@ ab
 mH
 aS
 ab
-lY
+bh
 bh
 bo
 bh
@@ -67205,7 +67224,7 @@ ad
 ab
 bh
 bm
-bh
+lY
 bh
 ab
 aa
