@@ -1,10 +1,10 @@
 /mob/living/simple_animal/hostile/alien
-	name = "wanamingo"
+	name = "alien"
 	desc = "A terrifying creature of unknown origin."
-	icon = 'icons/mob/deathclaw.dmi'
-	icon_state = "wanamingo"
-	icon_living = "wanamingo"
-	icon_dead = "wanamingo_dead"
+	icon = 'icons/mob/alien.dmi'
+	icon_state = null
+	icon_living = null
+	icon_dead = null
 	icon_gib = "syndicate_gib"
 	gender = FEMALE
 	response_help = "pokes"
@@ -34,6 +34,15 @@
 	gold_core_spawnable = NO_SPAWN
 	death_sound = 'sound/voice/hiss6.ogg'
 	deathmessage = "lets out a waning guttural screech, green blood bubbling from its maw..."
+
+/mob/living/simple_animal/hostile/alien/wanamingo
+	name = "wanamingo"
+	desc = "A terrifying creature of unknown origin."
+	icon = 'icons/mob/deathclaw.dmi'
+	icon_state = "wanamingo"
+	icon_living = "wanamingo"
+	icon_dead = "wanamingo_dead"
+	icon_gib = "syndicate_gib"
 
 /mob/living/simple_animal/hostile/alien/drone
 	name = "alien drone"

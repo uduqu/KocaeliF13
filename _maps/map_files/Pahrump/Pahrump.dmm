@@ -5156,7 +5156,7 @@
 "aom" = (
 /obj/effect/turf_decal/bot,
 /obj/item/gun/ballistic/automatic/shotgun/riot,
-/obj/structure/table,
+/obj/structure/rack,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/vault/security/armory)
 "aon" = (
@@ -5175,17 +5175,18 @@
 	},
 /area/f13/ncr)
 "aop" = (
-/obj/structure/guncase,
 /obj/effect/turf_decal/bot,
-/obj/item/gun/ballistic/automatic/smg10mm,
-/obj/item/gun/ballistic/automatic/smg10mm,
+/obj/item/gun/energy/laser/wattz/magneto,
+/obj/item/gun/energy/laser/wattz/magneto,
+/obj/item/gun/energy/laser/wattz/magneto,
+/obj/structure/rack,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/vault/security/armory)
 "aoq" = (
-/obj/structure/guncase,
-/obj/item/gun/energy/laser/aer9,
-/obj/item/gun/energy/laser/aer9,
 /obj/effect/turf_decal/bot,
+/obj/item/gun/ballistic/automatic/smg10mm,
+/obj/item/gun/ballistic/automatic/smg10mm,
+/obj/structure/rack,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/vault/security/armory)
 "aor" = (
@@ -5957,11 +5958,10 @@
 	},
 /area/f13/wasteland)
 "aqu" = (
+/obj/item/gun/energy/laser/aer9,
+/obj/item/gun/energy/laser/aer9,
 /obj/effect/turf_decal/bot,
-/obj/structure/guncase,
-/obj/item/gun/energy/laser/wattz/magneto,
-/obj/item/gun/energy/laser/wattz/magneto,
-/obj/item/gun/energy/laser/wattz/magneto,
+/obj/structure/rack,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/vault/security/armory)
 "aqv" = (
@@ -18697,6 +18697,14 @@
 	icon_state = "dirt"
 	},
 /area/f13/farm)
+"aYF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button{
+	id = 782;
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/building)
 "aYG" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -20755,12 +20763,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "bdR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/button{
-	id = "vault_lockdown_surface";
-	pixel_x = 32
+/obj/machinery/door/poddoor{
+	id = 782
 	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/building)
 "bdS" = (
 /obj/structure/table/wood,
@@ -21960,8 +21966,8 @@
 	dheight = 0;
 	dir = 8;
 	dwidth = 1;
-	height = 3;
-	id = "Vault113_Level_1";
+	height = 2;
+	id = "vault113_elevator";
 	name = "Surface";
 	roundstart_template = /datum/map_template/shuttle/vault113/elevator;
 	width = 4
@@ -22029,11 +22035,18 @@
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/building)
 "bhd" = (
-/obj/machinery/door/poddoor{
-	id = "vault_lockdown_surface"
+/obj/docking_port/stationary{
+	dheight = 0;
+	dir = 8;
+	dwidth = 1;
+	height = 2;
+	id = "vault113_elevator";
+	name = "Vault";
+	roundstart_template = /datum/map_template/shuttle/vault113/elevator;
+	width = 4
 	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/building)
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/tunnel)
 "bhe" = (
 /obj/structure/table,
 /obj/item/ammo_casing/shotgun/buckshot,
@@ -22052,6 +22065,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building)
+"bhg" = (
+/obj/machinery/smoke_machine,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/vault/vents)
 "bhh" = (
 /turf/closed/wall/f13/wood,
 /area/f13/legion)
@@ -22160,6 +22177,15 @@
 /obj/item/clothing/gloves/color/white,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"bhu" = (
+/obj/machinery/camera/autoname{
+	dir = 10;
+	icon_state = "camera"
+	},
+/obj/structure/table/glass,
+/obj/item/storage/box/monkeycubes,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/vault/science/biology)
 "bhv" = (
 /obj/effect/landmark/start/f13/farmer,
 /turf/open/indestructible/ground/outside/desert,
@@ -22194,6 +22220,10 @@
 	tag = "icon-floordirtysolid"
 	},
 /area/f13/admeme)
+"bhB" = (
+/obj/machinery/monkey_recycler,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/vault/science/biology)
 "bhC" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
@@ -22335,6 +22365,11 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"bhU" = (
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
+/area/space)
 "bhV" = (
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 1;
@@ -22433,6 +22468,10 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"bik" = (
+/obj/machinery/dna_scannernew,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/space)
 "bil" = (
 /obj/structure/table,
 /obj/machinery/microwave,
@@ -22440,6 +22479,14 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"bim" = (
+/obj/machinery/computer/scan_consolenew,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/space)
+"bin" = (
+/obj/structure/frame/machine,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/space)
 "bio" = (
 /obj/effect/decal/remains{
 	icon_state = "remains";
@@ -22585,6 +22632,22 @@
 /obj/structure/decoration/clock/old/active,
 /turf/closed/wall/f13/store,
 /area/f13/building)
+"biI" = (
+/obj/effect/spawner/lootdrop/f13/armor/random_high,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/tunnel)
+"biJ" = (
+/obj/machinery/shower{
+	dir = 4;
+	icon_state = "shower";
+	tag = "icon-shower (EAST)"
+	},
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2";
+	tag = "icon-bluerustychess2"
+	},
+/area/f13/bunker)
 "biK" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -22698,6 +22761,10 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"biZ" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/space)
 "bja" = (
 /obj/structure/reagent_dispensers/barrel/dangerous,
 /turf/open/floor/plating/tunnel,
@@ -22886,6 +22953,9 @@
 /obj/structure/closet/crate/bin,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"bjC" = (
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/space)
 "bjD" = (
 /obj/structure/chair/wood/worn{
 	dir = 1
@@ -23016,6 +23086,17 @@
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"bjU" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/space)
+"bjV" = (
+/obj/structure/table,
+/obj/item/disk/data,
+/obj/item/disk/data,
+/obj/item/disk/data,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/space)
 "bjW" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light{
@@ -23201,6 +23282,11 @@
 /obj/item/hatchet,
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
+"bku" = (
+/obj/machinery/door/airlock,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/space)
 "bkv" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/f13{
@@ -30198,11 +30284,6 @@
 	tag = "icon-reddirtyfull"
 	},
 /area/f13/clinic)
-"bJy" = (
-/obj/effect/spawner/lootdrop/f13/armor/random_high,
-/mob/living/simple_animal/hostile/alien,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/tunnel)
 "bJz" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "gib2-old";
@@ -31718,12 +31799,6 @@
 "bOA" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/bunker)
-"bOB" = (
-/mob/living/simple_animal/hostile/alien,
-/turf/open/floor/f13{
-	icon_state = "dark"
-	},
-/area/f13/bunker)
 "bOC" = (
 /obj/structure/foamedmetal,
 /turf/open/floor/f13{
@@ -32100,19 +32175,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/f13{
 	icon_state = "dark"
-	},
-/area/f13/bunker)
-"bPG" = (
-/obj/machinery/shower{
-	dir = 4;
-	icon_state = "shower";
-	tag = "icon-shower (EAST)"
-	},
-/mob/living/simple_animal/hostile/alien,
-/turf/open/floor/plasteel/barber{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "bluerustychess2";
-	tag = "icon-bluerustychess2"
 	},
 /area/f13/bunker)
 "bPH" = (
@@ -32645,11 +32707,6 @@
 "bRI" = (
 /turf/open/floor/engine,
 /area/f13/vault/science/biology)
-"bRJ" = (
-/turf/closed/wall/r_wall/f13vault{
-	icon_state = "2-i"
-	},
-/area/f13/vault/science/biology)
 "bRK" = (
 /obj/machinery/vending/wardrobe/jani_wardrobe,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
@@ -32837,33 +32894,6 @@
 	},
 /turf/open/floor/engine,
 /area/f13/vault/science/biology)
-"bSt" = (
-/obj/structure/window/reinforced/fulltile,
-/obj/structure/grille,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/door/poddoor/preopen{
-	id = 921
-	},
-/turf/open/floor/engine,
-/area/f13/vault/science/biology)
-"bSu" = (
-/obj/machinery/door/window/northleft{
-	req_access_txt = "47"
-	},
-/obj/effect/turf_decal/stripes,
-/obj/machinery/door/poddoor/preopen{
-	id = 921
-	},
-/turf/open/floor/engine,
-/area/f13/vault/science/biology)
-"bSv" = (
-/obj/structure/window/reinforced/fulltile,
-/obj/structure/grille,
-/obj/machinery/door/poddoor/preopen{
-	id = 921
-	},
-/turf/open/floor/engine,
-/area/f13/vault/science/biology)
 "bSw" = (
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
@@ -32979,16 +33009,6 @@
 	},
 /obj/machinery/button/door{
 	id = 920
-	},
-/obj/structure/table,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/vault/science/biology)
-"bSL" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/button/door{
-	id = 921
 	},
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -33322,13 +33342,6 @@
 /area/f13/vault/botcontrol)
 "bTQ" = (
 /obj/machinery/chem_heater,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/vault/science/biology)
-"bTR" = (
-/obj/machinery/camera/autoname{
-	dir = 10;
-	icon_state = "camera"
-	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/science/biology)
 "bTS" = (
@@ -40835,29 +40848,12 @@
 /mob/living/simple_animal/hostile/radscorpion,
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
-"mza" = (
-/mob/living/simple_animal/hostile/alien,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "mLe" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "gib5-old";
 	tag = "icon-gib5-old"
 	},
 /turf/open/floor/f13/wood,
-/area/f13/tunnel)
-"mVW" = (
-/obj/docking_port/stationary{
-	dheight = 0;
-	dir = 8;
-	dwidth = 1;
-	height = 3;
-	id = "Vault113_Level_1";
-	name = "Level 1";
-	roundstart_template = /datum/map_template/shuttle/vault113/elevator;
-	width = 4
-	},
-/turf/open/floor/plasteel/elevatorshaft,
 /area/f13/tunnel)
 "mWq" = (
 /obj/effect/decal/cleanable/blood/old,
@@ -44943,14 +44939,14 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
-aae
-aae
-aae
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aae
 aae
 aae
@@ -45200,14 +45196,14 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aeD
 aeD
 aeD
 aeD
 aeD
 aeD
-aae
+aaa
 aae
 aae
 aae
@@ -45457,14 +45453,14 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aeD
 aeZ
 aeZ
 aeZ
 aeZ
 aeD
-aae
+aaa
 aae
 aae
 aae
@@ -45714,14 +45710,14 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aeD
 aeZ
 aeZ
 aeZ
 aeZ
 aeD
-aae
+aaa
 aae
 aae
 aae
@@ -45971,14 +45967,14 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aeD
 aeZ
 aeZ
 bgU
 aeZ
 aeD
-aae
+aaa
 aae
 aae
 aae
@@ -46228,14 +46224,14 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aeD
 afX
 bgp
 bgp
 afX
 aeD
-aae
+aaa
 aae
 aae
 aae
@@ -46485,14 +46481,14 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aeD
 bdx
 bgt
 bgt
 bgt
 aeD
-aae
+aaa
 aae
 aae
 aae
@@ -46742,14 +46738,14 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aeD
-bdR
+aYF
 bgS
 bgS
 bhf
 aeD
-aae
+aaa
 aae
 aae
 aae
@@ -46999,14 +46995,14 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aeD
 aeD
 bgS
 bgS
 aeD
 aeD
-aae
+aaa
 aae
 aae
 aae
@@ -47256,14 +47252,14 @@ aae
 aae
 aae
 aae
-aae
-aae
+aaa
+aaa
 aeD
 bgS
 bgS
 aeD
-aae
-aae
+aaa
+aaa
 aae
 aae
 aae
@@ -47514,12 +47510,12 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aeD
 bgS
 bgS
 aeD
-aae
+aaa
 aae
 aae
 aae
@@ -48030,8 +48026,8 @@ agk
 agk
 agk
 agk
-bhd
-bhd
+bdR
+bdR
 agk
 agk
 agk
@@ -108514,7 +108510,7 @@ cjL
 cjW
 cki
 cki
-mVW
+bhd
 cki
 cjW
 cjL
@@ -109527,7 +109523,7 @@ bRa
 bRa
 bRa
 amn
-aqu
+aop
 aoB
 aoO
 apg
@@ -109784,7 +109780,7 @@ bRa
 bRa
 bRa
 amn
-aop
+aoq
 aoB
 aoP
 apj
@@ -110041,7 +110037,7 @@ ahU
 ahU
 ahU
 amn
-aoq
+aqu
 aoB
 cgJ
 cgJ
@@ -110207,7 +110203,7 @@ bOy
 bOy
 bPw
 aOh
-bPG
+biJ
 bOy
 bOC
 bOy
@@ -110707,7 +110703,7 @@ boU
 aae
 aae
 bOy
-bOB
+bOE
 bOD
 bOE
 bOE
@@ -114118,13 +114114,13 @@ bQH
 bQH
 bQH
 bQK
-bQR
-bQR
-bQR
-bQR
-bQR
-bQR
-bQR
+bQK
+bQK
+bQK
+bQK
+bQK
+bQK
+bQK
 bQR
 bRa
 bRa
@@ -114375,13 +114371,13 @@ bQK
 bQK
 bQK
 bQK
-bQR
-bQR
-bQR
-bQR
-bQR
-bQR
-bQR
+bQK
+bQK
+bQK
+bQK
+bQK
+bQK
+bhg
 bQR
 bRa
 bRa
@@ -115655,16 +115651,16 @@ aae
 aae
 bQH
 bQK
-bQR
-bRJ
-bRJ
-bRJ
-bRJ
-bRJ
+bhU
+bhU
+bhU
+bhU
+bhU
+bhU
 bSZ
 bSZ
 bTF
-bTR
+bhu
 bRa
 bUy
 bUQ
@@ -115912,14 +115908,14 @@ aae
 aae
 bQH
 bQK
-bQR
-bRG
-bRS
-bRS
-bSt
-bSI
+bhU
+bik
+biZ
+bjU
+bjV
+bhU
 bSZ
-bSZ
+bTa
 bTF
 bTS
 bRa
@@ -116169,12 +116165,12 @@ aae
 aae
 bQH
 bQK
-bQR
-bRH
-bRI
-bRI
-bSu
-bSJ
+bhU
+bim
+bjC
+bjC
+bjC
+bku
 bSZ
 aJT
 bTF
@@ -116426,13 +116422,13 @@ aae
 aae
 bQH
 bQK
-bQR
-bRI
-bRI
-bRI
-bSv
-bSL
-bTa
+bhU
+bin
+bjU
+bjC
+bin
+bhU
+bSZ
 bSZ
 bTF
 bTU
@@ -116683,16 +116679,16 @@ aae
 aae
 bQH
 bQK
-bQR
-bRJ
-bRJ
-bRJ
-bRJ
-bRJ
+bhU
+bhU
+bhU
+bhU
+bhU
+bhU
 bSZ
 bSZ
 bTF
-bSZ
+bhB
 bRa
 aok
 bUR
@@ -125061,7 +125057,7 @@ aae
 aae
 aae
 ajX
-bJy
+biI
 bJN
 boU
 boU
@@ -142979,7 +142975,7 @@ aae
 aae
 aae
 aae
-mza
+aaB
 aaB
 aae
 aae
@@ -144513,7 +144509,7 @@ aae
 aae
 aae
 aaB
-mza
+aaB
 aaB
 amH
 aaB
@@ -148113,7 +148109,7 @@ wIv
 aaB
 aaB
 aaB
-mza
+aaB
 aae
 aae
 aae
@@ -148882,7 +148878,7 @@ aae
 aaB
 aaB
 aaB
-mza
+aaB
 plK
 aaB
 aaB
