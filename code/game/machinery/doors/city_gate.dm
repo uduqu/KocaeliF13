@@ -39,11 +39,13 @@
 
 //bos
 /obj/machinery/door/poddoor/gate/bos
-	name = "city gate"
+	name = "pneumatic door"
 	desc = "A rather massive pneumatic door. No chance of getting through this."
 	icon = 'icons/fallout/objects/structures/brotherhood_gate.dmi'
 	icon_state = "closed"
 	id = null
+
+	bound_width = 64//should work
 
 /obj/machinery/door/poddoor/gate/bos/ex_act(severity, target)
 	return
