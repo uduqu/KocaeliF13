@@ -8806,6 +8806,17 @@
 	tag = "icon-verylittleshadowright"
 	},
 /area/f13/wasteland)
+"axK" = (
+/obj/structure/table,
+/obj/machinery/light,
+/obj/item/circuitboard/machine/dna_vault,
+/obj/item/circuitboard/machine/plantgenes/vault,
+/obj/item/disk/plantgene,
+/obj/item/disk/plantgene,
+/obj/item/disk/plantgene,
+/obj/item/dna_probe,
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/space)
 "axL" = (
 /obj/structure/wreck/trash/five_tires,
 /turf/open/indestructible/ground/outside/road{
@@ -18686,16 +18697,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/farm)
-"aYF" = (
-/obj/structure/table,
-/obj/machinery/light,
-/obj/item/circuitboard/machine/dna_vault,
-/obj/item/circuitboard/machine/plantgenes/vault,
-/obj/item/disk/plantgene,
-/obj/item/disk/plantgene,
-/obj/item/disk/plantgene,
-/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
-/area/space)
 "aYG" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -118306,7 +118307,7 @@ cbS
 ccx
 cdi
 cdJ
-aYF
+axK
 bRa
 bQR
 bQK

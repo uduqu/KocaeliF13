@@ -274,7 +274,7 @@ Decanus
 	mask =			/obj/item/clothing/mask/bandana/legdecan
 	glasses = 		/obj/item/clothing/glasses/sunglasses/big
 	suit = 			/obj/item/clothing/suit/armor/f13/legion/heavy
-	head = 			/obj/item/clothing/head/helmet/f13/legion/heavy
+	head = 			/obj/item/clothing/head/helmet/f13/legion/vet/decan
 	suit_store = 	/obj/item/gun/ballistic/revolver/ballisticfist
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola=1, \

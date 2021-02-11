@@ -127,7 +127,7 @@
 	canSmoothWith = list(/turf/closed/wall/f13/tunnel, /turf/closed/wall)
 
 /turf/closed/wall/f13/vault
-	name = "vault wall"
+	name = "composite wall"
 	desc = "A sturdy and cold metal wall."
 	icon = 'icons/fallout/turfs/walls/vault.dmi'
 	icon_state = "vault0"
@@ -144,15 +144,18 @@
 	icon_state = "matrix"
 
 /turf/closed/wall/r_wall/f13/vault
-	name = "vault reinforced wall"
+	name = "composite reinforced wall"
 	desc = "A wall built to withstand an atomic explosion."
 	icon = 'icons/fallout/turfs/walls/vault_reinforced.dmi'
 	icon_state = "vaultrwall0"
 	icon_type_smooth = "vaultrwall"
 	hardness = 230
-	explosion_block = 5
+//	explosion_block = 5
 	smooth = SMOOTH_OLD
 	canSmoothWith = list(/turf/closed/wall/f13/vault, /turf/closed/wall/r_wall/f13/vault, /turf/closed/wall)
+
+/turf/closed/wall/r_wall/f13/vault/ex_act(severity, target)
+	return
 
 //Fallout 13 indestructible walls
 
