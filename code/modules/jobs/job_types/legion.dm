@@ -104,6 +104,7 @@ Centurion
 	req_admin_notify = 1
 	exp_requirements = 360
 	exp_type = EXP_TYPE_DECANUS
+	var/cent_age = CET_AGE_MIN
 
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13centurion
 
@@ -118,6 +119,8 @@ Centurion
 	H.add_quirk("Lifegiver")
 	H.add_quirk("Iron Fist")
 	H.add_quirk("Big Leagues")
+	if(H.age < cent_age)
+		H.age = cent_age
 
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13centurion

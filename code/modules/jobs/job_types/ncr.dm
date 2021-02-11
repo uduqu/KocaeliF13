@@ -67,6 +67,7 @@ Captain
 	req_admin_notify = 1
 	exp_requirements = 360
 	exp_type = EXP_TYPE_NCRCOMMAND
+	var/cap_age = CAP_AGE_MIN
 
 	outfit = /datum/outfit/job/ncr/f13captain
 
@@ -91,6 +92,11 @@ Captain
 		/obj/item/storage/bag/money/small/ncr, \
 		/obj/item/clothing/mask/ncr_facewrap)
 
+
+/datum/job/ncr/f13captain/after_spawn(mob/living/carbon/human/H, mob/M)
+	H.add_quirk("Lifegiver")
+	if(H.age < cap_age)
+		H.age = cap_age
 
 
 /*
@@ -532,6 +538,7 @@ Veteran Ranger
 	selection_color = "#ffeeaa"
 	exp_requirements = 360
 	exp_type = EXP_TYPE_RANGER
+	var/vet_age = VET_AGE_MIN //twenty years minimum, so 40y at least.
 
 	outfit = /datum/outfit/job/ncr/f13vetranger
 
@@ -545,7 +552,8 @@ Veteran Ranger
 	H.add_quirk("Hard Yards")
 	H.add_quirk("Lifegiver")
 	H.add_quirk("Iron Fist")
-
+	if(H.age < vet_age)
+		H.age = vet_age
 
 /datum/outfit/job/ncr/f13vetranger
 	name = "NCR Veteran Ranger"
@@ -561,6 +569,7 @@ Veteran Ranger
 		/obj/item/kitchen/knife/combat=1, \
 		/obj/item/reagent_containers/hypospray/medipen/stimpak=1, \
 		/obj/item/storage/bag/money/small/ncrofficers)
+
 
 /datum/outfit/loadout/vrelite
 	name = "Support Veteran Ranger"

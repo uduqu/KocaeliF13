@@ -160,6 +160,13 @@
 	sheet_type = /obj/item/stack/rods
 	canSmoothWith = list(/turf/closed/wall/mineral/iron, /obj/structure/falsewall/iron)
 
+/turf/closed/wall/mineral/iron/bos
+	name = "reinforced structure"
+	desc = "A wall with extremely strong composites. Looks like a blast won't do jack to it."
+
+/turf/closed/wall/mineral/iron/bos/ex_act(severity, target)
+	return
+
 /turf/closed/wall/mineral/snow
 	name = "packed snow wall"
 	desc = "A wall made of densely packed snow blocks."
