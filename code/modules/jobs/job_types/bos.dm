@@ -54,9 +54,9 @@ Elder
 	outfit = /datum/outfit/job/bos/f13elder
 	exp_requirements = 1200
 	exp_type = EXP_TYPE_BROTHERHOODCMD
-
 	access = list(ACCESS_ROBOTICS, ACCESS_BOS, ACCESS_ENGINE_EQUIP, ACCESS_ENGINE, ACCESS_HYDROPONICS, ACCESS_MINERAL_STOREROOM, ACCESS_KITCHEN, ACCESS_BAR, ACCESS_SEC_DOORS)
 	minimal_access = list(ACCESS_ROBOTICS, ACCESS_BOS, ACCESS_ENGINE_EQUIP, ACCESS_ENGINE, ACCESS_HYDROPONICS, ACCESS_MINERAL_STOREROOM, ACCESS_KITCHEN, ACCESS_BAR, ACCESS_SEC_DOORS)
+	var/elder_age = ELD_AGE_MIN
 
 	loadout_options = list(
 	/datum/outfit/loadout/elderpally,
@@ -78,6 +78,8 @@ Elder
 	H.add_quirk("Hard Yards")
 	H.add_quirk("Lifegiver")
 	H.add_quirk("Iron Fist")
+	if(H.age < elder_age)
+		H.age = elder_age
 
 /datum/outfit/loadout/elderpally
 	name = "Paladin Elder"
@@ -183,6 +185,11 @@ Head Scribe
 	selection_color = "#7f8c8d"
 	exp_requirements = 600
 	exp_type = EXP_TYPE_SCRIBE
+	var/leader1_age = LED_AGE_MIN
+
+/datum/job/bos/f13headscribe/after_spawn(mob/living/carbon/human/H, mob/M)
+	if(H.age < leader1_age)
+		H.age = leader1_age
 
 	loadout_options = list(
 	/datum/outfit/loadout/hsstand, //Needler, pen, and medbeam
@@ -328,11 +335,12 @@ Senior Paladin
 	selection_color = "#95a5a6"
 	exp_requirements = 360
 	exp_type = EXP_TYPE_BROTHERHOODCMD
+	var/leader2_age = LED_AGE_MIN
 
 	loadout_options = list(
-		/datum/outfit/loadout/spaladina, //Super Sledge
-		/datum/outfit/loadout/spaladinb, //Goliath powerfist
-		/datum/outfit/loadout/spaladinc, //Lasergatling. God help them.
+		/datum/outfit/loadout/spaladina,
+		/datum/outfit/loadout/spaladinb,
+		/datum/outfit/loadout/spaladinc,
 		)
 
 	outfit = /datum/outfit/job/bos/f13seniorpaladin
@@ -359,8 +367,7 @@ Senior Paladin
 /datum/outfit/loadout/spaladina
 	name = "Frontline Senior-Paladin"
 	backpack_contents = list(
-		/obj/item/gun/ballistic/shotgun/automatic/combat=1,
-		/obj/item/storage/box/lethalshot=2,
+		/obj/item/twohanded/sledgehammer/supersledge=1,
 		)
 
 /datum/outfit/loadout/spaladinb
@@ -378,7 +385,8 @@ Senior Paladin
 
 /datum/job/bos/f13seniorpaladin/after_spawn(mob/living/carbon/human/H, mob/M)
 	H.add_quirk("Hard Yards")
-
+	if(H.age < leader2_age)
+		H.age = leader2_age
 
 
 

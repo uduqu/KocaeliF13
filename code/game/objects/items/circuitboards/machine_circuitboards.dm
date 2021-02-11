@@ -447,7 +447,7 @@
 		/obj/item/stock_parts/scanning_module = 1)
 
 /obj/item/circuitboard/machine/plantgenes/vault
-	name = "alien board (Plant DNA Manipulator)"
+	name = "foreign board (Plant DNA Manipulator)"
 	icon_state = "abductor_mod"
 	// It wasn't made by actual abductors race, so no abductor tech here.
 	def_components = list(

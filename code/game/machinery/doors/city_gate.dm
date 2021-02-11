@@ -36,3 +36,14 @@
 	..()
 	for(var/atom/movable/S in opacity_objects)
 		S.set_opacity(1)
+
+//bos
+/obj/machinery/door/poddoor/gate/bos
+	name = "city gate"
+	desc = "A rather massive pneumatic door. No chance of getting through this."
+	icon = 'icons/fallout/objects/structures/brotherhood_gate.dmi'
+	icon_state = "closed"
+	id = null
+
+/obj/machinery/door/poddoor/gate/bos/ex_act(severity, target)
+	return

@@ -200,7 +200,8 @@ GLOBAL_LIST_INIT(security_positions, list(
 ))
 
 GLOBAL_LIST_INIT(silicon_positions, list(
-    "Mr. Handy"
+    "Mr. Handy",
+    "Cyborg"
 ))
 
 GLOBAL_LIST_INIT(tribal_positions, list(

@@ -155,8 +155,8 @@
 #define NUTRITION_LEVEL_START_MIN 250
 #define NUTRITION_LEVEL_START_MAX 400
 
-#define THIRST_LEVEL_START_MIN 140
-#define THIRST_LEVEL_START_MAX 240
+#define THIRST_LEVEL_START_MIN 340
+#define THIRST_LEVEL_START_MAX 480
 
 //Disgust levels for humans
 #define DISGUST_LEVEL_MAXEDOUT 150
@@ -249,11 +249,20 @@
 #define AGE_MAX				85	//oldest a character can be
 #define WIZARD_AGE_MIN		30	//youngest a wizard can be
 #define APPRENTICE_AGE_MIN	29	//youngest an apprentice can be
+
+#define VET_AGE_MIN		40	//youngest a Veteran Ranger can be
+#define CAP_AGE_MIN		30	//youngest an NCR Captain can be
+
+#define CET_AGE_MIN		30	//youngest a Centurion can be
+
+#define ELD_AGE_MIN		45	//youngest an Elder can be
+#define LED_AGE_MIN		35	//youngest a BoS Leader can be, excluding Elder
+
 #define SHOES_SLOWDOWN		0	//How much shoes slow you down by default. Negative values speed you up
 #define POCKET_STRIP_DELAY			40	//time taken (in deciseconds) to search somebody's pockets
 #define DOOR_CRUSH_DAMAGE	15	//the amount of damage that airlocks deal when they crush you
 
-#define THIRST_FACTOR		0.2
+#define THIRST_FACTOR		0.1
 #define	HUNGER_FACTOR		0.1	//factor at which mob nutrition decreases
 #define	REAGENTS_METABOLISM 0.4	//How many units of reagent are consumed per tick, by default.
 #define REAGENTS_EFFECT_MULTIPLIER (REAGENTS_METABOLISM / 0.4)	// By defining the effect multiplier this way, it'll exactly adjust all effects according to how they originally were with the 0.4 metabolism

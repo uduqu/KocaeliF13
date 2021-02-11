@@ -8806,13 +8806,6 @@
 	tag = "icon-verylittleshadowright"
 	},
 /area/f13/wasteland)
-"axK" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/handy/robobrain{
-	name = "Shipment Management Robobrain"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/tunnel)
 "axL" = (
 /obj/structure/wreck/trash/five_tires,
 /turf/open/indestructible/ground/outside/road{
@@ -13028,6 +13021,18 @@
 	icon_state = "dirt"
 	},
 /area/f13/farm)
+"aIT" = (
+/obj/structure/table,
+/obj/machinery/camera/autoname{
+	dir = 10;
+	icon_state = "camera"
+	},
+/obj/machinery/button/door{
+	id = 103;
+	name = "Blast Door"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/f13/vault/security/checkpoint)
 "aIU" = (
 /obj/structure/table,
 /obj/item/kitchen/fork,
@@ -13913,17 +13918,15 @@
 	},
 /area/f13/city)
 "aLp" = (
-/obj/structure/table,
-/obj/machinery/camera/autoname{
-	dir = 10;
-	icon_state = "camera"
-	},
+/obj/structure/table/reinforced,
 /obj/machinery/button/door{
-	id = 660;
-	name = "Blast Door"
+	id = "bos_ps1"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
-/area/f13/vault/security/checkpoint)
+/turf/open/floor/f13{
+	icon_state = "floordirtysolid";
+	tag = "icon-floordirtysolid"
+	},
+/area/f13/brotherhood)
 "aLq" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -18683,6 +18686,16 @@
 	icon_state = "dirt"
 	},
 /area/f13/farm)
+"aYF" = (
+/obj/structure/table,
+/obj/machinery/light,
+/obj/item/circuitboard/machine/dna_vault,
+/obj/item/circuitboard/machine/plantgenes/vault,
+/obj/item/disk/plantgene,
+/obj/item/disk/plantgene,
+/obj/item/disk/plantgene,
+/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
+/area/space)
 "aYG" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -18824,14 +18837,10 @@
 	},
 /area/f13/building)
 "aYT" = (
-/obj/machinery/door/poddoor{
+/obj/machinery/door/poddoor/preopen{
 	id = 42
 	},
-/turf/open/floor/plasteel/barber{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "bluerustychess2";
-	tag = "icon-bluerustychess2"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building)
 "aYU" = (
 /obj/structure/rack,
@@ -19184,6 +19193,12 @@
 	tag = "icon-bluerustychess2"
 	},
 /area/f13/building)
+"aZP" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/item/reagent_containers/glass/bucket,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/vault/custodial)
 "aZQ" = (
 /obj/structure/simple_door/metal/fence,
 /turf/open/indestructible/ground/outside/dirt{
@@ -19954,14 +19969,10 @@
 	},
 /area/f13/bunker)
 "bbM" = (
-/obj/machinery/door/poddoor/preopen{
+/obj/machinery/door/poddoor{
 	id = 42
 	},
-/turf/open/floor/plasteel/barber{
-	icon = 'icons/turf/f13floors2.dmi';
-	icon_state = "bluerustychess2";
-	tag = "icon-bluerustychess2"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building)
 "bbN" = (
 /obj/structure/simple_door/room,
@@ -20479,6 +20490,20 @@
 	tag = "icon-redmark"
 	},
 /area/f13/building)
+"bdg" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "Custodial Closet APC";
+	pixel_x = -30
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/item/reagent_containers/glass/bucket,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/vault/custodial)
 "bdh" = (
 /mob/living/simple_animal/hostile/radscorpion,
 /turf/open/indestructible/ground/outside/desert,
@@ -20534,6 +20559,19 @@
 	tag = "icon-bluerustychess2"
 	},
 /area/f13/building)
+"bdo" = (
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/mop,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 9
+	},
+/obj/effect/turf_decal/bot,
+/obj/structure/sink/bsink{
+	dir = 4;
+	pixel_x = 11
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue,
+/area/f13/vault/custodial)
 "bdp" = (
 /obj/structure/simple_door/metal/fence,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -20574,6 +20612,17 @@
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
 /turf/open/floor/f13/wood,
+/area/f13/building)
+"bdx" = (
+/obj/machinery/computer/shuttle/vault113elevator{
+	dir = 4;
+	icon_state = "computer"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building)
 "bdy" = (
 /mob/living/simple_animal/hostile/ghoul/reaver,
@@ -20703,6 +20752,14 @@
 /obj/structure/table/wood,
 /obj/machinery/microwave,
 /turf/open/floor/f13/wood,
+/area/f13/building)
+"bdR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button{
+	id = "vault_lockdown_surface";
+	pixel_x = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building)
 "bdS" = (
 /obj/structure/table/wood,
@@ -21677,13 +21734,9 @@
 	},
 /area/f13/wasteland)
 "bgp" = (
-/obj/structure/table/reinforced,
-/obj/machinery/button/door,
-/turf/open/floor/f13{
-	icon_state = "floordirtysolid";
-	tag = "icon-floordirtysolid"
-	},
-/area/f13/brotherhood)
+/obj/structure/simple_door/bunker/glass,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/building)
 "bgq" = (
 /obj/item/picket_sign,
 /turf/open/indestructible/ground/outside/road{
@@ -21705,6 +21758,13 @@
 	tag = "icon-dirt (SOUTHEAST)"
 	},
 /area/f13/wasteland)
+"bgt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/building)
 "bgu" = (
 /obj/effect/decal/remains{
 	icon_state = "remains";
@@ -21886,10 +21946,27 @@
 /obj/item/clothing/under/f13/doctor,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"bgS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/building)
 "bgT" = (
 /obj/item/flag/legion,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"bgU" = (
+/obj/docking_port/stationary{
+	dheight = 0;
+	dir = 8;
+	dwidth = 1;
+	height = 3;
+	id = "Vault113_Level_1";
+	name = "Surface";
+	roundstart_template = /datum/map_template/shuttle/vault113/elevator;
+	width = 4
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/building)
 "bgV" = (
 /obj/structure/rack,
 /obj/item/kitchen/fork{
@@ -21950,6 +22027,12 @@
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/building)
+"bhd" = (
+/obj/machinery/door/poddoor{
+	id = "vault_lockdown_surface"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/f13/building)
 "bhe" = (
 /obj/structure/table,
 /obj/item/ammo_casing/shotgun/buckshot,
@@ -21960,6 +22043,13 @@
 	icon_state = "redmark";
 	tag = "icon-redmark (SOUTHWEST)"
 	},
+/area/f13/building)
+"bhf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building)
 "bhh" = (
 /turf/closed/wall/f13/wood,
@@ -23752,19 +23842,6 @@
 /obj/structure/sink/well/dwell,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
-"bmq" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 12
-	},
-/obj/item/reagent_containers/glass/bucket,
-/obj/item/mop,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 9
-	},
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel/f13/vault_floor/blue,
-/area/f13/vault/custodial)
 "bmr" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -32393,12 +32470,6 @@
 "bRg" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/custodial)
-"bRh" = (
-/obj/structure/reagent_dispensers/watertank,
-/obj/item/reagent_containers/glass/bucket,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel/f13/vault_floor/blue,
-/area/f13/vault/custodial)
 "bRi" = (
 /obj/structure/bed,
 /obj/machinery/light/small{
@@ -32483,17 +32554,6 @@
 /obj/effect/spawner/lootdrop/f13/traitbooks,
 /turf/open/floor/f13/wood,
 /area/f13/sewer)
-"bRu" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "Custodial Closet APC";
-	pixel_x = -30
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue,
-/area/f13/vault/custodial)
 "bRv" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -37102,11 +37162,6 @@
 	dir = 6
 	},
 /obj/machinery/rnd/production/protolathe,
-/turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
-/area/f13/vault/science)
-"cei" = (
-/obj/structure/table,
-/obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
 /area/f13/vault/science)
 "cej" = (
@@ -45196,12 +45251,12 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
-aae
+aeD
+aeD
+aeD
+aeD
+aeD
+aeD
 aae
 aae
 aae
@@ -45453,12 +45508,12 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
-aae
+aeD
+aeZ
+aeZ
+aeZ
+aeZ
+aeD
 aae
 aae
 aae
@@ -45710,12 +45765,12 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
-aae
+aeD
+aeZ
+aeZ
+aeZ
+aeZ
+aeD
 aae
 aae
 aae
@@ -45967,12 +46022,12 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
-aae
+aeD
+aeZ
+aeZ
+bgU
+aeZ
+aeD
 aae
 aae
 aae
@@ -46224,12 +46279,12 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
-aae
+aeD
+afX
+bgp
+bgp
+afX
+aeD
 aae
 aae
 aae
@@ -46481,12 +46536,12 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
-aae
+aeD
+bdx
+bgt
+bgt
+bgt
+aeD
 aae
 aae
 aae
@@ -46738,12 +46793,12 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
-aae
+aeD
+bdR
+bgS
+bgS
+bhf
+aeD
 aae
 aae
 aae
@@ -46995,12 +47050,12 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
-aae
-aae
+aeD
+aeD
+bgS
+bgS
+aeD
+aeD
 aae
 aae
 aae
@@ -47253,10 +47308,10 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
+aeD
+bgS
+bgS
+aeD
 aae
 aae
 aae
@@ -47510,10 +47565,10 @@ aae
 aae
 aae
 aae
-aae
-aae
-aae
-aae
+aeD
+bgS
+bgS
+aeD
 aae
 aae
 aae
@@ -47767,10 +47822,10 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
+aeD
+bgS
+bgS
+aeD
 aaa
 aaa
 aaa
@@ -48025,8 +48080,8 @@ agk
 agk
 agk
 agk
-agk
-agk
+bhd
+bhd
 agk
 agk
 agk
@@ -48282,7 +48337,7 @@ aXd
 baj
 baH
 baZ
-bbo
+acC
 acC
 agk
 bce
@@ -48539,7 +48594,7 @@ acC
 acC
 acC
 baZ
-bbp
+acC
 acC
 aYj
 acC
@@ -50597,12 +50652,12 @@ acC
 bba
 acC
 acC
-bbM
-acC
-acC
-acC
-acC
 aYT
+acC
+acC
+acC
+acC
+bbM
 abS
 coh
 abS
@@ -50854,12 +50909,12 @@ acC
 acC
 acC
 aXc
-bbM
+aYT
 aXc
 acC
 acC
 acC
-aYT
+bbM
 abS
 abS
 abS
@@ -51111,12 +51166,12 @@ acC
 aXc
 acC
 acC
-bbM
+aYT
 acC
 acC
 aXc
 acC
-aYT
+bbM
 abS
 abS
 abS
@@ -110821,7 +110876,7 @@ bQH
 awS
 cjZ
 ckl
-axK
+ckl
 ckl
 avw
 ckS
@@ -112098,7 +112153,7 @@ chu
 chP
 cip
 ciK
-aLp
+aIT
 bRa
 bQR
 bQK
@@ -117963,7 +118018,7 @@ bQK
 bQR
 bRa
 bRf
-bRu
+bdg
 bRK
 bRa
 bSc
@@ -118251,7 +118306,7 @@ cbS
 ccx
 cdi
 cdJ
-cei
+aYF
 bRa
 bQR
 bQK
@@ -118476,9 +118531,9 @@ bQH
 bQK
 bQR
 bRa
-bRh
+aZP
 bRw
-bmq
+bdo
 bRa
 bSe
 bSB
@@ -165869,7 +165924,7 @@ bAM
 bEe
 bDI
 bAM
-bgp
+aLp
 bgC
 bGT
 cnA
