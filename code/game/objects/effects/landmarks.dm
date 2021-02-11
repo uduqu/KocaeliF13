@@ -187,6 +187,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 /obj/effect/landmark/start/cyborg
 	name = "Cyborg"
 	icon_state = "Cyborg"
+	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/ai
 	name = "AI"
