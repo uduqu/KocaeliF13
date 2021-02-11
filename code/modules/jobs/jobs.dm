@@ -59,7 +59,8 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 "Sheriff",
 "Deputy",
 "Chief",
-"Shaman"
+"Shaman",
+"Cyborg"//temp
 ))
 GLOBAL_LIST_INIT(faction_player_positions, list(
 "Senior Paladin",
@@ -182,7 +183,8 @@ GLOBAL_LIST_INIT(vault_positions, list(
     "Vault-tec Scientist",
     "Vault-tec Security",
     "Vault-tec Engineer",
-    "Vault Dweller"
+    "Vault Dweller",
+    "Cyborg"
 ))
 
 GLOBAL_LIST_INIT(wasteland_positions, list(

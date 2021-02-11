@@ -74,7 +74,7 @@ Cyborg
 	title = "Cyborg"
 	flag = CYBORG
 	department_flag = ENGSEC
-	//faction = "Station"
+	faction = "Vault"
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "your laws and the AI"	//Nodrak
@@ -106,9 +106,9 @@ Mr. Handy
 	exp_requirements = 240
 	exp_type = EXP_TYPE_VAULT
 
-/datum/job/cyborg/equip(mob/living/carbon/human/H, visualsOnly = FALSE, announce = TRUE, latejoin = FALSE)
+/datum/job/handy/equip(mob/living/carbon/human/H, visualsOnly = FALSE, announce = TRUE, latejoin = FALSE)
 	return H.Robotize(FALSE, latejoin)
 
-/datum/job/cyborg/after_spawn(mob/living/silicon/robot/R, mob/M)
+/datum/job/handy/after_spawn(mob/living/silicon/robot/R, mob/M)
 	R.add_trait(TRAIT_TECHNOPHREAK, TRAIT_GENERIC)
 	R.apply_pref_name("cyborg", M.client)
