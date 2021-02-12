@@ -20869,6 +20869,22 @@
 	tag = "icon-bluerustychess2"
 	},
 /area/f13/building)
+"bee" = (
+/obj/structure/closet/crate/secure/weapon{
+	name = "secure crate"
+	},
+/obj/item/assembly/signaler/electropack/boomcollar,
+/obj/item/assembly/signaler/electropack/boomcollar,
+/obj/item/assembly/signaler/electropack/shockcollar,
+/obj/item/assembly/signaler/electropack/shockcollar,
+/obj/item/assembly/signaler/electropack/shockcollar,
+/obj/item/assembly/signaler/electropack/shockcollar,
+/obj/item/assembly/signaler/advanced,
+/turf/open/floor/f13{
+	icon_state = "floordirtysolid";
+	tag = "icon-floordirtysolid"
+	},
+/area/f13/brotherhood)
 "bef" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -20931,6 +20947,11 @@
 	tag = "icon-bluerustychess2"
 	},
 /area/f13/building)
+"bem" = (
+/obj/structure/rack,
+/obj/item/crowbar,
+/turf/open/floor/plating,
+/area/f13/brotherhood)
 "ben" = (
 /obj/effect/decal/remains{
 	icon_state = "remains";
@@ -21415,6 +21436,7 @@
 /obj/effect/spawner/lootdrop/f13/cash_legion_high,
 /obj/effect/spawner/lootdrop/f13/cash_random_high,
 /obj/effect/spawner/lootdrop/f13/traitbooks,
+/obj/item/storage/bag/money/small,
 /turf/open/floor/f13{
 	icon_state = "floordirtysolid";
 	tag = "icon-floordirtysolid"
@@ -164855,7 +164877,7 @@ bBD
 bBF
 bBF
 bAD
-bCO
+bem
 aqj
 bDT
 bEg
@@ -164877,7 +164899,7 @@ bAD
 bCh
 bAM
 bAM
-bCj
+bee
 bAD
 bAD
 bGO

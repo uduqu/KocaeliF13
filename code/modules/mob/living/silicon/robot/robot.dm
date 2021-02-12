@@ -213,11 +213,11 @@
 
 	var/list/modulelist = list("Standard" = /obj/item/robot_module/standard, \
 	"Engineering" = /obj/item/robot_module/engineering, \
-	"Medical" = /obj/item/robot_module/medical, \
+/*	"Medical" = /obj/item/robot_module/medical, \*/
 	"Miner" = /obj/item/robot_module/miner, \
 	"Janitor" = /obj/item/robot_module/janitor, \
 	"Service" = /obj/item/robot_module/butler, \
-	"Handy Fisto" = /obj/item/robot_module/sexy_handy, \
+/*	"Handy Fisto" = /obj/item/robot_module/sexy_handy, \*/
 	"Fisto" = /obj/item/robot_module/fisto_protectron)
 	if(!CONFIG_GET(flag/disable_peaceborg))
 		modulelist["Peacekeeper"] = /obj/item/robot_module/peacekeeper
