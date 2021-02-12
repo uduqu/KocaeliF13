@@ -86,6 +86,9 @@ GLOBAL_LIST_INIT(metal_recipes, list ( \
 	new/datum/stack_recipe("key", /obj/item/door_key, 1), \
 	new/datum/stack_recipe("key chain", /obj/item/storage/keys_set, 1), \
 	new/datum/stack_recipe("metal parts", /obj/item/stack/crafting/metalparts, 5), \
+	new/datum/stack_recipe("small grenade casing", /obj/item/grenade/chem_grenade, 15),
+	new/datum/stack_recipe("large grenade casing", /obj/item/grenade/chem_grenade/large, 25),
+
 	null, \
 	new/datum/stack_recipe("floodlight frame", /obj/structure/floodlight_frame, 5, one_per_turf = TRUE, on_floor = TRUE), \
 ))
