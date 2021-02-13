@@ -123,7 +123,7 @@ Hotkey-Mode: (hotkey-mode must be on)
 \to = OOC
 \tl = LOOC
 \tb = resist
-\tv = rest
+\tu = rest
 \t<B></B>h = stop pulling
 \tx = swap-hand
 \tz = activate held object
@@ -149,7 +149,7 @@ Any-Mode: (hotkey doesn't need to be on)
 \tCtrl+e = equip
 \tCtrl+r = throw
 \tCtrl+b = resist
-\tCtrl+v = rest
+\tCtrl+u = rest
 \tCtrl+h = stop pulling
 \tCtrl+y = whisper
 \tCtrl+o = OOC

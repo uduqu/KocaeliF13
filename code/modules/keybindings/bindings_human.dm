@@ -1,5 +1,5 @@
 /mob/living/carbon/human/key_down(_key, client/user)
-	if(_key == "V")// Rest, also cringe code not in a switch statement like every other keybinding bc the switch starts in the if statement
+	if(_key == "U")// Rest, also cringe code not in a switch statement like every other keybinding bc the switch starts in the if statement
 		lay_down()
 		return
 	if(client.keys_held["Shift"])

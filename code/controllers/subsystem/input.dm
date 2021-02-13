@@ -79,7 +79,7 @@ SUBSYSTEM_DEF(input)
 		"W" = "W", "A" = "A", "S" = "S", "D" = "D", // movement
 		"1" = "1", "2" = "2", "3" = "3", "4" = "4", // intent
 		"B" = "B", // resist
-		"V" = "V", // rest
+		"U" = "U", // rest
 		"E" = "E", // quick equip
 		"F" = "F", // intent left
 		"G" = "G", // intent right
