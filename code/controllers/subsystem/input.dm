@@ -32,7 +32,9 @@ SUBSYSTEM_DEF(input)
 		"default" = list(
 			"Tab" = "\".winset \\\"input.focus=true?map.focus=true input.background-color=[COLOR_INPUT_DISABLED]:input.focus=true input.background-color=[COLOR_INPUT_ENABLED]\\\"\"",
 			"O" = "ooc",
+			"L" = "looc",
 			"T" = "say",
+			"Y" = "whisper",
 			"M" = "me",
 			"Back" = "\".winset \\\"input.text=\\\"\\\"\\\"\"", // This makes it so backspace can remove default inputs
 			"Any" = "\"KeyDown \[\[*\]\]\"",
@@ -41,13 +43,16 @@ SUBSYSTEM_DEF(input)
 		"old_default" = list(
 			"Tab" = "\".winset \\\"mainwindow.macro=old_hotkeys map.focus=true input.background-color=[COLOR_INPUT_DISABLED]\\\"\"",
 			"Ctrl+T" = "say",
+			"Ctrl+Y" = "whisper",
 			"Ctrl+O" = "ooc",
 			"Ctrl+L" = "looc",
 			),
 		"old_hotkeys" = list(
 			"Tab" = "\".winset \\\"mainwindow.macro=old_default input.focus=true input.background-color=[COLOR_INPUT_ENABLED]\\\"\"",
 			"O" = "ooc",
+			"L" = "looc",
 			"T" = "say",
+			"Y" = "whisper",
 			"M" = "me",
 			"Back" = "\".winset \\\"input.text=\\\"\\\"\\\"\"", // This makes it so backspace can remove default inputs
 			"Any" = "\"KeyDown \[\[*\]\]\"",
@@ -74,6 +79,7 @@ SUBSYSTEM_DEF(input)
 		"W" = "W", "A" = "A", "S" = "S", "D" = "D", // movement
 		"1" = "1", "2" = "2", "3" = "3", "4" = "4", // intent
 		"B" = "B", // resist
+		"V" = "V", // rest
 		"E" = "E", // quick equip
 		"F" = "F", // intent left
 		"G" = "G", // intent right
@@ -81,7 +87,6 @@ SUBSYSTEM_DEF(input)
 		"Q" = "Q", // drop
 		"R" = "R", // throw
 		"X" = "X", // switch hands
-		"Y" = "Y", // activate item
 		"Z" = "Z", // activate item
 		)
 
