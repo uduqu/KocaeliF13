@@ -40,10 +40,13 @@
 //bos
 /obj/machinery/door/poddoor/gate/bos
 	name = "pneumatic door"
-	desc = "A rather massive pneumatic door. No chance of getting through this."
+	desc = "A rather massive pneumatic door. No chance of getting through this."//Seriously. Lets not get through this. You can deconstruct the walls.
 	icon = 'icons/fallout/objects/structures/brotherhood_gate.dmi'
 	icon_state = "closed"
 	id = null
+	heat_proof = TRUE
+	armor = list("melee" = 100, "bullet" = 100, "laser" = 100, "energy" = 100, "bomb" = 100, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 100)
+	resistance_flags = INDESTRUCTIBLE | FIRE_PROOF | ACID_PROOF | LAVA_PROOF
 
 	bound_width = 64//should work
 
