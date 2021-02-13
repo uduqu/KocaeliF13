@@ -126,7 +126,7 @@
 /datum/chemical_reaction/dough
 	name = "Dough"
 	id = "dough"
-	required_reagents = list("brahminmilk" = 10, "flour" = 15) // On Request of multiple odd human beings... I.. I have no fucking idea.
+	required_reagents = list("water" = 10, "flour" = 15)
 	mix_message = "The ingredients form a dough."
 
 /datum/chemical_reaction/dough/on_reaction(datum/reagents/holder, created_volume)

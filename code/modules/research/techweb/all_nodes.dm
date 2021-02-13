@@ -59,7 +59,6 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
 
-/*
 /datum/techweb_node/alien_surgery
 	id = "alien_surgery"
 	display_name = "Alien Surgery"
@@ -68,7 +67,7 @@
 	design_ids = list("surgery_brainwashing","surgery_zombie")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
-*/
+
 
 /////////////////////////data theory tech/////////////////////////
 /datum/techweb_node/datatheory //Computer science
@@ -348,14 +347,14 @@
 	export_price = 5000
 
 ////////////////////////Medical////////////////////////
-/*/datum/techweb_node/cloning
+/datum/techweb_node/cloning
 	id = "cloning"
 	display_name = "Genetic Engineering"
 	description = "We have the technology to make him."
 	prereq_ids = list("biotech")
 	design_ids = list("clonecontrol", "clonepod", "clonescanner", "scan_console", "cloning_disk")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
-	export_price = 5000*/
+	export_price = 5000
 
 /datum/techweb_node/cryotech
 	id = "cryotech"
@@ -493,7 +492,7 @@
 	design_ids = list("stunrevolver")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
-/*
+
 /datum/techweb_node/medical_weapons
 	id = "medical_weapons"
 	display_name = "Medical Weaponry"
@@ -502,43 +501,43 @@
 	design_ids = list("rapidsyringe")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
-*/
+
 
 /datum/techweb_node/beam_weapons
 	id = "beam_weapons"
-	display_name = "Beam Weaponry"
-	description = "Various basic beam weapons"
+	display_name = "Energy Weaponry"
+	description = "Various basic energy weapons"
 	prereq_ids = list("adv_weaponry")
-	design_ids = list("temp_gun")
+	design_ids = list("temp_gun", "laserrifle", "wattzlaserpistol", "laserpistol")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
-/* //NO, STOP WITH THIS MEME
+
 /datum/techweb_node/adv_beam_weapons
 	id = "adv_beam_weapons"
-	display_name = "Advanced Beam Weaponry"
-	description = "Various advanced beam weapons"
-	prereq_ids = list("beam_weapons")
-	design_ids = list("beamrifle")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
+	display_name = "Advanced Ballistic Weaponry"
+	description = "Various advanced energy weapons"
+	prereq_ids = list("beam_weapons", "ballistic_weapons")
+	design_ids = list("m72", "m72mag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 50000)//Ahahaha, no. You won't get this normally. Without wasting points, anyhow. It's D-Squad levels of awesome.
 	export_price = 5000
-*/
+
 
 /datum/techweb_node/explosive_weapons
 	id = "explosive_weapons"
 	display_name = "Explosive & Pyrotechnical Weaponry"
 	description = "If the light stuff just won't do it."
 	prereq_ids = list("adv_weaponry")
-	design_ids = list("large_Grenade", "pyro_Grenade", "adv_Grenade")
+	design_ids = list("large_Grenade", "pyro_Grenade", "adv_Grenade", "minibomb")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
-/*
+
 /datum/techweb_node/ballistic_weapons
 	id = "ballistic_weapons"
 	display_name = "Ballistic Weaponry"
 	description = "This isn't research. This is reverse-engineering!"
 	prereq_ids = list("weaponry")
-	design_ids = list("armag", "shotgunbuck", "shotgunslug", "shotgunrubber", "shotgunbean" , "smgmag", "smg", "shotgun", "ar", "bulletarmor", "bullethelmet")
+	design_ids = list("smgmag", "smg","riot_shotgunslug", "shotgun", "armag", "ar", "glauncher")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -550,7 +549,7 @@
 	design_ids = list()
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
-	*/
+
 /datum/techweb_node/gravity_gun
 	id = "gravity_gun"
 	display_name = "One-point Gravitational Manipulator"
@@ -589,7 +588,7 @@
 	"odysseus_main", "odysseus_peri")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
-/*
+
 /datum/techweb_node/gygax
 	id = "mech_gygax"
 	display_name = "EXOSUIT: Gygax"
@@ -599,6 +598,7 @@
 	"gygax_peri", "gygax_targ", "gygax_armor")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
+
 /datum/techweb_node/durand
 	id = "mech_durand"
 	display_name = "EXOSUIT: Durand"
@@ -608,6 +608,7 @@
 	"durand_peri", "durand_targ", "durand_armor")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
+
 /datum/techweb_node/phazon
 	id = "mecha_phazon"
 	display_name = "EXOSUIT: Phazon"
@@ -616,7 +617,7 @@
 	design_ids = list()
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
-*/
+
 /datum/techweb_node/mech_tools
 	id = "mech_tools"
 	display_name = "Basic Exosuit Equipment"
@@ -652,7 +653,7 @@
 	design_ids = list("mech_energy_relay", "mech_ccw_armor", "mech_proj_armor", "mech_generator_nuclear")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
-/*
+
 /datum/techweb_node/mech_scattershot
 	id = "mecha_tools"
 	display_name = "Exosuit Weapon (LBX AC 10 \"Scattershot\")"
@@ -725,7 +726,7 @@
 	design_ids = list("clusterbang_launcher")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
-/datum/techweb_node/mech_teleporter
+/*/datum/techweb_node/mech_teleporter
 	id = "mech_teleporter"
 	display_name = "Exosuit Module (Teleporter Module)"
 	description = "An advanced piece of mech Equipment"
@@ -740,7 +741,7 @@
 	prereq_ids = list("mecha", "mech_tools", "adv_bluespace")
 	design_ids = list("mech_wormhole_gen")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
-	export_price = 5000
+	export_price = 5000*/
 /datum/techweb_node/mech_taser
 	id = "mech_taser"
 	display_name =  "Exosuit Weapon (PBT \"Pacifier\" Mounted Taser)"
@@ -757,7 +758,7 @@
 	design_ids = list("mech_lmg")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
-*/
+
 /datum/techweb_node/mech_diamond_drill
 	id = "mech_diamond_drill"
 	display_name =  "Exosuit Diamond Drill"

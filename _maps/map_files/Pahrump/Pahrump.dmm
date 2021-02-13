@@ -24091,6 +24091,12 @@
 /obj/structure/chair,
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
+"bmC" = (
+/obj/structure/frame/machine,
+/obj/item/circuitboard/computer/prototype_cloning,
+/obj/item/circuitboard/machine/clonepod/experimental,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/vault/science/biology)
 "bmD" = (
 /obj/structure/table/wood/settler,
 /obj/item/defibrillator/loaded,
@@ -24099,6 +24105,15 @@
 	tag = "icon-bluedirtychess2"
 	},
 /area/f13/ncr)
+"bmE" = (
+/obj/machinery/light,
+/obj/structure/window/reinforced/spawner/west,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/item/pipe_dispenser,
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/radiation)
 "bmF" = (
 /turf/closed/wall/f13/wood/interior,
 /area/f13/city)
@@ -24120,6 +24135,10 @@
 /obj/structure/window/fulltile/house,
 /turf/open/floor/f13/wood,
 /area/f13/city)
+"bmJ" = (
+/obj/structure/sign/warning/radiation/rad_area,
+/turf/closed/indestructible/vaultdoor,
+/area/f13/vault)
 "bmK" = (
 /obj/structure/bed/mattress/pregame,
 /obj/item/clothing/head/fedora,
@@ -24420,6 +24439,9 @@
 /obj/structure/simple_door/brokenglass,
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
+"bnB" = (
+/turf/closed/indestructible/vaultdoor,
+/area/f13/vault)
 "bnC" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /turf/open/floor/f13{
@@ -24617,6 +24639,21 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
+"bod" = (
+/obj/structure/fence/handrail,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/camera/autoname{
+	dir = 5;
+	icon_state = "camera"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/tunnel)
 "bof" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -35229,14 +35266,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/vault/reactor)
-"bYL" = (
-/obj/machinery/light,
-/obj/structure/window/reinforced/spawner/west,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/radiation)
 "bYM" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -38283,12 +38312,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/vault)
-"chh" = (
-/obj/structure/sign/warning/radiation/rad_area,
-/turf/closed/wall/r_wall/f13vault{
-	icon_state = "2-i"
-	},
-/area/f13/vault)
 "chi" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
@@ -39431,17 +39454,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/f13/tcoms)
-"ckR" = (
-/obj/structure/fence/handrail,
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 10
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/tunnel)
 "ckS" = (
 /obj/structure/fence/handrail,
 /obj/effect/turf_decal/stripes/line,
@@ -109048,7 +109060,7 @@ bWM
 bXp
 bXN
 bYp
-bYL
+bmE
 bWg
 bZG
 bSN
@@ -109084,7 +109096,7 @@ lwX
 ckr
 ckr
 ckr
-ckR
+bod
 aae
 aaa
 "}
@@ -112408,14 +112420,14 @@ cfL
 cez
 cez
 cez
-cfa
-chh
-bRa
+cjk
+bmJ
+bnB
 chQ
 chQ
 chQ
-bRa
-chh
+bnB
+bmJ
 bQH
 bQH
 bQH
@@ -113436,14 +113448,14 @@ cez
 cez
 cez
 cez
-cfa
-chh
-bRa
-bRa
-bRa
-bRa
-bRa
-chh
+cjk
+bmJ
+bnB
+bnB
+bnB
+bnB
+bnB
+bmJ
 bQH
 bQH
 bQH
@@ -117512,7 +117524,7 @@ bQR
 biZ
 bjU
 bjV
-biZ
+bmC
 bhU
 bSZ
 bTp

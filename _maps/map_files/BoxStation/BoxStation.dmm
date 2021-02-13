@@ -1971,10 +1971,7 @@
 /turf/closed/indestructible/vaultdoor,
 /area/f13/admeme)
 "agi" = (
-/obj/machinery/conveyor{
-	dir = 1;
-	id = "mining_internal"
-	},
+/obj/machinery/conveyor,
 /turf/open/floor/plating,
 /area/f13/klamat/mine)
 "agj" = (
@@ -2231,13 +2228,10 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/legioncamp)
 "agW" = (
-/obj/machinery/conveyor{
-	dir = 1;
-	id = "mining_internal"
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/machinery/conveyor,
 /turf/open/floor/plating,
 /area/f13/klamat/mine)
 "agX" = (
@@ -2291,13 +2285,15 @@
 /turf/open/floor/plating,
 /area/f13/klamat/mine)
 "ahe" = (
+/obj/structure/plasticflaps,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
 /obj/machinery/conveyor{
-	dir = 4;
+	dir = 8;
 	id = "mining_internal"
 	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "yellowdirtysolid"
-	},
+/turf/open/floor/plating,
 /area/f13/klamat/mine)
 "ahf" = (
 /obj/structure/rack,
@@ -2416,36 +2412,38 @@
 	},
 /area/f13/klamat/mine)
 "ahv" = (
-/obj/structure/plasticflaps,
 /obj/effect/turf_decal/stripes/line{
-	dir = 9
+	dir = 1
 	},
 /obj/machinery/conveyor{
-	dir = 4;
+	dir = 8;
 	id = "mining_internal"
 	},
 /turf/open/floor/plating,
 /area/f13/klamat/mine)
 "ahw" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "mining_internal"
+/obj/machinery/light/small{
+	dir = 4
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/machinery/conveyor{
+	dir = 10;
+	id = "mining_internal"
 	},
 /turf/open/floor/plating,
 /area/f13/klamat/mine)
 "ahx" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1;
+	icon_state = "warningline_red"
 	},
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "mining_internal"
-	},
-/turf/open/floor/plating,
-/area/f13/klamat/mine)
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/underground/vault_atrium_upper)
 "ahy" = (
 /turf/closed/wall/f13wood{
 	icon_state = "girder-end";
@@ -5790,18 +5788,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/underground/overseer_office)
 "ars" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/obj/machinery/conveyor{
-	dir = 1;
-	id = "mining_internal"
-	},
-/turf/open/floor/plating,
-/area/f13/klamat/mine)
+/turf/closed/indestructible/vaultdoor,
+/area/f13/underground/mountain)
 "art" = (
 /obj/machinery/light{
 	dir = 4
@@ -7125,6 +7113,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
+/obj/item/pipe_dispenser,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/engine/engineering)
 "aur" = (
@@ -10969,9 +10958,7 @@
 /area/security/checkpoint)
 "aDu" = (
 /obj/structure/sign/warning/radiation/rad_area,
-/turf/closed/wall/r_wall/f13vault{
-	icon_state = "2-i"
-	},
+/turf/closed/indestructible/vaultdoor,
 /area/security/checkpoint)
 "aDv" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10981,9 +10968,7 @@
 /area/f13/underground/vault_atrium_upper)
 "aDw" = (
 /obj/structure/sign/warning/radiation/rad_area,
-/turf/closed/wall/r_wall/f13vault{
-	icon_state = "2-i"
-	},
+/turf/closed/indestructible/vaultdoor,
 /area/f13/underground/vault_atrium_upper)
 "aDx" = (
 /turf/closed/wall/r_wall/f13vault{
@@ -11289,7 +11274,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/security/checkpoint)
 "aEh" = (
-/obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
@@ -11297,6 +11281,8 @@
 	id = 102;
 	name = "Vault Door Security Checkpoint"
 	},
+/obj/structure/window/plastitanium,
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/security/checkpoint)
 "aEi" = (
@@ -11874,15 +11860,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/underground/vault_atrium_upper)
 "aFz" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1;
-	icon_state = "warningline_red"
+/obj/effect/decal/waste,
+/obj/machinery/camera/autoname{
+	dir = 5;
+	icon_state = "camera"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/underground/vault_atrium_upper)
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/underground/mountain)
 "aFA" = (
 /obj/structure/table,
 /obj/machinery/microwave,
@@ -30650,10 +30634,19 @@
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "bHi" = (
-/obj/effect/decal/waste,
-/turf/open/floor/wood/f13/old,
-/turf/open/floor/plating/f13/inside/mountain,
-/area/f13/underground/mountain)
+/obj/structure/closet/crate/secure/weapon{
+	name = "secure crate"
+	},
+/obj/item/assembly/signaler/electropack/boomcollar,
+/obj/item/assembly/signaler/electropack/boomcollar,
+/obj/item/assembly/signaler/electropack/shockcollar,
+/obj/item/assembly/signaler/electropack/shockcollar,
+/obj/item/assembly/signaler/electropack/shockcollar,
+/obj/item/assembly/signaler/electropack/shockcollar,
+/obj/item/assembly/signaler/advanced,
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood)
 "bHj" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -30690,26 +30683,19 @@
 /turf/open/floor/f13/wood,
 /area/f13/den)
 "bHo" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbrokenvertical"
-	},
-/area/f13/desert)
+/obj/structure/frame/machine,
+/obj/item/circuitboard/computer/prototype_cloning,
+/obj/item/circuitboard/machine/clonepod/experimental,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/science/xenobiology)
 "bHp" = (
-/obj/effect/decal/cleanable/shreds,
-/turf/open/space/basic,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
-	},
-/area/f13/powerplant)
+/turf/closed/indestructible/vaultdoor,
+/area/security/checkpoint)
 "bHq" = (
-/obj/structure/window/fulltile/wood_window,
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite,
-/area/f13/desert)
+/obj/effect/decal/waste,
+/turf/open/floor/wood/f13/old,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/underground/mountain)
 "bHr" = (
 /obj/machinery/button/door{
 	id = 782;
@@ -30750,18 +30736,16 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbroken"
+	icon_state = "ruinswindowbrokenvertical"
 	},
 /area/f13/desert)
 "bHx" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/effect/decal/cleanable/shreds,
+/turf/open/space/basic,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowdestroyed"
-	},
-/area/f13/desert)
+/area/f13/powerplant)
 "bHy" = (
 /turf/open/floor/plating/f13/outside/road{
 	icon_state = "horizontaloutermain0"
@@ -30811,6 +30795,29 @@
 	icon_state = "housewood3-broken2"
 	},
 /area/f13/den)
+"bHG" = (
+/obj/structure/window/fulltile/wood_window,
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite,
+/area/f13/desert)
+"bHH" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowbroken"
+	},
+/area/f13/desert)
+"bHI" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowdestroyed"
+	},
+/area/f13/desert)
 "bHJ" = (
 /obj/machinery/door/airlock,
 /turf/open/floor/plasteel/cult,
@@ -33616,10 +33623,6 @@
 /area/f13/brotherhood)
 "bQJ" = (
 /obj/structure/showcase/cyborg,
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood)
-"bQK" = (
-/obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/brotherhood)
 "bQL" = (
@@ -55285,7 +55288,7 @@ bND
 bQh
 bND
 bND
-bQK
+bHi
 bEU
 aaf
 aaf
@@ -64848,7 +64851,7 @@ byd
 btb
 byF
 byG
-bHp
+bHx
 bqt
 bzY
 boQ
@@ -69893,9 +69896,9 @@ aDs
 aoc
 aol
 bLU
-aaf
-aaf
-aaf
+ars
+ars
+ars
 aab
 aaf
 aaf
@@ -70284,19 +70287,19 @@ aoj
 aoh
 aoh
 aoh
-aod
+bLR
 aDu
-aDs
+bHp
 aEh
 aEh
 aEh
-aDs
+bHp
 aDu
 bLR
 bLR
 bLR
 ayI
-ayG
+aFz
 aFN
 aab
 aab
@@ -71499,7 +71502,7 @@ aFb
 aFn
 aFt
 bLR
-aFz
+ahx
 aDv
 aic
 aic
@@ -71892,13 +71895,13 @@ aoh
 aoh
 aoh
 aoh
-aod
+bLR
 aDw
-aod
-aod
-aod
-aod
-aod
+bLR
+bLR
+bLR
+bLR
+bLR
 aDw
 bLR
 bLR
@@ -72707,7 +72710,7 @@ aoc
 aoc
 aol
 bLU
-aaf
+ars
 axY
 aic
 aic
@@ -73109,7 +73112,7 @@ aoc
 aoc
 aol
 bLU
-aaf
+ars
 aFI
 aic
 aic
@@ -73511,8 +73514,8 @@ aoc
 aoc
 aol
 bLU
-aaf
-aaf
+ars
+ars
 bRA
 ayG
 aic
@@ -78288,7 +78291,7 @@ aon
 bGD
 bGN
 bGV
-bGD
+bHo
 aon
 bIL
 bJf
@@ -79161,7 +79164,7 @@ aab
 aab
 aKh
 aKh
-bHi
+bHq
 aab
 aab
 aaf
@@ -79963,7 +79966,7 @@ aaf
 aaf
 aaf
 aab
-bHi
+bHq
 aKh
 aKh
 aab
@@ -80367,7 +80370,7 @@ aaf
 aab
 aab
 aKh
-bHi
+bHq
 aab
 aaf
 aaf
@@ -93911,7 +93914,7 @@ agc
 agc
 agc
 agc
-ahe
+agR
 afD
 afD
 afD
@@ -94313,7 +94316,7 @@ agc
 agc
 agc
 afD
-ahv
+ahe
 afD
 aaf
 aaf
@@ -94715,7 +94718,7 @@ agc
 ahc
 ahg
 ahd
-ahw
+ahv
 afD
 aaf
 aaf
@@ -95117,7 +95120,7 @@ afD
 ahd
 ahh
 ahd
-ahx
+ahv
 afD
 aaf
 aaf
@@ -95519,7 +95522,7 @@ agS
 agi
 ahi
 agW
-ars
+ahw
 afD
 aaf
 aaf
@@ -97912,7 +97915,7 @@ aag
 aaf
 aee
 aeD
-aeD
+aee
 aeD
 aee
 aaf
@@ -102258,8 +102261,8 @@ brA
 brA
 aaZ
 abg
-bHw
-bHx
+bHH
+bHI
 aaz
 aaI
 aag
@@ -108273,7 +108276,7 @@ aaI
 brC
 aeO
 bst
-bHw
+bHH
 bls
 aze
 aaZ
@@ -112273,8 +112276,8 @@ aaU
 aDU
 aCN
 aaU
-bHo
-bHo
+bHw
+bHw
 aaU
 aaI
 bhQ
@@ -119503,8 +119506,8 @@ aag
 aag
 aze
 brA
-bHo
-bHo
+bHw
+bHw
 aaU
 aaU
 aFp
@@ -119526,7 +119529,7 @@ aag
 aag
 aDU
 bae
-bHq
+bHG
 blR
 bvr
 brI

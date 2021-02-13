@@ -89,32 +89,42 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/ar
-	name = "Advanced Assault Rifle"
-	desc = "A seemingly advanced 5.56mm assault rifle."
+	name = "Chinese Assault Rifle"
+	desc = "A seemingly shoddy 5.56mm assault rifle."
 	id = "ar"
 	build_type = PROTOLATHE
 	materials = list(MAT_METAL = 10000, MAT_GLASS = 10000, MAT_SILVER = 10000)
-	build_path = /obj/item/gun/ballistic/automatic/ar
+	build_path = /obj/item/gun/ballistic/automatic/type93
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/shotgun
-	name = "Advanced Shotgun"
+	name = "Riot Shotgun"
 	desc = "An advanced semi auto shotgun that takes specialized magazines."
 	id = "shotgun"
 	build_type = PROTOLATHE
 	materials = list(MAT_METAL = 10000, MAT_GLASS = 10000, MAT_SILVER = 10000)
-	build_path = /obj/item/gun/ballistic/automatic/shotgun/bulldog
+	build_path = /obj/item/gun/ballistic/automatic/shotgun/riot
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/smg
-	name = "Advanced Small Machine Gun"
-	desc = "A seemingly advanced SMG, uses special ammo and can be suppressed."
+	name = "Uzi Submachinegun"
+	desc = "This is a really awesome gun. Probably."
 	id = "smg"
 	build_type = PROTOLATHE
 	materials = list(MAT_METAL = 10000, MAT_GLASS = 10000, MAT_SILVER = 10000)
-	build_path = /obj/item/gun/ballistic/automatic/c20r //NO STAM DAMAGE
+	build_path = /obj/item/gun/ballistic/automatic/mini_uzi
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/glauncher
+	name = "Riot Launcher"
+	desc = "This is a revolving grenade launcher, designed to fire custom casings."
+	id = "glauncher"
+	build_type = PROTOLATHE
+	materials = list(MAT_METAL = 10000, MAT_GLASS = 10000, MAT_SILVER = 50000)
+	build_path = /obj/item/gun/grenadelauncher
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -159,6 +169,16 @@
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 */
+/datum/design/m72gauss
+	name = "M72 Gauss Rifle"
+	desc = "A powerful long ranged anti-material rifle that obliterates targets."
+	id = "m72"
+	build_type = PROTOLATHE
+	materials = list(MAT_METAL = 10000, MAT_GLASS = 5000, MAT_DIAMOND = 5000, MAT_URANIUM = 8000, MAT_SILVER = 4500, MAT_GOLD = 5000)
+	build_path = /obj/item/gun/ballistic/automatic/m72
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
 /datum/design/decloner
 	name = "Direct Application Device"
 	desc = "A device that makes use of the Forced Evolutionary virus with each shot."
@@ -336,6 +356,16 @@
 
 //Weapon Mags
 
+/datum/design/m72mag
+	name = "Gauss Rifle Magazine"
+	desc = "A magazine for the horrifying Gauss Rifle. Comes pre-loaded."
+	id = "m72mag"
+	build_type = PROTOLATHE
+	materials = list(MAT_METAL = 10000, MAT_GLASS = 2000, MAT_DIAMOND = 2000)//same as ECP, since it's not used.
+	build_path = /obj/item/ammo_box/magazine/m2mm
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
 /datum/design/m12rubber
 	name = "Advanced shotgun 8 round rubbershot magazine"
 	desc = "A 8 round drum consisting of rubbershot shell for the advanced shotgun."
@@ -376,23 +406,33 @@
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
+/datum/design/d12beanslug
+	name = "Riot shotgun 12 round slug magazine"
+	desc = "A 12 round drum consisting of regular slug rounds for the riot shotgun."
+	id = "riot_shotgunslug"
+	build_type = PROTOLATHE
+	materials = list(MAT_METAL = 15000)
+	build_path = /obj/item/ammo_box/magazine/d12g
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
 /datum/design/smgmag
-	name = "Advanced SMG Magazine"
-	desc = "A 24 round magazine for the advanced SMG"
+	name = "Uzi Magazine"
+	desc = "A magazine for the Uzi Submachinegun."
 	id = "smgmag"
 	build_type = PROTOLATHE
 	materials = list(MAT_METAL = 4000)
-	build_path = /obj/item/ammo_box/magazine/smgm45
+	build_path = /obj/item/ammo_box/magazine/uzim9mm
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/armag
-	name = "Advanced Assault Rifle Magazine"
-	desc = "A 30 round toploader magazine for the advanced AR."
+	name = "Chinese Assault Rifle Magazine"
+	desc = "A 30 round magazine for the Chinese Assault Rifle."
 	id = "armag"
 	build_type = PROTOLATHE
 	materials = list(MAT_METAL = 4000)
-	build_path = /obj/item/ammo_box/magazine/m556
+	build_path = /obj/item/ammo_box/magazine/m556/rifle/assault
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 /*
@@ -411,7 +451,7 @@
 	materials = list(MAT_METAL = 6000, MAT_SILVER = 600, MAT_GLASS = 1000)
 	build_path = /obj/item/ammo_box/magazine/wt550m9/wtic
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
+*/
 /datum/design/stunshell
 	name = "Stun Shell"
 	desc = "A stunning shell for a shotgun."
@@ -431,7 +471,7 @@
 	build_path = /obj/item/ammo_casing/shotgun/techshell
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_SCIENCE
-*/
+
 /datum/design/suppressor
 	name = "Universal Suppressor"
 	desc = "A reverse-engineered universal suppressor that fits on most small arms with threaded barrels."
@@ -482,6 +522,7 @@
 	build_path = /obj/item/gun/energy/kinetic_accelerator/crossbow/large
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+*/
 
 /datum/design/cryostatis_shotgun_dart
 	name = "Cryostatis Shotgun Dart"
@@ -492,4 +533,3 @@
 	build_path = /obj/item/ammo_casing/shotgun/dart/noreact
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
-*/
