@@ -409,7 +409,7 @@
 /datum/design/d12beanslug
 	name = "Riot shotgun 12 round slug magazine"
 	desc = "A 12 round drum consisting of regular slug rounds for the riot shotgun."
-	id = "shotgunslug"
+	id = "riot_shotgunslug"
 	build_type = PROTOLATHE
 	materials = list(MAT_METAL = 15000)
 	build_path = /obj/item/ammo_box/magazine/d12g

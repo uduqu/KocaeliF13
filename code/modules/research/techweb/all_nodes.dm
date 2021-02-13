@@ -537,7 +537,7 @@
 	display_name = "Ballistic Weaponry"
 	description = "This isn't research. This is reverse-engineering!"
 	prereq_ids = list("weaponry")
-	design_ids = list("armag", "shotgunbuck", "shotgunslug", "shotgunrubber", "shotgunbean" , "smgmag", "smg", "shotgun", "ar", "glauncher")
+	design_ids = list("smgmag", "smg","riot_shotgunslug", "shotgun", "armag", "ar", "glauncher")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
