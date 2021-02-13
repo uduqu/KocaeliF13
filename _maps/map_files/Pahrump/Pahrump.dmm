@@ -15794,10 +15794,9 @@
 /obj/machinery/shower{
 	dir = 4
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 5;
-	icon_state = "dirt";
-	tag = "icon-dirt (NORTHEAST)"
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2";
+	tag = "icon-bluedirtychess2"
 	},
 /area/f13/building)
 "aQp" = (
@@ -41820,7 +41819,7 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aae
 aae
 aae
@@ -42077,7 +42076,7 @@ aae
 aae
 aae
 aae
-aae
+aaa
 aae
 aae
 aae
