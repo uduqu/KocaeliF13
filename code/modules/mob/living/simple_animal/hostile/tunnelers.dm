@@ -53,9 +53,9 @@
 	. = ..()
 	if(. && ishuman(target))
 		var/mob/living/carbon/human/H = target
-		H.reagents.add_reagent("zombifying_pods", 5)
+//		H.reagents.add_reagent("zombifying_pods", 5)//doesn't actually do anything. For now.
 		H.reagents.add_reagent("tirizene", 5)
-		H.reagents.add_reagent("sodium_thiopental", 5)
+//		H.reagents.add_reagent("sodium_thiopental", 5)
 
 /mob/living/simple_animal/hostile/trog/tunneler
 	name = "tunneler"
@@ -80,4 +80,4 @@
 	. = ..()
 	if(. && ishuman(target))
 		var/mob/living/carbon/human/H = target
-		H.reagents.add_reagent("toxin", 5)
+		H.reagents.add_reagent("venom", 5)

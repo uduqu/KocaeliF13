@@ -176,13 +176,13 @@
 		icon_state = "peppermillsmall"
 
 /obj/item/reagent_containers/food/condiment/milk
-	name = "brahmin milk"
+	name = "milk"
 	desc = "It's milk. White and nutritious goodness!"
 	icon_state = "milk"
 	item_state = "carton"
 	lefthand_file = 'icons/mob/inhands/equipment/kitchen_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/kitchen_righthand.dmi'
-	list_reagents = list("brahminmilk" = 50)
+	list_reagents = list("milk" = 50)
 	possible_states = list()
 
 /obj/item/reagent_containers/food/condiment/flour
