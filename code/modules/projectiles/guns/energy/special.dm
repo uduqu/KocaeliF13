@@ -115,7 +115,7 @@
 
 /obj/item/gun/energy/plasmacutter
 	name = "plasma cutter"
-	desc = "A mining tool capable of expelling concentrated plasma bursts. You could use it to cut limbs off communist! Or, you know, mine stuff."
+	desc = "A mining tool capable of expelling concentrated plasma bursts. You could use it to cut the limbs off a Communist! Or, you know, mine stuff."
 	icon_state = "plasmacutter"
 	item_state = "plasmacutter"
 	ammo_type = list(/obj/item/ammo_casing/energy/plasma/weak)

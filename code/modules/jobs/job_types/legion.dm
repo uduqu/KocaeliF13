@@ -524,7 +524,7 @@ Prime Legionairy
 	name = "Foot Legionary"
 	suit_store = /obj/item/gun/ballistic/revolver/colt357
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/internal/cylinder/rev357=2)
+		/obj/item/ammo_box/a357=2)
 
 /datum/outfit/loadout/legbreach
 	name = "Assault Legionary"

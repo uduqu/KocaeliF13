@@ -642,11 +642,12 @@ Ranger
 
 /datum/outfit/loadout/patrolranger
 	name = "Boneyard Ranger"
+	head = /obj/item/clothing/head/f13/ranger
 	uniform = /obj/item/clothing/under/f13/patrolranger
 	suit = /obj/item/clothing/suit/armor/f13/combat/ncr
-	suit_store = /obj/item/gun/ballistic/automatic/assault_rifle
+	suit_store = /obj/item/gun/ballistic/automatic/greasegun
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle/assault=3)
+		/obj/item/ammo_box/magazine/greasegun=3)
 
 /datum/outfit/loadout/bajaranger
 	name = "Baja Ranger"
@@ -658,6 +659,7 @@ Ranger
 
 /datum/outfit/loadout/scoutranger
 	name = "Mojave Ranger"
+	head = /obj/item/clothing/head/f13/trailranger
 	uniform = /obj/item/clothing/under/f13/trailranger
 	suit = /obj/item/clothing/suit/armor/f13/trailranger
 	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper
