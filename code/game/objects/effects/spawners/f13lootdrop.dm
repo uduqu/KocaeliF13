@@ -437,6 +437,15 @@
 				/obj/item/storage/pill_bottle/chem_tin/fixer
 				)
 
+/obj/effect/spawner/lootdrop/f13/medical/vault/meds/super//very top tier loot for dungeons
+	name = "super medical meds spawner"
+	lootcount = 2//either two Voodoo, Two supers or a mix. Intended for top tier dungeons only.
+
+	loot = list(
+				/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
+				/obj/item/reagent_containers/pill/patch/voodoo
+				)
+
 /obj/effect/spawner/lootdrop/f13/medical/wasteland
 	name = "wasteland medical spawner - DO NOT USE"
 

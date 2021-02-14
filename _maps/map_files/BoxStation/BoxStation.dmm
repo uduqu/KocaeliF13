@@ -6961,10 +6961,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/crew_quarters/heads/hop)
 "atY" = (
-/obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/medical/vault/meds,
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/medical/vault/meds/super,
 /turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
+	icon_state = "showroomfloor"
 	},
 /area/f13/underground/enclave_base)
 "atZ" = (
@@ -30692,10 +30692,12 @@
 /turf/closed/indestructible/vaultdoor,
 /area/security/checkpoint)
 "bHq" = (
-/obj/effect/decal/waste,
-/turf/open/floor/wood/f13/old,
-/turf/open/floor/plating/f13/inside/mountain,
-/area/f13/underground/mountain)
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/vault/meds/super,
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluechess"
+	},
+/area/f13/underground/enclave_base)
 "bHr" = (
 /obj/machinery/button/door{
 	id = 782;
@@ -30731,21 +30733,19 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
 "bHw" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/vault/meds/super,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbrokenvertical"
-	},
-/area/f13/desert)
+/area/f13/underground/enclave_base)
 "bHx" = (
-/obj/effect/decal/cleanable/shreds,
-/turf/open/space/basic,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/traitbooks,
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluechess"
 	},
-/area/f13/powerplant)
+/area/f13/underground/enclave_base)
 "bHy" = (
 /turf/open/floor/plating/f13/outside/road{
 	icon_state = "horizontaloutermain0"
@@ -30796,28 +30796,24 @@
 	},
 /area/f13/den)
 "bHG" = (
-/obj/structure/window/fulltile/wood_window,
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite,
-/area/f13/desert)
+/obj/effect/decal/waste,
+/turf/open/floor/wood/f13/old,
+/turf/open/floor/plating/f13/inside/mountain,
+/area/f13/underground/mountain)
 "bHH" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/structure/table/reinforced,
+/obj/item/book/granter/trait/chemistry,
+/turf/open/floor/plasteel/f13{
+	icon_state = "whitebluechess"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbroken"
-	},
-/area/f13/desert)
+/area/f13/mountain_bunker)
 "bHI" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/structure/table/reinforced,
+/obj/item/book/granter/trait/pilot,
+/turf/open/floor/plasteel/f13{
+	icon_state = "greendirtysolid"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowdestroyed"
-	},
-/area/f13/desert)
+/area/f13/mountain_bunker)
 "bHJ" = (
 /obj/machinery/door/airlock,
 /turf/open/floor/plasteel/cult,
@@ -31062,6 +31058,15 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/science/xenobiology)
+"bIt" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowbrokenvertical"
+	},
+/area/f13/desert)
 "bIu" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -31194,6 +31199,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/science/xenobiology)
+"bIO" = (
+/obj/effect/decal/cleanable/shreds,
+/turf/open/space/basic,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/f13/powerplant)
 "bIP" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -31233,6 +31245,11 @@
 /obj/machinery/chem_heater,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/science/xenobiology)
+"bIV" = (
+/obj/structure/window/fulltile/wood_window,
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite,
+/area/f13/desert)
 "bIW" = (
 /obj/item/surgical_drapes,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -31266,6 +31283,15 @@
 	icon_state = "floor6"
 	},
 /turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
+"bJc" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowbroken"
+	},
 /area/f13/desert)
 "bJd" = (
 /obj/effect/decal/cleanable/glass,
@@ -31541,6 +31567,15 @@
 "bJT" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/maintenance/disposal)
+"bJU" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowdestroyed"
+	},
+/area/f13/desert)
 "bJV" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -34636,12 +34671,6 @@
 	dir = 1
 	},
 /obj/effect/decal/remains/human,
-/turf/open/floor/plasteel/f13{
-	icon_state = "whitebluechess"
-	},
-/area/f13/mountain_bunker)
-"bTB" = (
-/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
 	},
@@ -49786,7 +49815,7 @@ bTH
 arf
 bUc
 aFc
-aFg
+bHq
 aCa
 aCa
 aFc
@@ -50188,7 +50217,7 @@ bTH
 arf
 aCB
 aEQ
-aFg
+bHx
 aCa
 aCa
 aFg
@@ -55410,7 +55439,7 @@ bTH
 arf
 aCs
 aCb
-bVB
+atY
 arf
 aCa
 aKr
@@ -55420,7 +55449,7 @@ aMW
 aKr
 aCa
 arf
-bVB
+atY
 aCb
 aCs
 arf
@@ -59033,8 +59062,8 @@ auU
 avo
 auU
 bvk
-atY
-atY
+bHw
+bHw
 auU
 arf
 bTH
@@ -64851,7 +64880,7 @@ byd
 btb
 byF
 byG
-bHx
+bIO
 bqt
 bzY
 boQ
@@ -79164,7 +79193,7 @@ aab
 aab
 aKh
 aKh
-bHq
+bHG
 aab
 aab
 aaf
@@ -79966,7 +79995,7 @@ aaf
 aaf
 aaf
 aab
-bHq
+bHG
 aKh
 aKh
 aab
@@ -80370,7 +80399,7 @@ aaf
 aab
 aab
 aKh
-bHq
+bHG
 aab
 aaf
 aaf
@@ -102261,8 +102290,8 @@ brA
 brA
 aaZ
 abg
-bHH
-bHI
+bJc
+bJU
 aaz
 aaI
 aag
@@ -108276,7 +108305,7 @@ aaI
 brC
 aeO
 bst
-bHH
+bJc
 bls
 aze
 aaZ
@@ -112276,8 +112305,8 @@ aaU
 aDU
 aCN
 aaU
-bHw
-bHw
+bIt
+bIt
 aaU
 aaI
 bhQ
@@ -119506,8 +119535,8 @@ aag
 aag
 aze
 brA
-bHw
-bHw
+bIt
+bIt
 aaU
 aaU
 aFp
@@ -119529,7 +119558,7 @@ aag
 aag
 aDU
 bae
-bHG
+bIV
 blR
 bvr
 brI
@@ -149210,7 +149239,7 @@ bTF
 bSH
 blN
 wDP
-wDP
+bHI
 bTu
 bgi
 bNA
@@ -150409,7 +150438,7 @@ bgi
 vqW
 uSO
 bkL
-bTB
+bHH
 qGS
 gdP
 bgi

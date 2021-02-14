@@ -152,7 +152,7 @@
 	name = "Guns and Bullets, Part 1"
 	desc = "A rare issue of Guns and Bullets detailing the basic manufacture of firearms, allowing the reader to craft Tier 2 firearms. It's barely holding up, and looks like only one person can study the knowledge from it."
 	icon_state = "gab1"
-	oneuse = FALSE
+	oneuse = TRUE
 	granted_trait = TRAIT_GUNSMITH_ONE
 	tool_behaviour = TOOL_GUNTIER1
 	traitname = "Basic Gunsmithing"
@@ -162,7 +162,7 @@
 	name = "Guns and Bullets, Part 2"
 	desc = "A rare issue of Guns and Bullets following up Part 1, going further indepth into weapon mechanics, allowing the reader to craft Tier 3 firearms. It's barely holding up, and looks like only one person can study the knowledge from it."
 	icon_state = "gab2"
-	oneuse = FALSE
+	oneuse = TRUE
 	granted_trait = TRAIT_GUNSMITH_TWO
 	tool_behaviour = list(TOOL_GUNTIER1, TOOL_GUNTIER2)
 	traitname = "Intermediate Gunsmithing"
@@ -172,7 +172,7 @@
 	name = "Guns and Bullets, Part 3"
 	desc = "A rare issue of Guns and Bullets following up Part 2, explaining difficult ballistics theory and weapon mechanics, allowing the reader to craft Tier 4 firearms. It's barely holding up, and looks like only one person can study the knowledge from it."
 	icon_state = "gab3"
-	oneuse = FALSE
+	oneuse = TRUE
 	granted_trait = TRAIT_GUNSMITH_THREE
 	tool_behaviour = list(TOOL_GUNTIER1, TOOL_GUNTIER2, TOOL_GUNTIER3)
 	traitname = "Experienced Gunsmithing"
@@ -182,7 +182,7 @@
 	name = "Guns and Bullets, Part 4"
 	desc = "An extremely rare issue of Guns and Bullets, showing some design flaws of weapons and how to rectify them, allowing the reader to craft Tier 5 firearms. It's barely holding up, and looks like only one person can study the knowledge from it."
 	icon_state = "gab4"
-	oneuse = FALSE
+	oneuse = TRUE
 	granted_trait = TRAIT_GUNSMITH_FOUR
 	tool_behaviour = list(TOOL_GUNTIER1, TOOL_GUNTIER2, TOOL_GUNTIER3, TOOL_GUNTIER4)
 	traitname = "Expert Gunsmithing"
@@ -194,7 +194,7 @@
 	desc = "A seminal work on the dying art of booze sliding."
 	icon_state = "barbook"
 	actionname = "drink flinging"
-	oneuse = FALSE
+	oneuse = TRUE
 	remarks = list("The trick is keeping a low center of gravity it seems...", "The viscosity of the liquid is important...", "Accounting for crosswinds... really?", "Drag coefficients of various popular drinking glasses...", "What the heck is laminar flow and why does it matter here?", "Greasing the bar seems like it'd be cheating...", "I don't think I'll be working with superfluids...")
 
 /datum/action/innate/drink_fling
@@ -222,7 +222,7 @@
 	oneuse = TRUE
 	granted_trait = TRAIT_PILOT
 	traitname = "vb_pilot"
-	remarks = list("...")
+	remarks = list("Remember, your standard VB-02 is only as good as the pilots flying it.", "Assure you've another pilot at your side, in case of emergency.")
 
 ///SPELLS///
 
