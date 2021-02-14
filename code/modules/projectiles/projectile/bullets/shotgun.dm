@@ -97,4 +97,3 @@
 
 /obj/item/projectile/bullet/scattershot
 	damage = 25
-	stamina = 65
