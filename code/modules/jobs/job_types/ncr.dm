@@ -572,7 +572,7 @@ Veteran Ranger
 
 
 /datum/outfit/loadout/vrelite
-	name = "Support Veteran Ranger"
+	name = "Sunburst Veteran"
 	suit = 			/obj/item/clothing/suit/armor/f13/rangercombat
 	head = 			/obj/item/clothing/head/helmet/f13/ncr/rangercombat
 	suit_store = /obj/item/gun/ballistic/shotgun/antimateriel
@@ -581,14 +581,15 @@ Veteran Ranger
 		/obj/item/ammo_box/a50MG/AP=1)
 
 /datum/outfit/loadout/vrrecon
-	name = "Recon Veteran Ranger"
-	suit = /obj/item/clothing/suit/toggle/armor/f13/rangerrecon
+	name = "Boneyard Veteran"
+	suit = 			/obj/item/clothing/suit/armor/f13/rangercombat
+	head = 			/obj/item/clothing/head/helmet/f13/ncr/rangercombat
 	suit_store = /obj/item/gun/ballistic/shotgun/automatic/hunting/brush/scoped
 	backpack_contents = list(
-		/obj/item/ammo_box/tube/c4570=4)
+		/obj/item/ammo_box/tube/c4570=3)
 
 /datum/outfit/loadout/vrstandard
-	name = "Assault Veteran Ranger"
+	name = "Baja Veteran"
 	suit = 			/obj/item/clothing/suit/armor/f13/rangercombat
 	head = 			/obj/item/clothing/head/helmet/f13/ncr/rangercombat
 	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine
@@ -612,8 +613,9 @@ Ranger
 	outfit = /datum/outfit/job/ncr/f13ranger
 
 	loadout_options = list(
-	/datum/outfit/loadout/patrolranger, //Standard no slowdown Patrol Armor and Assault Carbine.
-	/datum/outfit/loadout/scoutranger //DKS 501.
+	/datum/outfit/loadout/patrolranger,
+	/datum/outfit/loadout/bajaranger,
+	/datum/outfit/loadout/scoutranger
 	)
 
 /datum/job/ncr/f13ranger/after_spawn(mob/living/carbon/human/H, mob/M)
@@ -639,18 +641,25 @@ Ranger
 	r_pocket = /obj/item/twohanded/binocs
 
 /datum/outfit/loadout/patrolranger
-	name = "Patrol Ranger"
-	head = 			/obj/item/clothing/head/f13/ranger
+	name = "Boneyard Ranger"
+	uniform = /obj/item/clothing/under/f13/patrolranger
 	suit = /obj/item/clothing/suit/armor/f13/combat/ncr
-	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine
+	suit_store = /obj/item/gun/ballistic/automatic/assault_rifle
+	backpack_contents = list(
+		/obj/item/ammo_box/magazine/m556/rifle/assault=3)
+
+/datum/outfit/loadout/bajaranger
+	name = "Baja Ranger"
+	uniform = /obj/item/clothing/under/f13/ranger
+	suit = /obj/item/clothing/suit/toggle/armor/f13/rangerrecon
+	suit_store = /obj/item/gun/ballistic/automatic/marksman
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle=3)
 
 /datum/outfit/loadout/scoutranger
-	name = "Recon Ranger"
+	name = "Mojave Ranger"
 	uniform = /obj/item/clothing/under/f13/trailranger
 	suit = /obj/item/clothing/suit/armor/f13/trailranger
 	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/w308=3,
-		/obj/item/twohanded/binocs=1)
+		/obj/item/ammo_box/magazine/w308=3)
