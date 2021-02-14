@@ -74,7 +74,7 @@
 	id = "datatheory"
 	display_name = "Data Theory"
 	description = "Big Data, in space!"
-	prereq_ids = list("base")
+	prereq_ids = list("base", "mmi_posi")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 

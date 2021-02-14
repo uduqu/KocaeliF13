@@ -17,7 +17,7 @@
 	robust_searching = 1
 	attacktext = "slaps"
 	attack_sound = 'sound/weapons/circsawhit.ogg'
-	faction = list("wastebot")
+	faction = list("wastebot", "enclave")
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minbodytemp = 0
 	speak_emote = list("states")
@@ -51,6 +51,8 @@
 	minimum_distance = 2
 	check_friendly_fire = TRUE
 	stat_attack = UNCONSCIOUS
+	speak_chance = 15
+	speak = list("You are about to be introduced to the U.S. army!", "You better run, you commie-loving bastard!", "Ready to die for your country, you commie son of a bitch?", "Since you don't seem willing to do the world a favor and kill yourself, I guess I'm going to have to do it for you.", "I'm just getting warmed up! Hoo-ah!", "Another glorious day in this man's army!")
 	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/three, /obj/item/stock_parts/cell/ammo/mfc)
 
 /mob/living/simple_animal/hostile/handy/gutsy/AttackingTarget()
@@ -88,10 +90,12 @@
 	attack_sound = 'sound/weapons/punch1.ogg'
 	projectilesound = 'sound/weapons/laser.ogg'
 	projectiletype = /obj/item/projectile/beam/laser/pistol
-	faction = list("wastebot")
+	faction = list("wastebot", "enclave")
 	check_friendly_fire = TRUE
 	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/five)
 	stat_attack = UNCONSCIOUS
+	speak_chance = 15
+	speak = list("Engaging hostile target.", "Halt, lawbreaker! You are hereby sentenced to death for breaking curfew.", "Please put your hands in the air and prepare for disciplinary action.")
 
 //enclave
 /mob/living/simple_animal/hostile/handy/protectron/enclave
@@ -154,6 +158,8 @@
 	faction = list("wastebot")
 	check_friendly_fire = TRUE
 	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/five, /obj/item/stock_parts/cell/ammo/mfc)
+	speak_chance = 15
+	speak = list("Adding target to threat matrix.", "Weapons free. Non-combatants are advised to stand clear.", "Locking on... firing.", "Threat level: red.")
 
 /obj/item/projectile/beam/laser/pistol/ultraweak
 	damage = 10 //quantity over quality
@@ -193,6 +199,49 @@
 	. = ..()
 	summon_backup(15)
 
+///
+//Start Special Sentry
+///
+
+/mob/living/simple_animal/hostile/handy/sentrybot/enclave
+	name = "hardened sentry bot"
+	desc = "A pre-war military robot armed with a deadly gatling laser and covered in thick armor plating. This one bears pre-war markings quite visibly, alongside looking in pristine condition."
+	health = 1280
+	maxHealth = 1280//boss mob
+	melee_damage_lower = 48
+	melee_damage_upper = 72
+	extra_projectiles = 11 //12 projectiles
+	ranged_cooldown_time = 12 //brrrrrrrrrrrrt
+	stat_attack = UNCONSCIOUS
+	ranged = TRUE
+	retreat_distance = 6
+	minimum_distance = 4
+	projectiletype = /obj/item/projectile/beam/laser/pistol/ultraweak/enclave
+	faction = list("wastebot", "enclave")
+
+/obj/item/projectile/beam/laser/pistol/ultraweak/enclave
+	damage = 15
+
+/mob/living/simple_animal/hostile/handy/sentrybot/enclave/bullet_act(obj/item/projectile/Proj)
+	if(!Proj)
+		CRASH("[src] hardened sentrybot invoked bullet_act() without a projectile")
+	if(prob(10) && health > 1)
+		visible_message("<span class='danger'>\The [src] releases a defensive flashbang!</span>")
+		var/flashbang_turf = get_turf(src)
+		if(!flashbang_turf)
+			return
+		var/obj/item/grenade/flashbang/sentry/S = new /obj/item/grenade/flashbang/sentry(flashbang_turf)
+		S.preprime(user = null)
+	if(prob(15) || Proj.damage > 26)//very little chance to damage without proper weaponry.
+		return ..()
+	else
+		visible_message("<span class='danger'>\The [Proj] shatters on \the [src]'s armor plating!</span>")
+		return FALSE
+
+///
+//End Special Sentry
+///
+
 /mob/living/simple_animal/hostile/handy/assaultron
 	name = "assaultron"
 	desc = "A deadly close combat robot developed by RobCo.  Their head laser is absolutely devastating."
@@ -209,6 +258,7 @@
 	attacktext = "grinds their claws on"
 //	projectilesound = 'sound/weapons/ionrifle.ogg'
 //	projectiletype = /obj/item/projectile/beam/laser/heavylaser//generic heavy for the moment
+	speak_chance = 15
 	speak = list("AO compromised! Engaging!", "Enemy combatant acquired. Weapons free!", "Scanners detecting sentient life. Alert level elevated.", "We have a situation!", "Sensor alert. Anomaly detected.")
 	faction = list("wastebot")
 	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/three, /obj/item/stock_parts/cell/ammo/mfc)
@@ -246,6 +296,7 @@
 	faction = list("wastebot")
 	check_friendly_fire = TRUE
 	loot = list(/obj/effect/decal/cleanable/robot_debris, /obj/item/stack/crafting/electronicparts/five, /obj/item/stock_parts/cell/ammo/mfc, /obj/item/integrated_circuit/input/mmi_tank)
+	speak_chance = 15
 	speak = list("You could run? I'm trying to kill you, you know.", "Please believe me when I say I'm not enjoying this.", "There's no point in trying to hide from me. I'm programmed to be quite relentless.", "Why are you hiding? I will find you.", "They could have programmed me to love, to forgive; but noooooo.", "I calculate your chance of success to be...well, I don't want to be morbid...")
 
 

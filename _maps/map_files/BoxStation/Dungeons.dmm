@@ -202,6 +202,7 @@
 /area/f13/underground/enclave_base)
 "aB" = (
 /obj/structure/table/reinforced,
+/obj/item/bottlecap_mine,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
@@ -240,7 +241,9 @@
 	},
 /area/f13/underground/enclave_base)
 "aH" = (
-/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/mob/living/simple_animal/hostile/handy/assaultron{
+	name = "Chief of Security"
+	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
@@ -276,8 +279,9 @@
 /area/f13/underground/enclave_base)
 "aM" = (
 /obj/structure/table/wood,
-/obj/item/pen/fountain/captain,
-/obj/effect/spawner/lootdrop/f13/weapon/melee/tier5,
+/obj/item/pen/fountain/captain{
+	name = "golden fountain pen"
+	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
@@ -306,8 +310,8 @@
 	},
 /area/f13/underground/enclave_base)
 "aQ" = (
-/obj/structure/safe,
-/obj/item/key,
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/unique,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
@@ -396,7 +400,7 @@
 	dir = 4;
 	icon_state = "camera"
 	},
-/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/mob/living/simple_animal/hostile/handy/protectron/enclave,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
 	},
@@ -444,7 +448,8 @@
 	},
 /area/f13/underground/enclave_base)
 "bg" = (
-/obj/structure/table/wood,
+/obj/structure/rack,
+/obj/item/jacobs_ladder,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whiteredfull"
 	},
@@ -514,6 +519,7 @@
 /area/f13/underground/enclave_base)
 "bp" = (
 /obj/structure/table/wood,
+/obj/item/firing_pin/dna/dredd,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "greendirtysolid"
 	},
@@ -538,7 +544,6 @@
 	dir = 4;
 	icon_state = "camera"
 	},
-/mob/living/simple_animal/hostile/handy/gutsy/enclave,
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
 	},
@@ -5181,12 +5186,12 @@
 	},
 /area/f13/underground/enclave_base)
 "mG" = (
-/obj/machinery/light{
-	dir = 4
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
-/mob/living/simple_animal/hostile/handy/gutsy/enclave,
+/mob/living/simple_animal/hostile/handy/sentrybot/enclave,
 /turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "floorgrime"
+	icon_state = "whitepurplerustychess2"
 	},
 /area/f13/underground/enclave_base)
 "mH" = (
@@ -5240,9 +5245,12 @@
 /turf/open/floor/plating,
 /area/f13/underground/enclave_base)
 "mO" = (
-/mob/living/simple_animal/hostile/handy/assaultron,
+/obj/machinery/light{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/handy/protectron/enclave,
 /turf/open/floor/plasteel/f13/vault_floor{
-	icon_state = "whitepurplerustychess2"
+	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
 "mP" = (
@@ -5251,6 +5259,27 @@
 	},
 /mob/living/simple_animal/hostile/handy/assaultron,
 /turf/open/floor/plating,
+/area/f13/underground/enclave_base)
+"mQ" = (
+/obj/structure/table/wood,
+/obj/item/jammer,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "whiteredfull"
+	},
+/area/f13/underground/enclave_base)
+"mR" = (
+/obj/structure/table/reinforced,
+/obj/item/book/granter/trait/pa_wear,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "whitepurplerustychess2"
+	},
+/area/f13/underground/enclave_base)
+"mS" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/f13/medical/vault/meds/super,
+/turf/open/floor/plasteel/f13/vault_floor{
+	icon_state = "whiteredfull"
+	},
 /area/f13/underground/enclave_base)
 "Aw" = (
 /obj/machinery/telecomms/relay/preset/telecomms,
@@ -61837,7 +61866,7 @@ bj
 bv
 bv
 bv
-bv
+mG
 bv
 bI
 bv
@@ -62865,7 +62894,7 @@ aa
 aa
 aa
 ab
-bw
+mR
 bu
 bu
 bu
@@ -63379,10 +63408,10 @@ aa
 aa
 aa
 ab
-bw
+mR
 bu
 lT
-mO
+bu
 ab
 aa
 aa
@@ -66967,7 +66996,7 @@ aW
 be
 bh
 bl
-bh
+lY
 bh
 ab
 aa
@@ -67216,7 +67245,7 @@ ad
 aw
 ad
 az
-aB
+ad
 aB
 ab
 aN
@@ -67224,7 +67253,7 @@ ad
 ab
 bh
 bm
-lY
+bh
 bh
 ab
 aa
@@ -67730,7 +67759,7 @@ at
 ax
 ay
 az
-mG
+mO
 ad
 ab
 ad
@@ -68763,7 +68792,7 @@ aG
 aL
 aP
 aX
-bg
+mQ
 bi
 ab
 aa
@@ -69020,7 +69049,7 @@ aF
 aM
 aH
 aY
-bg
+mS
 aF
 ab
 aa
@@ -69790,7 +69819,7 @@ aa
 aa
 ab
 aQ
-aF
+bg
 ab
 aa
 aa

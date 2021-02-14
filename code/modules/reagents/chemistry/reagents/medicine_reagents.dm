@@ -1629,6 +1629,8 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 
 /datum/reagent/medicine/mentat/on_mob_life(mob/living/carbon/M)
 	M.adjustOxyLoss(-3*REM, 0)
+	M.adjustBrainLoss(-15*REM)//So it actually has a use.
+	M.AdjustUnconscious(-1, 0)//Not like it'll do jack, but we'll see.
 	var/obj/item/organ/eyes/eyes = M.getorganslot(ORGAN_SLOT_EYES)
 	if (!eyes)
 		return
@@ -1648,9 +1650,6 @@ datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/M)
 		M.set_blurriness(0)
 	else if(eyes.eye_damage > 0)
 		M.adjust_eye_damage(-1)
-	M.adjustBrainLoss(-2*REM)
-	if (prob(5))
-		to_chat(M, "<span class='notice'>You feel way more intelligent!</span>")
 	..()
 	. = 1
 
