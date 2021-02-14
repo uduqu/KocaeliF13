@@ -1030,7 +1030,7 @@
 	allowed = list(/obj/item/gun)
 	togglename = "collar"
 
-/obj/item/clothing/suit/toggle/armor/f13/rangerrecon //unused
+/obj/item/clothing/suit/toggle/armor/f13/rangerrecon
 	name = "ranger recon duster"
 	desc = "A thicker than average duster worn by NCR recon rangers out in the field. It's not heavily armored by any means, but is easy to move around in and provides excellent protection from the harsh desert environment."
 	icon_state = "duster_recon"
