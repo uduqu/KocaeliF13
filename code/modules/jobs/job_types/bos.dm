@@ -514,10 +514,10 @@ Scribe
 		/obj/item/clothing/suit/f13/seniorscribe=1,
 		/obj/item/clothing/accessory/bos/seniorscribe=1
 		)
-
+/*
 /datum/job/bos/f13scribe/after_spawn(mob/living/carbon/human/H, mob/M)
 	H.add_quirk("Poor Aim")
-
+*/
 
 
 /*
