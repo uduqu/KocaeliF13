@@ -33,3 +33,10 @@
 	id = "aranesp"
 	results = list("aranesp" = 3)
 	required_reagents = list("epinephrine" = 1, "atropine" = 1, "morphine" = 1)
+
+/datum/chemical_reaction/psycho
+	name = "Psycho"
+	id = "psycho"
+	results = list("psycho" = 2)
+	required_reagents = list("space_drugs" = 1, "mindbreaker" = 1)
+

@@ -275,5 +275,3 @@
 	results = list("bitterdrink" = 2)
 	required_reagents = list("brocpulp" = 1, "xanderpulp" = 1,)
 
-
-
