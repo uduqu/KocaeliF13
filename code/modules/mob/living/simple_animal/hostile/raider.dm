@@ -30,7 +30,7 @@
 	del_on_death = 1
 	speak = list("I'm gonna mount you on my fucking wall!", "Aggghhh!", "Yeeeaaahhh!", "Oooh! Got a feisty one!", "Should have stayed in bed today, hero!", "Look at the kid playin' tough guy! Ha ha ha ha ha!")
 	speak_emote = list("rushes")
-	speak_chance = 2
+	speak_chance = 15
 
 /mob/living/simple_animal/hostile/raider/ranged
 	icon_state = "raiderranged"

@@ -50,13 +50,13 @@
 		return
 	var/list/Mobs = hearers(1, get_turf(src)) - src
 	if(Mobs.len)
-		playsound(get_turf(src),'sound/f13weapons/mine_five.ogg',50)
+		playsound(get_turf(src),'sound/f13weapons/mine_one.ogg',50)
 //		spawn(5)
 //			boom()
 //			STOP_PROCESSING(SSobj, src)
 //			return
 	if(prob(15))
-		playsound(get_turf(src),'sound/f13weapons/mine_one.ogg',100, extrarange = -5)
+		playsound(get_turf(src),'sound/f13weapons/mine_five.ogg',100, extrarange = -5)
 
 /obj/item/bottlecap_mine/Crossed(atom/movable/AM)
 	if(state == ACTIVE && ishuman(AM))
@@ -74,4 +74,7 @@
 
 /obj/item/bottlecap_mine/examine(mob/user)
 	..()
-	to_chat(user, "<span class='warning'>It seems activated!</span>")
+	if(DISABLED)
+		to_chat(user, "<span class='warning'>It doesn't appear activated!</span>")
+	if(ACTIVE)
+		to_chat(user, "<span class='warning'>It seems activated!</span>")

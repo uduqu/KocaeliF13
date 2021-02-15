@@ -22284,14 +22284,15 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/raider_mall)
 "bjo" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/turf/open/floor/plasteel/f13{
+	dir = 5;
+	icon_state = "greenrusty"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbrokenvertical"
-	},
-/area/f13/desert)
+/area/f13/raider_mall)
 "bjp" = (
 /obj/structure/window/fulltile/wood_window,
 /obj/machinery/door/poddoor/shutters{
@@ -22995,7 +22996,13 @@
 	},
 /area/f13/raider_mall)
 "blf" = (
-/obj/machinery/light,
+/obj/structure/table,
+/obj/item/clothing/mask/gas/explorer{
+	name = "pusher gas mask"
+	},
+/obj/item/clothing/mask/gas/explorer{
+	name = "pusher gas mask"
+	},
 /turf/open/floor/plasteel/f13{
 	dir = 5;
 	icon_state = "greenrusty"
@@ -23162,13 +23169,10 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/raider_mall)
 "blG" = (
-/obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
-/obj/machinery/camera/autoname{
-	dir = 8;
-	icon_state = "camera";
-	name = "mall security camera";
-	network = list("mall")
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	desc = "Used to grind things up into raw materials and liquids.";
+	pixel_y = 5
 	},
 /turf/open/floor/plasteel/f13{
 	dir = 5;
@@ -23176,15 +23180,9 @@
 	},
 /area/f13/raider_mall)
 "blH" = (
-/obj/machinery/camera/autoname{
-	dir = 8;
-	icon_state = "camera";
-	name = "mall security camera";
-	network = list("mall")
-	},
+/obj/structure/reagent_dispensers/barrel/half,
 /turf/open/floor/plasteel/f13{
-	dir = 5;
-	icon_state = "greenrusty"
+	icon_state = "floorrusty"
 	},
 /area/f13/raider_mall)
 "blI" = (
@@ -23316,35 +23314,54 @@
 	},
 /area/f13/sunny_dale)
 "bme" = (
-/obj/effect/decal/cleanable/shreds,
-/turf/open/space/basic,
-/turf/open/floor/plating{
-	icon_state = "platingdmg2"
+/obj/structure/rack,
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/pillbottles,
+/obj/item/storage/box/beakers,
+/turf/open/floor/plasteel/f13{
+	dir = 5;
+	icon_state = "greenrusty"
 	},
-/area/f13/powerplant)
+/area/f13/raider_mall)
 "bmf" = (
-/obj/structure/window/fulltile/wood_window,
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite,
-/area/f13/desert)
+/obj/machinery/workbench,
+/turf/open/floor/plasteel/f13{
+	dir = 5;
+	icon_state = "greenrusty"
+	},
+/area/f13/raider_mall)
 "bmg" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/structure/kitchenspike,
+/turf/open/floor/plasteel/f13{
+	icon_state = "platingdmg1"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowbroken"
-	},
-/area/f13/desert)
+/area/f13/raider_mall)
 "bmh" = (
-/obj/structure/spacevine{
-	name = "Mutant Vines"
+/obj/machinery/camera/autoname{
+	dir = 8;
+	icon_state = "camera";
+	name = "mall security camera";
+	network = list("mall")
 	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/closed/wall/r_wall/f13composite{
-	icon_state = "ruinswindowdestroyed"
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/plasteel/f13{
+	dir = 5;
+	icon_state = "greenrusty"
 	},
-/area/f13/desert)
+/area/f13/raider_mall)
+"bmi" = (
+/obj/structure/decoration/vent,
+/turf/open/floor/plasteel/f13{
+	dir = 5;
+	icon_state = "greenrusty"
+	},
+/area/f13/raider_mall)
+"bmj" = (
+/obj/effect/spawner/lootdrop/f13/armor/tier1,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/raider_mall)
 "bmk" = (
 /obj/structure/simple_door/interior,
 /turf/open/floor/plasteel/f13{
@@ -23461,6 +23478,45 @@
 /obj/item/clothing/shoes/bronze,
 /turf/open/floor/wood/f13/old,
 /area/f13/raider_mall)
+"bmD" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowbrokenvertical"
+	},
+/area/f13/desert)
+"bmE" = (
+/obj/effect/decal/cleanable/shreds,
+/turf/open/space/basic,
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/f13/powerplant)
+"bmF" = (
+/obj/structure/window/fulltile/wood_window,
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite,
+/area/f13/desert)
+"bmG" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowbroken"
+	},
+/area/f13/desert)
+"bmH" = (
+/obj/structure/spacevine{
+	name = "Mutant Vines"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "ruinswindowdestroyed"
+	},
+/area/f13/desert)
 "bmK" = (
 /obj/item/caution,
 /obj/item/caution,
@@ -26302,12 +26358,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/prison)
-"buS" = (
-/obj/effect/spawner/lootdrop/f13/armor/tier1,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/raider_mall)
 "buT" = (
 /obj/item/restraints/handcuffs,
 /turf/open/floor/plasteel/f13{
@@ -64841,7 +64891,7 @@ byd
 btb
 byF
 byG
-bme
+bmE
 bqt
 bzY
 boQ
@@ -100956,8 +101006,8 @@ bey
 beG
 beG
 beG
-beG
 bjT
+beG
 beG
 beG
 bgL
@@ -101358,9 +101408,9 @@ bft
 bld
 bld
 bld
-bld
 bft
 bkv
+blG
 bkw
 bex
 aFM
@@ -101760,8 +101810,8 @@ bjp
 bjS
 bjS
 bjS
-bjS
 bkk
+bjS
 bjS
 ble
 bex
@@ -102161,11 +102211,11 @@ bgM
 bjX
 bjS
 bld
-bld
-blf
+bjS
 bjW
 blg
 bjS
+blf
 bex
 aag
 bns
@@ -102251,8 +102301,8 @@ brA
 brA
 aaZ
 abg
-bmg
-bmh
+bmG
+bmH
 aaz
 aaI
 aag
@@ -102562,12 +102612,12 @@ bgM
 bgM
 bjX
 bjS
-bjS
-bjS
+bld
 bjS
 bjr
 bkx
-bld
+bmi
+bme
 bex
 aag
 bns
@@ -102965,11 +103015,11 @@ bgM
 bjX
 bjS
 bld
-bld
 bjS
 bjR
 bjS
-bld
+bjS
+bjo
 bex
 aag
 bns
@@ -103368,10 +103418,10 @@ bjp
 bjS
 bjS
 bjS
-blf
 bfr
 blg
 bjS
+bmf
 bex
 aCN
 bns
@@ -103770,10 +103820,10 @@ bfr
 bld
 bld
 bld
-blG
 bex
+bjo
 bjS
-blH
+bmh
 bex
 aDU
 bns
@@ -104172,8 +104222,8 @@ biF
 beG
 beG
 beG
-beG
-bgL
+biF
+bhc
 bkk
 bjU
 bgL
@@ -104577,7 +104627,7 @@ blh
 blJ
 bft
 bmK
-bgu
+bmg
 bex
 aag
 bns
@@ -105365,7 +105415,7 @@ bfv
 bfN
 bgb
 bgv
-bgM
+blH
 bgv
 bft
 bmN
@@ -106586,7 +106636,7 @@ bkA
 bll
 bjq
 bex
-buS
+bmj
 bjV
 bex
 aag
@@ -108266,7 +108316,7 @@ aaI
 brC
 aeO
 bst
-bmg
+bmG
 bls
 aze
 aaZ
@@ -112266,8 +112316,8 @@ aaU
 aDU
 aCN
 aaU
-bjo
-bjo
+bmD
+bmD
 aaU
 aaI
 bhQ
@@ -119496,8 +119546,8 @@ aag
 aag
 aze
 brA
-bjo
-bjo
+bmD
+bmD
 aaU
 aaU
 aFp
@@ -119519,7 +119569,7 @@ aag
 aag
 aDU
 bae
-bmf
+bmF
 blR
 bvr
 brI

@@ -187,10 +187,6 @@ Head Scribe
 	exp_type = EXP_TYPE_SCRIBE
 	var/leader1_age = LED_AGE_MIN
 
-/datum/job/bos/f13headscribe/after_spawn(mob/living/carbon/human/H, mob/M)
-	if(H.age < leader1_age)
-		H.age = leader1_age
-
 	loadout_options = list(
 	/datum/outfit/loadout/hsstand, //Needler, pen, and medbeam
 	/datum/outfit/loadout/hspract //AEP7 and hypospray
@@ -236,6 +232,10 @@ Head Scribe
 	if(visualsOnly)
 		return
 	H.add_trait(TRAIT_MEDICALEXPERT, TRAIT_GENERIC)
+
+/datum/job/bos/f13headscribe/after_spawn(mob/living/carbon/human/H, mob/M)
+	if(H.age < leader1_age)
+		H.age = leader1_age
 
 /*
 Knight Captain - Not west cost abiding. Disabled for now.
