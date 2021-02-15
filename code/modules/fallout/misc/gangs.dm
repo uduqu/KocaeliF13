@@ -38,6 +38,21 @@ GLOBAL_DATUM_INIT(greatkhans, /datum/gang/greatkhans, new)
 
 		/datum/gang_item/weapon/shuriken,
 		/datum/gang_item/weapon/switchblade,
+		/datum/gang_item/equipment/c4,
+		/datum/gang_item/equipment/police,
+		/datum/gang_item/equipment/uzi,
+		/datum/gang_item/equipment/type93,
+
+		/datum/gang_item/equipment/c38,
+		/datum/gang_item/equipment/m38,
+		/datum/gang_item/equipment/m9mm,
+		/datum/gang_item/equipment/c9mm,
+		/datum/gang_item/equipment/type93mag,
+		/datum/gang_item/equipment/box556,
+
+		/datum/gang_item/equipment/ziptie,
+		/datum/gang_item/equipment/signals,
+		/datum/gang_item/equipment/synthflesh,
 
 		/datum/gang_item/clothing/prostitute_dress,
 		/datum/gang_item/clothing/hat,
@@ -110,7 +125,7 @@ GLOBAL_DATUM_INIT(greatkhans, /datum/gang/greatkhans, new)
 	var/where = new_leader.equip_in_one_of_slots(gangtool, slots, FALSE)
 	if(!where)
 		gangtool.forceMove(get_turf(new_leader))
-	
+
 	if(assigned_tool)
 		var/obj/item/device/gangtool/tool = assigned_tool
 		tool.name = "[initial(tool.name)] - [name]"

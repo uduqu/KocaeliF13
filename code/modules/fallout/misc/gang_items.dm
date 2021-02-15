@@ -167,6 +167,24 @@
 	cost = 60
 	item_path = /obj/item/switchblade
 
+/datum/gang_item/equipment/police
+	name = "Officer Sidearm"
+	id = "police"
+	cost = 240
+	item_path = /obj/item/gun/ballistic/revolver/police
+
+/datum/gang_item/equipment/uzi
+	name = "Type U3 Uzi"
+	id = "uzi"
+	cost = 1200
+	item_path = /obj/item/gun/ballistic/automatic/mini_uzi
+
+/datum/gang_item/equipment/type93
+	name = "Type 93 Assault Rifle"
+	id = "type93"
+	cost = 2400
+	item_path = /obj/item/gun/ballistic/automatic/type93
+
 ///////////////////
 //EQUIPMENT
 ///////////////////
@@ -197,3 +215,57 @@
 	id = "c4"
 	cost = 200
 	item_path = /obj/item/grenade/plastic/c4
+
+/datum/gang_item/equipment/c38
+	name = ".38 Special Speedloader"
+	id = "c38"
+	cost = 60
+	item_path = /obj/item/ammo_box/c38
+
+/datum/gang_item/equipment/m38
+	name = ".38 Special Box"
+	id = "m38"
+	cost = 120
+	item_path = /obj/item/ammo_box/box38
+
+/datum/gang_item/equipment/m9mm
+	name = "Uzi Magazine"
+	id = "m9mm"
+	cost = 240
+	item_path = /obj/item/ammo_box/magazine/uzim9mm
+
+/datum/gang_item/equipment/c9mm
+	name = "9mm FMJ"
+	id = "c9mm"
+	cost = 320
+	item_path = /obj/item/ammo_box/c9mm
+
+/datum/gang_item/equipment/type93mag
+	name = "Type 93 Magazine"
+	id = "type93mag"
+	cost = 420
+	item_path = /obj/item/ammo_box/magazine/m556/rifle/assault
+
+/datum/gang_item/equipment/box556
+	name = "5.56 FMJ"
+	id = "556box"
+	cost = 520
+	item_path = /obj/item/ammo_box/a556
+
+/datum/gang_item/equipment/ziptie
+	name = "Box of Restraints"
+	id = "zipties"
+	cost = 120
+	item_path = /obj/item/storage/box/zipties
+
+/datum/gang_item/equipment/signals
+	name = "Signal Box"
+	id = "signal"
+	cost = 60
+	item_path = /obj/item/storage/box/signal
+
+/datum/gang_item/equipment/synthflesh
+	name = "Synthflesh Canister"
+	id = "synthflesh"
+	cost = 620
+	item_path = /obj/item/reagent_containers/medspray/synthflesh

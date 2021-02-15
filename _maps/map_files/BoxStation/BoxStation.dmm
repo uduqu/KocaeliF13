@@ -1971,7 +1971,9 @@
 /turf/closed/indestructible/vaultdoor,
 /area/f13/admeme)
 "agi" = (
-/obj/machinery/conveyor,
+/obj/machinery/conveyor{
+	id = "mining_internal"
+	},
 /turf/open/floor/plating,
 /area/f13/klamat/mine)
 "agj" = (
@@ -2231,7 +2233,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/conveyor,
+/obj/machinery/conveyor{
+	id = "mining_internal"
+	},
 /turf/open/floor/plating,
 /area/f13/klamat/mine)
 "agX" = (

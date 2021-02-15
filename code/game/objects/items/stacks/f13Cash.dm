@@ -13,6 +13,10 @@
 #define LOW_MIN 5
 #define LOW_MAX 20
 
+// For ghouls
+#define LOW2_MIN 1
+#define LOW2_MAX 5
+
 // A medium value cash spawn is on average worth 75
 #define MED_MIN 50
 #define MED_MAX 100
@@ -95,6 +99,11 @@
 
 /obj/item/stack/f13Cash/random/bottle_cap
 	money_type = /obj/item/stack/f13Cash/bottle_cap
+
+
+/obj/item/stack/f13Cash/random/bottle_cap/ghoul
+	min_qty = LOW2_MIN / CASH_CAP
+	max_qty = LOW2_MAX / CASH_CAP
 
 /obj/item/stack/f13Cash/random/bottle_cap/low
 	min_qty = LOW_MIN / CASH_CAP
