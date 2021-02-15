@@ -328,7 +328,7 @@
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/restraints/handcuffs/cable/zipties,
-		/obj/item/melee/baton/loaded,
+		/obj/item/melee/classic_baton/gutsy,
 		/obj/item/gun/energy/laser/plasma/pistol/cyborg,
 	//	/obj/item/gun/energy/laser/fire, //Carl man bad
 		/obj/item/clothing/mask/gas/sechailer/cyborg)

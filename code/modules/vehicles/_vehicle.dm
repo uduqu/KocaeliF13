@@ -27,7 +27,8 @@
 	var/obj/vehicle/trailer
 	var/engine_on = 0
 	var/engine_on_sound = null
-	var/engine_loop_sound = null
+	var/engine_loop_sound = null//not used.
+	var/datum/looping_sound/motorcycle/soundloop//Given we only use motorbikes, for now, we'll just use this.
 
 /obj/vehicle/New()
 	..()
@@ -38,6 +39,7 @@
 
 /obj/vehicle/Initialize(mapload)
 	. = ..()
+	soundloop = new(list(src))
 	occupants = list()
 	autogrant_actions_passenger = list()
 	autogrant_actions_controller = list()
@@ -176,6 +178,7 @@
 	set src in view(1)
 
 	start_engine()
+	soundloop.start()
 
 /obj/vehicle/proc/StopEngine()
 	set name = "Stop Engine"
@@ -183,6 +186,7 @@
 	set src in view(1)
 
 	stop_engine()
+	soundloop.stop()
 
 /obj/vehicle/proc/stop_engine(mob/M)
 	src.verbs += /obj/vehicle/proc/StartEngine
@@ -216,4 +220,4 @@
 		playsound(src, engine_on_sound, 50)
 //	if(engine_loop_sound)
 //		BeginAmbient(engine_loop_sound)
-		SEND_SOUND(M, sound(pick(engine_loop_sound), repeat = 1, wait = 0, volume = 35, channel = CHANNEL_BICYCLE))
+//		SEND_SOUND(M, sound(pick(engine_loop_sound), repeat = 1, wait = 0, volume = 100, channel = CHANNEL_BICYCLE))
