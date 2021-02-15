@@ -29,23 +29,6 @@
 	D.set_vehicle_dir_offsets(EAST, -18, 0)
 	D.set_vehicle_dir_offsets(WEST, -18, 0)
 
-/obj/vehicle/ridden/fuel/motorcycle/Bump(atom/A)//same as skateboards for now.
-	. = ..()
-	if(A.density && has_buckled_mobs())
-		var/mob/living/H = buckled_mobs[1]
-		var/atom/throw_target = get_edge_target_turf(H, pick(GLOB.cardinals))
-		unbuckle_mob(H)
-		H.throw_at(throw_target, 4, 3)
-		H.Knockdown(100)
-		H.adjustStaminaLoss(40)
-		var/head_slot = H.get_item_by_slot(SLOT_HEAD)
-		if(!head_slot || !(istype(head_slot,/obj/item/clothing/head/helmet) || istype(head_slot,/obj/item/clothing/head/hardhat)))
-			H.adjustBrainLoss(3)
-			H.updatehealth()
-		visible_message("<span class='danger'>[src] crashes into [A], sending [H] flying!</span>")
-		playsound(src, 'sound/effects/bang.ogg', 50, 1)
-
-
 /obj/vehicle/ridden/fuel/motorcycle/post_buckle_mob(mob/living/M)
 	add_overlay(motorcycle)
 	return ..()
