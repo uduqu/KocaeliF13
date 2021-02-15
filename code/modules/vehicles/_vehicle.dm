@@ -197,7 +197,7 @@
 
 	engine_on = FALSE
 
-	M.stop_sound_channel(CHANNEL_BICYCLE)
+	soundloop.stop()//Double take. Don't ask me why it's required, but it is.
 
 /obj/vehicle/proc/start_engine(mob/living/M)
 	GET_COMPONENT(riding_datum, /datum/component/riding)

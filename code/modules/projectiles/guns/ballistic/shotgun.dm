@@ -15,6 +15,8 @@
 	randomspread = 0
 	fire_delay = 2
 	distro = 1
+	extra_damage = 5
+	extra_penetration = -5
 	fire_sound = 'sound/f13weapons/shotgun.ogg'
 
 /obj/item/gun/ballistic/shotgun/attackby(obj/item/A, mob/user, params)
@@ -179,6 +181,8 @@
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
 	fire_delay = 4
+	extra_damage = 35
+	extra_penetration = 25
 
 /obj/item/gun/ballistic/shotgun/automatic/combat/compact
 	name = "compact combat shotgun"
@@ -187,6 +191,8 @@
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/com/compact
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
+	extra_damage = 40
+	extra_penetration = -15
 
 //Dual Feed Shotgun
 
@@ -246,6 +252,8 @@
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/trench
 	w_class = WEIGHT_CLASS_NORMAL
 	weapon_weight = WEAPON_LIGHT
+	extra_damage = 25
+	extra_penetration = -15//just for balance
 
 /obj/item/gun/ballistic/shotgun/hunting
 	name = "hunting shotgun"
@@ -256,6 +264,8 @@
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
 	sawn_desc = "A concealed hand blaster, for any situation."
+	extra_damage = 25
+	extra_penetration = 5
 
 /obj/item/gun/ballistic/shotgun/hunting/attackby(obj/item/A, mob/user, params)
 	..()
@@ -278,6 +288,8 @@
 	sawn_desc = "Come with me if you want to live."
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
+	extra_damage = 25
+	extra_penetration = 15
 
 //lethal
 /obj/item/gun/ballistic/shotgun/riot/lethal

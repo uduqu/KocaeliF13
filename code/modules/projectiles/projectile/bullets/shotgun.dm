@@ -1,12 +1,13 @@
 /obj/item/projectile/bullet/shotgun_slug
 	name = "12g shotgun slug"
-	damage = 50
+	damage = 15//Primary damage from the damage increase on the firearms. Typically. Regardless, good pen.
 	armour_penetration = 20
 
 /obj/item/projectile/bullet/shotgun_beanbag
 	name = "beanbag slug"
 	damage = 0
 	stamina = 60
+	knockdown = 5//we'll try this a bit. Basically nothing, but it's just to knock you on your ass.
 
 /obj/item/projectile/bullet/incendiary/shotgun
 	name = "incendiary slug"
@@ -97,3 +98,4 @@
 
 /obj/item/projectile/bullet/scattershot
 	damage = 25
+
