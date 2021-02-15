@@ -814,10 +814,7 @@
 	},
 /area/f13/building)
 "acz" = (
-/obj/structure/table/wood/settler,
-/obj/item/storage/box/beakers,
-/obj/item/storage/box/beakers,
-/obj/item/storage/box/syringes,
+/obj/machinery/chem_dispenser,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2";
 	tag = "icon-housewood2"
@@ -25262,6 +25259,17 @@
 	tag = "icon-bluedirtychess2"
 	},
 /area/f13/city)
+"bpM" = (
+/obj/structure/table/wood/settler,
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/syringes,
+/obj/machinery/reagentgrinder,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2";
+	tag = "icon-housewood2"
+	},
+/area/f13/building)
 "bpN" = (
 /obj/structure/table/wood/settler,
 /obj/item/reagent_containers/food/drinks/beer,
@@ -92724,7 +92732,7 @@ aae
 aae
 aae
 acl
-acy
+acz
 acV
 agw
 acl
@@ -92981,7 +92989,7 @@ aae
 aae
 aae
 acl
-acz
+bpM
 acV
 agw
 acl
