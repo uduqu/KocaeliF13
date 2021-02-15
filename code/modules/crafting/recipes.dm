@@ -656,6 +656,16 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
 
+/datum/crafting_recipe/bottlecap_mine
+	name = "Bottlecap Mine"
+	result = /obj/item/bottlecap_mine
+	reqs = list(/obj/item/stack/f13Cash/bottle_cap = 125,
+				/obj/item/assembly/igniter = 1,
+				/obj/item/crafting/lunchbox = 1)
+	time = 15
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
+
 /datum/crafting_recipe/molotov
 	name = "Molotov"
 	result = /obj/item/reagent_containers/food/drinks/bottle/molotov

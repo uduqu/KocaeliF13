@@ -235,6 +235,7 @@
 /obj/item/gun/energy/laser/plasma/pistol/cyborg
 	name ="plasma caster"
 	can_charge = 0
+	fire_delay = 24//due to spammage of the prior fire delay (6).
 	desc = "An energy-based laser gun that draws power from the cyborg's internal energy cell directly. So this is what freedom looks like?"
 	use_cyborg_cell = 1
 

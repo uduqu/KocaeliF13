@@ -439,7 +439,7 @@
 
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds/super//very top tier loot for dungeons
 	name = "super medical meds spawner"
-	lootcount = 2//either two Voodoo, Two supers or a mix. Intended for top tier dungeons only.
+	lootcount = 2//Intended for top tier dungeons only. Spawns one of each.
 
 	loot = list(
 				/obj/item/reagent_containers/hypospray/medipen/stimpak/super,
@@ -1095,7 +1095,8 @@
 				/obj/item/reagent_containers/glass/bowl,
 				/obj/item/reagent_containers/spray/cleaner,
 				/obj/item/reagent_containers/glass/bucket,
-				/obj/item/poster/random_contraband
+				/obj/item/poster/random_contraband,
+				/obj/item/crafting/lunchbox
 				)
 
 /obj/effect/spawner/lootdrop/f13/seedspawner
@@ -1178,7 +1179,8 @@
 				/obj/item/stack/crafting/goodparts/five,
 				/obj/item/stack/crafting/electronicparts/three,
 				/obj/item/stack/crafting/electronicparts/five,
-				/obj/item/reagent_containers/glass/bottle/blackpowder)
+				/obj/item/reagent_containers/glass/bottle/blackpowder,
+				)
 
 /obj/effect/spawner/lootdrop/f13/crafting/Initialize(mapload) //on mapload, pick how many shit to spawn
 	lootcount = pick(1, 2)

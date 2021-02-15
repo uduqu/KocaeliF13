@@ -9476,6 +9476,9 @@
 	},
 /area/f13/village)
 "azB" = (
+/obj/item/clothing/gloves/Biker,
+/obj/item/clothing/head/fluff/Bikerhelmet,
+/obj/item/clothing/under/f13/Retro_Biker_Vest,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright0";
 	tag = "icon-verticalrightborderright0"
@@ -9514,15 +9517,7 @@
 /area/f13/village)
 "azG" = (
 /obj/structure/table/wood,
-/obj/item/paper,
-/obj/item/pen{
-	pixel_x = 0;
-	pixel_y = 0
-	},
-/obj/item/flashlight{
-	icon_state = "seclite";
-	tag = "icon-seclite"
-	},
+/obj/item/key/motorcycle,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2";
 	tag = "icon-housewood2"
@@ -10020,6 +10015,7 @@
 "aAQ" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
+/obj/item/clothing/head/helmet/f13/motorcycle,
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
 	icon_state = "outerbordercorner";
@@ -24653,6 +24649,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/tunnel)
+"boe" = (
+/obj/vehicle/ridden/fuel/motorcycle/rusty,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0";
+	tag = "icon-verticalinnermain0"
+	},
+/area/f13/village)
 "bof" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -24774,6 +24777,23 @@
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
+"bov" = (
+/obj/item/key/motorcycle,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain1";
+	tag = "icon-verticalinnermain1"
+	},
+/area/f13/wasteland)
+"bow" = (
+/obj/machinery/door/poddoor/shutters{
+	id = 560;
+	name = "garage shutters"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalleftborderright0";
+	tag = "icon-verticalleftborderright0"
+	},
+/area/f13/village)
 "box" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -24794,6 +24814,26 @@
 	icon_state = "dirtcorner"
 	},
 /area/f13/wasteland)
+"boA" = (
+/obj/machinery/door/poddoor/shutters{
+	id = 560;
+	name = "garage shutters"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain0";
+	tag = "icon-verticalinnermain0"
+	},
+/area/f13/village)
+"boB" = (
+/obj/machinery/door/poddoor/shutters{
+	id = 560;
+	name = "garage shutters"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalrightborderleft0";
+	tag = "icon-verticalrightborderleft0"
+	},
+/area/f13/village)
 "boC" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/f13{
@@ -25151,6 +25191,26 @@
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt";
 	tag = "icon-dirt"
+	},
+/area/f13/wasteland)
+"bpD" = (
+/obj/machinery/button/door{
+	id = 560;
+	name = "garage door button";
+	pixel_y = 32
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalrightborderright0";
+	tag = "icon-verticalrightborderright0"
+	},
+/area/f13/village)
+"bpE" = (
+/obj/vehicle/ridden/fuel/motorcycle/rusty{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain2";
+	tag = "icon-verticalinnermain2"
 	},
 /area/f13/wasteland)
 "bpF" = (
@@ -79875,7 +79935,7 @@ adY
 abT
 ahB
 akh
-azi
+bow
 azA
 azi
 azi
@@ -80132,9 +80192,9 @@ adY
 aer
 aer
 ahb
+boA
 azj
-azj
-azj
+boe
 azj
 aAR
 aBs
@@ -80389,7 +80449,7 @@ adY
 abS
 abS
 agC
-azk
+boB
 azk
 azk
 azk
@@ -80647,7 +80707,7 @@ abS
 aiv
 jlD
 azh
-azB
+bpD
 azV
 azB
 aAS
@@ -98479,8 +98539,8 @@ adH
 ajp
 akG
 aWS
-aje
-ajp
+bov
+bpE
 ahB
 ajp
 bfo

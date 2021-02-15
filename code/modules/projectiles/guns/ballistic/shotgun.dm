@@ -361,6 +361,26 @@
 	extra_damage = 55
 	extra_penetration = 25
 
+/obj/item/gun/ballistic/shotgun/antimateriel/shoot_live_shot(mob/living/user)
+	. = ..()
+	if((prob(95) && !zoomed))
+		var/mob/living/carbon/human/H = user
+		playsound(loc, 'sound/f13weapons/antimaterielfire.ogg', 100, 1)
+		shake_camera(user, recoil + 1, recoil)
+		to_chat(user, "<span class ='danger'>You attempt to fire the rifle from the hip unprepared, tossing you to the ground!</span>")
+		H.visible_message("<span class='danger'>[H] drops to the floor from recoil as they fire unprepared!</span>")
+		user.Knockdown(60)
+/*
+		if(ishuman(user))
+			var/mob/living/carbon/human/H = user
+			H.apply_damage(2*force, BRUTE, BODY_ZONE_PRECISE_GROIN)
+			H.visible_message("<span class='warning'>[H] shoots themselves in the groin like an absolute retard!</span>")
+			if(user.has_penis())
+				user.has_penis = 0
+			if(user.has_vagina(()
+				user.has_vagina = 0
+*/ //Not enabled for now.
+
 /obj/item/gun/ballistic/shotgun/automatic/hunting/trail
 	name = "trail carbine"
 	desc = "A lever action rifle chambered in .44 Magnum."

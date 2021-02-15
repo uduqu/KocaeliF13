@@ -210,8 +210,8 @@
 	maxHealth = 1280//boss mob
 	melee_damage_lower = 48
 	melee_damage_upper = 72
-	extra_projectiles = 11 //12 projectiles
-	ranged_cooldown_time = 12 //brrrrrrrrrrrrt
+	extra_projectiles = 5 //6 projectiles
+	ranged_cooldown_time = 24 //brrrrrrrrrrrrt
 	stat_attack = UNCONSCIOUS
 	ranged = TRUE
 	retreat_distance = 6
@@ -221,6 +221,7 @@
 
 /obj/item/projectile/beam/laser/pistol/ultraweak/enclave
 	damage = 15
+	hitscan = 0
 
 /mob/living/simple_animal/hostile/handy/sentrybot/enclave/bullet_act(obj/item/projectile/Proj)
 	if(!Proj)

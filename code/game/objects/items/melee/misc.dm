@@ -300,6 +300,58 @@
 	playsound(src.loc, 'sound/weapons/batonextend.ogg', 50, 1)
 	add_fingerprint(user)
 
+//gutsy baton
+/obj/item/melee/classic_baton/gutsy
+	name = "specialized baton"
+	desc = "A stick, basically. Apply to face."
+	icon = 'icons/obj/items_and_weapons.dmi'
+	icon_state = "telebaton_1"
+	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
+	item_state = null
+	slot_flags = ITEM_SLOT_BELT
+	w_class = WEIGHT_CLASS_SMALL
+	item_flags = NONE
+	force = 0
+
+/obj/item/melee/classic_baton/gutsy/attack(mob/living/target, mob/living/user)
+	if(!on)
+		return ..()
+
+	if(iscyborg(target))
+		..()
+		return
+
+	if(!isliving(target))
+		return
+
+	if (user.a_intent == INTENT_HARM)
+		if(!..())
+			return
+		if(!iscyborg(target))
+			return
+	else
+		if(cooldown <= world.time)
+			if(target.getStaminaLoss() > 95)
+				return
+			if(ishuman(target))
+				var/mob/living/carbon/human/H = target
+				if (H.check_shields(src, 0, "[user]'s [name]", MELEE_ATTACK))
+					return
+				if(check_martial_counter(H, user))
+					return
+			playsound(get_turf(src), 'sound/effects/woodhit.ogg', 75, 1, -1)
+			target.adjustStaminaLoss(15)
+			add_logs(user, target, "attacked", src)
+			src.add_fingerprint(user)
+			target.visible_message("<span class ='danger'>[user] hits [target] with [src]!</span>", \
+				"<span class ='userdanger'>[user] hits [target] with [src]!</span>")
+			if(!iscarbon(user))
+				target.LAssailant = null
+			else
+				target.LAssailant = user
+			cooldown = world.time + 10
+
 /obj/item/melee/supermatter_sword
 	name = "supermatter sword"
 	desc = "In a station full of bad ideas, this might just be the worst."

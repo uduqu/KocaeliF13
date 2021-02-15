@@ -4,7 +4,7 @@
 
 /obj/item/bottlecap_mine
 	name = "bottlecap mine"
-	desc = "It has an adjustable timer. It can explode in 5 seconds after activating."
+	desc = "A homemade landmine. Careful with this."
 	w_class = 2
 	icon = 'icons/fallout/objects/crafting.dmi'
 	icon_state = "capmine"
@@ -19,7 +19,8 @@
 
 /obj/item/bottlecap_mine/attack_self(mob/user as mob)
 	toogle_activate(user)
-
+	playsound(get_turf(src),'sound/f13weapons/mine_one.ogg',50)
+	to_chat(user, "<span class='warning'>You activate the landmine!</span>")
 
 /obj/item/bottlecap_mine/proc/toogle_activate(mob/user)
 	switch(state)
@@ -50,17 +51,17 @@
 	var/list/Mobs = hearers(1, get_turf(src)) - src
 	if(Mobs.len)
 		playsound(get_turf(src),'sound/f13weapons/mine_five.ogg',50)
-		spawn(5)
-			boom()
-			STOP_PROCESSING(SSobj, src)
-			return
+//		spawn(5)
+//			boom()
+//			STOP_PROCESSING(SSobj, src)
+//			return
 	if(prob(15))
 		playsound(get_turf(src),'sound/f13weapons/mine_one.ogg',100, extrarange = -5)
-/*
-/obj/item/bottlecap_mine/Crossed(go/AM)
+
+/obj/item/bottlecap_mine/Crossed(atom/movable/AM)
 	if(state == ACTIVE && ishuman(AM))
 		boom()
-*/
+		STOP_PROCESSING(SSobj, src)
 
 /obj/item/bottlecap_mine/update_icon()
 	switch(state)
