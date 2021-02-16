@@ -35,8 +35,7 @@
 /area/f13/tunnel)
 "aai" = (
 /obj/structure/fluff/rails{
-	dir = 4;
-	icon_state = "rails"
+	dir = 4
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
@@ -209,8 +208,7 @@
 /area/f13/bunker)
 "aaN" = (
 /obj/machinery/conveyor/auto{
-	dir = 4;
-	icon_state = "conveyor_map"
+	dir = 4
 	},
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
@@ -231,8 +229,7 @@
 /area/f13/bunker)
 "aaP" = (
 /obj/machinery/conveyor/auto{
-	dir = 6;
-	icon_state = "conveyor_map"
+	dir = 6
 	},
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
@@ -303,8 +300,7 @@
 /area/f13/bunker)
 "abb" = (
 /obj/machinery/mineral/processing_unit_console{
-	machinedir = 1;
-	pixel_y = 0
+	machinedir = 1
 	},
 /turf/closed/wall/r_wall/rust,
 /area/f13/bunker)
@@ -412,8 +408,7 @@
 /area/f13/bunker)
 "abp" = (
 /obj/machinery/mineral/stacking_unit_console{
-	machinedir = 5;
-	pixel_x = 0
+	machinedir = 5
 	},
 /turf/closed/wall/r_wall/rust,
 /area/f13/bunker)
@@ -675,7 +670,6 @@
 "acd" = (
 /obj/structure/chair/wood{
 	dir = 1;
-	icon_state = "wooden_chair_settler";
 	tag = "icon-wooden_chair_settler (NORTH)"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -886,8 +880,7 @@
 /area/f13/wasteland)
 "acI" = (
 /obj/structure/fluff/rails{
-	dir = 4;
-	icon_state = "rails"
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -953,23 +946,20 @@
 /area/f13/wasteland)
 "acQ" = (
 /obj/structure/fence/corner{
-	dir = 1;
-	icon_state = "corner"
+	dir = 1
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "acR" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "acS" = (
 /obj/structure/fence/corner{
-	dir = 5;
-	icon_state = "corner"
+	dir = 5
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -1131,8 +1121,7 @@
 /area/f13/wasteland)
 "adn" = (
 /obj/structure/chair/f13chair2{
-	dir = 1;
-	icon_state = "f13chair2"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
@@ -1294,7 +1283,6 @@
 "adM" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/road{
@@ -1334,7 +1322,6 @@
 "adS" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5;
-	icon_state = "tracks";
 	tag = "icon-tracks (NORTHEAST)"
 	},
 /turf/open/indestructible/ground/outside/dirt,
@@ -1424,8 +1411,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/corner{
-	dir = 8;
-	icon_state = "purplecorner"
+	dir = 8
 	},
 /area/f13/vault)
 "aeg" = (
@@ -1720,14 +1706,12 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green/corner{
-	dir = 8;
-	icon_state = "greencorner"
+	dir = 8
 	},
 /area/f13/vault)
 "aeK" = (
 /obj/structure/fluff/rails{
-	dir = 4;
-	icon_state = "rails"
+	dir = 4
 	},
 /obj/docking_port/stationary{
 	area_type = /area/hallway/secondary/exit;
@@ -1742,8 +1726,7 @@
 /area/hallway/secondary/exit)
 "aeL" = (
 /obj/structure/fence/corner{
-	dir = 9;
-	icon_state = "corner"
+	dir = 9
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -1754,8 +1737,7 @@
 /area/f13/wasteland)
 "aeN" = (
 /obj/structure/fence/corner{
-	dir = 6;
-	icon_state = "corner"
+	dir = 6
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -2047,7 +2029,6 @@
 "afD" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
-	icon_state = "housewindow";
 	tag = "icon-housewindow"
 	},
 /turf/open/floor/f13{
@@ -2057,8 +2038,6 @@
 "afE" = (
 /obj/docking_port/stationary{
 	area_type = /area/f13;
-	dheight = 0;
-	dir = 1;
 	dwidth = 1;
 	height = 3;
 	id = "North_Ground";
@@ -2259,8 +2238,7 @@
 	pixel_y = -32
 	},
 /obj/machinery/camera/autoname{
-	dir = 1;
-	icon_state = "camera"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/corner,
 /area/f13/vault)
@@ -2413,7 +2391,6 @@
 "agy" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/desert,
@@ -2424,8 +2401,7 @@
 /area/f13/wasteland)
 "agA" = (
 /obj/structure/fence/corner{
-	dir = 4;
-	icon_state = "corner"
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
@@ -2608,7 +2584,6 @@
 /area/f13/building)
 "agX" = (
 /obj/structure/chair/stool{
-	dir = 2;
 	icon_state = "bench";
 	tag = "icon-bench"
 	},
@@ -2647,7 +2622,6 @@
 "ahd" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -2945,7 +2919,6 @@
 "ahW" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -3095,7 +3068,6 @@
 /area/f13/wasteland)
 "air" = (
 /obj/structure/chair/stool{
-	dir = 2;
 	icon_state = "bench";
 	tag = "icon-bench"
 	},
@@ -3186,9 +3158,7 @@
 "aiE" = (
 /obj/structure/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -10;
-	pixel_y = 0;
 	tag = "icon-sink (WEST)"
 	},
 /obj/structure/mirror{
@@ -3260,7 +3230,6 @@
 "aiN" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -3278,7 +3247,6 @@
 "aiQ" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -3333,8 +3301,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/machinery/photocopier,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -3534,7 +3501,6 @@
 /area/f13/wasteland)
 "ajB" = (
 /obj/structure/chair/stool{
-	dir = 2;
 	icon_state = "bench";
 	tag = "icon-bench"
 	},
@@ -3571,8 +3537,6 @@
 /obj/item/ammo_casing/caseless{
 	dir = 10;
 	icon_state = "sS-casing";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-sS-casing (SOUTHWEST)"
 	},
 /obj/item/storage/trash_stack,
@@ -3592,8 +3556,7 @@
 /area/f13/wasteland)
 "ajI" = (
 /obj/machinery/computer/shuttle/vault113elevator{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/vault/storage)
@@ -3667,7 +3630,6 @@
 "ajS" = (
 /obj/docking_port/stationary{
 	area_type = /area/f13/underground/vault_atrium_upper;
-	dheight = 0;
 	dir = 8;
 	dwidth = 1;
 	height = 3;
@@ -3755,7 +3717,6 @@
 "akg" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /turf/open/floor/plasteel/barber{
@@ -3802,7 +3763,6 @@
 /area/f13/ruins)
 "akn" = (
 /turf/open/indestructible/ground/outside/ruins{
-	dir = 2;
 	icon_state = "rubblecorner";
 	tag = "icon-rubblecorner (WEST)"
 	},
@@ -3936,8 +3896,6 @@
 /obj/item/ammo_casing/caseless{
 	dir = 10;
 	icon_state = "sS-casing";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-sS-casing (SOUTHWEST)"
 	},
 /turf/open/indestructible/ground/outside/desert,
@@ -4087,8 +4045,6 @@
 "alj" = (
 /obj/item/ammo_casing/caseless{
 	dir = 6;
-	icon_state = "s-casing";
-	pixel_x = 0;
 	tag = "icon-s-casing (SOUTHEAST)"
 	},
 /turf/open/indestructible/ground/outside/desert,
@@ -4224,7 +4180,6 @@
 "alB" = (
 /obj/structure/sink{
 	dir = 1;
-	icon_state = "sink";
 	pixel_y = 16;
 	tag = "icon-sink (NORTH)"
 	},
@@ -4285,7 +4240,6 @@
 "alJ" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /obj/item/clothing/under/f13/caravaneer,
@@ -4319,8 +4273,6 @@
 "alP" = (
 /obj/item/ammo_casing/caseless{
 	dir = 6;
-	icon_state = "s-casing";
-	pixel_x = 0;
 	tag = "icon-s-casing (SOUTHEAST)"
 	},
 /turf/open/indestructible/ground/inside/mountain,
@@ -4358,7 +4310,6 @@
 "alU" = (
 /obj/structure/decoration/ruins{
 	dir = 8;
-	icon_state = "overlap";
 	tag = "icon-overlap (WEST)"
 	},
 /turf/open/indestructible/ground/outside/ruins,
@@ -4372,7 +4323,6 @@
 "alW" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -4381,7 +4331,6 @@
 "alX" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /turf/open/floor/f13/wood,
@@ -4393,7 +4342,6 @@
 "alZ" = (
 /obj/structure/chair/wood{
 	dir = 4;
-	icon_state = "wooden_chair_settler";
 	tag = "icon-wooden_chair_settler (EAST)"
 	},
 /turf/open/floor/f13/wood,
@@ -4669,9 +4617,7 @@
 "amT" = (
 /obj/structure/sink{
 	dir = 4;
-	icon_state = "sink";
 	pixel_x = 10;
-	pixel_y = 0;
 	tag = "icon-sink (EAST)"
 	},
 /obj/structure/mirror{
@@ -4688,7 +4634,6 @@
 "amV" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /obj/effect/landmark/start/f13/ncrranger,
@@ -4707,7 +4652,6 @@
 "amX" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /obj/effect/landmark/start/f13/ncrranger,
@@ -4911,7 +4855,6 @@
 "anB" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /turf/open/floor/f13/wood,
@@ -4979,7 +4922,6 @@
 "anK" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /turf/open/floor/f13{
@@ -5142,8 +5084,7 @@
 /area/f13/vault/security)
 "aol" = (
 /obj/structure/simple_door/metal/fence{
-	dir = 8;
-	icon_state = "fence"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 8;
@@ -5246,15 +5187,13 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/vault/security/armory)
 "aoA" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/item/radio/intercom{
 	frequency = 1361;
@@ -5265,8 +5204,7 @@
 /area/f13/vault/security/armory)
 "aoB" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/vault/security/armory)
@@ -5347,8 +5285,7 @@
 "aoN" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/camera/autoname{
-	dir = 5;
-	icon_state = "camera"
+	dir = 5
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/vault/security/armory)
@@ -5375,7 +5312,6 @@
 "aoR" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -5503,8 +5439,7 @@
 /area/f13/ncr)
 "apj" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/vault/security/armory)
@@ -5538,8 +5473,7 @@
 	pixel_y = -25
 	},
 /obj/machinery/camera/autoname{
-	dir = 1;
-	icon_state = "camera"
+	dir = 1
 	},
 /obj/machinery/recharger,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
@@ -5604,12 +5538,8 @@
 /area/f13/wasteland)
 "apx" = (
 /obj/structure/table/wood/settler,
-/obj/item/paper_bin{
-	pixel_y = 0
-	},
-/obj/item/pen{
-	pixel_y = 0
-	},
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2";
 	tag = "icon-housewood2"
@@ -5653,7 +5583,6 @@
 "apD" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -5874,8 +5803,7 @@
 /area/f13/brotherhood)
 "aqk" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 1;
@@ -5923,8 +5851,7 @@
 /area/f13/wasteland)
 "aqr" = (
 /obj/structure/fence/corner{
-	dir = 8;
-	icon_state = "corner"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "outermaincornerouter";
@@ -5934,7 +5861,6 @@
 "aqs" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -5946,7 +5872,6 @@
 "aqt" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -5964,7 +5889,6 @@
 "aqv" = (
 /obj/structure/chair/comfy{
 	dir = 4;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (EAST)"
 	},
 /turf/open/floor/f13/wood{
@@ -6153,7 +6077,6 @@
 "aqX" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -6332,7 +6255,6 @@
 "ary" = (
 /obj/machinery/shower{
 	dir = 4;
-	icon_state = "shower";
 	tag = "icon-shower (EAST)"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -6514,7 +6436,6 @@
 "arY" = (
 /obj/machinery/shower{
 	dir = 4;
-	icon_state = "shower";
 	tag = "icon-shower (EAST)"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -6653,7 +6574,6 @@
 "asr" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /turf/open/floor/f13{
@@ -6691,7 +6611,6 @@
 "asy" = (
 /obj/structure/chair/comfy{
 	dir = 4;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (EAST)"
 	},
 /turf/open/floor/f13/wood,
@@ -6699,7 +6618,6 @@
 "asz" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -6722,10 +6640,7 @@
 /obj/structure/rack,
 /obj/item/clothing/under/assistantformal,
 /obj/item/clothing/under/blacktango,
-/obj/item/clothing/under/f13/greendress{
-	step_x = 0;
-	step_y = 0
-	},
+/obj/item/clothing/under/f13/greendress,
 /obj/item/clothing/under/f13/pinkdress,
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -6742,7 +6657,6 @@
 "asF" = (
 /obj/structure/chair/comfy{
 	dir = 4;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (EAST)"
 	},
 /turf/open/floor/f13/wood,
@@ -6755,14 +6669,12 @@
 "asH" = (
 /obj/structure/chair/comfy{
 	dir = 8;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (WEST)"
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "asI" = (
 /obj/structure/decoration/clock{
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /turf/open/floor/f13/wood{
@@ -6773,7 +6685,6 @@
 "asJ" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /turf/open/floor/f13/wood{
@@ -6803,7 +6714,6 @@
 "asM" = (
 /obj/structure/chair/wood{
 	dir = 4;
-	icon_state = "wooden_chair_settler";
 	tag = "icon-wooden_chair_settler (EAST)"
 	},
 /turf/open/floor/f13/wood{
@@ -6827,7 +6737,6 @@
 "asP" = (
 /obj/structure/chair/comfy{
 	dir = 8;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (WEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -6885,7 +6794,6 @@
 /area/f13/ruins)
 "asZ" = (
 /turf/open/indestructible/ground/outside/ruins{
-	dir = 2;
 	icon_state = "overlapcornershade";
 	tag = "icon-overlapcornershade"
 	},
@@ -6901,20 +6809,14 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "atb" = (
-/obj/item/clothing/shoes/sneakers/black{
-	pixel_x = 0;
-	pixel_y = 0
-	},
+/obj/item/clothing/shoes/sneakers/black,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "atc" = (
 /obj/structure/rack,
 /obj/item/clothing/under/f13/worn,
 /obj/item/clothing/under/sundress,
-/obj/item/clothing/under/f13/greendress{
-	step_x = 0;
-	step_y = 0
-	},
+/obj/item/clothing/under/f13/greendress,
 /obj/item/clothing/under/f13/bluedress,
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -7030,8 +6932,7 @@
 /area/f13/building)
 "atr" = (
 /obj/structure/fence/corner{
-	dir = 4;
-	icon_state = "corner"
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -7275,7 +7176,6 @@
 "atU" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -7291,7 +7191,6 @@
 "atW" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /obj/machinery/light/small,
@@ -7403,12 +7302,10 @@
 /area/f13/building)
 "aum" = (
 /obj/machinery/computer/shuttle/vaultelevator{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
-	dir = 1;
-	icon_state = "yellowcorner"
+	dir = 1
 	},
 /area/f13/vault/atrium)
 "aun" = (
@@ -7610,7 +7507,6 @@
 "auM" = (
 /obj/structure/chair/wood/modern{
 	dir = 1;
-	icon_state = "wooden_chair_new";
 	tag = "icon-wooden_chair_new (NORTH)"
 	},
 /turf/open/floor/f13/wood,
@@ -7925,7 +7821,6 @@
 "avx" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -7960,7 +7855,6 @@
 "avC" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
-	icon_state = "housewindow";
 	tag = "icon-housewindow"
 	},
 /turf/open/floor/f13{
@@ -8095,10 +7989,7 @@
 "avQ" = (
 /obj/structure/table/wood/settler,
 /obj/item/paper,
-/obj/item/pen{
-	pixel_x = 0;
-	pixel_y = 0
-	},
+/obj/item/pen,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /obj/effect/spawner/lootdrop/clothing_low,
 /turf/open/floor/f13/wood{
@@ -8232,7 +8123,6 @@
 "awg" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /obj/effect/decal/remains/human,
@@ -8262,10 +8152,7 @@
 	pixel_y = -10;
 	tag = "icon-blackpants"
 	},
-/obj/item/clothing/under/f13/greendress{
-	step_x = 0;
-	step_y = 0
-	},
+/obj/item/clothing/under/f13/greendress,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "awl" = (
@@ -8355,8 +8242,7 @@
 /area/f13/wasteland)
 "awx" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty";
@@ -8406,8 +8292,7 @@
 /area/f13/ncr)
 "awE" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -9601,8 +9486,7 @@
 /area/f13/wasteland)
 "azS" = (
 /obj/structure/fence/corner{
-	dir = 9;
-	icon_state = "corner"
+	dir = 9
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
@@ -9633,8 +9517,7 @@
 /area/f13/village)
 "azW" = (
 /obj/structure/decoration/clock{
-	pixel_x = -27;
-	pixel_y = 0
+	pixel_x = -27
 	},
 /obj/structure/chair{
 	dir = 4
@@ -9669,7 +9552,6 @@
 "aAa" = (
 /obj/structure/chair/wood{
 	dir = 1;
-	icon_state = "wooden_chair_settler";
 	tag = "icon-wooden_chair_settler (NORTH)"
 	},
 /turf/open/floor/f13/wood{
@@ -9689,7 +9571,6 @@
 "aAc" = (
 /obj/structure/chair/comfy{
 	dir = 4;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (EAST)"
 	},
 /turf/open/floor/f13/wood{
@@ -9708,7 +9589,6 @@
 "aAe" = (
 /obj/structure/chair/comfy{
 	dir = 8;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (WEST)"
 	},
 /turf/open/floor/f13/wood{
@@ -9722,7 +9602,6 @@
 "aAg" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /turf/open/floor/f13/wood{
@@ -9833,7 +9712,6 @@
 /obj/structure/table,
 /obj/item/stock_parts/cell{
 	icon_state = "hpcell";
-	pixel_y = 0;
 	tag = "icon-hpcell"
 	},
 /obj/item/flashlight{
@@ -9909,7 +9787,6 @@
 "aAD" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -9960,14 +9837,12 @@
 	},
 /area/f13/building)
 "aAJ" = (
-/obj/structure/flora/tree/tall{
-	icon_state = "tree_2";
-	step_x = 0;
-	step_y = 0;
-	tag = "icon-tree_2"
+/obj/structure/closet/crate/freezer/saline,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2";
+	tag = "icon-bluedirtychess2"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/area/f13/ncr)
 "aAK" = (
 /obj/item/ammo_casing/c10mm,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -10031,7 +9906,6 @@
 /area/f13/village)
 "aAT" = (
 /obj/structure/decoration/clock{
-	pixel_x = 0;
 	pixel_y = 21
 	},
 /turf/open/floor/f13/wood{
@@ -10113,7 +9987,6 @@
 "aBf" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -10402,7 +10275,6 @@
 "aBR" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /obj/machinery/light/small{
@@ -10454,9 +10326,7 @@
 /area/f13/village)
 "aBX" = (
 /obj/structure/table/wood,
-/obj/item/paper_bin{
-	pixel_y = 0
-	},
+/obj/item/paper_bin,
 /obj/item/pen{
 	pixel_y = -1
 	},
@@ -10599,7 +10469,6 @@
 "aCt" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /turf/open/floor/f13/wood,
@@ -10647,9 +10516,7 @@
 "aCA" = (
 /obj/structure/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -10;
-	pixel_y = 0;
 	tag = "icon-sink (WEST)"
 	},
 /obj/structure/mirror{
@@ -10794,9 +10661,7 @@
 "aCV" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
 	pixel_x = -3;
-	pixel_y = 0;
 	tag = "icon-toilet00 (EAST)"
 	},
 /turf/open/floor/f13{
@@ -10812,7 +10677,6 @@
 "aCX" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /turf/open/floor/f13{
@@ -10968,7 +10832,6 @@
 /obj/structure/table,
 /obj/item/paper,
 /obj/item/pen{
-	pixel_y = 0;
 	pixel_z = 3
 	},
 /turf/open/floor/f13{
@@ -10996,7 +10859,6 @@
 "aDw" = (
 /obj/structure/chair/wood/modern{
 	dir = 8;
-	icon_state = "wooden_chair_new";
 	tag = "icon-wooden_chair_new (WEST)"
 	},
 /obj/effect/decal/remains/human,
@@ -11039,14 +10901,12 @@
 /obj/machinery/button/door{
 	id = 87;
 	name = "Interior door button";
-	pixel_x = 6;
-	pixel_y = 0
+	pixel_x = 6
 	},
 /obj/machinery/button/door{
 	id = 43;
 	name = "Exterior door button";
-	pixel_x = -6;
-	pixel_y = 0
+	pixel_x = -6
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty";
@@ -11072,7 +10932,6 @@
 "aDF" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /turf/open/floor/f13{
@@ -11189,8 +11048,7 @@
 "aDV" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/floor/f13{
@@ -11285,7 +11143,6 @@
 /obj/effect/decal/remains/human,
 /obj/item/ammo_casing/caseless{
 	dir = 6;
-	icon_state = "s-casing";
 	pixel_x = 6;
 	tag = "icon-s-casing (SOUTHEAST)"
 	},
@@ -11333,8 +11190,7 @@
 "aEq" = (
 /obj/machinery/vending/assist,
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
@@ -11374,7 +11230,6 @@
 "aEw" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
-	icon_state = "housewindow";
 	tag = "icon-housewindow"
 	},
 /obj/structure/barricade/wooden/planks/pregame,
@@ -11596,8 +11451,7 @@
 /area/f13/village)
 "aFc" = (
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
@@ -11659,7 +11513,6 @@
 "aFl" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/road{
@@ -11670,7 +11523,6 @@
 "aFm" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/road{
@@ -11681,7 +11533,6 @@
 "aFn" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/road{
@@ -11803,9 +11654,6 @@
 "aFC" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-toilet00 (EAST)"
 	},
 /obj/machinery/light/small,
@@ -11837,7 +11685,6 @@
 "aFF" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /obj/machinery/light/small{
@@ -11931,7 +11778,6 @@
 "aFS" = (
 /obj/structure/chair/comfy{
 	dir = 8;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (WEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -12038,7 +11884,6 @@
 "aGg" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -12136,7 +11981,6 @@
 "aGu" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
-	icon_state = "housewindow";
 	tag = "icon-housewindow"
 	},
 /turf/open/floor/f13/wood,
@@ -12192,8 +12036,7 @@
 /area/f13/wasteland)
 "aGC" = (
 /obj/structure/fence/corner{
-	dir = 8;
-	icon_state = "corner"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
@@ -12204,7 +12047,6 @@
 "aGD" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt,
@@ -12212,7 +12054,6 @@
 "aGE" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /obj/structure/barricade/wooden/planks/pregame,
@@ -12225,7 +12066,6 @@
 "aGF" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /obj/structure/barricade/wooden/planks/pregame,
@@ -12514,7 +12354,6 @@
 "aHw" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /obj/effect/spawner/lootdrop/trash,
@@ -12603,8 +12442,7 @@
 /area/f13/city)
 "aHI" = (
 /obj/structure/fence/corner{
-	dir = 1;
-	icon_state = "corner"
+	dir = 1
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
@@ -12717,8 +12555,7 @@
 /area/f13/ncr)
 "aIa" = (
 /obj/effect/turf_decal{
-	dir = 4;
-	icon_state = "warningline"
+	dir = 4
 	},
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
@@ -13041,8 +12878,7 @@
 "aIT" = (
 /obj/structure/table,
 /obj/machinery/camera/autoname{
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/machinery/button/door{
 	id = 103;
@@ -13262,9 +13098,7 @@
 "aJx" = (
 /obj/structure/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -10;
-	pixel_y = 0;
 	tag = "icon-sink (WEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -13423,7 +13257,6 @@
 "aJV" = (
 /obj/structure/chair/comfy{
 	dir = 8;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (WEST)"
 	},
 /obj/machinery/light/small,
@@ -13615,7 +13448,6 @@
 "aKw" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -13626,7 +13458,6 @@
 "aKx" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -13765,7 +13596,6 @@
 /area/f13/city)
 "aKU" = (
 /turf/open/indestructible/ground/outside/sidewalk{
-	dir = 2;
 	icon_state = "outerpavementcorner"
 	},
 /area/f13/wasteland)
@@ -13791,7 +13621,6 @@
 "aKY" = (
 /obj/structure/chair/wood/modern{
 	dir = 1;
-	icon_state = "wooden_chair_new";
 	tag = "icon-wooden_chair_new (NORTH)"
 	},
 /turf/open/floor/f13/wood,
@@ -13802,7 +13631,6 @@
 "aLa" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (EAST)"
 	},
 /turf/open/floor/f13{
@@ -13867,9 +13695,7 @@
 "aLj" = (
 /obj/structure/sink{
 	dir = 4;
-	icon_state = "sink";
 	pixel_x = 10;
-	pixel_y = 0;
 	tag = "icon-sink (EAST)"
 	},
 /obj/structure/mirror{
@@ -13892,8 +13718,7 @@
 /area/f13/city)
 "aLl" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -13975,7 +13800,6 @@
 "aLt" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /obj/machinery/light/small{
@@ -14009,7 +13833,6 @@
 "aLw" = (
 /obj/structure/chair/wood{
 	dir = 1;
-	icon_state = "wooden_chair_settler";
 	tag = "icon-wooden_chair_settler (NORTH)"
 	},
 /turf/open/floor/f13/wood,
@@ -14116,9 +13939,7 @@
 "aLM" = (
 /obj/structure/table/wood/settler,
 /obj/item/paper,
-/obj/item/pen{
-	pixel_y = 0
-	},
+/obj/item/pen,
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "aLN" = (
@@ -14144,7 +13965,6 @@
 "aLQ" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (EAST)"
 	},
 /obj/machinery/light/small{
@@ -14163,8 +13983,7 @@
 /area/f13/building)
 "aLS" = (
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /turf/open/floor/f13{
 	icon_state = "bar"
@@ -14273,9 +14092,7 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/farm)
 "aMk" = (
-/obj/structure/toilet{
-	pixel_y = 0
-	},
+/obj/structure/toilet,
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
@@ -14298,7 +14115,6 @@
 "aMn" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /turf/open/floor/f13/wood{
@@ -14513,7 +14329,6 @@
 "aMT" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (EAST)"
 	},
 /obj/machinery/light/small{
@@ -14562,7 +14377,6 @@
 	dir = 1
 	},
 /obj/item/reagent_containers/food/snacks/f13/steak,
-/obj/item/twohanded/sledgehammer,
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
@@ -14675,7 +14489,6 @@
 /obj/item/stock_parts/cell,
 /obj/item/stock_parts/cell{
 	icon_state = "hpcell";
-	pixel_y = 0;
 	tag = "icon-hpcell"
 	},
 /obj/item/stack/cable_coil,
@@ -14839,7 +14652,6 @@
 "aNQ" = (
 /obj/structure/chair/wood{
 	dir = 4;
-	icon_state = "wooden_chair_settler";
 	tag = "icon-wooden_chair_settler (EAST)"
 	},
 /turf/open/floor/f13/wood,
@@ -14871,7 +14683,6 @@
 "aNV" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /turf/open/floor/f13/wood{
@@ -14896,18 +14707,10 @@
 /area/f13/village)
 "aNY" = (
 /obj/structure/rack,
-/obj/item/pen{
-	pixel_y = 0
-	},
-/obj/item/pen{
-	pixel_y = 0
-	},
-/obj/item/pen{
-	pixel_y = 0
-	},
-/obj/item/pen{
-	pixel_y = 0
-	},
+/obj/item/pen,
+/obj/item/pen,
+/obj/item/pen,
+/obj/item/pen,
 /obj/item/stack/cable_coil,
 /obj/item/reagent_containers/food/condiment/soymilk,
 /turf/open/floor/f13/wood{
@@ -14992,9 +14795,7 @@
 /obj/item/paper_bin{
 	pixel_y = 1
 	},
-/obj/item/pen{
-	pixel_y = 0
-	},
+/obj/item/pen,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2";
 	tag = "icon-housewood2"
@@ -15119,8 +14920,7 @@
 /area/f13/building)
 "aOB" = (
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /turf/open/floor/f13,
 /area/f13/building)
@@ -15134,8 +14934,7 @@
 /area/f13/tunnel)
 "aOD" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
@@ -15193,8 +14992,7 @@
 /area/f13/building)
 "aOL" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 8;
@@ -15482,8 +15280,7 @@
 /area/f13/ncr)
 "aPA" = (
 /obj/structure/fence/corner{
-	dir = 6;
-	icon_state = "corner"
+	dir = 6
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -15528,8 +15325,7 @@
 /area/f13/city)
 "aPG" = (
 /obj/structure/simple_door/metal/fence{
-	dir = 8;
-	icon_state = "fence"
+	dir = 8
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
@@ -15752,9 +15548,6 @@
 "aQl" = (
 /obj/structure/sink{
 	dir = 8;
-	icon_state = "sink";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-sink (WEST)"
 	},
 /obj/effect/decal/remains/human,
@@ -15955,7 +15748,6 @@
 "aQL" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /obj/machinery/light,
@@ -16009,8 +15801,7 @@
 /area/f13/wasteland)
 "aQS" = (
 /obj/structure/fence/corner{
-	dir = 8;
-	icon_state = "corner"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirtcorner"
@@ -16019,7 +15810,6 @@
 "aQT" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -16053,12 +15843,12 @@
 	},
 /area/f13/wasteland)
 "aQZ" = (
-/obj/structure/flora/tree/wasteland{
-	step_x = 0;
-	step_y = 0
+/obj/structure/closet/crate/freezer/saline,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2";
+	tag = "icon-bluedirtychess2"
 	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/area/f13/city)
 "aRa" = (
 /obj/structure/rack,
 /obj/machinery/light/small{
@@ -16117,7 +15907,6 @@
 "aRj" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /obj/effect/decal/remains/human,
@@ -16126,7 +15915,6 @@
 "aRk" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -16187,7 +15975,6 @@
 "aRu" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
-	icon_state = "housewindow";
 	tag = "icon-housewindow"
 	},
 /obj/structure/curtain,
@@ -16238,7 +16025,6 @@
 "aRC" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /turf/open/floor/f13/wood,
@@ -16246,7 +16032,6 @@
 "aRD" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /obj/effect/decal/remains/human,
@@ -16297,7 +16082,6 @@
 "aRK" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /obj/effect/decal/cleanable/blood/old,
@@ -16317,9 +16101,7 @@
 "aRM" = (
 /obj/structure/sink{
 	dir = 4;
-	icon_state = "sink";
 	pixel_x = 10;
-	pixel_y = 0;
 	tag = "icon-sink (EAST)"
 	},
 /turf/open/floor/f13{
@@ -16339,8 +16121,7 @@
 /area/f13/building)
 "aRP" = (
 /obj/structure/fence/corner{
-	dir = 8;
-	icon_state = "corner"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
@@ -16351,7 +16132,6 @@
 "aRR" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/road,
@@ -16402,7 +16182,6 @@
 "aSa" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/floor/f13/wood,
@@ -16423,8 +16202,6 @@
 /obj/item/ammo_casing/caseless{
 	dir = 10;
 	icon_state = "sS-casing";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-sS-casing (SOUTHWEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -16445,7 +16222,6 @@
 "aSh" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /turf/open/floor/f13{
@@ -16458,14 +16234,10 @@
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "aSj" = (
-/obj/structure/flora/tree/tall{
-	icon_state = "tree_3";
-	step_x = 0;
-	step_y = 0;
-	tag = "icon-tree_3"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/obj/structure/closet/crate/freezer/saline,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plating,
+/area/f13/brotherhood)
 "aSk" = (
 /obj/machinery/deepfryer,
 /turf/open/floor/f13/wood,
@@ -16539,7 +16311,6 @@
 "aSw" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /obj/machinery/light/small,
@@ -16684,7 +16455,6 @@
 "aSS" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (EAST)"
 	},
 /turf/open/floor/f13{
@@ -16807,7 +16577,6 @@
 "aTn" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
@@ -16932,9 +16701,6 @@
 "aTF" = (
 /obj/structure/sink{
 	dir = 8;
-	icon_state = "sink";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-sink (WEST)"
 	},
 /turf/open/floor/f13{
@@ -16973,7 +16739,6 @@
 "aTK" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /obj/effect/decal/cleanable/oil,
@@ -16982,7 +16747,6 @@
 "aTL" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /obj/effect/decal/remains/human,
@@ -17015,30 +16779,26 @@
 /area/f13/building)
 "aTQ" = (
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "aTR" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 9;
-	icon_state = "tracks";
 	tag = "icon-tracks (NORTHWEST)"
 	},
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "aTS" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 4;
-	icon_state = "tracks"
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "aTT" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 4;
-	icon_state = "tracks"
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain0"
@@ -17351,9 +17111,6 @@
 "aUL" = (
 /obj/structure/sink{
 	dir = 8;
-	icon_state = "sink";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-sink (WEST)"
 	},
 /turf/open/floor/f13{
@@ -17443,7 +17200,6 @@
 "aUZ" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /mob/living/simple_animal/hostile/ghoul,
@@ -17514,8 +17270,7 @@
 /area/f13/wasteland)
 "aVm" = (
 /obj/structure/simple_door/metal/fence{
-	dir = 8;
-	icon_state = "fence"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 10;
@@ -17556,7 +17311,6 @@
 "aVs" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -17576,9 +17330,7 @@
 /area/f13/village)
 "aVv" = (
 /obj/structure/table/wood,
-/obj/item/paper_bin{
-	pixel_y = 0
-	},
+/obj/item/paper_bin,
 /obj/item/pen,
 /turf/open/floor/f13/wood,
 /area/f13/village)
@@ -17663,7 +17415,6 @@
 "aVK" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -17674,7 +17425,6 @@
 "aVL" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -17685,12 +17435,10 @@
 "aVM" = (
 /obj/structure/chair/wood/modern{
 	dir = 1;
-	icon_state = "wooden_chair_new";
 	tag = "icon-wooden_chair_new (NORTH)"
 	},
 /obj/structure/chair/wood/modern{
 	dir = 1;
-	icon_state = "wooden_chair_new";
 	tag = "icon-wooden_chair_new (NORTH)"
 	},
 /obj/effect/decal/remains/human,
@@ -17776,7 +17524,6 @@
 /area/f13/radiation)
 "aVY" = (
 /obj/structure/decoration/clock{
-	pixel_x = 0;
 	pixel_y = 21
 	},
 /turf/open/floor/f13/wood{
@@ -17796,7 +17543,6 @@
 "aWb" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /obj/effect/decal/remains/human,
@@ -17860,7 +17606,6 @@
 "aWm" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/inside/mountain,
@@ -17880,7 +17625,6 @@
 "aWq" = (
 /obj/structure/holohoop{
 	dir = 4;
-	icon_state = "hoop";
 	tag = "icon-hoop (EAST)"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -18019,7 +17763,6 @@
 "aWL" = (
 /obj/machinery/door/window{
 	dir = 4;
-	icon_state = "left";
 	tag = "icon-left (EAST)"
 	},
 /turf/open/floor/plasteel/barber{
@@ -18178,7 +17921,6 @@
 "aXi" = (
 /obj/docking_port/stationary{
 	area_type = /area/f13;
-	dheight = 0;
 	dir = 8;
 	dwidth = 1;
 	height = 3;
@@ -18237,8 +17979,7 @@
 /area/f13/village)
 "aXq" = (
 /obj/structure/fence/corner{
-	dir = 10;
-	icon_state = "corner"
+	dir = 10
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -18483,7 +18224,6 @@
 "aYb" = (
 /obj/structure/sink{
 	dir = 1;
-	icon_state = "sink";
 	pixel_y = 25;
 	tag = "icon-sink (NORTH)"
 	},
@@ -18619,7 +18359,6 @@
 "aYx" = (
 /obj/structure/sink{
 	dir = 1;
-	icon_state = "sink";
 	pixel_y = 25;
 	tag = "icon-sink (NORTH)"
 	},
@@ -18652,42 +18391,14 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "aYA" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/effect/spawner/lootdrop/f13/alcoholspawner,
-/obj/structure/table/wood/fancy,
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_y = 10
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
-	pixel_y = 10
-	},
-/obj/effect/spawner/lootdrop/three_course_meal,
-/turf/open/floor/f13/wood,
-/area/f13/village)
+/obj/structure/closet/crate/freezer/saline,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/f13/vault/medical)
 "aYB" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/structure/closet/cabinet,
-/obj/effect/spawner/lootdrop/clothing_middle,
-/obj/item/clothing/shoes/singery,
-/obj/item/clothing/under/singery,
-/obj/item/clothing/under/f13/bartenderalt,
-/obj/item/clothing/shoes/f13/fancy,
-/obj/item/reagent_containers/food/drinks/flask,
-/obj/item/toy/clockwork_watch,
-/obj/effect/spawner/lootdrop/minor/kittyears_or_rabbitears,
-/obj/effect/spawner/lootdrop/minor/bowler_or_that,
-/turf/open/floor/f13/wood,
-/area/f13/village)
-"aYC" = (
-/obj/structure/bed,
-/obj/item/bedsheet{
-	icon_state = "sheethos";
-	tag = "icon-sheethos"
-	},
+/obj/structure/bed/mattress/pregame,
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "aYD" = (
@@ -18776,17 +18487,14 @@
 /obj/structure/table/reinforced,
 /obj/item/stock_parts/cell{
 	icon_state = "hpcell";
-	pixel_y = 0;
 	tag = "icon-hpcell"
 	},
 /obj/item/stock_parts/cell{
 	icon_state = "hpcell";
-	pixel_y = 0;
 	tag = "icon-hpcell"
 	},
 /obj/item/stock_parts/cell{
 	icon_state = "hpcell";
-	pixel_y = 0;
 	tag = "icon-hpcell"
 	},
 /turf/open/floor/plasteel/barber{
@@ -18869,12 +18577,10 @@
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1;
-	icon_state = "rwindow";
 	tag = "icon-rwindow (NORTH)"
 	},
 /obj/structure/window/reinforced{
 	dir = 4;
-	icon_state = "rwindow";
 	tag = "icon-rwindow (EAST)"
 	},
 /obj/effect/spawner/lootdrop/clothing_high,
@@ -19018,9 +18724,7 @@
 "aZp" = (
 /obj/structure/sink{
 	dir = 4;
-	icon_state = "sink";
 	pixel_x = 10;
-	pixel_y = 0;
 	tag = "icon-sink (EAST)"
 	},
 /obj/structure/mirror{
@@ -19061,7 +18765,6 @@
 "aZv" = (
 /obj/machinery/shower{
 	dir = 4;
-	icon_state = "shower";
 	tag = "icon-shower (EAST)"
 	},
 /turf/open/floor/f13{
@@ -19114,21 +18817,14 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "aZC" = (
-/obj/structure/bookcase/random/adult,
-/turf/open/floor/f13/wood,
-/area/f13/village)
-"aZD" = (
-/obj/machinery/light/small,
-/obj/structure/table/wood/settler,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/f13/wood,
+/obj/structure/bed/mattress/pregame,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood3-broken";
+	tag = "icon-housewood3-broken"
+	},
 /area/f13/village)
 "aZE" = (
-/obj/structure/table/wood/fancy,
-/obj/item/restraints/handcuffs,
-/obj/item/melee/chainofcommand/tailwhip/kitty,
-/obj/item/dildo,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/random,
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "aZF" = (
@@ -19170,7 +18866,6 @@
 "aZK" = (
 /obj/structure/chair/office{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /turf/open/floor/f13{
@@ -19237,8 +18932,7 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced{
-	dir = 1;
-	icon_state = "rwindow"
+	dir = 1
 	},
 /obj/machinery/porta_turret/syndicate/wasteland/energy,
 /turf/open/floor/f13{
@@ -19247,8 +18941,7 @@
 /area/f13/building)
 "aZS" = (
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /obj/effect/spawner/lootdrop/f13/crafting,
 /turf/open/floor/f13{
@@ -19297,7 +18990,6 @@
 "aZZ" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /turf/open/floor/f13{
@@ -19487,7 +19179,6 @@
 "bay" = (
 /obj/machinery/shower{
 	dir = 4;
-	icon_state = "shower";
 	tag = "icon-shower (EAST)"
 	},
 /turf/open/floor/f13{
@@ -19531,7 +19222,6 @@
 "baE" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -19539,7 +19229,6 @@
 "baF" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /obj/item/soap,
@@ -19596,12 +19285,10 @@
 /obj/structure/rack,
 /obj/item/stock_parts/cell{
 	icon_state = "hpcell";
-	pixel_y = 0;
 	tag = "icon-hpcell"
 	},
 /obj/item/stock_parts/cell{
 	icon_state = "hpcell";
-	pixel_y = 0;
 	tag = "icon-hpcell"
 	},
 /obj/item/stack/sheet/metal{
@@ -19624,7 +19311,6 @@
 "baN" = (
 /obj/structure/toilet{
 	dir = 1;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (NORTH)"
 	},
 /turf/open/floor/f13{
@@ -19668,7 +19354,6 @@
 "baT" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
-	icon_state = "housewindow";
 	tag = "icon-housewindow"
 	},
 /obj/structure/barricade/wooden/planks/pregame,
@@ -19677,7 +19362,6 @@
 "baU" = (
 /obj/structure/sink{
 	dir = 1;
-	icon_state = "sink";
 	pixel_y = 25;
 	tag = "icon-sink (NORTH)"
 	},
@@ -19758,8 +19442,7 @@
 /area/f13/wasteland)
 "bbg" = (
 /obj/structure/fence/corner{
-	dir = 9;
-	icon_state = "corner"
+	dir = 9
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -19866,8 +19549,7 @@
 /area/f13/wasteland)
 "bbt" = (
 /obj/structure/fence/corner{
-	dir = 8;
-	icon_state = "corner"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -19937,9 +19619,7 @@
 "bbF" = (
 /obj/structure/sink{
 	dir = 4;
-	icon_state = "sink";
 	pixel_x = 10;
-	pixel_y = 0;
 	tag = "icon-sink (EAST)"
 	},
 /obj/effect/spawner/lootdrop/trash,
@@ -20011,15 +19691,13 @@
 /area/f13/village)
 "bbQ" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "bbR" = (
 /obj/structure/fence/corner{
-	dir = 5;
-	icon_state = "corner"
+	dir = 5
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
@@ -20070,7 +19748,6 @@
 /area/f13/village)
 "bbZ" = (
 /turf/open/indestructible/ground/outside/sidewalk{
-	dir = 2;
 	icon_state = "outerpavementcorner";
 	tag = "icon-outerpavementcorner"
 	},
@@ -20078,9 +19755,7 @@
 "bca" = (
 /obj/structure/sink{
 	dir = 4;
-	icon_state = "sink";
 	pixel_x = 10;
-	pixel_y = 0;
 	tag = "icon-sink (EAST)"
 	},
 /turf/open/floor/f13/wood,
@@ -20258,7 +19933,6 @@
 "bcy" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /obj/machinery/button/door{
@@ -20377,7 +20051,6 @@
 "bcP" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /turf/open/floor/plasteel/barber{
@@ -20401,7 +20074,6 @@
 "bcR" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /turf/open/floor/plasteel/barber{
@@ -20638,8 +20310,7 @@
 /area/f13/building)
 "bdx" = (
 /obj/machinery/computer/shuttle/vault113elevator{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -20663,7 +20334,6 @@
 "bdA" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -20755,7 +20425,6 @@
 "bdN" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -21171,7 +20840,6 @@
 "beS" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /obj/item/storage/backpack/satchel/leather,
@@ -21189,7 +20857,6 @@
 "beU" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /turf/open/floor/f13{
@@ -21357,7 +21024,6 @@
 "bfq" = (
 /obj/structure/sink{
 	dir = 1;
-	icon_state = "sink";
 	pixel_y = 16;
 	tag = "icon-sink (NORTH)"
 	},
@@ -21411,7 +21077,6 @@
 "bfw" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
-	icon_state = "housewindow";
 	tag = "icon-housewindow"
 	},
 /obj/structure/barricade/wooden/planks/pregame,
@@ -21593,7 +21258,6 @@
 	},
 /obj/structure/sink{
 	dir = 1;
-	icon_state = "sink";
 	pixel_y = 15;
 	tag = "icon-sink (NORTH)"
 	},
@@ -21612,8 +21276,7 @@
 /area/f13/building)
 "bfX" = (
 /obj/structure/fence/corner{
-	dir = 1;
-	icon_state = "corner"
+	dir = 1
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -21805,7 +21468,6 @@
 "bgx" = (
 /obj/structure/sink{
 	dir = 1;
-	icon_state = "sink";
 	pixel_y = 16;
 	tag = "icon-sink (NORTH)"
 	},
@@ -21847,8 +21509,7 @@
 /area/f13/brotherhood)
 "bgD" = (
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaloutermain2";
@@ -21870,7 +21531,6 @@
 	},
 /obj/structure/sink{
 	dir = 1;
-	icon_state = "sink";
 	pixel_y = 15;
 	tag = "icon-sink (NORTH)"
 	},
@@ -21930,8 +21590,7 @@
 	tag = "icon-remains"
 	},
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull";
@@ -21976,7 +21635,6 @@
 "bgU" = (
 /obj/docking_port/stationary{
 	area_type = /area/f13;
-	dheight = 0;
 	dir = 8;
 	dwidth = 1;
 	height = 3;
@@ -22050,7 +21708,6 @@
 "bhd" = (
 /obj/docking_port/stationary{
 	area_type = /area/f13;
-	dheight = 0;
 	dir = 8;
 	dwidth = 1;
 	height = 3;
@@ -22194,8 +21851,7 @@
 /area/f13/building)
 "bhu" = (
 /obj/machinery/camera/autoname{
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/structure/table/glass,
 /obj/item/storage/box/monkeycubes,
@@ -22375,7 +22031,6 @@
 "bhT" = (
 /obj/structure/chair/wood/modern{
 	dir = 8;
-	icon_state = "wooden_chair_new";
 	tag = "icon-wooden_chair_new (WEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -22462,7 +22117,6 @@
 "bih" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /turf/open/floor/f13{
@@ -22549,8 +22203,6 @@
 /obj/structure/table/wood,
 /obj/item/trash/sosjerky{
 	icon_state = "plate";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-plate"
 	},
 /obj/item/kitchen/fork{
@@ -22613,7 +22265,6 @@
 /area/f13/building)
 "biE" = (
 /obj/structure/chair/stool{
-	dir = 2;
 	icon_state = "bench_center";
 	tag = "icon-bench_center"
 	},
@@ -22633,7 +22284,6 @@
 "biG" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /obj/effect/decal/remains{
@@ -22655,7 +22305,6 @@
 "biJ" = (
 /obj/machinery/shower{
 	dir = 4;
-	icon_state = "shower";
 	tag = "icon-shower (EAST)"
 	},
 /turf/open/floor/plasteel/barber{
@@ -22724,7 +22373,6 @@
 "biS" = (
 /obj/structure/chair/wood/modern{
 	dir = 1;
-	icon_state = "wooden_chair_new";
 	tag = "icon-wooden_chair_new (NORTH)"
 	},
 /obj/machinery/light/small{
@@ -22769,7 +22417,6 @@
 "biY" = (
 /obj/structure/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -12;
 	tag = "icon-sink (WEST)"
 	},
@@ -22842,7 +22489,6 @@
 "bjk" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (WEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -22930,7 +22576,6 @@
 "bjw" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -22952,7 +22597,6 @@
 "bjz" = (
 /obj/structure/chair/wood/modern{
 	dir = 1;
-	icon_state = "wooden_chair_new";
 	tag = "icon-wooden_chair_new (NORTH)"
 	},
 /obj/machinery/light/small{
@@ -22985,8 +22629,7 @@
 /area/f13/wasteland)
 "bjF" = (
 /obj/structure/simple_door/metal/fence{
-	dir = 8;
-	icon_state = "fence"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -23006,7 +22649,6 @@
 "bjI" = (
 /obj/structure/chair/wood/modern{
 	dir = 1;
-	icon_state = "wooden_chair_new";
 	tag = "icon-wooden_chair_new (NORTH)"
 	},
 /obj/machinery/light/small,
@@ -23015,7 +22657,6 @@
 "bjJ" = (
 /obj/structure/chair/wood/modern{
 	dir = 1;
-	icon_state = "wooden_chair_new";
 	tag = "icon-wooden_chair_new (NORTH)"
 	},
 /obj/effect/decal/remains/human,
@@ -23031,9 +22672,7 @@
 "bjL" = (
 /obj/structure/sink{
 	dir = 4;
-	icon_state = "sink";
 	pixel_x = 10;
-	pixel_y = 0;
 	tag = "icon-sink (EAST)"
 	},
 /obj/structure/mirror{
@@ -23073,9 +22712,7 @@
 "bjQ" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
 	pixel_x = -3;
-	pixel_y = 0;
 	tag = "icon-toilet00 (EAST)"
 	},
 /turf/open/floor/f13{
@@ -23085,7 +22722,6 @@
 "bjR" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /obj/machinery/light/small,
@@ -23116,8 +22752,7 @@
 "bjW" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -23169,7 +22804,6 @@
 "bke" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -23253,9 +22887,7 @@
 "bkp" = (
 /obj/structure/sink{
 	dir = 4;
-	icon_state = "sink";
 	pixel_x = 10;
-	pixel_y = 0;
 	tag = "icon-sink (EAST)"
 	},
 /obj/structure/mirror{
@@ -23375,9 +23007,7 @@
 "bkG" = (
 /obj/structure/sink{
 	dir = 4;
-	icon_state = "sink";
 	pixel_x = 10;
-	pixel_y = 0;
 	tag = "icon-sink (EAST)"
 	},
 /obj/structure/mirror{
@@ -23541,7 +23171,6 @@
 "ble" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /turf/open/floor/f13/wood,
@@ -23556,8 +23185,7 @@
 /area/f13/clinic)
 "blh" = (
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /obj/structure/rack,
 /obj/item/reagent_containers/blood/radaway,
@@ -23683,7 +23311,6 @@
 /area/f13/clinic)
 "blx" = (
 /obj/structure/chair/stool{
-	dir = 2;
 	icon_state = "bench_center";
 	tag = "icon-bench_center"
 	},
@@ -23853,7 +23480,6 @@
 	pixel_y = 19
 	},
 /obj/structure/mirror{
-	pixel_x = 0;
 	pixel_y = 35
 	},
 /turf/open/floor/f13{
@@ -23868,7 +23494,6 @@
 "blX" = (
 /obj/structure/sink{
 	dir = 1;
-	icon_state = "sink";
 	pixel_y = 15;
 	tag = "icon-sink (NORTH)"
 	},
@@ -23973,12 +23598,10 @@
 "bml" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
@@ -24041,7 +23664,6 @@
 "bmv" = (
 /obj/docking_port/stationary{
 	area_type = /area/f13;
-	dheight = 0;
 	dir = 2;
 	dwidth = 1;
 	height = 3;
@@ -24282,7 +23904,6 @@
 "bnf" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /obj/machinery/light,
@@ -24291,7 +23912,6 @@
 "bng" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /turf/open/floor/f13/wood,
@@ -24312,15 +23932,12 @@
 /area/f13/vault/vents)
 "bnj" = (
 /obj/effect/turf_decal{
-	dir = 4;
-	icon_state = "warningline"
+	dir = 4
 	},
 /turf/closed/indestructible/vaultdoor,
 /area/f13/vault/vents)
 "bnk" = (
-/obj/structure/toilet{
-	pixel_y = 0
-	},
+/obj/structure/toilet,
 /obj/effect/decal/remains/human,
 /obj/effect/spawner/lootdrop/f13/cash_random_high,
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
@@ -24355,8 +23972,7 @@
 /area/f13/city)
 "bnp" = (
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/vault/vents)
@@ -24439,8 +24055,7 @@
 /area/f13/building)
 "bnD" = (
 /obj/structure/simple_door/metal/fence{
-	dir = 8;
-	icon_state = "fence"
+	dir = 8
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -24449,7 +24064,6 @@
 "bnE" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /obj/machinery/light,
@@ -24482,7 +24096,6 @@
 "bnJ" = (
 /obj/machinery/shower{
 	dir = 4;
-	icon_state = "shower";
 	tag = "icon-shower (EAST)"
 	},
 /turf/open/floor/f13{
@@ -24492,7 +24105,6 @@
 "bnK" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /turf/open/floor/f13{
@@ -24502,9 +24114,7 @@
 "bnL" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
 	pixel_x = -3;
-	pixel_y = 0;
 	tag = "icon-toilet00 (EAST)"
 	},
 /turf/open/floor/f13{
@@ -24526,9 +24136,7 @@
 "bnO" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
 	pixel_x = -3;
-	pixel_y = 0;
 	tag = "icon-toilet00 (EAST)"
 	},
 /obj/machinery/light,
@@ -24631,15 +24239,13 @@
 "bod" = (
 /obj/structure/fence/handrail,
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /obj/machinery/camera/autoname{
-	dir = 5;
-	icon_state = "camera"
+	dir = 5
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/tunnel)
@@ -24669,7 +24275,6 @@
 "boh" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /turf/open/floor/f13{
@@ -24682,7 +24287,7 @@
 /obj/structure/cable,
 /obj/structure/closet/crate/engineering,
 /obj/item/stack/sheet/mineral/uranium{
-	amount = 5
+	amount = 15
 	},
 /turf/open/floor/plating,
 /area/f13/city)
@@ -24898,7 +24503,6 @@
 	},
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /turf/open/floor/f13{
@@ -25114,7 +24718,6 @@
 "bpq" = (
 /obj/structure/chair/wood{
 	dir = 1;
-	icon_state = "wooden_chair_settler";
 	tag = "icon-wooden_chair_settler (NORTH)"
 	},
 /turf/open/floor/f13/wood,
@@ -25311,7 +24914,6 @@
 "bpV" = (
 /obj/machinery/shower{
 	dir = 4;
-	icon_state = "shower";
 	tag = "icon-shower (EAST)"
 	},
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
@@ -25731,8 +25333,7 @@
 /area/f13/building)
 "brc" = (
 /obj/structure/fence/corner{
-	dir = 5;
-	icon_state = "corner"
+	dir = 5
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -25795,8 +25396,7 @@
 /area/f13/city)
 "brm" = (
 /obj/structure/simple_door/metal/fence{
-	dir = 8;
-	icon_state = "fence"
+	dir = 8
 	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
@@ -25850,8 +25450,7 @@
 /area/f13/wasteland)
 "brv" = (
 /obj/structure/fence/corner{
-	dir = 8;
-	icon_state = "corner"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -25976,7 +25575,6 @@
 /area/f13/chapel)
 "brJ" = (
 /obj/structure/chair/stool{
-	dir = 2;
 	icon_state = "bench";
 	tag = "icon-bench"
 	},
@@ -26006,8 +25604,7 @@
 /area/f13/city)
 "brO" = (
 /obj/structure/fence/corner{
-	dir = 4;
-	icon_state = "corner"
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -26092,7 +25689,6 @@
 "bsh" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /turf/open/floor/f13{
@@ -26150,8 +25746,7 @@
 	tag = "icon-bench (NORTH)"
 	},
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/floor/f13{
@@ -26257,8 +25852,7 @@
 /area/f13/admeme)
 "bsE" = (
 /obj/structure/chair/f13chair2{
-	dir = 4;
-	icon_state = "f13chair2"
+	dir = 4
 	},
 /obj/effect/landmark/start/f13/raider,
 /turf/open/floor/f13/wood{
@@ -26268,8 +25862,7 @@
 /area/f13/building)
 "bsF" = (
 /obj/structure/chair/f13chair2{
-	dir = 8;
-	icon_state = "f13chair2"
+	dir = 8
 	},
 /obj/effect/landmark/start/f13/raider,
 /turf/open/floor/f13/wood{
@@ -26448,7 +26041,6 @@
 /area/f13/wasteland)
 "bti" = (
 /obj/structure/chair/stool{
-	dir = 2;
 	icon_state = "bench_center";
 	tag = "icon-bench_center"
 	},
@@ -26594,7 +26186,6 @@
 "btG" = (
 /obj/structure/chair/comfy{
 	dir = 4;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (EAST)"
 	},
 /turf/open/floor/f13/wood,
@@ -26771,7 +26362,6 @@
 "bui" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -26787,7 +26377,6 @@
 "buk" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -26822,7 +26411,6 @@
 "buo" = (
 /obj/structure/chair{
 	dir = 1;
-	icon_state = "chair";
 	tag = "icon-chair (NORTH)"
 	},
 /turf/open/floor/f13/wood,
@@ -26996,7 +26584,6 @@
 "buO" = (
 /obj/structure/chair/comfy/black{
 	dir = 8;
-	icon_state = "comfychair";
 	tag = "icon-comfychair (WEST)"
 	},
 /turf/open/floor/f13/wood,
@@ -27258,8 +26845,7 @@
 /area/f13/legion)
 "bvH" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
@@ -27360,8 +26946,7 @@
 /area/f13/legion)
 "bwb" = (
 /obj/structure/simple_door/metal/fence{
-	dir = 8;
-	icon_state = "fence"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
@@ -28156,7 +27741,6 @@
 "bAq" = (
 /obj/structure/holohoop{
 	dir = 4;
-	icon_state = "hoop";
 	tag = "icon-hoop (EAST)"
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -28302,8 +27886,7 @@
 /area/f13/tunnel)
 "bAZ" = (
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/brotherhood)
@@ -28330,50 +27913,17 @@
 "bBe" = (
 /obj/structure/closet,
 /obj/item/clothing/gloves/color/white/bos,
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
-/obj/item/clothing/gloves/color/white/bos{
-	step_x = 0;
-	step_y = 0
-	},
+/obj/item/clothing/gloves/color/white/bos,
+/obj/item/clothing/gloves/color/white/bos,
+/obj/item/clothing/gloves/color/white/bos,
+/obj/item/clothing/gloves/color/white/bos,
+/obj/item/clothing/gloves/color/white/bos,
+/obj/item/clothing/gloves/color/white/bos,
+/obj/item/clothing/gloves/color/white/bos,
+/obj/item/clothing/gloves/color/white/bos,
+/obj/item/clothing/gloves/color/white/bos,
+/obj/item/clothing/gloves/color/white/bos,
+/obj/item/clothing/gloves/color/white/bos,
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/brotherhood)
 "bBf" = (
@@ -28575,8 +28125,7 @@
 "bBM" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /obj/machinery/recharger,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
@@ -28752,8 +28301,7 @@
 /area/f13/brotherhood)
 "bCe" = (
 /obj/structure/bodycontainer/morgue{
-	dir = 8;
-	icon_state = "morgue1"
+	dir = 8
 	},
 /turf/open/floor/f13{
 	icon_state = "floordirtysolid";
@@ -29207,8 +28755,7 @@
 /area/f13/brotherhood)
 "bDH" = (
 /obj/structure/chair/office/dark{
-	dir = 4;
-	icon_state = "officechair_dark"
+	dir = 4
 	},
 /turf/open/floor/f13{
 	icon_state = "floordirtysolid";
@@ -29243,8 +28790,7 @@
 "bDR" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /obj/machinery/computer/terminal{
 	dir = 4;
@@ -29470,9 +29016,7 @@
 "bEH" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
 	pixel_x = -3;
-	pixel_y = 0;
 	tag = "icon-toilet00 (EAST)"
 	},
 /turf/open/floor/plasteel/f13{
@@ -29611,8 +29155,7 @@
 /area/f13/brotherhood)
 "bFh" = (
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /obj/machinery/photocopier,
 /turf/open/floor/f13{
@@ -29638,8 +29181,7 @@
 /area/f13/brotherhood)
 "bFm" = (
 /obj/machinery/computer/rdconsole/core/bos{
-	dir = 1;
-	icon_state = "computer"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
 /area/f13/brotherhood)
@@ -29960,7 +29502,6 @@
 "bGx" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/floor/f13{
@@ -30013,21 +29554,10 @@
 	dir = 1
 	},
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluechess"
-	},
-/area/f13/brotherhood)
-"bGL" = (
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty";
-	tag = "icon-floorrusty"
 	},
 /area/f13/brotherhood)
 "bGM" = (
@@ -30110,7 +29640,6 @@
 "bHm" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
-	icon_state = "tracks";
 	tag = "icon-tracks (EAST)"
 	},
 /turf/open/indestructible/ground/inside/subway,
@@ -30118,7 +29647,6 @@
 "bHn" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
-	icon_state = "tracks";
 	tag = "icon-tracks (EAST)"
 	},
 /obj/effect/spawner/lootdrop/f13/armor/random,
@@ -31442,7 +30970,6 @@
 "bMQ" = (
 /obj/structure/toilet{
 	dir = 4;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (EAST)"
 	},
 /turf/open/floor/f13{
@@ -31452,7 +30979,6 @@
 "bMR" = (
 /obj/machinery/shower{
 	dir = 8;
-	icon_state = "shower";
 	tag = "icon-shower (WEST)"
 	},
 /turf/open/floor/f13{
@@ -31575,7 +31101,6 @@
 "bNj" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -31925,15 +31450,13 @@
 /area/f13/tunnel)
 "bOm" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 4;
-	icon_state = "tracks"
+	dir = 4
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "bOn" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 5;
-	icon_state = "tracks"
+	dir = 5
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
@@ -32081,7 +31604,6 @@
 "bOM" = (
 /obj/structure/sink/kitchen{
 	dir = 4;
-	icon_state = "sink_alt";
 	pixel_x = -15;
 	tag = "icon-sink_alt (EAST)"
 	},
@@ -32948,8 +32470,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1;
-	icon_state = "blue"
+	dir = 1
 	},
 /area/f13/vault/custodial)
 "bRU" = (
@@ -32960,8 +32481,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1;
-	icon_state = "blue"
+	dir = 1
 	},
 /area/f13/vault/dormitory)
 "bRV" = (
@@ -32969,8 +32489,7 @@
 	name = "Dormitories"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1;
-	icon_state = "blue"
+	dir = 1
 	},
 /area/f13/vault)
 "bRW" = (
@@ -33127,8 +32646,7 @@
 	pixel_x = -32
 	},
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
@@ -33166,8 +32684,7 @@
 /obj/machinery/vending/snack/random,
 /obj/effect/turf_decal/bot,
 /obj/machinery/camera/autoname{
-	dir = 9;
-	icon_state = "camera"
+	dir = 9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
@@ -33187,8 +32704,7 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/trunk{
-	dir = 1;
-	icon_state = "pipe-t"
+	dir = 1
 	},
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -33400,8 +32916,7 @@
 /area/f13/vault/lavatory)
 "bTw" = (
 /obj/structure/simple_door/metal/fence{
-	dir = 8;
-	icon_state = "fence"
+	dir = 8
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
@@ -33505,8 +33020,7 @@
 	},
 /obj/machinery/camera/motion{
 	c_tag = "Bot Control";
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/botcontrol)
@@ -33531,8 +33045,7 @@
 /area/f13/vault/botcontrol)
 "bTP" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/botcontrol)
@@ -33592,8 +33105,7 @@
 /area/f13/vault/botcontrol)
 "bUb" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/botcontrol)
@@ -33604,8 +33116,7 @@
 /obj/effect/turf_decal/bot,
 /obj/effect/landmark/start/cyborg,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/botcontrol)
@@ -33617,8 +33128,7 @@
 	icon_state = "0-8"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/botcontrol)
@@ -33682,8 +33192,7 @@
 "bUt" = (
 /obj/structure/table,
 /obj/effect/turf_decal/stripes/line{
-	dir = 5;
-	icon_state = "warningline"
+	dir = 5
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/vault/botcontrol)
@@ -33782,8 +33291,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -33795,8 +33303,7 @@
 	light_color = "#d8b1b1"
 	},
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/vault/security)
@@ -33824,8 +33331,7 @@
 	light_color = "#c1caff"
 	},
 /obj/machinery/camera/autoname{
-	dir = 9;
-	icon_state = "camera"
+	dir = 9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
@@ -33882,15 +33388,13 @@
 /area/f13/sewer)
 "bVc" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 4;
-	icon_state = "tracks"
+	dir = 4
 	},
 /turf/open/floor/f13/wood,
 /area/f13/sewer)
 "bVd" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 5;
-	icon_state = "tracks"
+	dir = 5
 	},
 /turf/open/floor/f13/wood,
 /area/f13/sewer)
@@ -34040,8 +33544,7 @@
 /area/f13/sewer)
 "bVz" = (
 /obj/machinery/computer/secure_data{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/vault/overseer)
@@ -34105,8 +33608,7 @@
 	req_access_txt = "1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
@@ -34130,8 +33632,7 @@
 	light_color = "#e8eaff"
 	},
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/vault/overseer)
@@ -34187,8 +33688,7 @@
 	light_color = "#706891"
 	},
 /obj/machinery/camera/autoname{
-	dir = 6;
-	icon_state = "camera"
+	dir = 6
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/vault/security)
@@ -34279,8 +33779,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
@@ -34375,8 +33874,7 @@
 	light_color = "#e8eaff"
 	},
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/vault/security)
@@ -34453,8 +33951,7 @@
 "bWE" = (
 /obj/machinery/door/airlock,
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -34467,8 +33964,7 @@
 /area/f13/vault/diner)
 "bWG" = (
 /obj/machinery/camera/autoname{
-	dir = 9;
-	icon_state = "camera"
+	dir = 9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/f13/vault/diner)
@@ -34500,8 +33996,7 @@
 	pixel_x = -32
 	},
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/vault/reactor)
@@ -34776,8 +34271,7 @@
 	req_access_txt = "19"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
@@ -34803,8 +34297,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -34817,8 +34310,7 @@
 	req_access_txt = "19"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/blue,
@@ -34858,8 +34350,7 @@
 	req_access_txt = "1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -34877,8 +34368,7 @@
 	req_access_txt = "1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -34984,15 +34474,13 @@
 	pixel_x = 32
 	},
 /obj/machinery/camera/autoname{
-	dir = 9;
-	icon_state = "camera"
+	dir = 9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/vault/reactor)
 "bXU" = (
 /obj/machinery/computer/security{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/vault/chiefoffice)
@@ -35002,8 +34490,7 @@
 	req_access_txt = "19"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -35012,21 +34499,18 @@
 /area/f13/vault/chiefoffice)
 "bXW" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 5;
-	icon_state = "blue"
+	dir = 5
 	},
 /area/f13/vault)
 "bXX" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1;
-	icon_state = "blue"
+	dir = 1
 	},
 /area/f13/vault)
 "bXY" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1;
-	icon_state = "blue"
+	dir = 1
 	},
 /area/f13/vault)
 "bXZ" = (
@@ -35034,21 +34518,18 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1;
-	icon_state = "blue"
+	dir = 1
 	},
 /area/f13/vault)
 "bYa" = (
 /obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1;
-	icon_state = "blue"
+	dir = 1
 	},
 /area/f13/vault)
 "bYb" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 9;
-	icon_state = "blue"
+	dir = 9
 	},
 /area/f13/vault)
 "bYc" = (
@@ -35057,8 +34538,7 @@
 	req_access_txt = "19"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -35112,8 +34592,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
@@ -35207,8 +34686,7 @@
 /obj/structure/window/reinforced/spawner/east,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/radiation)
@@ -35220,8 +34698,7 @@
 /area/f13/vault/reactor)
 "bYv" = (
 /obj/machinery/computer/secure_data{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /obj/machinery/light{
 	dir = 8
@@ -35245,15 +34722,13 @@
 "bYy" = (
 /obj/effect/landmark/start/f13/vaultsecurityofficer,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 8;
-	icon_state = "blue"
+	dir = 8
 	},
 /area/f13/vault)
 "bYz" = (
 /obj/effect/landmark/start/f13/vaultsecurityofficer,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 4;
-	icon_state = "blue"
+	dir = 4
 	},
 /area/f13/vault)
 "bYA" = (
@@ -35277,15 +34752,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/vault/security)
 "bYE" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -35294,8 +34767,7 @@
 /area/f13/vault/security)
 "bYF" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/vault/security)
@@ -35342,8 +34814,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/radiation)
@@ -35353,8 +34824,7 @@
 	},
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/radiation)
@@ -35363,8 +34833,7 @@
 	icon_state = "1-4"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/radiation)
@@ -35376,8 +34845,7 @@
 	icon_state = "0-8"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/radiation)
@@ -35412,8 +34880,7 @@
 /area/f13/vault/chiefoffice)
 "bYT" = (
 /obj/structure/chair/f13chair2{
-	dir = 4;
-	icon_state = "f13chair2"
+	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -35428,8 +34895,7 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/camera/autoname{
-	dir = 1;
-	icon_state = "camera"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/chiefoffice)
@@ -35443,8 +34909,7 @@
 	icon_state = "rightsecure"
 	},
 /obj/machinery/door/window/westleft{
-	dir = 4;
-	icon_state = "left"
+	dir = 4
 	},
 /obj/effect/turf_decal/bot,
 /obj/item/paper_bin,
@@ -35456,8 +34921,7 @@
 	},
 /obj/effect/landmark/start/f13/vaultsecurityofficer,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 8;
-	icon_state = "blue"
+	dir = 8
 	},
 /area/f13/vault)
 "bYW" = (
@@ -35499,8 +34963,7 @@
 	},
 /obj/effect/landmark/start/f13/vaultsecurityofficer,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 4;
-	icon_state = "blue"
+	dir = 4
 	},
 /area/f13/vault)
 "bZb" = (
@@ -35509,8 +34972,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/window/brigdoor{
-	dir = 4;
-	icon_state = "leftsecure"
+	dir = 4
 	},
 /obj/machinery/door/window/westright{
 	name = "Access Queue"
@@ -35521,8 +34983,7 @@
 /area/f13/vault/idcontrol)
 "bZc" = (
 /obj/structure/chair/f13chair2{
-	dir = 8;
-	icon_state = "f13chair2"
+	dir = 8
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -35536,8 +34997,7 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/camera/autoname{
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue,
 /area/f13/vault/idcontrol)
@@ -35595,8 +35055,7 @@
 	dir = 8
 	},
 /obj/machinery/camera/autoname{
-	dir = 1;
-	icon_state = "camera"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/vault/diner)
@@ -35629,13 +35088,11 @@
 /area/f13/caves)
 "bZn" = (
 /obj/machinery/door/airlock/engineering{
-	name = "Generator Room";
-	req_access_txt = "0"
+	name = "Generator Room"
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/f13/vault/reactor)
@@ -35652,16 +35109,14 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/engineering{
-	name = "Generator Room";
-	req_access_txt = "0"
+	name = "Generator Room"
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/f13/vault/reactor)
@@ -35671,12 +35126,10 @@
 	},
 /obj/structure/sign/directions/supply{
 	dir = 8;
-	icon_state = "direction_supply";
 	pixel_y = -8
 	},
 /obj/structure/sign/directions/command{
 	dir = 4;
-	icon_state = "direction_bridge";
 	pixel_y = 8
 	},
 /turf/closed/wall/r_wall/f13vault{
@@ -35698,19 +35151,16 @@
 /area/f13/vault)
 "bZt" = (
 /obj/machinery/computer/crew{
-	dir = 1;
-	icon_state = "computer"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
 /area/f13/vault)
 "bZu" = (
 /obj/structure/sign/directions/security{
-	dir = 4;
-	icon_state = "direction_sec"
+	dir = 4
 	},
 /obj/structure/sign/directions/science{
 	dir = 4;
-	icon_state = "direction_sci";
 	pixel_y = -8
 	},
 /obj/structure/sign/directions/evac{
@@ -35749,8 +35199,7 @@
 	req_access_txt = "1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -35767,8 +35216,7 @@
 	req_access_txt = "1"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -35788,16 +35236,14 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/vault/diner)
 "bZB" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/vault/diner)
@@ -35820,8 +35266,7 @@
 /area/f13/caves)
 "bZF" = (
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1;
-	icon_state = "yellow"
+	dir = 1
 	},
 /area/f13/vault)
 "bZG" = (
@@ -35829,8 +35274,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1;
-	icon_state = "yellow"
+	dir = 1
 	},
 /area/f13/vault)
 "bZH" = (
@@ -35838,8 +35282,7 @@
 	icon_state = "1-4"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1;
-	icon_state = "yellow"
+	dir = 1
 	},
 /area/f13/vault)
 "bZI" = (
@@ -35851,8 +35294,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1;
-	icon_state = "yellow"
+	dir = 1
 	},
 /area/f13/vault)
 "bZJ" = (
@@ -35863,8 +35305,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1;
-	icon_state = "yellow"
+	dir = 1
 	},
 /area/f13/vault)
 "bZK" = (
@@ -35879,8 +35320,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1;
-	icon_state = "yellow"
+	dir = 1
 	},
 /area/f13/vault)
 "bZL" = (
@@ -35894,8 +35334,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1;
-	icon_state = "yellow"
+	dir = 1
 	},
 /area/f13/vault)
 "bZM" = (
@@ -35907,8 +35346,7 @@
 	},
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
-	dir = 1;
-	icon_state = "yellowcorner"
+	dir = 1
 	},
 /area/f13/vault)
 "bZO" = (
@@ -35961,8 +35399,7 @@
 /obj/item/twohanded/required/kirbyplants/random,
 /obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/f13/vault_floor/red/corner{
-	dir = 4;
-	icon_state = "redcorner"
+	dir = 4
 	},
 /area/f13/vault)
 "bZU" = (
@@ -35970,8 +35407,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 1;
-	icon_state = "red"
+	dir = 1
 	},
 /area/f13/vault)
 "bZV" = (
@@ -35980,8 +35416,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 1;
-	icon_state = "red"
+	dir = 1
 	},
 /area/f13/vault)
 "bZW" = (
@@ -35992,8 +35427,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 1;
-	icon_state = "red"
+	dir = 1
 	},
 /area/f13/vault)
 "bZX" = (
@@ -36007,8 +35441,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 1;
-	icon_state = "red"
+	dir = 1
 	},
 /area/f13/vault)
 "bZY" = (
@@ -36019,8 +35452,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 1;
-	icon_state = "red"
+	dir = 1
 	},
 /area/f13/vault)
 "bZZ" = (
@@ -36031,8 +35463,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/corner{
-	dir = 1;
-	icon_state = "redcorner"
+	dir = 1
 	},
 /area/f13/vault)
 "caa" = (
@@ -36075,8 +35506,7 @@
 	pixel_x = -32
 	},
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
@@ -36093,15 +35523,13 @@
 /area/f13/vault)
 "caj" = (
 /obj/machinery/camera/autoname{
-	dir = 9;
-	icon_state = "camera"
+	dir = 9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
 "cak" = (
 /obj/machinery/camera/autoname{
-	dir = 5;
-	icon_state = "camera"
+	dir = 5
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
@@ -36136,8 +35564,7 @@
 /area/f13/vault)
 "cas" = (
 /obj/structure/chair/f13chair2{
-	dir = 1;
-	icon_state = "f13chair2"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side,
 /area/f13/vault)
@@ -36165,8 +35592,7 @@
 /area/f13/vault)
 "cax" = (
 /turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
-	dir = 8;
-	icon_state = "yellowcorner"
+	dir = 8
 	},
 /area/f13/vault)
 "cay" = (
@@ -36199,8 +35625,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/vault/storage)
@@ -36220,23 +35645,20 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/vault/storage)
 "cbd" = (
 /obj/structure/chair/f13chair2{
-	dir = 4;
-	icon_state = "f13chair2"
+	dir = 4
 	},
 /obj/effect/landmark/start/f13/vaultdweller,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
 "cbg" = (
 /obj/structure/chair/f13chair2{
-	dir = 8;
-	icon_state = "f13chair2"
+	dir = 8
 	},
 /obj/effect/landmark/start/f13/vaultdweller,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -36244,13 +35666,11 @@
 "cbh" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "0"
+	name = "Medbay"
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralsolid,
 /area/f13/vault/medical)
@@ -36260,13 +35680,11 @@
 	},
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "0"
+	name = "Medbay"
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor,
 /area/f13/vault/medical/morgue)
@@ -36277,8 +35695,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
 /area/f13/vault/science)
@@ -36302,8 +35719,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
 /area/f13/vault/science)
@@ -36316,8 +35732,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
 /area/f13/vault/garden)
@@ -36332,8 +35747,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/f13/vault/garden)
@@ -36444,8 +35858,7 @@
 "cbL" = (
 /obj/structure/table,
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/vault/medical/morgue)
@@ -36538,8 +35951,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/f13/vault/garden)
@@ -36580,8 +35992,7 @@
 /area/f13/vault/storage)
 "ccf" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/vault/storage)
@@ -36658,12 +36069,10 @@
 	},
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "0"
+	name = "Medbay"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
-	dir = 4;
-	icon_state = "rare"
+	dir = 4
 	},
 /area/f13/vault/medical/morgue)
 "ccu" = (
@@ -36730,8 +36139,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/camera/autoname{
-	dir = 9;
-	icon_state = "camera"
+	dir = 9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/vault/science)
@@ -36744,8 +36152,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/green,
@@ -36776,8 +36183,7 @@
 	pixel_x = -32
 	},
 /obj/machinery/camera/autoname{
-	dir = 5;
-	icon_state = "camera"
+	dir = 5
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/vault/storage)
@@ -36835,8 +36241,7 @@
 	icon_state = "2-8"
 	},
 /obj/machinery/camera/autoname{
-	dir = 6;
-	icon_state = "camera"
+	dir = 6
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/vault/storageoffice)
@@ -36879,8 +36284,7 @@
 	req_access_txt = "5"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
-	dir = 8;
-	icon_state = "rare"
+	dir = 8
 	},
 /area/f13/vault/medical/chemistry)
 "cda" = (
@@ -36927,8 +36331,7 @@
 	pixel_y = 3
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 5;
-	icon_state = "warningline"
+	dir = 5
 	},
 /obj/machinery/light{
 	dir = 8
@@ -37041,8 +36444,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/camera/autoname{
-	dir = 9;
-	icon_state = "camera"
+	dir = 9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/vault/storage)
@@ -37054,8 +36456,7 @@
 /area/f13/vault/storageoffice)
 "cdv" = (
 /obj/structure/chair/f13chair2{
-	dir = 4;
-	icon_state = "f13chair2"
+	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -37077,8 +36478,7 @@
 "cdx" = (
 /obj/machinery/vending/cigarette,
 /obj/machinery/camera/autoname{
-	dir = 1;
-	icon_state = "camera"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
@@ -37096,8 +36496,7 @@
 "cdB" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
@@ -37109,8 +36508,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 5;
-	icon_state = "warningline"
+	dir = 5
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
 /area/f13/vault/medical/chemistry)
@@ -37145,15 +36543,13 @@
 	pixel_x = -32
 	},
 /obj/machinery/computer/rdconsole/core/vault{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
 /area/f13/vault/science)
 "cdH" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/structure/chair/office/light{
 	dir = 8
@@ -37162,8 +36558,7 @@
 /area/f13/vault/science)
 "cdI" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 5;
-	icon_state = "warningline"
+	dir = 5
 	},
 /obj/machinery/rnd/production/circuit_imprinter,
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
@@ -37198,8 +36593,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/f13/vault/garden)
@@ -37256,8 +36650,7 @@
 "cdW" = (
 /obj/machinery/chem_master,
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/item/radio/intercom{
 	frequency = 1361;
@@ -37293,8 +36686,7 @@
 	pixel_x = -30
 	},
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /obj/structure/table,
 /obj/item/storage/firstaid/ancient,
@@ -37320,15 +36712,13 @@
 	pixel_x = -32
 	},
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/vault/medical/breakroom)
 "cec" = (
 /obj/structure/chair/f13chair2{
-	dir = 4;
-	icon_state = "f13chair2"
+	dir = 4
 	},
 /obj/effect/landmark/start/f13/vaultdoctor,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
@@ -37342,8 +36732,7 @@
 /area/f13/vault/medical/breakroom)
 "cee" = (
 /obj/structure/chair/f13chair2{
-	dir = 8;
-	icon_state = "f13chair2"
+	dir = 8
 	},
 /obj/effect/landmark/start/f13/vaultdoctor,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
@@ -37358,8 +36747,7 @@
 "ceg" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/camera/autoname{
-	dir = 1;
-	icon_state = "camera"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/whitepurplefull,
 /area/f13/vault/science)
@@ -37372,7 +36760,6 @@
 /area/f13/vault/science)
 "cej" = (
 /obj/machinery/power/apc{
-	dir = 2;
 	name = "Science APC";
 	pixel_y = -25
 	},
@@ -37404,8 +36791,7 @@
 	icon_state = "0-4"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plasteel/f13/vault_floor/green,
@@ -37525,8 +36911,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
-	dir = 6;
-	icon_state = "rare"
+	dir = 6
 	},
 /area/f13/vault/medical)
 "ceE" = (
@@ -37534,8 +36919,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/corner{
-	dir = 8;
-	icon_state = "rarecorner"
+	dir = 8
 	},
 /area/f13/vault/medical)
 "ceF" = (
@@ -37544,12 +36928,10 @@
 	},
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "0"
+	name = "Medbay"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
-	dir = 4;
-	icon_state = "rare"
+	dir = 4
 	},
 /area/f13/vault/medical/breakroom)
 "ceG" = (
@@ -37602,15 +36984,13 @@
 /obj/machinery/hydroponics/constructable,
 /obj/machinery/light,
 /obj/machinery/camera/autoname{
-	dir = 1;
-	icon_state = "camera"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/green/whitegreenfull,
 /area/f13/vault/garden)
 "ceN" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/effect/turf_decal/delivery,
 /obj/structure/reagent_dispensers/watertank/high,
@@ -37653,8 +37033,7 @@
 	req_access_txt = "31"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -37666,8 +37045,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 9;
-	icon_state = "yellow"
+	dir = 9
 	},
 /area/f13/vault/atrium)
 "ceW" = (
@@ -37678,8 +37056,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1;
-	icon_state = "yellow"
+	dir = 1
 	},
 /area/f13/vault/atrium)
 "ceX" = (
@@ -37688,8 +37065,7 @@
 	},
 /obj/effect/landmark/start/assistant/override,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1;
-	icon_state = "yellow"
+	dir = 1
 	},
 /area/f13/vault/atrium)
 "ceY" = (
@@ -37702,8 +37078,7 @@
 /obj/item/twohanded/required/kirbyplants/random,
 /obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
-	dir = 1;
-	icon_state = "yellowcorner"
+	dir = 1
 	},
 /area/f13/vault/atrium)
 "ceZ" = (
@@ -37753,19 +37128,16 @@
 	},
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "0"
+	name = "Medbay"
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
-	dir = 8;
-	icon_state = "rare"
+	dir = 8
 	},
 /area/f13/vault)
 "cfh" = (
@@ -37778,8 +37150,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/corner{
-	dir = 4;
-	icon_state = "rarecorner"
+	dir = 4
 	},
 /area/f13/vault/medical)
 "cfi" = (
@@ -37881,8 +37252,7 @@
 /area/f13/vault/atrium)
 "cfy" = (
 /obj/structure/chair/f13chair2{
-	dir = 8;
-	icon_state = "f13chair2"
+	dir = 8
 	},
 /obj/effect/landmark/start/f13/vaultdweller,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -37895,16 +37265,14 @@
 /area/f13/vault/atrium)
 "cfA" = (
 /obj/structure/chair/f13chair2{
-	dir = 4;
-	icon_state = "f13chair2"
+	dir = 4
 	},
 /obj/effect/landmark/start/f13/vaultdweller,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/atrium)
 "cfB" = (
 /obj/structure/window/reinforced{
-	dir = 1;
-	icon_state = "rwindow"
+	dir = 1
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -37913,15 +37281,13 @@
 /area/f13/vault/atrium)
 "cfC" = (
 /obj/structure/window/reinforced{
-	dir = 1;
-	icon_state = "rwindow"
+	dir = 1
 	},
 /turf/open/floor/plating,
 /area/f13/vault/atrium)
 "cfD" = (
 /obj/structure/window/reinforced{
-	dir = 1;
-	icon_state = "rwindow"
+	dir = 1
 	},
 /obj/structure/window/reinforced{
 	dir = 4
@@ -37930,8 +37296,7 @@
 /area/f13/vault/atrium)
 "cfE" = (
 /obj/structure/chair/f13chair2{
-	dir = 4;
-	icon_state = "f13chair2"
+	dir = 4
 	},
 /obj/effect/landmark/start/f13/vaultdweller,
 /obj/effect/decal/cleanable/dirt,
@@ -37940,12 +37305,10 @@
 "cfF" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "0"
+	name = "Medbay"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side,
@@ -37958,8 +37321,7 @@
 "cfH" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "0"
+	name = "Medbay"
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -38018,8 +37380,7 @@
 /area/f13/vault/medical)
 "cfR" = (
 /obj/structure/chair/f13chair2{
-	dir = 8;
-	icon_state = "f13chair2"
+	dir = 8
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -38030,8 +37391,7 @@
 /area/f13/vault/medical)
 "cfS" = (
 /obj/machinery/computer/med_data{
-	dir = 8;
-	icon_state = "computer"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
 /area/f13/vault/medical)
@@ -38077,8 +37437,7 @@
 /area/f13/vault/medical)
 "cga" = (
 /obj/structure/chair/f13chair2{
-	dir = 8;
-	icon_state = "f13chair2"
+	dir = 8
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -38118,25 +37477,21 @@
 /area/f13/vault/atrium)
 "cgg" = (
 /obj/machinery/camera/autoname{
-	dir = 9;
-	icon_state = "camera"
+	dir = 9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/atrium)
 "cgh" = (
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "0"
+	name = "Medbay"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
-	dir = 1;
-	icon_state = "rare"
+	dir = 1
 	},
 /area/f13/vault/medical)
 "cgi" = (
@@ -38145,12 +37500,10 @@
 	},
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = "MedbayFoyer";
-	name = "Medbay";
-	req_access_txt = "0"
+	name = "Medbay"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
-	dir = 1;
-	icon_state = "rare"
+	dir = 1
 	},
 /area/f13/vault/medical)
 "cgj" = (
@@ -38191,8 +37544,7 @@
 "cgs" = (
 /obj/effect/landmark/start/assistant/override,
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/atrium)
@@ -38263,8 +37615,7 @@
 "cgN" = (
 /obj/effect/landmark/start/assistant/override,
 /turf/open/floor/plasteel/f13/vault_floor/red/corner{
-	dir = 8;
-	icon_state = "redcorner"
+	dir = 8
 	},
 /area/f13/vault/atrium)
 "cgO" = (
@@ -38281,8 +37632,7 @@
 	req_access_txt = "31"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/door/poddoor{
@@ -38306,19 +37656,16 @@
 	},
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
 /obj/effect/turf_decal/stripes/line{
-	dir = 5;
-	icon_state = "warningline"
+	dir = 5
 	},
 /obj/machinery/camera/autoname{
-	dir = 4;
-	icon_state = "camera"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/vault/medical)
 "cgT" = (
 /obj/machinery/sleeper{
-	dir = 8;
-	icon_state = "sleeper"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -38373,8 +37720,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
@@ -38410,8 +37756,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/vault/medical)
@@ -38546,8 +37891,7 @@
 /area/f13/vault/medical)
 "chD" = (
 /obj/machinery/sleeper{
-	dir = 8;
-	icon_state = "sleeper"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -38617,8 +37961,7 @@
 "chR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/red/line{
-	dir = 6;
-	icon_state = "warningline_red"
+	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -38626,8 +37969,7 @@
 /area/f13/vault/atrium)
 "chS" = (
 /obj/effect/turf_decal/stripes/red/line{
-	dir = 1;
-	icon_state = "warningline_red"
+	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -38635,8 +37977,7 @@
 /area/f13/vault/atrium)
 "chT" = (
 /obj/effect/turf_decal/stripes/red/line{
-	dir = 10;
-	icon_state = "warningline_red"
+	dir = 10
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -38645,8 +37986,7 @@
 "chU" = (
 /obj/machinery/computer/operating,
 /obj/machinery/camera/autoname{
-	dir = 5;
-	icon_state = "camera"
+	dir = 5
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
 /area/f13/vault/medical/surgery)
@@ -38676,15 +38016,13 @@
 	icon_state = "4-8"
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/side{
-	dir = 8;
-	icon_state = "rare"
+	dir = 8
 	},
 /area/f13/vault/medical/surgery)
 "chZ" = (
@@ -38789,8 +38127,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/camera/autoname{
-	dir = 9;
-	icon_state = "camera"
+	dir = 9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault/atrium)
@@ -38813,8 +38150,7 @@
 /area/f13/vault/medical/surgery)
 "civ" = (
 /obj/structure/window/reinforced{
-	dir = 1;
-	icon_state = "rwindow"
+	dir = 1
 	},
 /obj/structure/closet/secure_closet/medical3,
 /obj/effect/turf_decal/bot,
@@ -38822,8 +38158,7 @@
 /area/f13/vault/medical)
 "ciw" = (
 /obj/structure/window/reinforced{
-	dir = 1;
-	icon_state = "rwindow"
+	dir = 1
 	},
 /obj/machinery/vending/wardrobe/medi_wardrobe,
 /obj/effect/turf_decal/bot,
@@ -38868,8 +38203,7 @@
 	name = "stool"
 	},
 /obj/machinery/camera/autoname{
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/vault/security/checkpoint)
@@ -38888,8 +38222,7 @@
 /area/f13/vault/security/checkpoint)
 "ciL" = (
 /obj/effect/turf_decal/stripes/red/line{
-	dir = 5;
-	icon_state = "warningline_red"
+	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -38904,8 +38237,7 @@
 /area/f13/vault/atrium)
 "ciN" = (
 /obj/effect/turf_decal/stripes/red/line{
-	dir = 9;
-	icon_state = "warningline_red"
+	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -38915,8 +38247,7 @@
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
@@ -38926,8 +38257,7 @@
 /obj/machinery/light,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
@@ -38941,8 +38271,7 @@
 	},
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/bot,
 /obj/item/storage/backpack/duffelbag/med/surgery,
@@ -38952,8 +38281,7 @@
 /obj/structure/closet/crate/freezer/surplus_limbs,
 /obj/item/reagent_containers/glass/beaker/synthflesh,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
@@ -38977,8 +38305,7 @@
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
 /obj/effect/turf_decal/delivery,
 /obj/machinery/camera/autoname{
-	dir = 1;
-	icon_state = "camera"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/vault/medical)
@@ -39122,8 +38449,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/red/line{
-	dir = 1;
-	icon_state = "warningline_red"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/vault/atrium)
@@ -39278,8 +38604,7 @@
 "cjY" = (
 /obj/structure/fence/handrail,
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -39289,19 +38614,16 @@
 "cjZ" = (
 /obj/structure/fence/handrail,
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/tunnel)
 "cka" = (
 /obj/structure/fence/handrail_end{
-	dir = 4;
-	icon_state = "y_handrail_end"
+	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
-	dir = 1;
-	icon_state = "warningline"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/tunnel)
@@ -39583,7 +38905,6 @@
 "cnx" = (
 /obj/structure/chair{
 	dir = 8;
-	icon_state = "chair";
 	tag = "icon-chair (WEST)"
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -39609,8 +38930,7 @@
 /area/f13/brotherhood)
 "cnA" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 8;
-	icon_state = "warningline"
+	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
@@ -39688,8 +39008,7 @@
 /area/f13/brotherhood)
 "cnL" = (
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube"
+	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
@@ -39827,8 +39146,7 @@
 /area/f13/wasteland)
 "coq" = (
 /obj/structure/fence/corner{
-	dir = 6;
-	icon_state = "corner"
+	dir = 6
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 8;
@@ -40087,7 +39405,6 @@
 "cpD" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
-	icon_state = "housewindow";
 	tag = "icon-housewindow"
 	},
 /turf/open/floor/f13/wood,
@@ -40184,8 +39501,7 @@
 /area/f13/ncr)
 "cqn" = (
 /obj/structure/simple_door/metal/fence{
-	dir = 8;
-	icon_state = "fence"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -40232,13 +39548,6 @@
 	tag = "icon-bluedirtychess2"
 	},
 /area/f13/ncr)
-"cri" = (
-/obj/machinery/light/small,
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2";
-	tag = "icon-bluedirtychess2"
-	},
-/area/f13/ncr)
 "crv" = (
 /obj/machinery/light{
 	dir = 4
@@ -40277,7 +39586,6 @@
 "crF" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
-	icon_state = "housewindow";
 	tag = "icon-housewindow"
 	},
 /obj/structure/barricade/wooden/planks/pregame,
@@ -40305,8 +39613,7 @@
 /area/f13/ncr)
 "crN" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -40417,8 +39724,7 @@
 /area/f13/caves)
 "ekc" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 7;
@@ -40637,7 +39943,6 @@
 "gpq" = (
 /obj/structure/chair{
 	dir = 4;
-	icon_state = "chair";
 	tag = "icon-chair (EAST)"
 	},
 /turf/open/indestructible/ground/outside/desert,
@@ -40650,8 +39955,7 @@
 /area/f13/tunnel)
 "gyy" = (
 /obj/structure/chair/f13chair2{
-	dir = 8;
-	icon_state = "f13chair2"
+	dir = 8
 	},
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
@@ -40716,7 +40020,6 @@
 "hga" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5;
-	icon_state = "tracks";
 	tag = "icon-tracks (NORTHEAST)"
 	},
 /turf/open/indestructible/ground/inside/mountain,
@@ -40840,8 +40143,7 @@
 /area/f13/wasteland)
 "jAZ" = (
 /obj/structure/fence{
-	dir = 1;
-	icon_state = "straight"
+	dir = 1
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -40940,8 +40242,7 @@
 /area/f13/village)
 "lwX" = (
 /obj/machinery/computer/shuttle/vault113elevator{
-	dir = 4;
-	icon_state = "computer"
+	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -41009,8 +40310,7 @@
 /area/f13/tunnel)
 "nga" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 10;
-	icon_state = "tracks"
+	dir = 10
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
@@ -41022,7 +40322,6 @@
 "npx" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /obj/machinery/light/small{
@@ -41369,7 +40668,6 @@
 "ueP" = (
 /obj/structure/toilet{
 	dir = 8;
-	icon_state = "toilet00";
 	tag = "icon-toilet00 (WEST)"
 	},
 /obj/machinery/light/small,
@@ -41404,7 +40702,6 @@
 "uIa" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/desert{
@@ -41415,7 +40712,6 @@
 "uJo" = (
 /obj/structure/chair/wood{
 	dir = 4;
-	icon_state = "wooden_chair_settler";
 	tag = "icon-wooden_chair_settler (EAST)"
 	},
 /turf/open/floor/f13/wood{
@@ -41430,7 +40726,6 @@
 "uQK" = (
 /obj/structure/fence{
 	dir = 4;
-	icon_state = "straight";
 	tag = "icon-metal_fence3"
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -41557,15 +40852,13 @@
 /area/f13/caves)
 "wIv" = (
 /obj/effect/decal/cleanable/blood/tracks{
-	dir = 4;
-	icon_state = "tracks"
+	dir = 4
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "wQw" = (
 /obj/structure/fence/handrail_end{
-	dir = 4;
-	icon_state = "y_handrail_end"
+	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -43473,7 +42766,7 @@ bma
 aJN
 aJN
 aJL
-aJN
+aAJ
 alD
 bDY
 bkT
@@ -44248,7 +43541,7 @@ bma
 aJN
 aJN
 aJL
-cri
+aJN
 bDY
 bDY
 acm
@@ -47104,7 +46397,7 @@ aCL
 afj
 aat
 aat
-aAJ
+ayt
 aat
 ach
 acv
@@ -48899,7 +48192,7 @@ ayW
 aat
 aat
 aat
-aAJ
+ayt
 aat
 aat
 aat
@@ -49584,7 +48877,7 @@ bol
 bji
 bol
 bol
-bol
+aQZ
 bji
 bji
 bji
@@ -50718,7 +50011,7 @@ aat
 aat
 aat
 aat
-aQZ
+aAm
 aat
 aat
 aat
@@ -53319,7 +52612,7 @@ acO
 acO
 bss
 aat
-aQZ
+aAm
 aat
 aat
 aat
@@ -54070,7 +53363,7 @@ aat
 aat
 aat
 aat
-aQZ
+aAm
 aat
 aat
 afw
@@ -55339,7 +54632,7 @@ dpr
 xGK
 aHF
 aat
-aAJ
+ayt
 aat
 aat
 aat
@@ -58705,7 +57998,7 @@ aat
 aat
 aat
 aat
-aSj
+bqC
 aHF
 azE
 aAf
@@ -59745,7 +59038,7 @@ aat
 aat
 aat
 aat
-aSj
+bqC
 aat
 aat
 aat
@@ -60465,7 +59758,7 @@ aiu
 aat
 aat
 aat
-aAJ
+ayt
 aat
 aat
 aat
@@ -60783,7 +60076,7 @@ aat
 aat
 aat
 aat
-aSj
+bqC
 aat
 aat
 aat
@@ -62024,7 +61317,7 @@ aHF
 bky
 aHF
 aHF
-aAJ
+ayt
 aat
 aat
 aat
@@ -62047,7 +61340,7 @@ aat
 aat
 aat
 aat
-aAJ
+ayt
 aat
 aat
 afw
@@ -62800,7 +62093,7 @@ acO
 acO
 bss
 aat
-aAJ
+ayt
 aat
 aat
 aat
@@ -62808,7 +62101,7 @@ aat
 aat
 aat
 aat
-aAJ
+ayt
 aat
 aat
 aat
@@ -62823,7 +62116,7 @@ acO
 acO
 bss
 aat
-aAJ
+ayt
 aat
 aat
 ayJ
@@ -64379,7 +63672,7 @@ acv
 acv
 ads
 aat
-aAJ
+ayt
 aat
 aat
 aat
@@ -65402,7 +64695,7 @@ aat
 aat
 aat
 aat
-aAJ
+ayt
 aat
 aat
 aat
@@ -66697,7 +65990,7 @@ aat
 aat
 aat
 aat
-aAJ
+ayt
 aat
 aat
 aat
@@ -79045,7 +78338,7 @@ aat
 aat
 aat
 aaQ
-aBk
+aDH
 acb
 acb
 abv
@@ -79302,8 +78595,8 @@ aat
 aat
 aat
 aaQ
-aYA
-aJr
+abG
+aHy
 aZC
 aAf
 aAf
@@ -79559,9 +78852,9 @@ aat
 aat
 aat
 aaQ
-aBm
 acb
-aZD
+aJr
+acb
 aAf
 acb
 abw
@@ -79817,8 +79110,8 @@ aat
 aat
 aaQ
 acb
-acb
-aHN
+aHz
+aHy
 aAf
 acb
 acb
@@ -80075,7 +79368,7 @@ aat
 aaQ
 aYB
 acb
-aHz
+abG
 aAf
 bav
 acb
@@ -80330,7 +79623,7 @@ aat
 aat
 aat
 aaQ
-aYC
+acb
 acb
 aZE
 aAf
@@ -94070,10 +93363,10 @@ aae
 aae
 aae
 aae
-ahz
-ahz
-ahz
-ahz
+acl
+acl
+acl
+acl
 aae
 aae
 aae
@@ -115866,7 +115159,7 @@ adn
 bRa
 cbK
 ccs
-ccq
+aYA
 cdF
 cea
 ceE
@@ -162969,7 +162262,7 @@ bBF
 bGx
 bBF
 bBF
-bGL
+bDZ
 bBF
 bBF
 bAD
@@ -170654,7 +169947,7 @@ bAD
 bAD
 bAD
 bAD
-bCO
+aSj
 bCX
 bDd
 bAD
