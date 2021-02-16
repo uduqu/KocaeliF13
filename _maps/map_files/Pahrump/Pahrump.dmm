@@ -25381,6 +25381,20 @@
 "bqf" = (
 /turf/open/floor/wood/f13/stage_br,
 /area/f13/wasteland)
+"bqg" = (
+/obj/structure/rack,
+/obj/machinery/light/small,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/turf/open/floor/f13{
+	icon_state = "yellowdirtyfull";
+	tag = "icon-yellowdirtyfull"
+	},
+/area/f13/ncr)
 "bqh" = (
 /obj/structure/table/wood,
 /obj/structure/decoration/sign{
@@ -25930,6 +25944,18 @@
 	tag = "icon-bluedirtychess2"
 	},
 /area/f13/city)
+"brF" = (
+/obj/structure/rack,
+/obj/item/radio/off,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/turf/open/floor/plasteel/f13{
+	icon_state = "plating"
+	},
+/area/f13/legion)
 "brG" = (
 /obj/structure/simple_door/house{
 	icon_state = "interioropening";
@@ -27772,13 +27798,6 @@
 	tag = "icon-horizontalbottomborderbottomright"
 	},
 /area/f13/wasteland)
-"bxi" = (
-/obj/structure/rack,
-/obj/item/radio/off,
-/turf/open/floor/plasteel/f13{
-	icon_state = "plating"
-	},
-/area/f13/legion)
 "bxj" = (
 /obj/structure/closet/fridge,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -39967,14 +39986,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
-	},
-/area/f13/ncr)
-"cph" = (
-/obj/structure/rack,
-/obj/machinery/light/small,
-/turf/open/floor/f13{
-	icon_state = "yellowdirtyfull";
-	tag = "icon-yellowdirtyfull"
 	},
 /area/f13/ncr)
 "cpl" = (
@@ -53449,7 +53460,7 @@ bDY
 bAp
 bwP
 bwQ
-cph
+bqg
 bDY
 aae
 aae
@@ -98367,7 +98378,7 @@ bws
 aaI
 bwL
 arz
-bxi
+brF
 bxp
 arz
 aaa

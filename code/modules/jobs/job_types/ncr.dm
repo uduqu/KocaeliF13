@@ -12,7 +12,7 @@
 	jobtype = /datum/job/ncr/
 	backpack = /obj/item/storage/backpack/trekker
 	satchel = /obj/item/storage/backpack/satchel/trekker
-	ears = 			/obj/item/radio/headset/headset_ncr
+//	ears = 			/obj/item/radio/headset/headset_ncr
 	shoes = 		/obj/item/clothing/shoes/f13/military/ncr
 	gloves =        /obj/item/clothing/gloves/f13/ncr
 
