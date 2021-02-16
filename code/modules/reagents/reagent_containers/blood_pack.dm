@@ -98,3 +98,10 @@
 	labelled = 1
 	blood_type = null
 	list_reagents = list("radaway" = 200)
+
+/obj/item/reagent_containers/blood/saline
+	name = "Saline-Glucose Pack"
+	desc = "This can promote both tissue recovery and has the potential to temporarily fulfil the function of bloodcells."
+	labelled = 1
+	blood_type = "S"
+	list_reagents = list("salglu_solution" = 200)
