@@ -25814,6 +25814,10 @@
 /obj/effect/landmark/start/f13/recleg,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"brp" = (
+/obj/structure/table/optable,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "brq" = (
 /obj/structure/table/wood/settler,
 /obj/item/clothing/gloves/boxing,
@@ -41270,21 +41274,6 @@
 	tag = "icon-housewood2"
 	},
 /area/f13/village)
-"sFj" = (
-/obj/structure/table/optable,
-/obj/effect/decal/cleanable/blood/old{
-	icon_state = "floor5-old";
-	tag = "icon-floor5-old"
-	},
-/turf/open/floor/f13/wood,
-/area/f13/legion)
-"sFG" = (
-/obj/effect/decal/cleanable/blood/old{
-	icon_state = "floor6-old";
-	tag = "icon-floor6-old"
-	},
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "sOk" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
@@ -105596,7 +105585,7 @@ aat
 bhh
 woN
 aaI
-sFG
+aaI
 kwf
 bhh
 aaI
@@ -105854,7 +105843,7 @@ bhw
 qtR
 aaI
 aaI
-sFj
+brp
 bhh
 aaI
 aaI
