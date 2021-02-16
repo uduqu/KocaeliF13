@@ -71,10 +71,3 @@
 			icon_state = "capmine_preactive"
 		if(ACTIVE)
 			icon_state = "capmine_active"
-
-/obj/item/bottlecap_mine/examine(mob/user)
-	..()
-	if(DISABLED)
-		to_chat(user, "<span class='warning'>It doesn't appear activated!</span>")
-	if(ACTIVE)
-		to_chat(user, "<span class='warning'>It seems activated!</span>")

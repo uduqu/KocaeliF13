@@ -170,6 +170,19 @@
 	for(var/i in 1 to 3)
 		new /obj/item/reagent_containers/blood/random(src)
 
+/obj/structure/closet/crate/freezer/saline
+	name = "saline freezer"
+	desc = "A freezer containing packs of saline."
+
+/obj/structure/closet/crate/freezer/saline/PopulateContents()
+	. = ..()
+	new /obj/item/reagent_containers/blood/saline(src)
+	new /obj/item/reagent_containers/blood/saline(src)
+	new /obj/item/reagent_containers/blood/saline(src)
+	new /obj/item/reagent_containers/blood/saline(src)
+	new /obj/item/reagent_containers/blood/saline(src)
+	new /obj/item/reagent_containers/blood/saline(src)
+
 /obj/structure/closet/crate/freezer/surplus_limbs
 	name = "surplus prosthetic limbs"
 	desc = "A crate containing an assortment of cheap prosthetic limbs."

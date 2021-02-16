@@ -1431,7 +1431,7 @@
 	name = "Psycho"
 	result = /obj/item/reagent_containers/hypospray/medipen/psycho
 	time = 20
-	reqs = list(/obj/item/reagent_containers/syringe = 1, /obj/item/reagent_containers/food/snacks/grown/feracactus = 2, /obj/item/reagent_containers/food/snacks/grown/fungus = 2, /datum/reagent/consumable/nuka_cola = 10)
+	reqs = list(/obj/item/reagent_containers/syringe = 1, /obj/item/reagent_containers/food/snacks/grown/feracactus = 2, /obj/item/reagent_containers/food/snacks/grown/fungus = 2)
 	tools = list(TOOL_WORKBENCH)
 	category = CAT_DRUGS
 
@@ -1439,7 +1439,7 @@
 	name = "med-x"
 	result = /obj/item/reagent_containers/syringe/medx
 	time = 20
-	reqs = list(/obj/item/reagent_containers/syringe = 1, /obj/item/reagent_containers/food/snacks/grown/feracactus = 2, /obj/item/reagent_containers/food/snacks/grown/agave = 1, /datum/reagent/consumable/ethanol/whiskey = 10)
+	reqs = list(/obj/item/reagent_containers/syringe = 1, /obj/item/reagent_containers/food/snacks/grown/feracactus = 2, /obj/item/reagent_containers/food/snacks/grown/agave = 1)
 	tools = list(TOOL_WORKBENCH)
 	category = CAT_DRUGS
 
@@ -1901,4 +1901,15 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_WASTELAND
+
+/* Category Explosives - mk.2*/
+
+/datum/crafting_recipe/salvagedpaconversion2
+	name = "Pipebomb"
+	result = /obj/item/grenade/syndieminibomb/pipebomb
+	reqs = list(/obj/item/reagent_containers/glass/bottle/blackpowder = 1,
+				/obj/item/stack/sheet/metal = 15)
+	time = 30
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
 

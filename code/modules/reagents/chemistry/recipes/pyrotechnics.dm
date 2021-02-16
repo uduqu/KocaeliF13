@@ -95,7 +95,7 @@
 	mix_message = "<span class='boldannounce'>Sparks start flying around the black powder!</span>"
 
 /datum/chemical_reaction/reagent_explosion/blackpowder_explosion/on_reaction(datum/reagents/holder, created_volume)
-	sleep(rand(50,100))
+	sleep(rand(1,2))//Don't toss it about like an idiot. Better yet, don't manually heat it.
 	..()
 
 /datum/chemical_reaction/thermite
