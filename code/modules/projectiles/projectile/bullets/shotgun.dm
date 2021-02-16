@@ -1,6 +1,6 @@
 /obj/item/projectile/bullet/shotgun_slug
 	name = "12g shotgun slug"
-	damage = 15//Primary damage from the damage increase on the firearms. Typically. Regardless, good pen.
+	damage = 50
 	armour_penetration = 20
 
 /obj/item/projectile/bullet/shotgun_beanbag
@@ -63,12 +63,10 @@
 /obj/item/projectile/bullet/pellet/shotgun_buckshot
 	name = "buckshot pellet"
 	damage = 10
-	armour_penetration = -40
 
 /obj/item/projectile/bullet/pellet/magnum_buckshot
 	name = "magnum buckshot pellet"
 	damage = 12
-	armour_penetration = -35
 
 /obj/item/projectile/bullet/pellet/shotgun_rubbershot
 	name = "rubbershot pellet"
@@ -87,7 +85,6 @@
 /obj/item/projectile/bullet/pellet/shotgun_improvised
 	tile_dropoff = 0.55		//Come on it does 6 damage don't be like that.
 	damage = 12
-	armour_penetration = -50
 
 /obj/item/projectile/bullet/pellet/shotgun_improvised/Initialize()
 	. = ..()
