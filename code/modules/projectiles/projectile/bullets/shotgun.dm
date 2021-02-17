@@ -8,6 +8,7 @@
 	name = "beanbag slug"
 	damage = 0
 	stamina = 60
+	range = 7
 	knockdown = 5 //we'll try this a bit. Basically nothing, but it's just to knock you on your ass.
 
 /obj/item/projectile/bullet/incendiary/shotgun
