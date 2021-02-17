@@ -11,7 +11,7 @@
 	var/destroyed = FALSE
 	var/isworn = FALSE
 	var/is_open = FALSE
-	max_integrity = 1000
+	max_integrity = 10000//Lets not have it destroyed very easily. God darn. If it takes an hour, it takes an hour. Thing is meant to withstand atomic hellfire.
 	resistance_flags = FIRE_PROOF | ACID_PROOF | UNACIDABLE | FREEZE_PROOF  //it's a fucking steel blast door
 	armor = list("melee" = 95, "bullet" = 75, "laser" = 75, "energy" = 75, "bomb" = 95, "bio" = 100, "rad" = 100, "fire" = 99, "acid" = 100) //it's a fucking steel door 2.0
 
