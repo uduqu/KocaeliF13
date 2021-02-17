@@ -2,7 +2,7 @@
 
 /obj/item/ammo_casing/shotgun
 	name = "12 gauge slug"
-	desc = "A 12 gauge lead slug."
+	desc = "A 12 gauge lead slug, meant to blow holes through armor and people at a limited range."
 	icon_state = "blshell"
 	caliber = "shotgun"
 	projectile_type = /obj/item/projectile/bullet/shotgun_slug
@@ -10,7 +10,7 @@
 
 /obj/item/ammo_casing/shotgun/beanbag
 	name = "12 gauge beanbag slug"
-	desc = "A weak beanbag slug for riot control."
+	desc = "A beanbag slug for riot control used to incapacitate single, large targets."
 	icon_state = "bshell"
 	projectile_type = /obj/item/projectile/bullet/shotgun_beanbag
 
@@ -57,7 +57,7 @@
 
 /obj/item/ammo_casing/shotgun/buckshot
 	name = "12 gauge buckshot shell"
-	desc = "A 12 gauge buckshot shell."
+	desc = "A 12 gauge buckshot shell, best to point-blank for full effect."
 	icon_state = "gshell"
 	projectile_type = /obj/item/projectile/bullet/pellet/shotgun_buckshot
 	pellets = 7
@@ -65,7 +65,7 @@
 
 /obj/item/ammo_casing/shotgun/magnumshot
 	name = "12 gauge magnum buckshot shell"
-	desc = "A 12 gauge magnum buckshot shell."
+	desc = "A 12 gauge magnum buckshot shell, holding a more powerful load than typical buckshot."
 	icon_state = "magshell"
 	projectile_type = /obj/item/projectile/bullet/pellet/magnum_buckshot
 	pellets = 7

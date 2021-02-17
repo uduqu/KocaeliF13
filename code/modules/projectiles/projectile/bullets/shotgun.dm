@@ -1,13 +1,14 @@
 /obj/item/projectile/bullet/shotgun_slug
 	name = "12g shotgun slug"
-	damage = 35
+	damage = 40
 	armour_penetration = 25
+	range = 7 //max range cuz slugs should do more damage than buckshot outside of PB, but not instantly buttfuck everything and just be objectively better at range, especially not better than literally any rifle.
 
 /obj/item/projectile/bullet/shotgun_beanbag
 	name = "beanbag slug"
 	damage = 0
 	stamina = 60
-	knockdown = 5//we'll try this a bit. Basically nothing, but it's just to knock you on your ass.
+	knockdown = 5 //we'll try this a bit. Basically nothing, but it's just to knock you on your ass.
 
 /obj/item/projectile/bullet/incendiary/shotgun
 	name = "incendiary slug"
