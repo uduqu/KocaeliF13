@@ -2,7 +2,7 @@
 
 /obj/item/ammo_casing/p50
 	name = ".50 BMG bullet casing"
-	desc = "A .50 bullet casing."
+	desc = "A .50 bullet casing, for use in high-caliber sniper rifles."
 	caliber = ".50"
 	projectile_type = /obj/item/projectile/bullet/p50
 	icon_state = ".50"
@@ -21,21 +21,21 @@
 
 /obj/item/ammo_casing/a50MG
 	name = ".50MG bullet casing"
-	desc = "A .50MG bullet casing."
+	desc = "A .50MG bullet casing, used in mounted machine guns."
 	caliber = "a50MG"
 	icon_state = "50mg2"
 	projectile_type = /obj/item/projectile/bullet/a50MG
 
 /obj/item/ammo_casing/a50MG/incendiary
 	name = ".50 MG incendiary bullet casing"
-	desc = "A .50 MG incendiary bullet casing."
+	desc = "A .50 MG incendiary bullet casing, burn baby burn!"
 	icon_state = "50in2"
 	caliber = "a50MG"
 	projectile_type = /obj/item/projectile/bullet/a50MG/incendiary
 
 /obj/item/ammo_casing/a50MG/AP
 	name = ".50 MG AP bullet casing"
-	desc = "A .50 MG armor-piercing bullet casing."
+	desc = "A .50 MG armor-piercing bullet casing, for use against the brotherhood."
 	caliber = "a50MG"
 	icon_state = "50ap2"
 	projectile_type = /obj/item/projectile/bullet/a50MG/AP

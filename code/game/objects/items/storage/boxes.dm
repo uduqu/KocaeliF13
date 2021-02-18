@@ -784,7 +784,7 @@
 
 /obj/item/storage/box/slugshot
 	name = "box of slug shotgun shots"
-	desc = "A box full of slug rounds, designed for riot shotguns."
+	desc = "A box full of slug rounds, designed for riot shotguns. These have a limited range compared to buckshot, but no falloff."
 	icon_state = "slugshot_box"
 	illustration = null
 	w_class = WEIGHT_CLASS_SMALL
