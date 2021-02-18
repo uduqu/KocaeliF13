@@ -125,8 +125,8 @@
 			if(target.client && target.client.prefs)
 				if(target.client.prefs.wasteland_toggles & VERB_CONSENT)
 					return TRUE
-			else
-				return FALSE
+				else
+					return FALSE
 		return TRUE
 	return FALSE
 
