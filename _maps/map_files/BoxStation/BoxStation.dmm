@@ -992,7 +992,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "adj" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/cash_legion_low,
@@ -1018,7 +1018,7 @@
 /area/f13/klamat)
 "adn" = (
 /turf/closed/wall/r_wall/rust,
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "ado" = (
 /obj/machinery/light{
 	dir = 1
@@ -1305,7 +1305,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aej" = (
 /obj/structure/chair/wood/normal{
 	dir = 1
@@ -1543,7 +1543,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aeU" = (
 /obj/item/stack/rods{
 	amount = 10
@@ -3236,7 +3236,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "ajV" = (
 /obj/structure/simple_door/interior,
 /turf/open/floor/wood/f13/old,
@@ -4707,7 +4707,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aoz" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -15210,7 +15210,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrustysolid"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aQe" = (
 /obj/structure/closet/fridge,
 /turf/open/floor/wood/f13/old,
@@ -15952,7 +15952,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aSp" = (
 /mob/living/simple_animal/hostile/radroach,
 /turf/open/floor/plasteel/f13{
@@ -16008,7 +16008,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aSx" = (
 /turf/closed/wall/f13wood{
 	icon_state = "wasteland3alt"
@@ -16639,7 +16639,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aUo" = (
 /obj/machinery/light{
 	dir = 4
@@ -16648,12 +16648,12 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "platingdmg1"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aUp" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "platingdmg1"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aUq" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -16742,13 +16742,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aUD" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aUE" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -16758,7 +16758,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aUF" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -16772,7 +16772,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aUG" = (
 /obj/effect/decal/cleanable/robot_debris,
 /turf/open/floor/plasteel/neutral,
@@ -16872,7 +16872,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aUX" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -16893,13 +16893,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aUZ" = (
 /obj/structure/rack,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aVa" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -16907,7 +16907,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aVb" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -16937,7 +16937,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aVg" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/ghoul,
@@ -16953,14 +16953,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aVi" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aVj" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/armor/tier1,
@@ -17145,7 +17145,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aVJ" = (
 /obj/structure/table/wood,
 /obj/item/phone,
@@ -17735,7 +17735,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aXC" = (
 /obj/structure/simple_door/interior,
 /obj/structure/barricade/wooden/crude,
@@ -17766,7 +17766,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aXG" = (
 /obj/machinery/light{
 	dir = 1
@@ -17824,7 +17824,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aXQ" = (
 /obj/machinery/light{
 	dir = 4
@@ -17863,7 +17863,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aXV" = (
 /obj/structure/rack,
 /obj/item/storage/backpack/duffelbag,
@@ -18162,7 +18162,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aYO" = (
 /obj/machinery/light{
 	dir = 4
@@ -18276,7 +18276,7 @@
 "aZe" = (
 /obj/effect/landmark/poster_spawner/prewar,
 /turf/closed/wall/r_wall/rust,
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aZf" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -18285,7 +18285,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "aZg" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -18607,7 +18607,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bae" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/desert,
@@ -18708,7 +18708,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "baw" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
@@ -18729,7 +18729,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "baz" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -18738,7 +18738,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "baA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
@@ -18758,7 +18758,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "baD" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10
@@ -18861,7 +18861,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "baQ" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
@@ -18966,13 +18966,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bbf" = (
 /obj/effect/turf_decal/stripes/red/line,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bbg" = (
 /obj/item/mecha_parts/mecha_equipment/cable_layer,
 /obj/item/stack/cable_coil,
@@ -19030,7 +19030,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrustysolid"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bbo" = (
 /obj/structure/simple_door/interior,
 /turf/open/floor/plasteel/f13{
@@ -19188,7 +19188,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bbM" = (
 /obj/structure/rack,
 /obj/item/storage/pill_bottle/chem_tin/mentats,
@@ -20041,7 +20041,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bdW" = (
 /obj/structure/rack,
 /obj/item/wirecutters,
@@ -20725,7 +20725,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bfW" = (
 /turf/open/floor/wood/f13/carpet{
 	icon_state = "torncarpet10"
@@ -23504,7 +23504,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bok" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -23512,14 +23512,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bol" = (
 /obj/structure/rack,
 /obj/item/clothing/head/hardhat,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bom" = (
 /obj/structure/bed,
 /obj/item/bedsheet/purple,
@@ -23563,7 +23563,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bou" = (
 /obj/machinery/light{
 	dir = 8;
@@ -23575,20 +23575,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bov" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bow" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "box" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
@@ -23597,7 +23597,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "boy" = (
 /obj/machinery/light{
 	dir = 4
@@ -23608,7 +23608,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "boz" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -24001,7 +24001,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "platingdmg1"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bpH" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -24056,13 +24056,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bpQ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrustysolid"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bpR" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
@@ -24248,13 +24248,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bqv" = (
 /obj/structure/barricade/sandbags,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bqw" = (
 /obj/structure/chair/f13chair2{
 	dir = 4
@@ -24282,7 +24282,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bqA" = (
 /obj/structure/chair/stool/f13stool{
 	dir = 4;
@@ -24414,7 +24414,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bqT" = (
 /mob/living/simple_animal/hostile/handy,
 /turf/open/floor/plating/f13/outside/road{
@@ -24451,7 +24451,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bqY" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -24462,7 +24462,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bqZ" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier1,
 /turf/open/floor/plating/f13/inside/mountain,
@@ -24773,7 +24773,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "brU" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/blood/radaway,
@@ -24829,7 +24829,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bsa" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
@@ -25057,14 +25057,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bsF" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier2,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bsG" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	autoclose = 1;
@@ -25076,7 +25076,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/underground/mountain)
+/area/f13/ahs)
 "bsH" = (
 /obj/item/trash/can{
 	icon_state = "cheesie_honkers"
@@ -35334,6 +35334,11 @@
 	icon_state = "horizontaloutermain0"
 	},
 /area/f13/ncr_main)
+"jpl" = (
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "rubblepillar"
+	},
+/area/f13/ahs)
 "jta" = (
 /obj/structure/bed/roller,
 /turf/open/floor/plasteel/f13{
@@ -35666,6 +35671,11 @@
 	icon_state = "whitebluechess"
 	},
 /area/f13/mountain_bunker)
+"oyW" = (
+/turf/open/floor/plasteel/f13{
+	icon_state = "rampdowntop"
+	},
+/area/f13/ahs)
 "oGz" = (
 /obj/effect/spawner/lootdrop/f13/crafting,
 /turf/open/floor/wood/f13/old,
@@ -35818,6 +35828,11 @@
 	icon_state = "innermiddle"
 	},
 /area/f13/tunnel)
+"qOC" = (
+/turf/closed/wall/r_wall/f13composite{
+	icon_state = "rubbleslab"
+	},
+/area/f13/ahs)
 "qOG" = (
 /obj/structure/closet/wardrobe/chemistry_white,
 /turf/open/floor/plasteel/f13{
@@ -119851,10 +119866,10 @@ bNA
 (209,1,1) = {"
 bNA
 adn
-bnW
-boi
-aSl
-aSl
+qOC
+jpl
+oyW
+oyW
 bpG
 aUn
 adn
@@ -120253,10 +120268,10 @@ bNA
 (210,1,1) = {"
 bNA
 adn
-boi
-bnW
-bnW
-aSl
+jpl
+qOC
+qOC
+oyW
 aUp
 bqu
 aUE
@@ -120266,7 +120281,7 @@ aXP
 bqv
 brZ
 bsG
-aSl
+oyW
 aUn
 aUn
 bpQ

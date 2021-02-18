@@ -82,8 +82,8 @@
 /area/f13/underground/enclave_base)
 "an" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+	dir = 8;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -114,8 +114,8 @@
 /area/f13/underground/enclave_base)
 "aq" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -123,8 +123,8 @@
 /area/f13/underground/enclave_base)
 "ar" = (
 /obj/machinery/computer/shuttle/enclavefortelevator{
-	icon_state = "computer";
-	dir = 8
+	dir = 8;
+	icon_state = "computer"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -187,8 +187,8 @@
 /area/f13/underground/enclave_base)
 "az" = (
 /obj/structure/fence{
-	icon_state = "straight";
-	dir = 4
+	dir = 4;
+	icon_state = "straight"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "floorgrime"
@@ -587,8 +587,8 @@
 /area/f13/underground/enclave_base)
 "by" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 8
+	dir = 8;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
@@ -596,8 +596,8 @@
 /area/f13/underground/enclave_base)
 "bz" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 4
+	dir = 4;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13/vault_floor{
 	icon_state = "whitepurplerustychess2"
@@ -871,19 +871,16 @@
 /obj/structure/lattice,
 /turf/closed/indestructible/rock,
 /area/f13/underground/cave)
-"ck" = (
-/turf/closed/wall/r_wall/rust,
-/area/f13/bunker)
 "cl" = (
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "rubbleslab"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cm" = (
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "rubblepillar"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cn" = (
 /obj/structure/ladder/unbreakable{
 	height = -1;
@@ -892,55 +889,55 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "co" = (
 /obj/structure/toilet{
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "cp" = (
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "cq" = (
 /obj/machinery/shower{
 	dir = 8
 	},
 /obj/machinery/door/window/westleft,
 /turf/open/floor/plasteel/showroomfloor,
-/area/f13/bunker)
+/area/f13/ahs)
 "cr" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "rampdowntop"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cs" = (
 /obj/structure/barricade/wooden/crude,
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ct" = (
 /obj/structure/mirror,
 /turf/closed/wall/r_wall/rust,
-/area/f13/bunker)
+/area/f13/ahs)
 "cu" = (
 /obj/structure/sink{
 	dir = 8;
 	pixel_x = -12
 	},
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "cv" = (
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "cw" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cx" = (
 /obj/machinery/light{
 	dir = 1
@@ -948,13 +945,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cy" = (
 /obj/structure/foamedmetal,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cz" = (
 /obj/machinery/door/airlock/silver{
 	name = "Bathroom"
@@ -962,7 +959,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cA" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -970,7 +967,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cB" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -978,7 +975,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cC" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -986,20 +983,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cD" = (
 /obj/structure/bed,
 /obj/item/bedsheet/yellow,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cE" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cF" = (
 /obj/item/clothing/under/f13/vault{
 	desc = "A blue jumpsuit with a yellow vault pattern and the number 223 printed on it.";
@@ -1019,7 +1016,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cG" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1027,7 +1024,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cH" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -1038,7 +1035,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cI" = (
 /obj/machinery/light{
 	dir = 4
@@ -1046,7 +1043,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cJ" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -1056,7 +1053,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cK" = (
 /obj/machinery/light{
 	dir = 8
@@ -1064,7 +1061,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cL" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1075,34 +1072,34 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cM" = (
 /obj/structure/extinguisher_cabinet,
 /turf/closed/wall/r_wall/rust,
-/area/f13/bunker)
+/area/f13/ahs)
 "cN" = (
 /obj/structure/dresser,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cO" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/underground/cave)
 "cP" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 8
+	dir = 8;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cQ" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cR" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1110,7 +1107,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cS" = (
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2"
@@ -1118,7 +1115,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cT" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters{
@@ -1128,20 +1125,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cU" = (
 /obj/machinery/door/airlock,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cV" = (
 /obj/machinery/door/airlock,
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cW" = (
 /obj/structure/table,
 /obj/item/reagent_containers/spray/cleaner,
@@ -1149,28 +1146,28 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cX" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "cY" = (
 /obj/structure/sink,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "cZ" = (
 /obj/structure/toilet,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "da" = (
 /obj/structure/dresser,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "db" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -1180,13 +1177,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dc" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dd" = (
 /obj/item/storage/bag/trash,
 /obj/item/storage/bag/trash,
@@ -1194,14 +1191,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "de" = (
 /obj/machinery/light,
 /obj/structure/cable,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "df" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
@@ -1209,11 +1206,11 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dg" = (
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "dh" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1222,7 +1219,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "di" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -1230,11 +1227,11 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dj" = (
 /obj/structure/sign/poster/contraband/communist_state,
 /turf/closed/wall/r_wall/rust,
-/area/f13/bunker)
+/area/f13/ahs)
 "dk" = (
 /turf/open/floor/plating/f13/inside/mountain{
 	icon_state = "mountain2"
@@ -1250,13 +1247,13 @@
 /obj/machinery/door/window/eastright,
 /obj/item/soap/deluxe,
 /turf/open/floor/plasteel/showroomfloor,
-/area/f13/bunker)
+/area/f13/ahs)
 "dn" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "do" = (
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plating/f13/inside/mountain,
@@ -1287,14 +1284,11 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "du" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4,
 /turf/open/floor/plating/f13/inside/mountain,
 /area/f13/tunnel)
-"dv" = (
-/turf/closed/wall/r_wall/rust,
-/area/hydroponics/garden/abandoned)
 "dw" = (
 /obj/item/clothing/under/f13/vault{
 	desc = "A blue jumpsuit with a yellow vault pattern and the number 223 printed on it.";
@@ -1315,20 +1309,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dx" = (
 /obj/machinery/light{
 	dir = 8;
 	light_color = "#e8eaff"
 	},
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 4
+	dir = 4;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dy" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -1337,7 +1331,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dz" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/f13/inside/mountain,
@@ -1348,14 +1342,14 @@
 	dir = 9;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "dB" = (
 /obj/machinery/vending/hydronutrients,
 /turf/open/floor/plasteel/f13{
 	dir = 1;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "dC" = (
 /obj/structure/frame,
 /obj/item/stack/cable_coil/red,
@@ -1363,34 +1357,29 @@
 	dir = 1;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "dD" = (
 /turf/open/floor/plasteel/f13{
 	dir = 5;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
-"dE" = (
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dF" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dG" = (
 /obj/structure/rack,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "dH" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "dI" = (
 /obj/structure/sink/kitchen{
 	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
@@ -1400,19 +1389,19 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dJ" = (
 /obj/machinery/microwave,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dK" = (
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dL" = (
 /obj/structure/chair/stool/bar,
 /obj/machinery/light{
@@ -1422,12 +1411,12 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dM" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dN" = (
 /obj/structure/chair{
 	dir = 4
@@ -1435,13 +1424,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dO" = (
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dP" = (
 /obj/structure/chair{
 	dir = 8
@@ -1449,7 +1438,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dQ" = (
 /obj/machinery/light{
 	dir = 1;
@@ -1458,29 +1447,29 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dR" = (
 /obj/machinery/jukebox,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dS" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 4
+	dir = 4;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dT" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "dU" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
@@ -1493,18 +1482,18 @@
 	dir = 8;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "dW" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "dX" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "dY" = (
 /obj/machinery/light{
 	dir = 4;
@@ -1514,23 +1503,23 @@
 	dir = 4;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "dZ" = (
 /obj/machinery/door/airlock/freezer,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "ea" = (
 /obj/machinery/door/window/eastright,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eb" = (
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ec" = (
 /obj/structure/rack,
 /obj/item/storage/crayons,
@@ -1538,14 +1527,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ed" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/armor/clothes,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ee" = (
 /obj/structure/rack,
 /obj/item/clothing/head/ushanka,
@@ -1553,32 +1542,32 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ef" = (
 /turf/open/floor/plasteel/f13{
 	dir = 8;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "eg" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "eh" = (
 /turf/open/floor/plasteel/f13{
 	dir = 4;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "ei" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "ej" = (
 /obj/machinery/light{
 	dir = 4;
@@ -1587,38 +1576,38 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ek" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/food/snacks/soup/beet,
 /obj/item/reagent_containers/food/snacks/soup/beet,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "el" = (
 /obj/effect/decal/cleanable/salt,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "em" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "en" = (
 /obj/structure/rack,
 /obj/item/clothing/under/janimaid,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eo" = (
 /obj/machinery/door/airlock/maintenance_hatch/abandoned,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ep" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -1634,7 +1623,7 @@
 	dir = 8;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "eq" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -1644,47 +1633,47 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "er" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/food/snacks/grown/potato,
 /obj/item/reagent_containers/food/snacks/grown/potato,
 /obj/item/reagent_containers/food/snacks/grown/potato,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "es" = (
 /obj/machinery/processor,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "et" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eu" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ev" = (
 /obj/item/chair,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ew" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/armor/costumes,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ex" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1692,53 +1681,53 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "ey" = (
 /mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "ez" = (
 /obj/structure/kitchenspike,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "eA" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eB" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/rag,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eC" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eD" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eE" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eF" = (
 /obj/machinery/vending/autodrobe,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eG" = (
 /obj/machinery/light{
 	dir = 8;
@@ -1747,7 +1736,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eH" = (
 /obj/machinery/light{
 	dir = 4;
@@ -1756,7 +1745,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eI" = (
 /obj/machinery/shower{
 	dir = 8
@@ -1764,7 +1753,7 @@
 /obj/machinery/door/window/westleft,
 /obj/item/bikehorn/rubberducky,
 /turf/open/floor/plasteel/showroomfloor,
-/area/f13/bunker)
+/area/f13/ahs)
 "eJ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1774,7 +1763,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "eK" = (
 /obj/machinery/light{
 	dir = 4;
@@ -1785,13 +1774,7 @@
 	dir = 4;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
-"eL" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plasteel/f13{
-	icon_state = "plating"
-	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eM" = (
 /obj/machinery/door/airlock{
 	name = "Vault 223 Cafeteria"
@@ -1799,24 +1782,24 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eN" = (
 /obj/machinery/vending/snack/green,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eO" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eP" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eQ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1824,19 +1807,19 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eR" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eS" = (
 /obj/machinery/vending/sovietsoda,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eT" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -1846,15 +1829,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/hydroponics/garden/abandoned)
-"eU" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorrusty"
-	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "eV" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1864,7 +1839,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "eW" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1873,7 +1848,7 @@
 	dir = 4;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "eX" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1885,7 +1860,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "eY" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1893,7 +1868,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "eZ" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -1901,24 +1876,24 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fa" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fb" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fc" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fd" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1926,19 +1901,19 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fe" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ff" = (
 /turf/open/floor/plasteel/f13{
 	dir = 10;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "fg" = (
 /obj/item/grown/nettle/basic{
 	name = "Kuzudu"
@@ -1947,19 +1922,19 @@
 	dir = 2;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "fh" = (
 /turf/open/floor/plasteel/f13{
 	dir = 2;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "fi" = (
 /turf/open/floor/plasteel/f13{
 	dir = 6;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "fj" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -1967,7 +1942,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fk" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1976,7 +1951,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fl" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -1987,7 +1962,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fm" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1996,7 +1971,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fn" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2019,7 +1994,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fo" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2027,7 +2002,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fp" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2035,7 +2010,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fq" = (
 /obj/effect/decal/hammerandsickle,
 /obj/structure/cable{
@@ -2050,7 +2025,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fr" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2059,50 +2034,50 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fs" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "tracks";
-	dir = 10
+	dir = 10;
+	icon_state = "tracks"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ft" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "tracks";
-	dir = 4
+	dir = 4;
+	icon_state = "tracks"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fu" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
 /obj/effect/decal/cleanable/blood/tracks{
-	icon_state = "tracks";
-	dir = 5
+	dir = 5;
+	icon_state = "tracks"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fv" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/barricade/wooden,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fw" = (
 /obj/structure/closet/cabinet{
 	name = "Vault 223 cabinet"
@@ -2123,14 +2098,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fx" = (
 /obj/machinery/light,
 /obj/structure/barricade/wooden,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fy" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2139,7 +2114,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fz" = (
 /obj/machinery/door/airlock{
 	name = "Vault 223 Bar"
@@ -2147,25 +2122,25 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fA" = (
 /obj/machinery/vending/cola/pwr_game,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fB" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fC" = (
 /obj/machinery/vending/nukacolavendfull,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fD" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters{
@@ -2175,7 +2150,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fE" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2188,14 +2163,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fF" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/belt/utility/full/engi,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fG" = (
 /obj/machinery/power/smes,
 /obj/structure/cable{
@@ -2204,7 +2179,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fH" = (
 /obj/machinery/light{
 	dir = 1;
@@ -2213,7 +2188,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fI" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/gloves/color/yellow,
@@ -2222,7 +2197,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fJ" = (
 /obj/item/clothing/under/patriotsuit,
 /obj/effect/decal/cleanable/cobweb,
@@ -2230,19 +2205,19 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fK" = (
 /obj/structure/chair/comfy/black,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fL" = (
 /obj/item/dice/d20,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fM" = (
 /obj/structure/closet/cabinet{
 	name = "Vault 223 cabinet"
@@ -2262,7 +2237,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fN" = (
 /obj/structure/bed,
 /obj/machinery/light{
@@ -2273,14 +2248,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fO" = (
 /obj/machinery/chem_dispenser/drinks/beer,
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fP" = (
 /obj/machinery/chem_dispenser/drinks,
 /obj/structure/table/wood,
@@ -2291,20 +2266,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fQ" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fR" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fS" = (
 /obj/machinery/light{
 	dir = 1;
@@ -2313,7 +2288,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fT" = (
 /obj/structure/chair{
 	dir = 4
@@ -2321,7 +2296,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fU" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
@@ -2331,7 +2306,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fV" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-21"
@@ -2339,7 +2314,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fW" = (
 /obj/machinery/light{
 	dir = 1;
@@ -2348,7 +2323,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fX" = (
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2"
@@ -2359,12 +2334,12 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fY" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "fZ" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -2375,37 +2350,37 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ga" = (
 /obj/item/bedsheet/patriot,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gb" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier3,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gc" = (
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gd" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ge" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gf" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2414,7 +2389,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gg" = (
 /obj/machinery/light{
 	dir = 8;
@@ -2423,13 +2398,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gh" = (
 /mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gi" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -2437,7 +2412,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gj" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -2448,7 +2423,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gk" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -2456,14 +2431,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gl" = (
 /obj/item/flashlight/lamp,
 /obj/structure/table,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gm" = (
 /obj/structure/falsewall/reinforced{
 	icon = 'icons/turf/walls/rusty_reinforced_wall.dmi';
@@ -2472,27 +2447,27 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gn" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/rag,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "go" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/vodka,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gp" = (
 /obj/item/chair,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gq" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
@@ -2501,7 +2476,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gr" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2510,7 +2485,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gs" = (
 /obj/structure/closet/cabinet{
 	name = "Vault 223 cabinet"
@@ -2530,7 +2505,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gt" = (
 /obj/structure/bed,
 /obj/item/bedsheet/yellow,
@@ -2540,7 +2515,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gu" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -2548,7 +2523,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gv" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -2556,19 +2531,19 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gw" = (
 /obj/structure/bed,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gx" = (
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plating/f13/inside/mountain{
 	icon_state = "mountain2"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gy" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2580,7 +2555,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gz" = (
 /obj/item/paper/crumpled/bloody{
 	info = "Im unsure what fucking Commie did it,but lots of rads came leaking out from Enginieering.Possibly a Chinese spy saboutaged something and sent the vault to shit,i'll hide here and see if the radiation stops..Im starting to feel shit."
@@ -2588,19 +2563,19 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gA" = (
 /obj/item/pen,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gB" = (
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gC" = (
 /obj/structure/rack,
 /obj/item/book/granter/action/drink_fling,
@@ -2609,26 +2584,26 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gD" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gE" = (
 /obj/machinery/door/window/eastright,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gF" = (
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/revolver/russian,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gG" = (
 /obj/structure/chair{
 	dir = 8
@@ -2636,7 +2611,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gH" = (
 /obj/item/flashlight/seclite,
 /obj/item/clothing/head/ushanka,
@@ -2656,7 +2631,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gI" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2668,7 +2643,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gJ" = (
 /obj/machinery/light{
 	dir = 8
@@ -2676,20 +2651,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gK" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 4
+	dir = 4;
+	icon_state = "warningline"
 	},
 /obj/machinery/door/window/brigdoor{
-	icon_state = "leftsecure";
-	dir = 4
+	dir = 4;
+	icon_state = "leftsecure"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gL" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -2697,14 +2672,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gM" = (
 /obj/structure/rack,
 /obj/item/clothing/gloves/color/fyellow,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gN" = (
 /obj/structure/rack,
 /obj/item/clothing/glasses/meson/engine,
@@ -2712,14 +2687,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gO" = (
 /obj/structure/closet/radiation,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gP" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2727,19 +2702,19 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gQ" = (
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gR" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gS" = (
 /obj/structure/bed,
 /obj/machinery/light,
@@ -2747,14 +2722,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gT" = (
 /obj/structure/easel,
 /obj/item/paper/pamphlet/ruin/originalcontent/yelling,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gU" = (
 /obj/item/flashlight/seclite,
 /obj/item/clothing/head/ushanka,
@@ -2775,21 +2750,21 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gV" = (
 /obj/effect/turf_decal/caution/stand_clear,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gW" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gX" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/door{
@@ -2799,22 +2774,22 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gY" = (
 /obj/machinery/computer/prisoner,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "gZ" = (
 /obj/structure/toilet{
-	icon_state = "toilet00";
-	dir = 8
+	dir = 8;
+	icon_state = "toilet00"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ha" = (
 /obj/machinery/light{
 	dir = 8
@@ -2822,13 +2797,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hb" = (
 /mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hc" = (
 /obj/machinery/light{
 	dir = 8
@@ -2837,13 +2812,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hd" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "he" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2856,7 +2831,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hf" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2865,7 +2840,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hg" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2873,7 +2848,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hh" = (
 /obj/machinery/light{
 	dir = 4;
@@ -2885,20 +2860,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hi" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hj" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hk" = (
 /obj/machinery/light{
 	dir = 1
@@ -2906,7 +2881,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hl" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -2914,7 +2889,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hm" = (
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2"
@@ -2922,13 +2897,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hn" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ho" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds,
@@ -2939,23 +2914,23 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hp" = (
 /obj/structure/table/wood,
 /obj/item/instrument/trombone,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hq" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 1
+	dir = 1;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hr" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/security.dmi';
@@ -2964,32 +2939,32 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hs" = (
 /obj/structure/chair/office/dark{
-	icon_state = "officechair_dark";
-	dir = 4
+	dir = 4;
+	icon_state = "officechair_dark"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ht" = (
 /obj/structure/rack,
 /obj/item/airlock_painter,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hu" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 4
+	dir = 4;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hv" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/window/reinforced/spawner/north,
@@ -2999,14 +2974,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hw" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hx" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3015,13 +2990,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hy" = (
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hz" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner/north,
@@ -3029,7 +3004,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hA" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /obj/effect/turf_decal/stripes/line{
@@ -3038,7 +3013,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hB" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3051,18 +3026,18 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hC" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hD" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hE" = (
 /obj/machinery/light{
 	dir = 4
@@ -3073,17 +3048,17 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hF" = (
 /obj/machinery/light,
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 1
+	dir = 1;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hG" = (
 /obj/machinery/light{
 	dir = 1;
@@ -3095,7 +3070,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -3103,7 +3078,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hI" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -3111,7 +3086,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hJ" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -3119,14 +3094,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hK" = (
 /obj/structure/rack,
 /obj/item/poster/random_contraband,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hL" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/engineering.dmi';
@@ -3135,13 +3110,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hM" = (
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hN" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -3150,7 +3125,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hO" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -3167,7 +3142,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hP" = (
 /obj/structure/cable{
 	icon_state = "0-8"
@@ -3176,7 +3151,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hQ" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/item/stack/sheet/mineral/uranium{
@@ -3185,7 +3160,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -3194,7 +3169,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hS" = (
 /obj/machinery/light{
 	dir = 8;
@@ -3209,7 +3184,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hT" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -3220,7 +3195,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hU" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -3228,7 +3203,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hV" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
@@ -3236,7 +3211,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hW" = (
 /obj/machinery/light{
 	dir = 4;
@@ -3245,13 +3220,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hX" = (
 /obj/machinery/door/airlock/silver{
 	name = "Bathroom"
 	},
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "hY" = (
 /obj/machinery/door/poddoor/shutters{
 	id = 99;
@@ -3260,7 +3235,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "hZ" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
@@ -3268,20 +3243,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ia" = (
 /obj/machinery/light,
 /obj/structure/cable,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ib" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ic" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -3293,7 +3268,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "id" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/window/reinforced/spawner,
@@ -3301,7 +3276,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ie" = (
 /obj/structure/window/reinforced/spawner,
 /obj/item/stack/sheet/mineral/uranium{
@@ -3310,7 +3285,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "if" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3319,21 +3294,21 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ig" = (
 /obj/structure/window/reinforced/spawner,
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ih" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ii" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -3341,7 +3316,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ij" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -3349,7 +3324,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ik" = (
 /obj/machinery/door/airlock{
 	name = "Vault 223 storage"
@@ -3357,7 +3332,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "il" = (
 /obj/machinery/door/airlock{
 	name = "Vault 223 storage"
@@ -3365,7 +3340,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "im" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -3374,23 +3349,23 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "in" = (
 /obj/effect/landmark/poster_spawner/prewar,
 /turf/closed/wall/r_wall/rust,
-/area/f13/bunker)
+/area/f13/ahs)
 "io" = (
 /obj/machinery/power/port_gen/pacman/super,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ip" = (
 /obj/item/lightreplacer,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iq" = (
 /obj/machinery/light{
 	dir = 4
@@ -3400,7 +3375,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ir" = (
 /obj/machinery/light{
 	dir = 4
@@ -3409,7 +3384,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "is" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -3417,7 +3392,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "it" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -3432,7 +3407,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iu" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3443,7 +3418,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iv" = (
 /obj/machinery/light{
 	dir = 4;
@@ -3455,10 +3430,10 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iw" = (
 /turf/closed/wall/r_wall/rust,
-/area/medical/abandoned)
+/area/f13/ahs)
 "ix" = (
 /obj/machinery/light{
 	dir = 8
@@ -3466,7 +3441,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iy" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds,
@@ -3475,7 +3450,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iz" = (
 /obj/structure/rack,
 /obj/item/clothing/under/f13/vault{
@@ -3498,14 +3473,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iA" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iB" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/flashbangs,
@@ -3518,25 +3493,25 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iC" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+	dir = 8;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iD" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 4
+	dir = 4;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iE" = (
 /obj/effect/turf_decal/stripes/red/full,
 /obj/structure/guncase,
@@ -3549,13 +3524,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iF" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iG" = (
 /obj/structure/table/reinforced,
 /obj/item/scalpel,
@@ -3563,12 +3538,12 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "iH" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "iI" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/medical.dmi';
@@ -3577,7 +3552,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "iJ" = (
 /obj/item/storage/pill_bottle/chem_tin/mentats,
 /obj/item/storage/pill_bottle/chem_tin/radx,
@@ -3585,7 +3560,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "iK" = (
 /obj/machinery/iv_drip,
 /obj/effect/decal/cleanable/cobweb{
@@ -3595,7 +3570,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "iL" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/rubbershot,
@@ -3608,33 +3583,33 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iM" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+	dir = 8;
+	icon_state = "warningline"
 	},
 /mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iN" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iO" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 4
+	dir = 4;
+	icon_state = "warningline"
 	},
 /mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iP" = (
 /obj/item/gun/ballistic/shotgun/riot,
 /obj/structure/guncase/shotgun,
@@ -3646,20 +3621,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iQ" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iR" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/tier3,
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iS" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
@@ -3671,16 +3646,16 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "iT" = (
 /obj/structure/chair/f13chair2{
-	icon_state = "f13chair2";
-	dir = 4
+	dir = 4;
+	icon_state = "f13chair2"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "iU" = (
 /obj/item/clothing/head/ushanka,
 /obj/item/clothing/head/ushanka,
@@ -3690,7 +3665,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iV" = (
 /obj/machinery/light{
 	dir = 4
@@ -3700,7 +3675,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iW" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/security.dmi';
@@ -3709,13 +3684,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iX" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iY" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/electrical,
@@ -3723,7 +3698,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "iZ" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -3737,13 +3712,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ja" = (
 /obj/machinery/autolathe/hacked,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jb" = (
 /obj/structure/table/reinforced,
 /obj/item/cautery,
@@ -3752,13 +3727,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jc" = (
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jd" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -3766,7 +3741,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "je" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3774,7 +3749,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jf" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3787,13 +3762,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jg" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtysolid"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jh" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds,
@@ -3801,7 +3776,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ji" = (
 /obj/machinery/light,
 /obj/structure/cable{
@@ -3813,7 +3788,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jj" = (
 /obj/structure/rack,
 /obj/item/clothing/head/welding,
@@ -3822,7 +3797,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jk" = (
 /obj/machinery/light{
 	dir = 8;
@@ -3839,7 +3814,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jl" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -3847,7 +3822,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jm" = (
 /obj/machinery/light{
 	dir = 4
@@ -3855,7 +3830,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jn" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3871,7 +3846,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jo" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -3882,7 +3857,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jp" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight/lamp,
@@ -3890,7 +3865,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jq" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -3899,20 +3874,20 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jr" = (
 /obj/structure/table/reinforced,
 /obj/machinery/cell_charger,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "js" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jt" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/mineral/uranium{
@@ -3924,7 +3899,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ju" = (
 /obj/structure/table,
 /obj/item/storage/box/gloves,
@@ -3933,7 +3908,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jv" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/medical.dmi';
@@ -3942,13 +3917,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jw" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jx" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/resourcespawner,
@@ -3957,7 +3932,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jy" = (
 /obj/item/stack/sheet/plasteel/twenty,
 /obj/structure/rack,
@@ -3968,7 +3943,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jz" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/item/twohanded/required/kirbyplants{
@@ -3977,7 +3952,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jA" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -3985,7 +3960,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jB" = (
 /obj/machinery/light{
 	dir = 1;
@@ -4000,7 +3975,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jC" = (
 /obj/item/twohanded/required/kirbyplants{
 	icon_state = "plant-22"
@@ -4008,16 +3983,16 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jD" = (
 /obj/structure/chair/office/dark{
-	icon_state = "officechair_dark";
-	dir = 1
+	dir = 1;
+	icon_state = "officechair_dark"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jE" = (
 /obj/machinery/light{
 	dir = 8;
@@ -4027,7 +4002,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jF" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/resourcespawner,
@@ -4035,7 +4010,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jG" = (
 /obj/item/stack/sheet/glass/ten,
 /obj/structure/rack,
@@ -4043,32 +4018,32 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jH" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jI" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jJ" = (
 /obj/structure/bed,
 /obj/item/bedsheet/red,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jK" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jL" = (
 /obj/structure/table/glass,
 /obj/item/healthanalyzer,
@@ -4077,14 +4052,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jM" = (
 /obj/structure/table/glass,
 /obj/item/defibrillator/loaded,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jN" = (
 /obj/structure/table/glass,
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds,
@@ -4092,7 +4067,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jO" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
@@ -4103,7 +4078,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jP" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/bot,
@@ -4112,7 +4087,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jQ" = (
 /obj/item/stack/sheet/metal/fifty,
 /obj/structure/rack,
@@ -4120,25 +4095,25 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jR" = (
 /obj/structure/sign/poster/contraband/have_a_puff,
 /turf/closed/wall/r_wall/rust,
-/area/f13/bunker)
+/area/f13/ahs)
 "jS" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/three_course_meal,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jT" = (
 /obj/item/flashlight/lamp,
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jU" = (
 /obj/machinery/computer{
 	desc = "Some kind of machine.Seems broken and useless.";
@@ -4147,7 +4122,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jV" = (
 /obj/machinery/button/door{
 	id = "marx";
@@ -4157,7 +4132,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jW" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/command.dmi';
@@ -4166,7 +4141,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jX" = (
 /obj/machinery/light{
 	dir = 4
@@ -4180,31 +4155,31 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "jY" = (
 /obj/machinery/chem_master,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "jZ" = (
 /obj/machinery/chem_dispenser,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "ka" = (
 /obj/machinery/chem_heater,
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "kb" = (
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "kc" = (
 /obj/machinery/button/door{
 	id = "stalin";
@@ -4214,16 +4189,16 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "kd" = (
 /obj/structure/chair/office/dark{
-	icon_state = "officechair_dark";
-	dir = 1
+	dir = 1;
+	icon_state = "officechair_dark"
 	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ke" = (
 /obj/item/paper_bin,
 /obj/item/pen/fourcolor,
@@ -4232,14 +4207,14 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "kf" = (
 /obj/structure/safe,
 /obj/item/stack/spacecash/c1000,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "kg" = (
 /obj/item/clothing/under/f13/vault{
 	desc = "A blue jumpsuit with a yellow vault pattern and the number 223 printed on it.";
@@ -4254,7 +4229,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "kh" = (
 /turf/closed/wall/r_wall/f13vault{
 	icon_state = "2-i"
@@ -4284,8 +4259,8 @@
 /area/f13/underground/cave/vault)
 "ko" = (
 /obj/machinery/computer/shuttle/vaultelevator{
-	icon_state = "computer";
-	dir = 4
+	dir = 4;
+	icon_state = "computer"
 	},
 /obj/machinery/light{
 	dir = 8
@@ -4371,8 +4346,8 @@
 	req_access_txt = "31"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+	dir = 8;
+	icon_state = "warningline"
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -4404,8 +4379,8 @@
 /area/f13/underground/vault_atrium_Lower)
 "kH" = (
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 8
+	dir = 8;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/underground/vault_atrium_Lower)
@@ -4420,8 +4395,8 @@
 	icon_state = "2-4"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/underground/vault_atrium_Lower)
@@ -4430,8 +4405,8 @@
 	icon_state = "1-8"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/underground/vault_atrium_Lower)
@@ -4465,8 +4440,8 @@
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -4564,8 +4539,8 @@
 	req_access_txt = "31"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -4577,8 +4552,8 @@
 	req_access_txt = "31"
 	},
 /obj/effect/turf_decal/stripes/line{
-	icon_state = "warningline";
-	dir = 1
+	dir = 1;
+	icon_state = "warningline"
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -4978,7 +4953,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mb" = (
 /turf/open/floor/plating/f13/inside/mountain{
 	icon_state = "mountain2"
@@ -4993,29 +4968,29 @@
 /area/f13/underground/cave/vault)
 "me" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 5
+	dir = 5;
+	icon_state = "pipe"
 	},
 /turf/closed/mineral/random/low_chance,
 /area/f13/underground/cave/vault)
 "mf" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 8
+	dir = 8;
+	icon_state = "pipe"
 	},
 /turf/closed/mineral/random/low_chance,
 /area/f13/underground/cave/vault)
 "mg" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 8
+	dir = 8;
+	icon_state = "pipe"
 	},
 /turf/closed/mineral/uranium,
 /area/f13/underground/cave/vault)
 "mh" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 8
+	dir = 8;
+	icon_state = "pipe"
 	},
 /turf/open/floor/plating/f13/inside/mountain{
 	icon_state = "mountain2"
@@ -5023,15 +4998,15 @@
 /area/f13/underground/cave/vault)
 "mi" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 8
+	dir = 8;
+	icon_state = "pipe"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/cave/vault)
 "mj" = (
 /obj/structure/disposalpipe/segment{
-	icon_state = "pipe";
-	dir = 9
+	dir = 9;
+	icon_state = "pipe"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/underground/cave/vault)
@@ -5043,7 +5018,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ml" = (
 /obj/machinery/light{
 	dir = 8
@@ -5053,7 +5028,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mm" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -5062,7 +5037,7 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mn" = (
 /mob/living/simple_animal/hostile/ghoul/glowing,
 /turf/open/floor/plating/f13/inside/mountain{
@@ -5078,33 +5053,33 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "showroomfloor"
 	},
-/area/medical/abandoned)
+/area/f13/ahs)
 "mq" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mr" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "ms" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	dir = 8;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "mt" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	dir = 4;
 	icon_state = "greenrusty"
 	},
-/area/hydroponics/garden/abandoned)
+/area/f13/ahs)
 "mu" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -5113,57 +5088,57 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mv" = (
 /obj/structure/chair/stool/bar,
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitebluerustychess"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mw" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/freezer,
-/area/f13/bunker)
+/area/f13/ahs)
 "mx" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	icon_state = "whitepurplerustychess2"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "my" = (
 /obj/machinery/light,
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mz" = (
 /obj/effect/decal/cleanable/blood/old,
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mA" = (
 /mob/living/simple_animal/hostile/ghoul/glowing,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorrusty"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mB" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mC" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mD" = (
 /obj/machinery/light{
 	dir = 8
@@ -5172,13 +5147,13 @@
 /turf/open/floor/plasteel/f13{
 	icon_state = "redrustyfull"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mE" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
 	},
-/area/f13/bunker)
+/area/f13/ahs)
 "mF" = (
 /mob/living/simple_animal/hostile/handy/assaultron,
 /turf/open/floor/plasteel/f13/vault_floor{
@@ -5285,6 +5260,9 @@
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/open/indestructible,
 /area/f13/tcoms)
+"Fv" = (
+/turf/closed/indestructible/rock,
+/area/f13/ahs)
 "Tn" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
@@ -50246,12 +50224,12 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -50502,14 +50480,14 @@ dU
 dU
 aa
 aa
-ck
-ck
+iw
+iw
 ha
 ht
 hK
 mk
-ck
-ck
+iw
+iw
 aa
 aa
 aa
@@ -50759,14 +50737,14 @@ mn
 dU
 dU
 dU
-ck
+iw
 fY
 fY
 fY
 fY
 fY
 io
-ck
+iw
 aa
 aa
 aa
@@ -51023,7 +51001,7 @@ fY
 fY
 fY
 io
-ck
+iw
 aa
 aa
 aa
@@ -51273,14 +51251,14 @@ dU
 dU
 dU
 aa
-ck
+iw
 gM
 fY
 fY
 fY
 fY
 ip
-ck
+iw
 aa
 aa
 aa
@@ -51530,14 +51508,14 @@ dU
 dU
 aa
 aa
-ck
+iw
 gN
 ir
 fY
 fY
 fY
 iq
-ck
+iw
 aa
 aa
 aa
@@ -51787,15 +51765,15 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-eL
+iw
+iw
+iw
+jw
 hL
-eL
-ck
-ck
-ck
+jw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -52044,7 +52022,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 gO
 hc
 fY
@@ -52052,7 +52030,7 @@ fY
 fY
 ml
 gR
-ck
+iw
 aa
 aa
 aa
@@ -52297,11 +52275,11 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 hb
 fY
 hu
@@ -52309,11 +52287,11 @@ hu
 hu
 fY
 iF
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -52554,11 +52532,11 @@ aa
 aa
 aa
 aa
-ck
+iw
 fF
 fY
 fY
-eL
+jw
 fY
 hd
 hv
@@ -52566,11 +52544,11 @@ hM
 id
 is
 fY
-eL
+jw
 iY
 jj
 jr
-ck
+iw
 aa
 aa
 aa
@@ -52811,11 +52789,11 @@ aa
 aa
 aa
 aa
-ck
+iw
 fG
 fZ
 gi
-ck
+iw
 fY
 hd
 hw
@@ -52823,11 +52801,11 @@ hN
 ie
 is
 fY
-ck
+iw
 iZ
 gi
 hb
-ck
+iw
 aa
 aa
 aa
@@ -53068,7 +53046,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 fH
 fY
 gj
@@ -53084,7 +53062,7 @@ gy
 gP
 gk
 js
-ck
+iw
 aa
 aa
 aa
@@ -53325,11 +53303,11 @@ aa
 aa
 aa
 aa
-ck
+iw
 fG
 fZ
 gk
-ck
+iw
 fY
 hf
 hy
@@ -53337,11 +53315,11 @@ hP
 ig
 iu
 fY
-ck
+iw
 fY
 fY
 fY
-ck
+iw
 aa
 aa
 aa
@@ -53582,11 +53560,11 @@ aa
 aa
 aa
 aa
-ck
+iw
 fI
 hb
 fY
-eL
+jw
 fY
 hf
 hz
@@ -53594,11 +53572,11 @@ hQ
 ih
 iu
 fY
-eL
+jw
 ja
 hb
 jt
-ck
+iw
 aa
 aa
 aa
@@ -53839,11 +53817,11 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 gQ
 ma
 hA
@@ -53851,11 +53829,11 @@ hR
 ii
 hg
 fY
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -54096,11 +54074,11 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 gR
 hh
 gi
@@ -54108,11 +54086,11 @@ fY
 ij
 iv
 gR
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -54343,29 +54321,29 @@ aa
 aa
 aa
 aa
-dv
-dv
-dv
-dv
-dv
-dv
-dv
-dv
-dv
-dv
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 cB
 eH
 fm
-ck
-ck
-ck
+iw
+iw
+iw
 aa
 aa
 aa
@@ -54600,7 +54578,7 @@ aa
 aa
 aa
 aa
-dv
+iw
 dA
 dV
 ef
@@ -54609,19 +54587,19 @@ ms
 ef
 dV
 ff
-dv
-ck
+iw
+iw
 fJ
 cQ
 gl
 gz
-ck
-ck
+iw
+iw
 hB
-ck
+iw
 hB
-ck
-ck
+iw
+iw
 aa
 aa
 aa
@@ -54857,7 +54835,7 @@ aa
 aa
 aa
 aa
-dv
+iw
 dB
 dW
 eg
@@ -54866,14 +54844,14 @@ ex
 eJ
 eT
 fg
-dv
-ck
+iw
+iw
 fK
 ga
 gc
 cQ
-ck
-ck
+iw
+iw
 cC
 hS
 di
@@ -55114,23 +55092,23 @@ aa
 aa
 aa
 aa
-dv
+iw
 dC
 dX
 dW
 dW
 dW
 dW
-eU
+eY
 fh
-dv
-ck
+iw
+iw
 fL
 gb
 cQ
 gA
-ck
-ck
+iw
+iw
 cw
 cB
 cw
@@ -55371,7 +55349,7 @@ aa
 aa
 aa
 aa
-dv
+iw
 dC
 dW
 eg
@@ -55380,13 +55358,13 @@ dW
 eg
 eV
 fh
-dv
-ck
+iw
+iw
 cQ
 gc
 cQ
 gB
-ck
+iw
 dj
 cw
 cB
@@ -55628,7 +55606,7 @@ aa
 aa
 aa
 aa
-dv
+iw
 dD
 dY
 eh
@@ -55637,14 +55615,14 @@ mt
 eK
 eW
 fi
-dv
-ck
-ck
-ck
+iw
+iw
+iw
+iw
 gm
-ck
-ck
-ck
+iw
+iw
+iw
 mq
 cB
 cw
@@ -55885,23 +55863,23 @@ aa
 aa
 aa
 aa
-dv
-dv
-dv
+iw
+iw
+iw
 ei
 ei
 ei
-dv
+iw
 eX
-dv
-dv
-ck
+iw
+iw
+iw
 fM
 cw
 mq
 cw
 fM
-ck
+iw
 cw
 cB
 cw
@@ -56142,23 +56120,23 @@ aa
 aa
 aa
 aa
-ck
-dE
+iw
+dW
 mr
-dE
+dW
 dF
-dE
-dE
+dW
+dW
 eY
-dE
+dW
 mr
-ck
+iw
 cD
 cw
 cw
 cw
 cD
-ck
+iw
 cw
 cB
 cw
@@ -56399,23 +56377,23 @@ aa
 aa
 aa
 aa
-ck
+iw
 dF
-dE
-dE
-dE
-dE
-dE
+dW
+dW
+dW
+dW
+dW
 eZ
 fj
 fv
-ck
+iw
 fN
 cw
 cw
 cw
 gS
-ck
+iw
 cw
 cB
 mq
@@ -56656,23 +56634,23 @@ aa
 aa
 aa
 aa
-ck
-dE
-dE
+iw
+dW
+dW
 ej
-dE
-dE
+dW
+dW
 mr
 fa
 fk
 mr
-ck
+iw
 cD
 mq
 cw
 mq
 cD
-ck
+iw
 cw
 cB
 cw
@@ -56913,23 +56891,23 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-dE
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+dW
 eY
-dE
-ck
+dW
+iw
 cD
 cw
 cw
 cw
 cD
-ck
+iw
 dc
 dh
 cw
@@ -57170,23 +57148,23 @@ aa
 aa
 aa
 aa
-ck
+iw
 dG
 dG
 ek
 er
 er
-ck
+iw
 cw
 cB
 cw
-ck
-ck
-ck
+iw
+iw
+iw
 cU
-ck
-ck
-ck
+iw
+iw
+iw
 dc
 cB
 dc
@@ -57427,13 +57405,13 @@ aa
 aa
 aa
 aa
-ck
+iw
 dH
 ey
 cp
 cp
 mw
-ck
+iw
 cw
 cB
 fe
@@ -57455,7 +57433,7 @@ cw
 cw
 cw
 mq
-ck
+iw
 aa
 aa
 aa
@@ -57684,13 +57662,13 @@ aa
 aa
 aa
 aa
-ck
+iw
 cp
 cp
 cp
 cp
 ez
-ck
+iw
 cw
 fl
 cG
@@ -57712,7 +57690,7 @@ cw
 cw
 cw
 cw
-ck
+iw
 aa
 aa
 aa
@@ -57941,13 +57919,13 @@ aa
 aa
 aa
 aa
-ck
-ck
+iw
+iw
 dZ
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
 cE
 cB
 cw
@@ -57969,7 +57947,7 @@ cw
 cw
 eH
 cw
-ck
+iw
 aa
 aa
 aa
@@ -58198,35 +58176,35 @@ aa
 aa
 aa
 aa
-ck
+iw
 dI
 eC
 dM
 es
 eA
-ck
+iw
 cw
 cB
 dc
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 ik
-ck
+iw
 ik
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -58455,22 +58433,22 @@ aa
 aa
 aa
 aa
-ck
+iw
 dJ
 dM
 el
 dM
 dM
-ck
+iw
 cw
 dh
 fw
-ck
+iw
 fO
 mx
 gd
 gC
-ck
+iw
 hi
 hC
 hC
@@ -58483,7 +58461,7 @@ hn
 jx
 jF
 jO
-ck
+iw
 aa
 aa
 aa
@@ -58712,22 +58690,22 @@ aa
 aa
 aa
 aa
-ck
+iw
 dK
 ea
 dK
 et
 eB
-ck
+iw
 cw
 cB
 fx
-ck
+iw
 fP
 gd
 gd
 gD
-ck
+iw
 hj
 eP
 hU
@@ -58736,11 +58714,11 @@ iy
 eP
 iU
 jg
-ck
+iw
 eP
 eP
 eP
-ck
+iw
 aa
 aa
 aa
@@ -58969,22 +58947,22 @@ aa
 aa
 aa
 aa
-ck
+iw
 dL
 dM
 em
 em
 mv
-ck
+iw
 dc
 cB
 mq
-ck
+iw
 fQ
 ge
 gn
 gE
-ck
+iw
 hk
 eP
 eP
@@ -58997,7 +58975,7 @@ il
 eP
 eP
 jP
-ck
+iw
 aa
 aa
 aa
@@ -59226,22 +59204,22 @@ aa
 aa
 aa
 aa
-ck
+iw
 dM
 dM
 eC
 dM
 dM
-ck
+iw
 cw
 cB
 cw
-ck
+iw
 fR
 fR
 fR
 cw
-ck
+iw
 hl
 eP
 hV
@@ -59250,11 +59228,11 @@ iz
 eP
 iU
 jg
-ck
+iw
 eP
 eP
 eP
-ck
+iw
 aa
 aa
 aa
@@ -59483,22 +59461,22 @@ aa
 aa
 aa
 aa
-ck
+iw
 dN
 eb
 dM
 dN
 dN
-eL
+jw
 cw
 cB
 cw
-eL
+jw
 cw
 cw
 cw
 cw
-ck
+iw
 hm
 hD
 hW
@@ -59511,7 +59489,7 @@ hn
 jy
 jG
 jQ
-ck
+iw
 aa
 aa
 aa
@@ -59740,35 +59718,35 @@ aa
 aa
 aa
 aa
-ck
+iw
 dO
 dM
 dM
 eu
 dO
-eL
+jw
 cw
 cB
 cE
-eL
+jw
 mq
 cw
 fT
 fT
-ck
+iw
 hn
 hn
-ck
+iw
 il
 il
-ck
+iw
 hn
 hn
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -59997,22 +59975,22 @@ aa
 aa
 aa
 aa
-ck
+iw
 dP
 dM
 dM
 dP
 ev
-eL
+jw
 cw
 cB
 cw
-eL
+jw
 cw
 cw
 go
 ge
-ck
+iw
 eP
 eP
 eP
@@ -60021,7 +59999,7 @@ eP
 eP
 eP
 eP
-ck
+iw
 aa
 aa
 aa
@@ -60254,22 +60232,22 @@ aa
 aa
 aa
 aa
-ck
+iw
 dQ
 dM
 dM
 dM
 eD
-ck
+iw
 cw
 fm
 cw
-ck
+iw
 fS
 cw
 cw
 dn
-ck
+iw
 ho
 hE
 eP
@@ -60278,7 +60256,7 @@ iA
 eP
 iV
 jh
-ck
+iw
 aa
 aa
 aa
@@ -60511,7 +60489,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 dM
 dM
 eC
@@ -60526,16 +60504,16 @@ mq
 cw
 fT
 fT
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -60762,28 +60740,28 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 aa
-ck
+iw
 dR
 dM
 dM
 dO
 eE
-ck
+iw
 cw
 cB
 cw
-ck
+iw
 fT
 cw
 fQ
 gF
-ck
+iw
 aa
 aa
 aa
@@ -61023,24 +61001,24 @@ ct
 cY
 dg
 dm
-ck
+iw
 aa
-ck
+iw
 dM
 dM
 dM
 ev
 dP
-ck
+iw
 cw
 cB
 cw
-ck
+iw
 fU
 cw
 gp
 gG
-ck
+iw
 aa
 aa
 aa
@@ -61276,28 +61254,28 @@ aa
 aa
 aa
 aa
-ck
+iw
 cZ
 cp
 cp
-ck
+iw
 aa
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
 dj
 cw
 cB
 dn
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -61533,34 +61511,34 @@ aa
 aa
 aa
 aa
-ck
-ck
+iw
+iw
 cz
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 ec
 en
 ew
 eF
-ck
+iw
 cw
 cB
 cw
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -61790,34 +61768,34 @@ aa
 aa
 aa
 aa
-ck
+iw
 da
 cw
 cw
 cw
 mq
 dw
-ck
+iw
 cQ
 cQ
 cX
 cQ
-ck
+iw
 mq
 cB
 fe
 cM
-ck
-ck
+iw
+iw
 cN
 cw
 mq
 cw
 cF
-ck
+iw
 co
 cu
-ck
+iw
 aa
 aa
 aa
@@ -62047,25 +62025,25 @@ aa
 aa
 aa
 aa
-ck
+iw
 db
 cw
 cE
 cw
 cw
 dn
-ck
+iw
 ed
 cQ
 cQ
-ck
-ck
+iw
+iw
 dc
 fn
 dc
-ck
-ck
-ck
+iw
+iw
+iw
 gq
 cw
 cw
@@ -62078,11 +62056,11 @@ ct
 aa
 aa
 aa
-ck
-ck
+iw
+iw
 jR
-ck
-ck
+iw
+iw
 aa
 aa
 aa
@@ -62304,43 +62282,43 @@ aa
 aa
 aa
 aa
-ck
+iw
 cD
 cw
 cw
 cw
 dt
 kb
-ck
+iw
 ee
 cQ
-ck
-ck
+iw
+iw
 eN
 cw
 dh
 cw
 fA
-ck
-ck
+iw
+iw
 cD
 cw
 cw
 hp
 hF
-ck
+iw
 dg
 cq
-ck
+iw
 aa
 aa
-ck
-ck
+iw
+iw
 jH
 jS
 kb
-ck
-ck
+iw
+iw
 aa
 aa
 aa
@@ -62561,17 +62539,17 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
+iw
+iw
+iw
 cU
-ck
+iw
 cT
 cT
-ck
-ck
+iw
+iw
 eo
-ck
+iw
 eG
 eO
 fb
@@ -62579,25 +62557,25 @@ fo
 eP
 fc
 eG
-ck
-ck
-ck
+iw
+iw
+iw
 cU
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 jz
 cw
 mB
 cw
 cw
-ck
+iw
 aa
 aa
 aa
@@ -62814,10 +62792,10 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
 cM
 cw
 cw
@@ -62854,7 +62832,7 @@ cw
 jT
 kc
 cE
-ck
+iw
 aa
 aa
 aa
@@ -63071,7 +63049,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 cD
 cH
 cN
@@ -63111,7 +63089,7 @@ jI
 jU
 kd
 my
-ck
+iw
 aa
 aa
 aa
@@ -63325,10 +63303,10 @@ aa
 aa
 aa
 aa
-ck
-ck
+iw
+iw
 ct
-ck
+iw
 cw
 mq
 cw
@@ -63368,7 +63346,7 @@ cw
 jV
 ke
 cw
-ck
+iw
 aa
 aa
 aa
@@ -63582,24 +63560,24 @@ aa
 aa
 aa
 aa
-ck
+iw
 co
 cu
-ck
+iw
 cE
 cw
 cw
-ck
+iw
 cw
 cB
 cw
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 eH
 eR
 eP
@@ -63607,25 +63585,25 @@ fo
 eP
 fc
 cI
-ck
-ck
-ck
+iw
+iw
+iw
 cU
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 jC
 mB
 cE
 cw
 cw
-ck
+iw
 aa
 aa
 aa
@@ -63839,7 +63817,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 cp
 cp
 cz
@@ -63855,34 +63833,34 @@ cw
 dx
 dS
 cw
-ck
-ck
-ck
+iw
+iw
+iw
 eS
 cw
 cB
 dc
 fC
-ck
-ck
+iw
+iw
 da
 mq
 cE
 cw
 my
-ck
+iw
 co
 cu
-ck
+iw
 aa
 aa
-ck
-ck
+iw
+iw
 jH
 cw
 cw
-ck
-ck
+iw
+iw
 aa
 aa
 aa
@@ -64096,14 +64074,14 @@ aa
 aa
 aa
 aa
-ck
+iw
 cq
 cv
-ck
+iw
 cF
 cI
 kb
-ck
+iw
 cE
 cB
 cw
@@ -64112,16 +64090,16 @@ cw
 kb
 kb
 cw
-ck
-ck
+iw
+iw
 ct
-ck
+iw
 dc
 dh
 cw
 dj
-ck
-ck
+iw
+iw
 db
 cw
 cw
@@ -64134,11 +64112,11 @@ ct
 aa
 aa
 aa
-ck
-ck
+iw
+iw
 jW
-ck
-ck
+iw
+iw
 aa
 aa
 aa
@@ -64353,49 +64331,49 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 cw
 cB
 dn
-ck
+iw
 mq
 cP
 cP
 cw
-ck
+iw
 co
 cu
-ck
+iw
 cw
 fr
 kb
-ck
-ck
-ck
+iw
+iw
+iw
 gt
 cw
 gT
 hq
 cF
-ck
+iw
 dg
 cq
-ck
+iw
 aa
 aa
 aa
-ck
-dE
+iw
+dW
 mA
 kf
-ck
+iw
 aa
 aa
 aa
@@ -64613,7 +64591,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 cD
 cJ
 cN
@@ -64629,30 +64607,30 @@ cw
 cz
 cp
 cp
-ck
+iw
 mq
 cB
 mq
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 aa
 aa
-ck
-dE
-dE
-dE
-ck
+iw
+dW
+dW
+dW
+iw
 aa
 aa
 aa
@@ -64870,7 +64848,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 mq
 cw
 cw
@@ -64878,38 +64856,38 @@ cT
 dc
 dh
 kb
-ck
+iw
 cw
 cw
 cw
 cw
-ck
+iw
 dg
 cq
-ck
+iw
 cw
 cB
 cw
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 iB
 iL
-ck
+iw
 aa
 aa
-ck
+iw
 jJ
 jX
 kg
-ck
+iw
 aa
 aa
 aa
@@ -65124,49 +65102,49 @@ aa
 aa
 aa
 aa
-ck
-ck
+iw
+iw
 ct
-ck
+iw
 cw
 cE
 cw
-ck
+iw
 mq
 dh
 dc
-ck
+iw
 cN
 dy
 cD
 cF
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
 cw
 fs
 dn
-ck
+iw
 fV
 gg
 fc
 gH
 gU
-ck
+iw
 hG
 hY
 fc
 iC
 iM
-ck
+iw
 aa
 aa
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -65381,10 +65359,10 @@ aa
 aa
 aa
 aa
-ck
+iw
 co
 cu
-ck
+iw
 cw
 cw
 cw
@@ -65392,15 +65370,15 @@ cV
 cw
 cB
 cw
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 cE
 ft
 cw
@@ -65416,7 +65394,7 @@ hY
 eO
 gh
 iN
-ck
+iw
 aa
 aa
 aa
@@ -65638,14 +65616,14 @@ aa
 aa
 aa
 aa
-ck
+iw
 cp
 cp
 cz
 mq
 cw
 kb
-ck
+iw
 cw
 cB
 cw
@@ -65654,10 +65632,10 @@ cw
 dx
 dS
 cw
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
 cw
 cB
 fe
@@ -65667,13 +65645,13 @@ eO
 fc
 gH
 gU
-ck
+iw
 hG
 hY
 fc
 iD
 iO
-ck
+iw
 aa
 aa
 aa
@@ -65895,14 +65873,14 @@ aa
 aa
 aa
 aa
-ck
+iw
 cq
 cv
-ck
+iw
 cF
 cI
 cP
-ck
+iw
 cw
 cB
 cw
@@ -65911,10 +65889,10 @@ cw
 kb
 dT
 cw
-ck
-ck
+iw
+iw
 ct
-ck
+iw
 cw
 ft
 cw
@@ -65922,15 +65900,15 @@ fD
 fc
 fc
 fc
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
 iE
 iP
-ck
+iw
 aa
 aa
 aa
@@ -66152,30 +66130,30 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 cw
 cB
 dn
-ck
+iw
 cw
 cP
 cP
 cw
-ck
+iw
 co
 cu
-ck
+iw
 cw
 ft
 cw
-ck
+iw
 fW
 fc
 gu
@@ -66185,13 +66163,13 @@ eQ
 hI
 hZ
 in
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -66410,7 +66388,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 mq
 cw
 cw
@@ -66428,7 +66406,7 @@ cw
 cz
 cp
 cp
-ck
+iw
 mB
 fu
 fy
@@ -66436,19 +66414,19 @@ fE
 eQ
 eQ
 gv
-ck
+iw
 gW
 fc
 hJ
 ia
-ck
-ck
+iw
+iw
 iQ
 fc
 fc
 jp
 fc
-ck
+iw
 aa
 aa
 aa
@@ -66667,7 +66645,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 cw
 cA
 cG
@@ -66677,35 +66655,35 @@ cG
 cG
 di
 cE
-ck
+iw
 cw
 cw
 cw
 cw
-ck
+iw
 dg
 eI
-ck
+iw
 cw
 cw
 cE
-ck
+iw
 fW
 fc
 fc
-eL
+jw
 gX
 hs
 fc
 ib
-ck
-ck
+iw
+iw
 iR
 fc
 eO
 jq
 jD
-ck
+iw
 aa
 aa
 aa
@@ -66924,7 +66902,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 cw
 cB
 cw
@@ -66934,35 +66912,35 @@ cw
 cw
 cw
 mq
-ck
+iw
 cN
 dy
 cD
 cF
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 fc
 fc
 fc
-eL
+jw
 gY
 fc
 fc
 ic
-ck
-ck
+iw
+iw
 hZ
 fc
 fc
 fc
 fc
-ck
+iw
 aa
 aa
 aa
@@ -67180,48 +67158,48 @@ aa
 aa
 aa
 aa
-aa
-ck
+Fv
+iw
 cx
 cB
 cw
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
 dj
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
 aa
 aa
 aa
-ck
+iw
 fc
 fc
 fc
-ck
-eL
-eL
-eL
-ck
-ck
-ck
-ck
+iw
+jw
+jw
+jw
+iw
+iw
+iw
+iw
 iW
-ck
-eL
-eL
-ck
-ck
-ck
+iw
+jw
+jw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -67435,18 +67413,18 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
 cw
 cB
 cw
-ck
+iw
 mE
 cW
 dd
-ck
+iw
 aa
 aa
 aa
@@ -67460,7 +67438,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 mC
 fc
 fc
@@ -67478,7 +67456,7 @@ fc
 fc
 mD
 fc
-ck
+iw
 aa
 aa
 aa
@@ -67692,7 +67670,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 cl
 cm
 cr
@@ -67703,7 +67681,7 @@ cL
 cR
 cR
 de
-ck
+iw
 aa
 aa
 aa
@@ -67717,7 +67695,7 @@ aa
 aa
 aa
 aa
-ck
+iw
 fX
 fc
 fc
@@ -67735,7 +67713,7 @@ fc
 fc
 fc
 eO
-ck
+iw
 aa
 aa
 aa
@@ -67949,18 +67927,18 @@ aa
 aa
 aa
 aa
-ck
+iw
 cm
 cl
 cr
 cw
 cy
 cw
-ck
+iw
 cS
 cX
 df
-ck
+iw
 aa
 aa
 aa
@@ -67974,25 +67952,25 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-eL
+iw
+iw
+iw
+jw
 gK
-eL
-ck
-eL
+jw
+iw
+jw
 gK
-eL
-ck
-eL
+jw
+iw
+jw
 gK
-eL
-ck
-eL
+jw
+iw
+jw
 gK
-eL
-ck
+jw
+iw
 aa
 aa
 aa
@@ -68206,18 +68184,18 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
 cy
 cy
 cy
 cM
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -68233,23 +68211,23 @@ aa
 aa
 aa
 aa
-ck
+iw
 fc
 fc
 fc
-ck
+iw
 fc
 fc
 fc
-ck
+iw
 fc
 iX
 fc
-ck
+iw
 fc
 fc
 fc
-ck
+iw
 aa
 aa
 aa
@@ -68466,11 +68444,11 @@ aa
 aa
 aa
 aa
-ck
+iw
 cx
 cy
 cy
-ck
+iw
 aa
 aa
 aa
@@ -68490,23 +68468,23 @@ aa
 aa
 aa
 aa
-ck
+iw
 gw
 gL
 gZ
-ck
+iw
 gw
 gL
 gZ
-ck
+iw
 gw
 gL
 gZ
-ck
+iw
 gw
 gL
 gZ
-ck
+iw
 aa
 aa
 aa
@@ -68721,13 +68699,13 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
+iw
+iw
+iw
 cw
 cw
 cy
-ck
+iw
 aa
 aa
 aa
@@ -68747,23 +68725,23 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
@@ -68978,13 +68956,13 @@ aa
 aa
 aa
 aa
-ck
+iw
 cn
 cs
 cw
 cw
 cw
-ck
+iw
 aa
 aa
 aa
@@ -69235,13 +69213,13 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
+iw
+iw
+iw
 cy
 cy
 cw
-ck
+iw
 aa
 aa
 aa
@@ -69494,11 +69472,11 @@ aa
 aa
 aa
 aa
-ck
-ck
-ck
-ck
-ck
+iw
+iw
+iw
+iw
+iw
 aa
 aa
 aa
