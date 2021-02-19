@@ -36,7 +36,7 @@
 
 /datum/species/ghoul/glowing
 	name = "Glowing Ghoul"
-	id = "glowing ghoul"
+	id = "glowghoul"
 	limbs_id = "glowghoul"
 	armor = -30
 	speedmod = 0.5
