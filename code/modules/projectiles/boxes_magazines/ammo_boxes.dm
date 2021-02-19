@@ -89,7 +89,7 @@
 	materials = list(MAT_METAL = 6000)
 
 /obj/item/ammo_box/tube/m44/empty
-	stored_ammo = 0
+	start_empty = 1
 
 //.45-70 Gov't
 /obj/item/ammo_box/c4570

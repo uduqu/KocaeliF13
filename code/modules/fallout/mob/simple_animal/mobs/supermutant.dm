@@ -97,3 +97,44 @@
 	icon_state = icon_dead
 	anchored = FALSE
 	..()
+
+/////////
+// HMG Mutant - Boss mutant, similar to Robobrain and Sentrybot. Not used yet outside of Admin abuse.
+/////////
+/mob/living/simple_animal/hostile/supermutant/rangedmutant/heavy
+	desc = "A huge and ugly mutant humanoid.  This one is clad in armor and carrying a rather large gun."
+	icon = 'icons/fallout/mobs/supermutant.dmi'
+	icon_state = "hulk_hmg_s"
+	icon_living = "hulk_hmg_s"
+	icon_dead = "hulk_ranged_s"
+	ranged = 1
+	maxHealth = 640
+	health = 640
+	retreat_distance = 0
+	minimum_distance = 0
+	stop_automated_movement = 1
+	see_in_dark = 7
+	projectiletype = /obj/item/projectile/bullet/F13/sm_hmg
+	projectilesound = 'sound/f13weapons/antimaterielfire.ogg'
+	extra_projectiles = 4 //5 projectiles
+	ranged_cooldown_time = 120//Long cooldown due to damage output.
+	loot = list(/obj/machinery/manned_turret/m2)
+
+/mob/living/simple_animal/hostile/supermutant/rangedmutant/heavy/death(gibbed)
+	icon = 'icons/fallout/mobs/supermutant_dead.dmi'
+	icon_state = icon_dead
+	anchored = FALSE
+	..()
+
+/mob/living/simple_animal/hostile/supermutant/rangedmutant/heavy/bullet_act(obj/item/projectile/Proj)
+	if(!Proj)
+		CRASH("[src] heavy supermutant invoked bullet_act() without a projectile")
+	if(prob(75) || Proj.damage > 26)
+		return ..()
+	else
+		visible_message("<span class='danger'>\The [Proj] bounces off \the [src]'s armor plating!</span>")
+		return FALSE
+
+/obj/item/projectile/bullet/F13/sm_hmg
+	damage = 35
+	armour_penetration = 45

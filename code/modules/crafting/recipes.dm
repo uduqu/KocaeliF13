@@ -198,7 +198,7 @@
 	subcategory = CAT_AMMO
 
 /datum/crafting_recipe/greasegunmag
-	name = "empty .45 submachine gun magazine (9mm)"
+	name = "empty .45 submachine gun magazine (.45)"
 	result = /obj/item/ammo_box/magazine/greasegun/empty
 	reqs = list(/obj/item/stack/sheet/metal = 2)
 	traits = list(TRAIT_GUNSMITH_TWO)
