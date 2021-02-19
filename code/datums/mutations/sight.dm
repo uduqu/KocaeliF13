@@ -36,7 +36,7 @@
 /datum/mutation/human/x_ray
 	name = "X Ray Vision"
 	quality = POSITIVE
-	get_chance = 25
+	get_chance = 0//disabled for now.
 	lowest_value = 256 * 12
 	text_gain_indication = "<span class='notice'>The walls suddenly disappear!</span>"
 	time_coeff = 2
@@ -57,6 +57,7 @@
 /datum/mutation/human/laser_eyes
 	name = "Laser Eyes"
 	quality = POSITIVE
+	get_chance = 0//disabled for now.
 	dna_block = NON_SCANNABLE
 	text_gain_indication = "<span class='notice'>You feel pressure building up behind your eyes.</span>"
 	layer_used = FRONT_MUTATIONS_LAYER

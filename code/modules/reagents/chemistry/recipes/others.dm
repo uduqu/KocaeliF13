@@ -589,3 +589,4 @@
 	results = list("bwater" = 5)
 	required_reagents = list("dwater" = 10) // ADVANCED BOILING WATER CODE URAH
 	mob_react = FALSE // You cannot boil water inside yourself you fucking mongoloid
+	required_temp = 374

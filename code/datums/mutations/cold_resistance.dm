@@ -2,7 +2,7 @@
 /datum/mutation/human/cold_resistance
 	name = "Cold Resistance"
 	quality = POSITIVE
-	get_chance = 25
+	get_chance = 0//disabled for now.
 	lowest_value = 256 * 12
 	text_gain_indication = "<span class='notice'>Your body feels warm!</span>"
 	time_coeff = 5

@@ -57,7 +57,7 @@
 /datum/mutation/human/dwarfism
 	name = "Dwarfism"
 	quality = POSITIVE
-	get_chance = 15
+	get_chance = 0//disabled for now.
 	lowest_value = 256 * 12
 
 /datum/mutation/human/dwarfism/on_acquiring(mob/living/carbon/human/owner)
@@ -137,6 +137,7 @@
 /datum/mutation/human/race
 	name = "Monkified"
 	quality = NEGATIVE
+	get_chance = 0//disabled for now.
 	time_coeff = 2
 
 /datum/mutation/human/race/on_acquiring(mob/living/carbon/human/owner)

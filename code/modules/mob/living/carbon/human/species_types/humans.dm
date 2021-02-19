@@ -36,8 +36,8 @@
 	..()
 
 /datum/species/human/spec_life(mob/living/carbon/human/H)
-	if (H.radiation>2500 && prob(10))
+	if (H.radiation>1000 && prob(10))
 		to_chat(H, "<span class='danger'>You feel strange!</span>")
 		H.set_species(/datum/species/ghoul)
-		H.Stun(40)
+		H.Stun(100)
 		H.radiation = 0
