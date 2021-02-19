@@ -187,8 +187,6 @@
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/com/compact
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
-	extra_damage = 40
-	extra_penetration = -15
 
 //Dual Feed Shotgun
 

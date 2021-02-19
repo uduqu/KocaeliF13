@@ -2,7 +2,7 @@
 /datum/mutation/human/telekinesis
 	name = "Telekinesis"
 	quality = POSITIVE
-	get_chance = 20
+	get_chance = 0//disabled for now.
 	lowest_value = 256 * 12
 	text_gain_indication = "<span class='notice'>You feel smarter!</span>"
 	limb_req = BODY_ZONE_HEAD

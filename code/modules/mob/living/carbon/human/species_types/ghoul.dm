@@ -4,11 +4,12 @@
 	say_mod = "rasps"
 	limbs_id = "ghoul"
 	species_traits = list(HAIR,FACEHAIR)
-	inherent_traits = list(TRAIT_RADIMMUNE, TRAIT_NOBREATH)
+	inherent_traits = list(TRAIT_RADIMMUNE/*, TRAIT_NOBREATH*/)
 	inherent_biotypes = list(MOB_INORGANIC, MOB_HUMANOID)
 	punchstunthreshold = 9
 	use_skintones = 0
 	sexes = 1
+	armor = -15
 	disliked_food = GROSS
 	liked_food = JUNKFOOD | FRIED | RAW
 
@@ -43,8 +44,8 @@
 	punchdamagehigh = 6
 	punchstunthreshold = 6
 	use_skintones = 0
-	sexes = 0
-	blacklisted = TRUE
+	sexes = 1
+	blacklisted = FALSE
 
 //Ghouls have weak limbs.
 /datum/species/ghoul/glowing/on_species_gain(mob/living/carbon/C, datum/species/old_species)

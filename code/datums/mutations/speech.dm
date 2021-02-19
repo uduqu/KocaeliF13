@@ -14,6 +14,7 @@
 /datum/mutation/human/wacky
 	name = "Wacky"
 	quality = MINOR_NEGATIVE
+	get_chance = 0//disabled for now.
 	text_gain_indication = "<span class='sans'>You feel an off sensation in your voicebox.</span>"
 	text_lose_indication = "<span class='notice'>The off sensation passes.</span>"
 
@@ -42,6 +43,7 @@
 	name = "Smile"
 	quality = MINOR_NEGATIVE
 	dna_block = NON_SCANNABLE
+	get_chance = 0//disabled for now.
 	text_gain_indication = "<span class='notice'>You feel so happy. Nothing can be wrong with anything. :)</span>"
 	text_lose_indication = "<span class='notice'>Everything is terrible again. :(</span>"
 
@@ -132,6 +134,7 @@
 	name = "Swedish"
 	quality = MINOR_NEGATIVE
 	dna_block = NON_SCANNABLE
+	get_chance = 0//disabled for now.
 	text_gain_indication = "<span class='notice'>You feel Swedish, however that works.</span>"
 	text_lose_indication = "<span class='notice'>The feeling of Swedishness passes.</span>"
 
@@ -151,6 +154,7 @@
 	name = "Chav"
 	quality = MINOR_NEGATIVE
 	dna_block = NON_SCANNABLE
+	get_chance = 0//disabled for now.
 	text_gain_indication = "<span class='notice'>Ye feel like a reet prat like, innit?</span>"
 	text_lose_indication = "<span class='notice'>You no longer feel like being rude and sassy.</span>"
 
@@ -185,6 +189,7 @@
 	name = "Elvis"
 	quality = MINOR_NEGATIVE
 	dna_block = NON_SCANNABLE
+	get_chance = 0//disabled for now.
 	text_gain_indication = "<span class='notice'>You feel pretty good, honeydoll.</span>"
 	text_lose_indication = "<span class='notice'>You feel a little less conversation would be great.</span>"
 
@@ -218,6 +223,7 @@
 	name = "Stoner"
 	quality = NEGATIVE
 	dna_block = NON_SCANNABLE
+	get_chance = 0//disabled for now.
 	text_gain_indication = "<span class='notice'>You feel...totally chill, man!</span>"
 	text_lose_indication = "<span class='notice'>You feel like you have a better sense of time.</span>"
 
