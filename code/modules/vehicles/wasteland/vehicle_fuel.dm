@@ -43,12 +43,13 @@
 
 	fuel_holder.reagents.remove_reagent("welding_fuel",fuel_wasting)
 
-	if(fuel_holder.reagents.get_reagent_amount("welding_fuel") < 1)
+	if(!fuel_holder.reagents.get_reagent_amount("welding_fuel"))
 		StopEngine()
 
 /obj/vehicle/ridden/fuel/start_engine()
-	if(fuel_holder.reagents.get_reagent_amount("welding_fuel") < 1)
-		to_chat(usr, "<span class='warning'>[src] has run out of fuel!</span>")
+	if(!fuel_holder.reagents.get_reagent_amount("welding_fuel"))
+		playsound(src, 'sound/f13machines/engine_fail.ogg', 50)
+		to_chat(usr, "<span class='warning'>\The [src] has run out of fuel!</span>")
 		return
 	..()
 	START_PROCESSING(SSobj, src)
@@ -67,18 +68,19 @@
 /obj/vehicle/ridden/fuel/examine(mob/user)
 	..()
 	if(fuel_holder)
-		var/fuel_percent = fuel_holder.reagents.total_volume / fuel_holder.reagents.maximum_volume * 100
+		var/fuel_percent = round(fuel_holder.reagents.total_volume / fuel_holder.reagents.maximum_volume * 100)
+		to_chat(user, "<span class='notice'>The fuel meter is at [fuel_percent]%.</span>")
 		switch(fuel_percent)
 			if(95 to INFINITY)
-				to_chat(user, "<span class='notice'>Fuel meter shows 100%! The fuel tank is full to the top. Let's ride!</span>")
+				to_chat(user, "<span class='notice'>The fuel tank is full to the top. Let's ride!</span>")
 			if(60 to 95)
-				to_chat(user, "<span class='notice'>Fuel meter shows 75%! Not so full, but it'll still last a while.</span>")
+				to_chat(user, "<span class='notice'>Not so full, but it'll still last a while.</span>")
 			if(25 to 60)
-				to_chat(user, "<span class='notice'>Fuel meter shows 50%! That should be just enough to find more fuel.</span>	")
+				to_chat(user, "<span class='notice'>That should be just enough to find more fuel.</span>")
 			if(1 to 25)
-				to_chat(user, "<span class='warning'>Fuel meter shows 25%! It's almost out of fuel!</span>")
+				to_chat(user, "<span class='warning'>It's almost out of fuel!</span>")
 			else
-				to_chat(user, "<span class='danger'>Fuel meter shows 0%! There is no fuel left!</span>")
+				to_chat(user, "<span class='danger'>There is no fuel left!</span>")
 
 
 

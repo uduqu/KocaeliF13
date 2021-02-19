@@ -178,7 +178,6 @@
 	set src in view(1)
 
 	start_engine()
-	soundloop.start()
 
 /obj/vehicle/proc/StopEngine()
 	set name = "Stop Engine"
@@ -186,7 +185,6 @@
 	set src in view(1)
 
 	stop_engine()
-	soundloop.stop()
 
 /obj/vehicle/proc/stop_engine(mob/M)
 	src.verbs += /obj/vehicle/proc/StartEngine
@@ -218,6 +216,7 @@
 	engine_on = TRUE
 	if(engine_on_sound)
 		playsound(src, engine_on_sound, 50)
+	soundloop.start()
 //	if(engine_loop_sound)
 //		BeginAmbient(engine_loop_sound)
 //		SEND_SOUND(M, sound(pick(engine_loop_sound), repeat = 1, wait = 0, volume = 100, channel = CHANNEL_BICYCLE))
