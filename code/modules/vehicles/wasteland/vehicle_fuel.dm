@@ -49,7 +49,7 @@
 /obj/vehicle/ridden/fuel/start_engine()
 	if(!fuel_holder.reagents.get_reagent_amount("welding_fuel"))
 		playsound(src, 'sound/f13machines/engine_fail.ogg', 50)
-		to_chat(usr, "<span class='warning'>[src] has run out of fuel!</span>")
+		to_chat(usr, "<span class='warning'>\The [src] has run out of fuel!</span>")
 		return
 	..()
 	START_PROCESSING(SSobj, src)
@@ -76,11 +76,11 @@
 			if(60 to 95)
 				to_chat(user, "<span class='notice'>Not so full, but it'll still last a while.</span>")
 			if(25 to 60)
-				to_chat(user, "<span class='notice'>That should be just enough to find more fuel.</span>	")
+				to_chat(user, "<span class='notice'>That should be just enough to find more fuel.</span>")
 			if(1 to 25)
-				to_chat(user, "<span class='warning'>=It's almost out of fuel!</span>")
+				to_chat(user, "<span class='warning'>It's almost out of fuel!</span>")
 			else
-				to_chat(user, "<span class='danger'>=There is no fuel left!</span>")
+				to_chat(user, "<span class='danger'>There is no fuel left!</span>")
 
 
 
