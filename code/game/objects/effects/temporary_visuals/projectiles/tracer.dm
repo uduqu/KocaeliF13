@@ -57,3 +57,8 @@
 
 /obj/effect/projectile/tracer/tracer/aiming
 	icon_state = "pixelbeam_greyscale"
+
+//.50
+/obj/effect/projectile/tracer/a50
+	name = ".50 tracer"
+	icon_state = "a50"

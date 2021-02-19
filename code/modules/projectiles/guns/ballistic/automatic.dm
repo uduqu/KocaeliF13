@@ -483,6 +483,7 @@
 	icon_state = "mini-uzi"
 	mag_type = /obj/item/ammo_box/magazine/uzim9mm
 	w_class = WEIGHT_CLASS_NORMAL
+	automatic = 1
 	burst_size = 2
 	burst_delay = 2
 	fire_delay = 2
@@ -519,6 +520,7 @@
 	mag_type = /obj/item/ammo_box/magazine/tommygunm45
 	fire_sound = 'sound/weapons/gunshot_smg.ogg'
 	can_suppress = FALSE
+	automatic = 1
 	burst_size = 3
 	fire_delay = 2
 	burst_delay = 2
@@ -535,6 +537,7 @@
 	mag_type = /obj/item/ammo_box/magazine/m10mm_auto
 	w_class = WEIGHT_CLASS_BULKY
 	fire_sound = 'sound/f13weapons/10mm_fire_03.ogg'
+	automatic = 1
 	burst_size = 3
 	fire_delay = 3
 	burst_delay = 3
@@ -826,6 +829,7 @@
 	mag_type = /obj/item/ammo_box/magazine/greasegun
 	fire_sound = 'sound/f13weapons/greasegun.ogg'
 	can_suppress = FALSE
+	automatic = 1
 	burst_size = 2
 	fire_delay = 3
 	burst_delay = 3

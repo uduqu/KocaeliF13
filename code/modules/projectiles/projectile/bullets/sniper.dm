@@ -41,8 +41,9 @@
 
 /obj/item/projectile/bullet/a50MG
 	damage = 60
-	armour_penetration = 65
+	armour_penetration = 35//Most pen added elsewhere.
 	dismemberment = 0
+	tracer_type = /obj/effect/projectile/tracer/a50
 
 /obj/item/projectile/bullet/a50MG/incendiary
 	damage = -20

@@ -217,8 +217,8 @@ Sergeant
 /datum/job/ncr/f13sergeant
 	title = "NCR Sergeant"
 	flag = F13SERGEANT
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
 	faction = "NCR"
 	description = "You are the direct superior to the enlisted troops, working with the chain of command you echo the orders of your superiors and ensure that the enlisted follow them to the letter. Additionally, you are responsible for the wellbeing of the troops and their ongoing training with the NCR."
 	supervisors = "Lieutenants and above"
@@ -447,8 +447,8 @@ Trooper
 	title = "NCR Trooper"
 	flag = F13TROOPER
 	faction = "NCR"
-	total_positions = 12
-	spawn_positions = 12
+	total_positions = 6
+	spawn_positions = 6
 	description = "You answer to everyone above you in the chain of command, taking orders from your Sergeant directly and obeying all commands given by officers such as the Lieutenant and Captain."
 	supervisors = "Corporals and above"
 	selection_color = "#fff5cc"

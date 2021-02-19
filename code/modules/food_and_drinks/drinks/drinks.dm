@@ -30,6 +30,13 @@
 	if(!canconsume(M, user))
 		return 0
 
+	if(M.water > THIRST_LEVEL_FULL)
+		if(M == user)
+			M << "<span class='notice'>You do not want to drink.</span>"
+		else
+			user << "<span class='notice'>[M] does not want to drink.</span>"
+		return 0
+
 	if (!is_drainable())
 		to_chat(user, "<span class='warning'>[src]'s lid hasn't been opened!</span>")
 		return 0
