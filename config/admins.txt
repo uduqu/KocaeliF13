@@ -1,3 +1,1 @@
-NothingButCarl = Host
-Evoturd = Elder
-CyberThot = Elder
+Uduqu = Host
