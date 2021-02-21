@@ -177,7 +177,7 @@
 /datum/config_entry/flag/emojis
 
 /datum/config_entry/number/run_delay	//Used for modifying movement speed for mobs.
-	var/static/value_cache = 0
+	var/static/value_cache = 1.5
 
 /datum/config_entry/number/run_delay/ValidateAndSet()
 	. = ..()
@@ -185,7 +185,7 @@
 		value_cache = config_entry_value
 
 /datum/config_entry/number/walk_delay
-	var/static/value_cache = 0
+	var/static/value_cache = 4
 
 /datum/config_entry/number/walk_delay/ValidateAndSet()
 	. = ..()

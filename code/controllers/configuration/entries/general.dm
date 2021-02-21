@@ -179,13 +179,13 @@
 	config_entry_value = "http://www.tgstation13.org/wiki"
 
 /datum/config_entry/string/discordurl
-	config_entry_value = "null"
+	config_entry_value = "https://discord.gg/2kzktev6eG"
 
 /datum/config_entry/string/rulesurl
 	config_entry_value = "null"
 
 /datum/config_entry/string/githuburl
-	config_entry_value = "https://github.com/CrashpointF13/CrashpointF13"
+	config_entry_value = "https://github.com/uduqu/KocaeliF13"
 
 /datum/config_entry/flag/using_discord
 
