@@ -55,7 +55,7 @@
 	var/tickerPeriod = 300 //in deciseconds
 	var/atom/movable/fullDark
 	bullet_bounce_sound = null
-	name = "Crashpoint"
+	name = "Lobbie"
 	desc = "You're laughing. You're fingering a slave when you're supposed to be mining, and you're laughing."
 	//icon = 'icons/blank_title.png'
 	layer = FLY_LAYER
